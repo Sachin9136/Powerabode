@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../../assets/Images/logo.svg";
+import {Logo, x, mail, linked_in, send_button, Get_in_touch} from "../Img/ImportedImage";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'; // Import the X (Twitter) and LinkedIn icons
 import {
@@ -14,28 +14,89 @@ import {
 const footer = () => {
   return (
     <Row>
+      <h2 class="text-3xl font-bold my-10 text-center">Get in Touch</h2>
+      <div className='px-4 md:px-20 flex gap-5 my-10'>
+        <div class="w-full md:w-1/2 bg-[#DCEEF0] py-12 px-20 rounded-3xl shadow-md">
+          <h2 class="text-3xl font-bold mb-6 text-center">Book A Session</h2>
+          <form>
+              <div class="mb-4">
+                  <input type="text" placeholder='Name' id="name" name="name" class="mt-1 block w-full border border-black rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black" />
+              </div>
+              <div class="mb-4">
+                  <input type="email" placeholder='Email' id="email" name="email" class="mt-1 block w-full border border-black rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black" />
+              </div>
+              <div class="mb-4">
+                  <input type="text" placeholder='Subject' id="subject" name="subject" class="mt-1 block w-full border border-black rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black" />
+              </div>
+              <div class="mb-4">
+                  <textarea id="message" placeholder='Message' name="message" rows="4" class="mt-1 block w-full border border-black rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"></textarea> 
+              </div>
+              <button type="submit" className="text-white bg-[#29385E] py-3 my-5 rounded-lg w-full">Send</button>
+          </form>
+        </div>
+        <div className='w-full md:w-1/2'>
+          <img src={Get_in_touch} alt="" />
+        </div>
+      </div>
+
+      <div className='bg-white py-5'>
+        <h2 className='text-center text-3xl font-bold text-[#29385E]'>“Request for RFQ"</h2>
+        <p className='text-center text-2xl font-medium text-[#51A9B4] mt-3'>Submit a Request For Information/Proposal/Quotation.</p>
+      </div>
+
+      <div className='flex justify-center'> 
+        <div className='w-full md:w-[550px] px-4'>
+          <p className='text-lg font-medium'>We’ll provide detailed information about how powerabode can be of help:</p>
+          <ul className='list-disc pl-8'>
+            <li className='text-[#504F4F] font-medium text-md'>Streamline and optimise your contracting and procurement</li>
+            <li className='text-[#504F4F] font-medium text-md'>Reduce cost and Improve value</li>
+            <li className='text-[#504F4F] font-medium text-md'>Third party cost reduction presentation</li>
+            <li className='text-[#504F4F] font-medium text-md'>Get introduced to the Academy skillset trainings</li>
+            <li className='text-[#504F4F] font-medium text-md'>Manage all your contracts with fine-grained control</li>
+            <li className='text-[#504F4F] font-medium text-md'>Outsource some , or all of your Supply Chain and Procurement activities.</li>
+            <li className='text-[#504F4F] font-medium text-md'>Introduce governance and systems fit for best practice delivery</li>
+          </ul>
+          <div className='flex justify-center'> 
+            <button className='text-white bg-[#29385E] py-3 px-24 my-5 rounded-lg'>Request</button>
+          </div>
+        </div>
+      </div>
+
+      <div className='bg-[#29385E]'>
+        <h1 className='text-3xl text-white font-bold text-center py-3'>Cost Efficiency Experts. Driven By Energy.</h1>
+      </div>
       <div class="bg-white py-8">
         <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row justify-between">   
-
-                <div class="mb-4 md:mb-0">
-                    <img src={logo} alt="" />
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 ">   
+                <div class="mb-4 md:mb-0 col-span-1 lg:col-span-3 mt-3">
+                    <img src={Logo} alt="" />
                 </div>
-                <div class="mb-4 md:mb-0">
+                <div class="mb-4 md:mb-0 col-span-1 lg:col-span-2 mt-3">
                     <h3 class="text-2xl font-bold mb-2">Follow Us</h3>
-                    <div class="flex">
-                        <a href="#" class="mr-4"><FontAwesomeIcon icon={faXTwitter} /></a>
-                        <a href="#" class="mr-4"><FontAwesomeIcon icon={faLinkedin} /></a>
+                    <div class="flex gap-5 items-center">
+                      <div className='bg-[#29385E] p-4 rounded-2xl'>
+                        <a href="#"><img src={x} alt="" width="20px" /></a>
+                      </div>
+                      <div className='bg-[#29385E] p-4 rounded-2xl'>
+                        <a href="#" class=""><img src={linked_in} alt="" width="20px" /></a>
+                      </div>
                     </div>
                 </div>
-                <div class="mb-4 md:mb-0">
+                <div class="mb-4 md:mb-0 col-span-1 lg:col-span-4 mt-3">
                     <h3 class="text-2xl font-bold mb-2">Contact Us</h3>
-                    <a href="mailto:info@powerabode.com" class="text-white">info@powerabode.com</a>
-                </div>
-                <div>
+                      <div className='flex items-center gap-3'>
+                        <div className='bg-[#29385E] p-4 rounded-2xl'>
+                          <a href="#"><img src={mail} alt="" width="23px" /></a>
+                        </div>
+                        <div className='text-2xl text-[#504F4F] '>info@powerabode.com</div>
+                      </div>
+                  </div>
+                <div className='col-span-1 lg:col-span-3 mt-3'>
                     <h3 class="text-3xl font-bold mb-2">Subscribe</h3>
-                    <input type="email" placeholder="Your Email" class="bg-white text-[#504F4F] border-2 border-[#504F4F] py-2 px-3 rounded mb-2" />
-                    <button class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded">Subscribe</button>
+                    <div className='flex align-middle'>
+                      <input type="email" placeholder="Subscribe" class="bg-white text-[#504F4F] border-t-2 border-l-2 border-b-2 border-[#504F4F] py-2 px-3 rounded mb-2 placeholder-[#504F4F] w-80"/>
+                      <button class="bg-[#29385E] px-3 py-1 h-11 -ml-2 rounded-r-lg"><img src={send_button} alt="" width="19px" /></button>
+                    </div>
                 </div>
             </div>
         </div>

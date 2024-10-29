@@ -4,6 +4,7 @@ import { Column, Row, Wraper } from "../ComponentsIndex";
 import OffCanvas from "./Drawer";
 import { useNavigate } from "react-router-dom";
 import DownArrow from "../../assets/Images/down-arrow-menu.svg"; 
+import {Logo} from "../Img/ImportedImage";
 
 function Navbar() {
   const navigate = useNavigate();
@@ -69,7 +70,7 @@ function Navbar() {
     <Row className="flex justify-between items-center px-8 py-8 shadow-sm">
       <Column className="flex items-center">
         <OffCanvas />
-        <img src="src/assets/Images/logo.svg" alt="Logo" width="200px" />
+        <img src={Logo} alt="Logo" width="200px" />
       </Column>
 
       <Column className="lg:flex items-center space-x-4">

@@ -73,7 +73,7 @@ function Home() {
 
 
       {/* Value Section */}
-      <div className="bg-white py-12">
+      <div className="bg-white py-12 px-4 md:px-14">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             {/* Image Section */}
@@ -116,7 +116,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="py-6 bg-white">
+      <div className="py-6 px-4 md:px-14 bg-white">
         <div className="container mx-auto flex flex-wrap justify-around">
           <div className="w-1/1 md:w-1/2 lg:w-1/3 p-2">
             <img src={Cost_and_Value} alt="Upstream Onshore" className="h-48 w-48 mx-auto border-[#FEA029] border-8 rounded-full"/>
@@ -167,7 +167,7 @@ function Home() {
         <div>
           <p className="text-center text-[#29385E] text-3xl font-bold">Select your Challenge & find your Solutions</p>
         </div>
-        <div className="flex flex-wrap justify-center md:justify-between px-4 md:px-20 my-10">
+        <div className="flex flex-wrap justify-center md:justify-between px-4 md:px-14 my-10">
           <div className="w-full md:w-1/2 lg:w-1/3 text-center mb-6 p-5">
             <img src={cost_efficiency} alt="Cost Efficiency" className="mx-auto"/>
             <button className="bg-[#1B3B64] text-white text-sm rounded-3xl py-3 px-14 mt-5">Cost Efficiency</button>
