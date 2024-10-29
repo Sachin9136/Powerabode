@@ -1,0 +1,12 @@
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  accent-color: #fdba74;
+}
+body {
+  font-family: "inter", sans-serif;
+}
