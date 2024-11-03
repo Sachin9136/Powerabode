@@ -97,11 +97,30 @@ import x from "../../../src/assets/Images/x.svg";
 import linked_in from "../../../src/assets/Images/linked_in.svg";
 import send_button from "../../../src/assets/Images/send_button.svg";
 import mail from "../../../src/assets/Images/mail.svg";
+import Cost_and_Value_Philosophy from "../../../src/assets/Images/Cost_and_Value_Philosophy.svg";
 import Get_in_touch from "../../../src/assets/Images/get_in_touch.svg";
+import EMCT_circle from "../../../src/assets/Images/EMCT_circle.svg";
+import EMCT_bar from "../../../src/assets/Images/EMCT_bar.svg";
+import Card_img from "../../../src/assets/Images/card_img.svg";
+import Success_Formula1 from "../../../src/assets/Images/Success_Formula1.svg";
+import Success_Formula2 from "../../../src/assets/Images/Success_Formula2.svg";
+import Success_Formula3 from "../../../src/assets/Images/Success_Formula3.svg";
+import Success_Formula4 from "../../../src/assets/Images/Success_Formula4.svg";
+import Success_Formula5 from "../../../src/assets/Images/Success_Formula5.svg";
+import Cost_and_Value_Philosophy_banner from "../../../src/assets/Images/Cost_and_Value_Philosophy_banner.svg";
+import Articles_Business_Cases_Background from "../../../src/assets/Images/Articles_Business_Cases_Background.svg";
+import Drilling_Cost_Transformation_banner from "../../../src/assets/Images/Drilling_Cost_Transformation_banner.svg";
+import Success_Formula from "../../../src/assets/Images/Success_Formula.svg";
+import Supply_Chain_by_SLA from "../../../src/assets/Images/Supply_Chain_by_SLA.svg";
+import Supply_Chain_by_SLA2 from "../../../src/assets/Images/Supply_Chain_by_SLA2.svg";
+import Supply_Chain_by_SLA3 from "../../../src/assets/Images/Supply_Chain_by_SLA3.svg";
+import CategoryStrategy_img from "../../../src/assets/Images/CategoryStrategy_img.svg";
+import TenderingandOutsourcing from "../../../src/assets/Images/TenderingandOutsourcing.svg";
+import PostAwardContract from "../../../src/assets/Images/PostAwardContract.svg";
 
 
 
-export { person,hero ,loginsideimage,sinupimage,Logo, banner,
+export { person,hero ,loginsideimage,sinupimage, Logo, banner,
 about_us_sec, Rectangle1, Rectangle2, Rectangle3, Rectangle4, Rectangle5, Rectangle6, Slider1, Consultation, Dental, Doctor, Stars, Enviroment,
 mini_slider,gallery_img, dental_plus, plant_fill, awareness, doctor_health, education_book, women, health_care, bannerAboutUs, about_us_2, 
 education_book_aboutus, doctor_aboutus, hut_aboutus, health_care_aboutus, profile1, profile2, profile3, profile4, profile5, profile6, healthIcon,
@@ -109,4 +128,7 @@ plant_fill2, online_customer, flood_svgrepo, Dental_Treatment_Banner, dental_1, 
 Journy_highlights, News_Blog, Medicine_icon, Donation_img, Volunteer_img, Course_blog_banner, down_arrow, Blog_img, Store_banner, Product_img,
 Shoping_bag, Login_signup, ShoppingCart, Shipping, Bag, Support, Exchange, Medicine1, Medicine2, Medicine3, Payment_Success,
 Down_arrow_menu, Hero_banner, Cost_optimization, Downstream, Hydrogen, Nuclear, Power, Renewable_wind, Renewable, Upstream_offshore, Upstream_onshore, Water,
-Supply_chain, OPEX, Codex, CM, Academy, Cost_and_Value, cost_efficiency, energy_transition, supply_chain_left, x, mail, linked_in, send_button, Get_in_touch };
+Supply_chain, OPEX, Codex, CM, Academy, Cost_and_Value, cost_efficiency, energy_transition, supply_chain_left, x, mail, linked_in, send_button, Get_in_touch,
+Cost_and_Value_Philosophy, EMCT_bar, EMCT_circle, Card_img, Success_Formula1, Success_Formula2, Success_Formula3, Success_Formula4, Success_Formula5, Cost_and_Value_Philosophy_banner,
+Articles_Business_Cases_Background, Drilling_Cost_Transformation_banner, Success_Formula, Supply_Chain_by_SLA, Supply_Chain_by_SLA2, Supply_Chain_by_SLA3,
+CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract };

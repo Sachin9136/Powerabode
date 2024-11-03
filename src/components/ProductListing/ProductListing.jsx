@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import ProductCard from '../ProductCard_Component/ProductCard';
 import ReactPaginate from 'react-paginate';
 import { Product_img, ShoppingCart, Login_signup } from '../../components/Img/ImportedImage';
 import { Link } from "react-router-dom";
@@ -81,11 +80,6 @@ const ProductListing = () => {
 
       {/* Product Grid */}
       <div className="px-4 md:px-20">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {selectedProducts.map((product) => (
-            <ProductCard key={product.id} title={product.title} company_name={product.company_name} price={product.price} image={product.image} />
-          ))}
-        </div>
 
         {/* Pagination Controls */}
         <div className="flex justify-center my-20 items-center space-x-4">

@@ -12,6 +12,8 @@ import {
 import {Hero_banner, Cost_optimization, Downstream, Hydrogen, Nuclear, Power, Renewable_wind, Upstream_offshore, Upstream_onshore, Water, Renewable,
   Supply_chain, OPEX, Codex, CM, Academy, Cost_and_Value, cost_efficiency, energy_transition, supply_chain_left, Down_arrow_menu} from "../../components/Img/ImportedImage";
 
+
+import How_we_help_client from "../../components/How_we_help_client/How_we_help_client";
 import Footer from "../../components/footer/footer";
 
 import "./Home.css";
@@ -116,7 +118,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="py-6 px-4 md:px-14 bg-white">
+      {/* <div className="py-6 px-4 md:px-14 bg-white">
         <div className="container mx-auto flex flex-wrap justify-around">
           <div className="w-1/1 md:w-1/2 lg:w-1/3 p-2">
             <img src={Cost_and_Value} alt="Upstream Onshore" className="h-48 w-48 mx-auto border-[#FEA029] border-8 rounded-full"/>
@@ -161,7 +163,8 @@ function Home() {
             <p className="text-xl mt-2 px-2 md:px-5">8 specific Coaching and trainings, focussed on developing commercial skillset. Integrated Supply Chain (ISC) training for teams of contract users.</p>
           </div>
         </div>
-      </div>
+      </div> */}
+      <How_we_help_client />
 
       <div className="bg-white py-6">
         <div>

@@ -14,9 +14,11 @@ import {
 const footer = () => {
   return (
     <Row>
+
+      {/* <ImageSlider /> */}
       <h2 class="text-3xl font-bold my-10 text-center">Get in Touch</h2>
-      <div className='px-4 md:px-20 flex gap-5 my-10'>
-        <div class="w-full md:w-1/2 bg-[#DCEEF0] py-12 px-20 rounded-3xl shadow-md">
+      <div className='px-4 md:px-20 lg:flex gap-5 my-10'>
+        <div class="w-full lg:w-1/2 bg-[#DCEEF0] py-6 px-4 md:py-12 md:px-20 rounded-3xl shadow-md">
           <h2 class="text-3xl font-bold mb-6 text-center">Book A Session</h2>
           <form>
               <div class="mb-4">
@@ -34,14 +36,14 @@ const footer = () => {
               <button type="submit" className="text-white bg-[#29385E] py-3 my-5 rounded-lg w-full">Send</button>
           </form>
         </div>
-        <div className='w-full md:w-1/2'>
+        <div className='w-full lg:w-1/2'>
           <img src={Get_in_touch} alt="" />
         </div>
       </div>
 
       <div className='bg-white py-5'>
         <h2 className='text-center text-3xl font-bold text-[#29385E]'>“Request for RFQ"</h2>
-        <p className='text-center text-2xl font-medium text-[#51A9B4] mt-3'>Submit a Request For Information/Proposal/Quotation.</p>
+        <p className='text-center text-2xl font-medium text-[#51A9B4] mt-3'>Submit a Request For Information / Proposal / Quotation.</p>
       </div>
 
       <div className='flex justify-center'> 

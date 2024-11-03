@@ -22,7 +22,7 @@ import {
 import Footer from "../../components/footer/footer";
 import Events from "../../components/Events/Events";
 import News from "../../components/News/News";
-import OurJourey from "../../components/Our_Journey/Our_Journey";
+// import OurJourey from "../../components/Our_Journey/Our_Journey";
 import CommanBanner from "../../components/Banners/CommanBanner";
 
 const Programme_Services = () => {
@@ -49,7 +49,7 @@ const Programme_Services = () => {
           Our Journey Higlights
         </Heading>
 
-        <OurJourey />
+        {/* <OurJourey /> */}
       </Row>
       <Row>
         <Heading className="text-3xl font-bold text-center mt-3">News</Heading>

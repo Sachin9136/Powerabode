@@ -88,8 +88,8 @@
 }
 
 .slick-dots li.slick-active button:before{
-    color: #FFED05;
-    font-size: 30px;
+    color: #29385E;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,3 +111,9 @@
     display: flex;
     margin-top: 20px;
 }
+
+
+.center-slide {
+    transform: scale(1.2); /* Scale the center slide by 120% */
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+  }

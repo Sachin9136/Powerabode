@@ -7,7 +7,7 @@ function CommanBanner({ children, heading, className = "", ...props }) {
     <Row className="relative">
       <Img
         children={children}
-        className={`w-full h-56 object-cover ${className}`}
+        className={`w-full object-cover ${className}`}
         {...props}
       />
       <Heading

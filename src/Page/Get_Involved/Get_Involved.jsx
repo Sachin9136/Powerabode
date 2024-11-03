@@ -10,7 +10,7 @@ import {
     Button,
   } from "../../components/ComponentsIndex";
   import Footer from "../../components/footer/footer";
-    import ServiceCard from '../../components/Our_services_card/Our_services_card';
+    // import ServiceCard from '../../components/Our_services_card/Our_services_card';
 import CommanBanner from '../../components/Banners/CommanBanner';
 import { Journy_highlights } from "../../components/Img/ImportedImage";
 
