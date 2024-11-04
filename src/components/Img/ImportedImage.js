@@ -117,6 +117,47 @@ import Supply_Chain_by_SLA3 from "../../../src/assets/Images/Supply_Chain_by_SLA
 import CategoryStrategy_img from "../../../src/assets/Images/CategoryStrategy_img.svg";
 import TenderingandOutsourcing from "../../../src/assets/Images/TenderingandOutsourcing.svg";
 import PostAwardContract from "../../../src/assets/Images/PostAwardContract.svg";
+import The_story_of_Powerabode_img from "../../../src/assets/Images/The_story_of_Powerabode_img.svg";
+import our_sector1 from "../../../src/assets/Images/our_sector1.svg";
+import our_sector2 from "../../../src/assets/Images/our_sector2.svg";
+import our_sector3 from "../../../src/assets/Images/our_sector3.svg";
+import our_sector4 from "../../../src/assets/Images/our_sector4.svg";
+import our_sector5 from "../../../src/assets/Images/our_sector5.svg";
+import our_sector6 from "../../../src/assets/Images/our_sector6.svg";
+import our_sector7 from "../../../src/assets/Images/our_sector7.svg";
+import our_sector8 from "../../../src/assets/Images/our_sector8.svg";
+import our_sector9 from "../../../src/assets/Images/our_sector9.svg";
+import Supply_Chain_Resilience from "../../../src/assets/Images/Supply_Chain_Resilience.svg";
+import Cost_Efficiency from "../../../src/assets/Images/Cost_Efficiency.svg";
+import Program_img from "../../../src/assets/Images/Program_img.svg";
+import Energy_Transition from "../../../src/assets/Images/Energy_Transition.svg";
+import Why_powerabode_1 from "../../../src/assets/Images/Why_powerabode_1.svg";
+import Why_powerabode_2 from "../../../src/assets/Images/Why_powerabode_2.svg";
+import Why_powerabode_3 from "../../../src/assets/Images/Why_powerabode_3.svg";
+import Why_powerabode_4 from "../../../src/assets/Images/Why_powerabode_4.svg";
+import Why_powerabode_5 from "../../../src/assets/Images/Why_powerabode_5.svg";
+import Why_powerabode_6 from "../../../src/assets/Images/Why_powerabode_6.svg";
+import Why_powerabode_7 from "../../../src/assets/Images/Why_powerabode_7.svg";
+import Why_powerabode_8 from "../../../src/assets/Images/Why_powerabode_8.svg";
+import Category_Strategy_banner from "../../../src/assets/Images/Category_Strategy_banner.svg";
+import Bell from "../../../src/assets/Images/bell.svg";
+import Injection from "../../../src/assets/Images/injection.svg";
+import Ship from "../../../src/assets/Images/ship.svg";
+import CM_for_Contract_banner from "../../../src/assets/Images/CM_for_Contract_banner.svg";
+import CM_for_Contract_1 from "../../../src/assets/Images/CM_for_Contract_1.svg";
+import CM_for_Contract_2 from "../../../src/assets/Images/CM_for_Contract_2.svg";
+import CM_for_Contract_3 from "../../../src/assets/Images/CM_for_Contract_3.svg";
+import CM_for_Contract_4 from "../../../src/assets/Images/CM_for_Contract_4.svg";
+import Check from "../../../src/assets/Images/check.svg";
+import Skillset_Development_banner from "../../../src/assets/Images/Skillset_Development_banner.svg";
+import Skillset_Development_1 from "../../../src/assets/Images/Skillset_Development1.svg";
+import Skillset_Development_2 from "../../../src/assets/Images/Skillset_Development2.svg";
+import Skillset_Development_3 from "../../../src/assets/Images/Skillset_Development3.svg";
+import Skillset_Development_4 from "../../../src/assets/Images/Skillset_Development4.svg";
+import Deal_Design_banner from "../../../src/assets/Images/Deal_Design_banner.svg";
+import Deal_Design1 from "../../../src/assets/Images/Deal_Design1.svg";
+import Deal_Design2 from "../../../src/assets/Images/Deal_Design2.svg";
+import Deal_Design3 from "../../../src/assets/Images/Deal_Design3.svg";
 
 
 
@@ -131,4 +172,8 @@ Down_arrow_menu, Hero_banner, Cost_optimization, Downstream, Hydrogen, Nuclear, 
 Supply_chain, OPEX, Codex, CM, Academy, Cost_and_Value, cost_efficiency, energy_transition, supply_chain_left, x, mail, linked_in, send_button, Get_in_touch,
 Cost_and_Value_Philosophy, EMCT_bar, EMCT_circle, Card_img, Success_Formula1, Success_Formula2, Success_Formula3, Success_Formula4, Success_Formula5, Cost_and_Value_Philosophy_banner,
 Articles_Business_Cases_Background, Drilling_Cost_Transformation_banner, Success_Formula, Supply_Chain_by_SLA, Supply_Chain_by_SLA2, Supply_Chain_by_SLA3,
-CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract };
+CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, The_story_of_Powerabode_img, our_sector1, our_sector2, our_sector3, our_sector4, our_sector5, our_sector6, our_sector7, our_sector8, our_sector9,
+Supply_Chain_Resilience, Cost_Efficiency, Program_img, Energy_Transition, Why_powerabode_1, Why_powerabode_2, Why_powerabode_3, Why_powerabode_4,
+Why_powerabode_5, Why_powerabode_6, Why_powerabode_7, Why_powerabode_8, Category_Strategy_banner, Bell, Injection, Ship, CM_for_Contract_banner,
+CM_for_Contract_1, CM_for_Contract_2, CM_for_Contract_3, CM_for_Contract_4, Check, Skillset_Development_banner, Skillset_Development_1, Skillset_Development_2, Skillset_Development_3, Skillset_Development_4,
+Deal_Design_banner, Deal_Design1, Deal_Design2, Deal_Design3 };

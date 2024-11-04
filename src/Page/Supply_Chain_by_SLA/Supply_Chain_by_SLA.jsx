@@ -152,7 +152,7 @@ const About_us = () => {
         </div>
 
         <div className="px-4 md:px-20 my-10">
-            <div className="px-4 md:px-20 my-10">
+            <div className=" my-10">
                 <Slider {...settings}>
                     <div>
                         <Img_Slider
@@ -189,7 +189,7 @@ const About_us = () => {
         </div>
 
         <div className="px-4 md:px-20">
-            <h2 className='text-2xl font-medium text-[#29385E] font-Montserrat text-center'>Tendering &  <span className="text-[#00ABB8]">Outsourcing</span></h2>
+            <h2 className='text-2xl font-medium text-[#29385E] font-Montserrat text-center mb-3'>Tendering &  <span className="text-[#00ABB8]">Outsourcing</span></h2>
             <p className="text-[#212529] text-center">Procurement is done in-house by most of our Clients.With involvement of our experts, tools and systems the results improve significantly.</p>
         </div>
 

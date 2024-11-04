@@ -20,6 +20,11 @@ import Cart_page from "./Page/Cart_page/Cart_page";
 import Checkout from "./Page/Checkout/Checkout";
 import Supply_Chain_by_SLA from "./Page/Supply_Chain_by_SLA/Supply_Chain_by_SLA";
 import Order_Completed from "./Page/Order_Completed/Order_Completed";
+import The_story_of_Powerabode from "./Page/The_story_of_Powerabode/The_story_of_Powerabode";
+import Category_Strategy_Contract_Strategy from "./Page/Category_Strategy_Contract_Strategy/Category_Strategy_Contract_Strategy";
+import CM_for_Contract from "./Page/CM_for_Contract/CM_for_Contract";
+import Skillset_Development from "./Page/Skillset_Development/Skillset_Development";
+import Deal_Design from "./Page/Deal_Design/Deal_Design";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -37,6 +42,11 @@ const router = createBrowserRouter(
       <Route path="checkout" element={<Checkout />} />
       <Route path="order-completed" element={<Order_Completed />} />
       <Route path="supply-chain-by-sla" element={<Supply_Chain_by_SLA />} />
+      <Route path="the-story-of-powerabode" element={<The_story_of_Powerabode />} />
+      <Route path="category-strategy-contract-strategy" element={<Category_Strategy_Contract_Strategy />} />
+      <Route path="cm-for-contract" element={<CM_for_Contract />} />
+      <Route path="skillset-development" element={<Skillset_Development />} />
+      <Route path="deal-design" element={<Deal_Design />} />
     </Route>
   )
 );
