@@ -25,6 +25,7 @@ import Category_Strategy_Contract_Strategy from "./Page/Category_Strategy_Contra
 import CM_for_Contract from "./Page/CM_for_Contract/CM_for_Contract";
 import Skillset_Development from "./Page/Skillset_Development/Skillset_Development";
 import Deal_Design from "./Page/Deal_Design/Deal_Design";
+import CODEX_Supply_Chain from "./Page/CODEX_Supply_Chain/CODEX_Supply_Chain";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -47,6 +48,7 @@ const router = createBrowserRouter(
       <Route path="cm-for-contract" element={<CM_for_Contract />} />
       <Route path="skillset-development" element={<Skillset_Development />} />
       <Route path="deal-design" element={<Deal_Design />} />
+      <Route path="codex-supply-chain" element={<CODEX_Supply_Chain />} />
     </Route>
   )
 );

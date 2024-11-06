@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import DownArrow from "../../assets/Images/down-arrow-menu.svg"; // Update this to the correct path
+import DownArrow from "../../assets/Images/down-arrow-menu.svg";
+import Downarrow_white from "../../assets/Images/downarrow_white.png";
 
 function Sidebar({ closeMenu }) {
   const [isSubmenuOpen, setIsSubmenuOpen] = useState({
@@ -36,7 +37,6 @@ function Sidebar({ closeMenu }) {
         { id: 1.2, name: "Article & Business Cases", link: "/article-business-cases-background" },
         { id: 1.3, name: "Drilling Cost Transformation", link: "/drilling-cost-transformation" },
         { id: 1.4, name: "Success Formula Disruptive and Controlled", link: "/success-formula-disruptive-and-controlled" },
-        { id: 1.5, name: "CM for Contract", link: "/cm-for-contract" },
       ],
     },
     { id: 2, name: "About Us & Themes", link: "/the-story-of-powerabode" },
@@ -88,7 +88,7 @@ function Sidebar({ closeMenu }) {
               </NavLink>
               {item.submenu && (
                 <img
-                  src={DownArrow}
+                  src={Downarrow_white}
                   alt="Arrow"
                   className={`w-4 h-4 transition-transform ${
                     isSubmenuOpen[item.id] ? "rotate-180" : ""

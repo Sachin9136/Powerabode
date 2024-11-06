@@ -90,7 +90,11 @@ const footer = () => {
                         <div className='bg-[#29385E] p-4 rounded-2xl'>
                           <a href="#"><img src={mail} alt="" width="23px" /></a>
                         </div>
-                        <div className='text-2xl text-[#504F4F] '>info@powerabode.com</div>
+                          <div className='text-2xl text-[#504F4F]'>
+                            <a href="mailto:info@powerabode.com" className="hover:underline">
+                              info@powerabode.com
+                            </a>
+                          </div>
                       </div>
                   </div>
                 <div className='col-span-1 lg:col-span-3 mt-3'>

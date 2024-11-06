@@ -42,8 +42,6 @@ function Navbar() {
         { id: 1.1, name: "Cost and Value Philosophy", link: "/cost-and-value-philosophy" },
         { id: 1.2, name: "Article & Business Cases", link: "/article-business-cases-background" },
         { id: 1.3, name: "Drilling Cost Transformation", link: "/drilling-cost-transformation" },
-        { id: 1.4, name: "Success Formula Disruptive and Controlled", link: "/success-formula-disruptive-and-controlled" },
-        { id: 1.5, name: "CM for Contract", link: "/cm-for-contract" },
       ],
     },
     { id: 2, name: "About Us & Themes", link: "/the-story-of-powerabode" },
@@ -63,6 +61,7 @@ function Navbar() {
       name: "Systems & Delivery",
       link: "#",
       submenu: [
+        { id: 5.1, name: "CODEX", link: "/codex-supply-chain" },
         { id: 5.1, name: "CM+", link: "/cm-for-contract" },
         { id: 5.2, name: "Academy", link: "/skillset-development" },
       ],
@@ -123,7 +122,7 @@ function Navbar() {
         </Column>
 
         {/* Search Bar */}
-        <Column className="hidden md:flex items-center space-x-4 px-5">
+        {/* <Column className="hidden md:flex items-center space-x-4 px-5">
           <Wraper className="relative">
             <input
               type="text"
@@ -138,7 +137,7 @@ function Navbar() {
               }}
             />
           </Wraper>
-        </Column>
+        </Column> */}
       </Column>
     </Row>
   );

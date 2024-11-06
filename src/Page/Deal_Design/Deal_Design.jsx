@@ -28,7 +28,7 @@ const About_us = () => {
 
             </div>
             <div className="lg:flex my-10">
-                <div className="w-full lg:w-1/2">
+                <div className="w-full lg:w-1/2 px-3">
                     <div>
                         <h2 className='text-3xl font-bold mt-6 mb-3'>Sourcing Strategy</h2>
                         <p className="text-xl font-medium lg:mr-12 mb-3">Supply Chain Disruption created a new awareness after COVID. Any Supply Chain can encounter a Black Swan Event. The impact of this is one thing, the assumption that everything will go back again to ‘normal’, is another.</p>
@@ -48,7 +48,7 @@ const About_us = () => {
                         <img  src={Deal_Design2} alt="" />
                     </div>
                 </div>
-                <div className="w-full lg:w-1/2">
+                <div className="w-full lg:w-1/2 px-3">
                     <div>
                         <h2 className='text-3xl font-bold mt-6 mb-3'>Petroleum Product Sourcing & Finance</h2>
                         <p className="text-xl font-medium lg:mr-12 mb-3">Both on deal and process level. Deal structuring, including finance options. We have direct involvement in consortia to bring the most favourable options to our clients regrading fuel supply. Diesel, Petrol and LNG are key products where we consult clients.</p>
@@ -61,7 +61,7 @@ const About_us = () => {
             </div>
 
             <div className="lg:flex my-10">
-                <div className="w-full lg:w-1/2">
+                <div className="w-full lg:w-1/2 px-3">
                     <div>
                         <h2 className='text-3xl font-bold mt-6 mb-3'>Asset & Operations Modelling</h2>
                         <ul className="list-disc ml-5">

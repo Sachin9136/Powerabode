@@ -158,6 +158,13 @@ import Deal_Design_banner from "../../../src/assets/Images/Deal_Design_banner.sv
 import Deal_Design1 from "../../../src/assets/Images/Deal_Design1.svg";
 import Deal_Design2 from "../../../src/assets/Images/Deal_Design2.svg";
 import Deal_Design3 from "../../../src/assets/Images/Deal_Design3.svg";
+import Downarrow_white from "../../../src/assets/Images/downarrow_white.png";
+import CODEX_Supply_Chain_banner from "../../../src/assets/Images/CODEX_Supply_Chain.svg";
+import CODEX_1 from "../../../src/assets/Images/CODEX_1.svg";
+import CODEX_2 from "../../../src/assets/Images/CODEX_2.svg";
+import CODEX_3 from "../../../src/assets/Images/CODEX_3.svg";
+import Tick from "../../../src/assets/Images/tick.svg";
+import Dash from "../../../src/assets/Images/dash.svg";
 
 
 
@@ -176,4 +183,4 @@ CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, The_story_of_P
 Supply_Chain_Resilience, Cost_Efficiency, Program_img, Energy_Transition, Why_powerabode_1, Why_powerabode_2, Why_powerabode_3, Why_powerabode_4,
 Why_powerabode_5, Why_powerabode_6, Why_powerabode_7, Why_powerabode_8, Category_Strategy_banner, Bell, Injection, Ship, CM_for_Contract_banner,
 CM_for_Contract_1, CM_for_Contract_2, CM_for_Contract_3, CM_for_Contract_4, Check, Skillset_Development_banner, Skillset_Development_1, Skillset_Development_2, Skillset_Development_3, Skillset_Development_4,
-Deal_Design_banner, Deal_Design1, Deal_Design2, Deal_Design3 };
+Deal_Design_banner, Deal_Design1, Deal_Design2, Deal_Design3, Downarrow_white, CODEX_Supply_Chain_banner, CODEX_1, CODEX_2, CODEX_3, Tick, Dash };

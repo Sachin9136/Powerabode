@@ -20,7 +20,7 @@ const Card = ({ imgSrc, title, content, borderColor }) => {
       <img src={imgSrc} alt={title} className={`h-48 w-48 mx-auto border-${borderColor} border-8 rounded-full`} />
       <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">{title}</p>
       <p className="text-xl mt-2 px-2 md:px-5">
-        {isExpanded ? content : getTruncatedText(content, 100)} {/* 100 is word limit */}
+        {isExpanded ? content : getTruncatedText(content, 90)}
       </p>
       <button
         onClick={handleReadMore}

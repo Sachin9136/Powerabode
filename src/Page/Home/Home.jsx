@@ -173,15 +173,23 @@ function Home() {
         <div className="flex flex-wrap justify-center md:justify-between px-4 md:px-14 my-10">
           <div className="w-full md:w-1/2 lg:w-1/3 text-center mb-6 p-5">
             <img src={cost_efficiency} alt="Cost Efficiency" className="mx-auto"/>
-            <button className="bg-[#1B3B64] text-white text-sm rounded-3xl py-3 px-14 mt-5">Cost Efficiency</button>
+            <a href="/the-story-of-powerabode" rel="noopener noreferrer">
+              <button className="bg-[#1B3B64] text-white text-sm rounded-3xl py-3 px-14 mt-5">
+                Cost Efficiency
+              </button>
+            </a>
           </div>
           <div className="w-full md:w-1/2 lg:w-1/3 text-center mb-6 p-5">
             <img src={energy_transition} alt="Energy Transition" className="mx-auto"/>
-            <button className="bg-[#1B3B64] text-white text-sm rounded-3xl py-3 px-14 mt-5">Energy Transition</button>
+            <a href="/the-story-of-powerabode" rel="noopener noreferrer">
+              <button className="bg-[#1B3B64] text-white text-sm rounded-3xl py-3 px-14 mt-5">Energy Transition</button>
+            </a>
           </div>
           <div className="w-full md:w-full lg:w-1/3 text-center mb-6 p-5">
             <img src={supply_chain_left} alt="Supply Chain Resilience" className="mx-auto"/>
-            <button className="bg-[#1B3B64] text-white text-sm rounded-3xl py-3 px-14 mt-5">Supply Chain Resilience</button>
+            <a href="/the-story-of-powerabode" rel="noopener noreferrer">
+              <button className="bg-[#1B3B64] text-white text-sm rounded-3xl py-3 px-14 mt-5">Supply Chain Resilience</button>
+            </a>
           </div>
         </div>
       </div>
