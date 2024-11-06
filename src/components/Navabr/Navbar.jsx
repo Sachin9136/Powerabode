@@ -40,26 +40,22 @@ function Navbar() {
       link: "#",
       submenu: [
         { id: 1.1, name: "Cost and Value Philosophy", link: "/cost-and-value-philosophy" },
-        { id: 1.2, name: "Article, Business Cases & Background", link: "/article-business-cases-background" },
+        { id: 1.2, name: "Article & Business Cases", link: "/article-business-cases-background" },
         { id: 1.3, name: "Drilling Cost Transformation", link: "/drilling-cost-transformation" },
-        { id: 1.3, name: "Success Formula Disruptive and Controlled", link: "/success-formula-disruptive-and-controlled" },
-        { id: 1.3, name: "Supply Chain by SLA", link: "/supply-chain-by-sla" },
-        { id: 1.3, name: "The Story of Powerabode", link: "/the-story-of-powerabode" },
-        { id: 1.3, name: "Category Strategy & Contract Strategy", link: "/category-strategy-contract-strategy" },
-        { id: 1.3, name: "CM for Contract", link: "/cm-for-contract" },
-        { id: 1.3, name: "Skillset Development", link: "/skillset-development" },
-        { id: 1.3, name: "Deal Design", link: "/deal-design" },
+        { id: 1.4, name: "Success Formula Disruptive and Controlled", link: "/success-formula-disruptive-and-controlled" },
+        { id: 1.5, name: "CM for Contract", link: "/cm-for-contract" },
       ],
     },
-    { id: 2, name: "About Us & Themes", link: "/" },
-    { id: 3, name: "Capex/Opex Program", link: "/" },
+    { id: 2, name: "About Us & Themes", link: "/the-story-of-powerabode" },
+    { id: 3, name: "Capex/Opex Program", link: "/success-formula-disruptive-and-controlled" },
     {
       id: 4,
       name: "Supply Chain by SLA",
       link: "#",
       submenu: [
-        { id: 4.1, name: "Logistics", link: "/" },
-        { id: 4.2, name: "Inventory Management", link: "/" },
+        { id: 4.1, name: "Category Strategy Contract Strategy", link: "/category-strategy-contract-strategy" },
+        { id: 4.2, name: "Post Award Contract Management", link: "/supply-chain-by-sla" },
+        { id: 4.2, name: "Commercial Assurance", link: "/supply-chain-by-sla" },
       ],
     },
     {
@@ -67,11 +63,11 @@ function Navbar() {
       name: "Systems & Delivery",
       link: "#",
       submenu: [
-        { id: 5.1, name: "System Integration", link: "/" },
-        { id: 5.2, name: "Delivery Models", link: "/" },
+        { id: 5.1, name: "CM+", link: "/cm-for-contract" },
+        { id: 5.2, name: "Academy", link: "/skillset-development" },
       ],
     },
-    { id: 6, name: "Deal Design", link: "/" },
+    { id: 6, name: "Deal Design", link: "/deal-design" },
   ];
 
   return (
