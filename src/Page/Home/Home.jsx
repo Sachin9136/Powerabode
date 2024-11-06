@@ -13,7 +13,9 @@ import {Hero_banner, Cost_optimization, Downstream, Hydrogen, Nuclear, Power, Re
   Supply_chain, OPEX, Codex, CM, Academy, Cost_and_Value, cost_efficiency, energy_transition, supply_chain_left, Down_arrow_menu} from "../../components/Img/ImportedImage";
 
 
+import Chatbot from "../../components/Chatbot/Chatbot";
 import How_we_help_client from "../../components/How_we_help_client/How_we_help_client";
+import ImageSlider from "../../components/ImageSlider/ImageSlider";
 import Footer from "../../components/footer/footer";
 
 import "./Home.css";
@@ -118,52 +120,6 @@ function Home() {
         </div>
       </div>
 
-      {/* <div className="py-6 px-4 md:px-14 bg-white">
-        <div className="container mx-auto flex flex-wrap justify-around">
-          <div className="w-1/1 md:w-1/2 lg:w-1/3 p-2">
-            <img src={Cost_and_Value} alt="Upstream Onshore" className="h-48 w-48 mx-auto border-[#FEA029] border-8 rounded-full"/>
-            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Cost and Value <br />
-            Intelligence</p>
-            <p className="text-xl mt-2 px-2 md:px-5">Cost and Value Philosophy (C&V). A unique way of understanding cost, the potential savings and value optimisation. C&V Intelligence recognises different cost categories and links them to specific contract users. Creating synergy between these users, optimises the delivery of the savings and realising long-term value potential.</p>
-          </div>
-          <div className="w-1/1 md:w-1/2 lg:w-1/3 p-2">
-            <img src={Supply_chain} alt="Upstream Offshore" className="h-48 w-48 mx-auto border-[#9ED033] border-8 rounded-full"/>
-            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Supply chain by SLA</p>
-            <p className="text-xl mt-2 px-2 md:px-5">Supply Chain by SLA. Top class experts and services to deliver your Supply Chain Challenges. Optimising cost and improving delivery. Category & Contract Strategy
-              Tendering & Outsourcing
-              Post Award Contract
-              Management
-              Materials Management
-              Commercial Assurance
-              Cost Recovery</p>
-          </div>
-          <div className="w-1/1 md:w-1/2 lg:w-1/3 p-2">
-            <img src={OPEX} alt="Downstream Refinery" className="h-48 w-48 mx-auto border-[#01BCB1] border-8 rounded-full"/>
-            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">OPEX/CAPEX Program</p>
-            <p className="text-xl mt-2 px-2 md:px-5">Improving cost and value by double digits. Award winning team. This unique program delivers you double digit cost reduction. Disruptive and controlled delivery by three tier program.</p>
-          </div>
-          <div className="w-1/1 md:w-1/2 lg:w-1/3 p-2">
-            <img src={Codex} alt="Power" className="h-48 w-48 mx-auto border-[#4C78B5] border-8 rounded-full"/>
-            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Codex</p>
-            <p className="text-xl mt-2 px-2 md:px-5">Management System, complete and off the shelf, including implementation and training. No development risk, adapted to your organisation. For Contracting & Procurement
-              Pre-award
-              Post-award
-              Materials Management
-              Commercial Assurance
-              Cost Recovery</p>
-          </div>
-          <div className="w-1/1 md:w-1/2 lg:w-1/3 p-2">
-            <img src={CM} alt="Water Desalination" className="h-48 w-48 mx-auto border-[#8F4A81] border-8 rounded-full"/>
-            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
-            <p className="text-xl mt-2 px-2 md:px-5">Contract + Context. People don't read the contract. Still, they are expected to deliver. This solution enables all contract users to be first time right.</p>
-          </div>
-          <div className="w-1/1 md:w-1/2 lg:w-1/3 p-2">
-            <img src={Academy} alt="Nuclear Energy" className="h-48 w-48 mx-auto border-[#D31E47] border-8 rounded-full"/>
-            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Academy</p>
-            <p className="text-xl mt-2 px-2 md:px-5">8 specific Coaching and trainings, focussed on developing commercial skillset. Integrated Supply Chain (ISC) training for teams of contract users.</p>
-          </div>
-        </div>
-      </div> */}
       <How_we_help_client />
 
       <div className="bg-white py-6">
@@ -268,9 +224,9 @@ function Home() {
           </div>
         </div>
       </div>
-
     </div>
-
+    <ImageSlider />
+    {/* <Chatbot /> */}
       <Footer />
     </>
   );

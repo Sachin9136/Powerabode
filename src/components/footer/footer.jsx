@@ -1,5 +1,5 @@
 import React from 'react';
-import {Logo, x, mail, linked_in, send_button, Get_in_touch} from "../Img/ImportedImage";
+import {Logo, x, mail, linked_in, send_button, Get_in_touch, Whatsapp_icon} from "../Img/ImportedImage";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'; // Import the X (Twitter) and LinkedIn icons
 import {
@@ -14,6 +14,12 @@ import {
 const footer = () => {
   return (
     <Row>
+
+    <div className="fixed bottom-10 right-3">
+      <a href="https://wa.me/971551571994" target="_blank" rel="noopener noreferrer">
+        <img src={Whatsapp_icon} alt="WhatsApp Icon" width="70px" />
+      </a>
+    </div>
 
       {/* <ImageSlider /> */}
       <h2 class="text-3xl font-bold my-10 text-center">Get in Touch</h2>

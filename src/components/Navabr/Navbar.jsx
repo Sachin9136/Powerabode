@@ -41,7 +41,7 @@ function Navbar() {
       submenu: [
         { id: 1.1, name: "Cost and Value Philosophy", link: "/cost-and-value-philosophy" },
         { id: 1.2, name: "Article & Business Cases", link: "/article-business-cases-background" },
-        { id: 1.3, name: "Drilling Cost Transformation", link: "/drilling-cost-transformation" },
+        // { id: 1.3, name: "Drilling Cost Transformation", link: "/drilling-cost-transformation" },
       ],
     },
     { id: 2, name: "About Us & Themes", link: "/the-story-of-powerabode" },
@@ -70,7 +70,7 @@ function Navbar() {
   ];
 
   return (
-    <Row className="flex justify-between items-center px-8 py-8 shadow-sm">
+    <Row className="flex justify-between items-center px-14 py-8 shadow-sm">
       <Column className="flex items-center">
         <OffCanvas />
         <a href="/"><img src={Logo} alt="Logo" width="200px" /></a>

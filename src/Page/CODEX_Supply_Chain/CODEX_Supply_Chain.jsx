@@ -168,156 +168,234 @@ const About_us = () => {
         </div>
 
         <div className="px-4 md:px-20 my-10">
-  <div className="overflow-x-auto">
-    <table className="table-auto w-full border-collapse border-2 border-white">
-      <thead>
-        <tr>
-          <th className="px-4 py-2 border-8 border-white bg-[#29385E] text-center text-white text-2xl ">Volume</th>
-          <th className="px-4 py-2 border-8 border-white bg-[#29385E] text-center text-white text-2xl ">Volume</th>
-          <th colSpan="3" className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-2xl text-center">Delivery Method</th>
-        </tr>
-        <tr>
-          <th colSpan="2"></th>
-          <th className="px-4 py-2 border-8 border-white bg-[#BDF8FF] text-left text-[#29385E] text-xl">Books</th>
-          <th className="px-4 py-2 border-8 border-white bg-[#BDF8FF] text-left text-[#29385E] text-xl">Portal</th>
-          <th className="px-4 py-2 border-8 border-white bg-[#BDF8FF] text-left text-[#29385E] text-xl">Expert Services</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Volume 1</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">The Contracting, Procurement and Supply Chain Management System</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]"><img src={Dash} alt="" /></td>
-        </tr>
-        <tr>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Volume 2</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Pre-Award Control Procedure</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]"><img src={Dash} alt="" /></td>
-        </tr>
-        <tr>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Volume 3</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Post-Award Control Procedure</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]"><img src={Dash} alt="" /></td>
-        </tr>
-
-        <tr>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Volume 4</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Materials Management: MM Guideline</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]"><img src={Dash} alt="" /></td>
-        </tr>
-
-        <tr>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Volume 4.1</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">MM Control Procedures</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]"><img src={Dash} alt="" /></td>
-        </tr>
-
-        <tr>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Volume 4.2</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">MM Templates</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]"><img src={Dash} alt="" /></td>
-        </tr>
-
-        <tr>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Volume 5</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Commercial Assurance</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]"><img src={Dash} alt="" /></td>
-        </tr>
-
-        <tr>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Volume 5.1</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Assurance Questionnaires</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]"><img src={Dash} alt="" /></td>
-        </tr>
-
-        <tr>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Volume 5.2</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Assurance: Diagnostics</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]"><img src={Dash} alt="" /></td>
-        </tr>
-
-        <tr>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Volume 6</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Cost Recovery</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]"><img src={Dash} alt="" /></td>
-        </tr>
-
-        <tr>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Volume 7</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center">Coaching by powerabode Academy</td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]">
-            <img src={Tick} alt="" />
-          </td>
-          <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]"><img src={Dash} alt="" /></td>
-        </tr>
-
-      </tbody>
-    </table>
-  </div>
-</div>
+            <div className="overflow-x-auto">
+                <table className="table-auto w-full border-collapse border-2 border-white">
+                    <thead>
+                        <tr>
+                        <th className="px-4 py-2 border-8 border-white bg-[#29385E] text-center text-white text-2xl rounded-2xl">Volume</th>
+                        <th className="px-4 py-2 border-8 border-white bg-[#29385E] text-center text-white text-2xl  rounded-2xl ">Volume</th>
+                        <th colSpan="3" className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-2xl  rounded-2xl text-center">Delivery Method</th>
+                        </tr>
+                        <tr>
+                        <th colSpan="2"></th>
+                        <th className="px-4 py-2 border-8 border-white bg-[#BDF8FF] text-left text-[#29385E] text-xl  rounded-2xl">Books</th>
+                        <th className="px-4 py-2 border-8 border-white bg-[#BDF8FF] text-left text-[#29385E] text-xl  rounded-2xl">Portal</th>
+                        <th className="px-4 py-2 border-8 border-white bg-[#BDF8FF] text-left text-[#29385E] text-xl  rounded-2xl">Expert Services</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center  rounded-2xl">Volume 1</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center  rounded-2xl">The Contracting, Procurement and Supply Chain Management System</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]  rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]  rounded-2xl">
+                        <div className="flex justify-center">
+                                <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF]  rounded-2xl">
+                        <div className="flex justify-center">
+                            <img src={Dash} alt="" />
+                            </div>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Volume 2</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Pre-Award Control Procedure</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                        <div className="flex justify-center">
+                            <img src={Dash} alt="" />
+                            </div>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Volume 3</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Post-Award Control Procedure</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                        <div className="flex justify-center">
+                            <img src={Dash} alt="" />
+                            </div>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Volume 4</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Materials Management: MM Guideline</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                            <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Volume 4.1</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">MM Control Procedures</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                        <div className="flex justify-center">
+                            <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Volume 4.2</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">MM Templates</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                        <div className="flex justify-center">
+                            <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Volume 5</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Commercial Assurance</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                        <div className="flex justify-center">
+                            <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Volume 5.1</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Assurance Questionnaires</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                        <div className="flex justify-center">
+                                <img src={Dash} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                        <div className="flex justify-center">
+                                <img src={Dash} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                        <div className="flex justify-center">
+                            <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Volume 5.2</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Assurance: Diagnostics</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Dash} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Dash} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                        <div className="flex justify-center">
+                            <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        </tr>
+                        <tr>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Volume 6</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Cost Recovery</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Dash} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Dash} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                            <img src={Tick} alt="" />
+                            </div></td>
+                        </tr>
+                        <tr>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Volume 7</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#29385E] text-white text-md font-bold text-center rounded-2xl">Coaching by powerabode Academy</td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Dash} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                                <img src={Dash} alt="" />
+                            </div>
+                        </td>
+                        <td className="px-4 py-2 border-8 border-white bg-[#BDF8FF] rounded-2xl">
+                            <div className="flex justify-center">
+                            <img src={Tick} alt="" />
+                            </div>
+                        </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
 
         <div>

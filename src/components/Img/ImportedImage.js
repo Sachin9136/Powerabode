@@ -165,6 +165,12 @@ import CODEX_2 from "../../../src/assets/Images/CODEX_2.svg";
 import CODEX_3 from "../../../src/assets/Images/CODEX_3.svg";
 import Tick from "../../../src/assets/Images/tick.svg";
 import Dash from "../../../src/assets/Images/dash.svg";
+import slider_1 from "../../../src/assets/Images/slider_1.svg";
+import slider_2 from "../../../src/assets/Images/slider_2.svg";
+import slider_3 from "../../../src/assets/Images/slider_3.svg";
+import slider_4 from "../../../src/assets/Images/slider_4.svg";
+import slider_5 from "../../../src/assets/Images/slider_5.svg";
+import Whatsapp_icon from "../../../src/assets/Images/whatsapp_icon.svg";
 
 
 
@@ -183,4 +189,4 @@ CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, The_story_of_P
 Supply_Chain_Resilience, Cost_Efficiency, Program_img, Energy_Transition, Why_powerabode_1, Why_powerabode_2, Why_powerabode_3, Why_powerabode_4,
 Why_powerabode_5, Why_powerabode_6, Why_powerabode_7, Why_powerabode_8, Category_Strategy_banner, Bell, Injection, Ship, CM_for_Contract_banner,
 CM_for_Contract_1, CM_for_Contract_2, CM_for_Contract_3, CM_for_Contract_4, Check, Skillset_Development_banner, Skillset_Development_1, Skillset_Development_2, Skillset_Development_3, Skillset_Development_4,
-Deal_Design_banner, Deal_Design1, Deal_Design2, Deal_Design3, Downarrow_white, CODEX_Supply_Chain_banner, CODEX_1, CODEX_2, CODEX_3, Tick, Dash };
+Deal_Design_banner, Deal_Design1, Deal_Design2, Deal_Design3, Downarrow_white, CODEX_Supply_Chain_banner, CODEX_1, CODEX_2, CODEX_3, Tick, Dash, slider_1, slider_2, slider_3, slider_4, slider_5, Whatsapp_icon };

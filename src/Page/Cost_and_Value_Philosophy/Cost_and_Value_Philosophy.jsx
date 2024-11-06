@@ -10,6 +10,7 @@ import {
 } from "../../components/ComponentsIndex";
 
 import { Link } from "react-router-dom";
+import ImageSlider from "../../components/ImageSlider/ImageSlider";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import How_we_help_client from "../../components/How_we_help_client/How_we_help_client";
@@ -156,6 +157,8 @@ const About_us = () => {
       </Row>
 
       <How_we_help_client />
+
+      <ImageSlider />
 
       <Footer />
     </>

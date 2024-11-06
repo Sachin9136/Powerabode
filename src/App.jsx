@@ -7,6 +7,7 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
+
 import Cost_and_Value_Philosophy from "./Page/Cost_and_Value_Philosophy/Cost_and_Value_Philosophy";
 import Get_Involved from "./Page/Get_Involved/Get_Involved";
 import Success_Formula from "./Page/Success_Formula/Success_Formula";
@@ -55,6 +56,7 @@ const router = createBrowserRouter(
 function App() {
   return (
     <>
+      
       <RouterProvider router={router} />
     </>
   );
