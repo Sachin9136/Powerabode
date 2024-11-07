@@ -35,8 +35,6 @@ function Sidebar({ closeMenu }) {
       submenu: [
         { id: 1.1, name: "Cost and Value Philosophy", link: "/cost-and-value-philosophy" },
         { id: 1.2, name: "Article & Business Cases", link: "/article-business-cases-background" },
-        { id: 1.3, name: "Drilling Cost Transformation", link: "/drilling-cost-transformation" },
-        { id: 1.4, name: "Success Formula Disruptive and Controlled", link: "/success-formula-disruptive-and-controlled" },
       ],
     },
     { id: 2, name: "About Us & Themes", link: "/the-story-of-powerabode" },
@@ -56,6 +54,7 @@ function Sidebar({ closeMenu }) {
       name: "Systems & Delivery",
       link: "#",
       submenu: [
+        { id: 5.1, name: "CODEX", link: "/codex-supply-chain" },
         { id: 5.1, name: "CM+", link: "/cm-for-contract" },
         { id: 5.2, name: "Academy", link: "/skillset-development" },
       ],

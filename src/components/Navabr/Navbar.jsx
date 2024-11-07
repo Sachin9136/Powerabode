@@ -41,7 +41,6 @@ function Navbar() {
       submenu: [
         { id: 1.1, name: "Cost and Value Philosophy", link: "/cost-and-value-philosophy" },
         { id: 1.2, name: "Article & Business Cases", link: "/article-business-cases-background" },
-        // { id: 1.3, name: "Drilling Cost Transformation", link: "/drilling-cost-transformation" },
       ],
     },
     { id: 2, name: "About Us & Themes", link: "/the-story-of-powerabode" },
