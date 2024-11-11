@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import Card_slider from "../../components/card_slider/card_slider";
-import { Success_Formula, Success_Formula1, Success_Formula2, Success_Formula3, Success_Formula4, Success_Formula5 } from "../../components/Img/ImportedImage";
+import { Success_Formula, Success_Formula1, Success_Formula2, Success_Formula3, Success_Formula4, Success_Formula5, DNA } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -24,7 +24,7 @@ const About_us = () => {
     <>
       <CommanBanner children={Success_Formula} />
 
-      <div className="px-4 md:px-20">
+      <div className="">
         <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Capex / Opex Program</h2>
         <h2 className='text-center text-xl font-medium text-[#29385E] mt-3 mb-6'>The Road To Cost Leadership</h2>
         <div>
@@ -93,24 +93,32 @@ const About_us = () => {
             </div>
         </Row>
 
-        <div className="my-10 flex justify-center">
-            <img src={Success_Formula1} alt="" />
+        <div className="">
+            <div className="w-[72%] lg:-mt-28">
+                <img src={DNA} alt="" />
+            </div>
         </div>
 
-        <div className="my-10 flex justify-center">
-            <img src={Success_Formula2} alt="" />
-        </div>
+        <div className="px-4 lg:px-20 -mt-[100px] lg:-mt-[330px]">
+            <div className="my-10 flex justify-center">
+                <img className="z-50" src={Success_Formula1} alt="" />
+            </div>
 
-        <div className="my-10 flex justify-center">
-            <img src={Success_Formula3} alt="" />
-        </div>
+            <div className="my-10 flex justify-center">
+                <img src={Success_Formula2} alt="" />
+            </div>
 
-        <div className="my-10 flex justify-center">
-            <img src={Success_Formula4} alt="" />
-        </div>
+            <div className="my-10 flex justify-center">
+                <img src={Success_Formula3} alt="" />
+            </div>
 
-        <div className="my-10 flex justify-center">
-            <img src={Success_Formula5} alt="" />
+            <div className="my-10 flex justify-center">
+                <img src={Success_Formula4} alt="" />
+            </div>
+
+            <div className="my-10 flex justify-center">
+                <img src={Success_Formula5} alt="" />
+            </div>
         </div>
 
       </div>

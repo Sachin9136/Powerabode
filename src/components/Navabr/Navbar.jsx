@@ -50,9 +50,9 @@ function Navbar() {
       name: "Supply Chain by SLA",
       link: "#",
       submenu: [
-        { id: 4.1, name: "Category Strategy Contract Strategy", link: "/category-strategy-contract-strategy" },
-        { id: 4.2, name: "Post Award Contract Management", link: "/supply-chain-by-sla" },
-        { id: 4.2, name: "Commercial Assurance", link: "/supply-chain-by-sla" },
+        { id: 4.1, name: "Supply Chain by SLA", link: "/supply-chain-by-sla" },
+        { id: 4.2, name: "Category Strategy & Contract Strategy", link: "/category-strategy-contract-strategy " },
+        // { id: 4.2, name: "Commercial Assurance", link: "/supply-chain-by-sla" },
       ],
     },
     {
@@ -69,7 +69,7 @@ function Navbar() {
   ];
 
   return (
-    <Row className="flex justify-between items-center px-14 py-8 shadow-sm">
+    <Row className="flex justify-around items-center px-14 py-8 shadow-sm">
       <Column className="flex items-center">
         <OffCanvas />
         <a href="/"><img src={Logo} alt="Logo" width="200px" /></a>
@@ -77,7 +77,7 @@ function Navbar() {
 
       <Column className="lg:flex items-center space-x-4">
         {/* Menu Items */}
-        <Column className="hidden lg:flex items-center font-semibold space-x-4 gap-3">
+        <Column className="hidden lg:flex items-center font-medium space-x-4 gap-3">
           {menuItems.map((item) => (
             <div
               key={item.id}
@@ -87,7 +87,7 @@ function Navbar() {
             >
               <NavLink
                 to={item.link}
-                className="text-sm text-center flex items-center"
+                className="text-sm flex items-center"
                 onClick={item.submenu ? () => toggleSubmenu(item.id) : null}
               >
                 {item.name}
@@ -96,7 +96,7 @@ function Navbar() {
                     src={DownArrow}
                     alt="Arrow"
                     className={`ml-2 transition-transform ${isSubmenuOpen[item.id] ? "rotate-180" : ""}`}
-                    style={{ width: "16px", height: "16px" }} // Adjust the size as needed
+                    style={{ width: "12px", height: "12px" }} // Adjust the size as needed
                   />
                 )}
               </NavLink>

@@ -28,16 +28,16 @@ const footer = () => {
           <h2 class="text-3xl font-bold mb-6 text-center">Book A Session</h2>
           <form>
               <div class="mb-4">
-                  <input type="text" placeholder='Name' id="name" name="name" class="mt-1 block w-full border border-black rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black" />
+                  <input type="text" placeholder='Name' id="name" name="name" class="mt-1 block w-full border border-[#ced4da] rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black" />
               </div>
               <div class="mb-4">
-                  <input type="email" placeholder='Email' id="email" name="email" class="mt-1 block w-full border border-black rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black" />
+                  <input type="email" placeholder='Email' id="email" name="email" class="mt-1 block w-full border border-[#ced4da] rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black" />
               </div>
               <div class="mb-4">
-                  <input type="text" placeholder='Subject' id="subject" name="subject" class="mt-1 block w-full border border-black rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black" />
+                  <input type="text" placeholder='Subject' id="subject" name="subject" class="mt-1 block w-full border border-[#ced4da] rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black" />
               </div>
               <div class="mb-4">
-                  <textarea id="message" placeholder='Message' name="message" rows="4" class="mt-1 block w-full border border-black rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"></textarea> 
+                  <textarea id="message" placeholder='Message' name="message" rows="4" class="mt-1 block w-full border border-[#ced4da] rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"></textarea> 
               </div>
               <button type="submit" className="text-white bg-[#29385E] py-3 my-5 rounded-lg w-full">Send</button>
           </form>

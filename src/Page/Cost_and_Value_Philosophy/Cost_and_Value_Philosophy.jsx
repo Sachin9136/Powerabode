@@ -14,7 +14,7 @@ import ImageSlider from "../../components/ImageSlider/ImageSlider";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import How_we_help_client from "../../components/How_we_help_client/How_we_help_client";
-import { Cost_and_Value_Philosophy_banner, Cost_and_Value_Philosophy, EMCT_bar, EMCT_circle } from "../../components/Img/ImportedImage";
+import { Cost_and_Value_Philosophy_banner, Cost_and_Value_Philosophy, EMCT_bar, EMCT_circle, Intelligence } from "../../components/Img/ImportedImage";
 
 const About_us = () => {
 
@@ -41,6 +41,11 @@ const About_us = () => {
                   <li className='mt-2 font-medium text-md'>We take your organization on the road to cost leadership.</li>
                   <li className='mt-2 font-medium text-md'>Our analyses of Rates, Specification and Efficiency will bring out the maximum Savings Potential.</li>
                   <li className='mt-2 font-medium text-md'>The Opex/Capex Program, our Supply Chain Services by SLA, but also our Codex Management System and CM+ empower your organisation utilising methods based on the Cost and value Philosophy. Consistently and sustainably optimising cost and value!</li>
+                </ul>
+                <ul className="">
+                  <li className="my-8">
+                    <img src={Intelligence} alt="" />
+                  </li>
                 </ul>
               </div>
             </div>
@@ -158,7 +163,9 @@ const About_us = () => {
 
       <How_we_help_client />
 
-      <ImageSlider />
+      <div className="hidden md:flex">
+        <ImageSlider />
+    </div>
 
       <Footer />
     </>

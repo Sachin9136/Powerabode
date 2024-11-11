@@ -45,7 +45,7 @@ const About_us = () => {
 
         <div className="px-4 md:px-20 my-10">
             <h2 className='text-3xl font-bold text-[#29385E] mt-6 mb-3 text-center'>Codex Management System</h2>
-            <div className="flex justify-center items-center">
+            <div className="block md:flex justify-center items-center">
                 <span>System</span> <span className="text-2xl text-[#29385E] font-bold mx-2">|</span> <span>Processes </span> <span className="text-2xl text-[#29385E] font-bold mx-2">|</span> <span>Controls</span> <span className="text-2xl text-[#29385E] font-bold mx-2">|</span> <span>Forms</span> <span className="text-2xl text-[#29385E] font-bold mx-2">|</span> <span>Work Instructions</span>
             </div>
         </div>

@@ -46,7 +46,7 @@ function Sidebar({ closeMenu }) {
       submenu: [
         { id: 4.1, name: "Category Strategy Contract Strategy", link: "/category-strategy-contract-strategy" },
         { id: 4.2, name: "Post Award Contract Management", link: "/supply-chain-by-sla" },
-        { id: 4.3, name: "Commercial Assurance", link: "/commercial-assurance" },
+        // { id: 4.3, name: "Commercial Assurance", link: "/supply-chain-by-sla" },
       ],
     },
     {

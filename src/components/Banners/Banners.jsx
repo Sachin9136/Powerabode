@@ -1,21 +1,28 @@
-import React, { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { Link } from "react-router-dom";
+import React from "react";
 import Slider from "react-slick";
-import { Heading, Button } from "../../components/ComponentsIndex";
-import { getAllBanners } from "../../ReduxToolkit/Slice/Banner";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Hero_banner } from "../Img/ImportedImage";
 
-const BannerApi = () => {
-  const dispatch = useDispatch();
-  const { banners, status } = useSelector((state) => state.banner);
-
-  useEffect(() => {
-    if (status === "idle") {
-      dispatch(getAllBanners());
-    }
-  }, [dispatch, status]);
+const BannerSlider = () => {
+  // Manual list of banner images and details
+  const banners = [
+    {
+      id: 1,
+      image: Hero_banner, 
+      name: "Support Education",
+    },
+    {
+      id: 2,
+      image: Hero_banner, 
+      name: "Healthcare Assistance",
+    },
+    {
+      id: 3,
+      image: Hero_banner, 
+      name: "Empower Communities",
+    },
+  ];
 
   // Slider settings
   const settings = {
@@ -31,33 +38,18 @@ const BannerApi = () => {
 
   return (
     <div className="relative">
-      {banners && banners && banners.length > 0 ? (
+      {banners && banners.length > 0 ? (
         <Slider {...settings} className="overflow-hidden">
           {banners.map((banner) => (
             <div key={banner.id} className="relative">
               {/* Directly display the image */}
               <img
-                src={banner.Image}
-                alt={banner.Name}
-                className="w-full h-[510px] lg:h-[633px] object-cover"
+                src={banner.image}
+                alt={banner.name}
+                className="w-full h-[510px] lg:h-[770px] object-cover"
               />
-
-              {/* Overlay text on the image */}
-              <div className="absolute top-[30%] left-[10%] z-20 text-white space-y-4 lg:top-[35%] lg:left-[15%]">
-                <Heading className="text-3xl md:text-5xl lg:text-7xl font-bold text-yellow-400">
-                  {banner.Name}
-                </Heading>
-                <Heading className="text-xl md:text-2xl lg:text-4xl font-semibold">
-                  Take a step to donate needy
-                </Heading>
-                <Link to={"/teacher-registration"}>
-                  <Button className="px-8 py-5 text-lg md:text-xl mt-3 lg:mt-5 bg-yellow-400 text-gray-900">
-                    Donate Now
-                  </Button>
-                </Link>
-              </div>
               {/* Optional overlay effect */}
-              <div className="absolute inset-0 bg-black opacity-40"></div>
+              <div className="absolute inset-0 opacity-40"></div>
             </div>
           ))}
         </Slider>
@@ -68,4 +60,4 @@ const BannerApi = () => {
   );
 };
 
-export default BannerApi;
+export default BannerSlider;

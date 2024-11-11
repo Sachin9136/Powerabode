@@ -13,7 +13,7 @@ import {Hero_banner, Cost_optimization, Downstream, Hydrogen, Nuclear, Power, Re
   Supply_chain, OPEX, Codex, CM, Academy, Cost_and_Value, cost_efficiency, energy_transition, supply_chain_left, Down_arrow_menu} from "../../components/Img/ImportedImage";
 
 
-import Chatbot from "../../components/Chatbot/Chatbot";
+import Banners from "../../components/Banners/Banners";
 import How_we_help_client from "../../components/How_we_help_client/How_we_help_client";
 import ImageSlider from "../../components/ImageSlider/ImageSlider";
 import Footer from "../../components/footer/footer";
@@ -26,11 +26,13 @@ function Home() {
     <>
 
     <div className="bg-gray-100">
-      <div className="bg-white">
+      {/* <div className="bg-white">
         <div className="">
           <img src={Hero_banner} alt="Icon 1" className="w-full" />
         </div>
-      </div>
+      </div> */}
+
+      <Banners />
 
      {/* Icons Section */}
       <div className="bg-[#073A4E] py-6">
@@ -75,32 +77,30 @@ function Home() {
         </div>
       </div>
 
-
       {/* Value Section */}
       <div className="bg-white py-12 px-4 md:px-14">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-            {/* Image Section */}
-            <div>
-              <img src={Cost_optimization} alt="Cost Optimization" className="w-full h-auto" />
-            </div>
-
             { /* Text Section */}
             <div className="text-center md:text-left">
               <h2 className="text-4xl font-bold text-[#29385E]">
                 Delivering Value Improvement and Cost Optimisation.
               </h2>
-              <p className="mt-4">
+              <p className="mt-4 text-[#1B3B64]">
                 The impact of supply chain & procurement on the bottom line is grossly underestimated.
               </p>
-              <p className="mt-4">
+              <p className="mt-4 text-[#1B3B64]">
                 The angle of the integrated supply chain and procurement; this underpins all products and services of powerabode.
               </p>
-              <p className="mt-4">
+              <p className="mt-4 text-[#1B3B64]">
                 Owners and stakeholders of large energy assets recognise the powerabode ecosystem optimising delivery.
               </p>
-              <p className="mt-4">
+              <p className="mt-4 text-[#1B3B64]">
                 Challenges like energy transition, achieving sustainable and competitive cost levels and the resilience of your supply chain. With the changing energy landscape, it takes experts to deal with these challenges. The solutions have been created to support you on this journey.        </p>
+            </div>
+             {/* Image Section */}
+             <div>
+              <img src={Cost_optimization} alt="Cost Optimization" className="w-full h-auto px-20" />
             </div>
           </div>
         </div>
@@ -156,68 +156,68 @@ function Home() {
           <div class="">
             {/* <!-- FAQ 1 --> */}
             <details class="group py-1">
-              <summary class="text-xl bg-[#EEF1FA] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
+              <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
                 How can the commercial ecosystem benefit energy transition?
                 <span class="ml-2 text-gray-500 transform group-open:rotate-180 transition-transform">
                   <img src={Down_arrow_menu} alt="" />
                 </span>
               </summary>
-              <p class="mt-4 mb-5 text-gray-600 text-sm pl-4">
+              <p class="mt-4 mb-5 text-gray-600 text-lg pl-4">
                 For energy transition, new activities require an overnight mature management system. CODEX is a system fit for international standard and pragmatic operations. No implementation risk and focus on cost efficiency. Based on the Cost Intelligence Philosophy.
               </p>
             </details>
             <details class="group py-1">
-              <summary class="text-xl bg-[#EEF1FA] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
-              Our operating cost are high, how can we reduce them sustainably?
+              <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
+                Our operating cost are high, how can we reduce them sustainably?
                 <span class="ml-2 text-gray-500 transform group-open:rotate-180 transition-transform">
                 <img src={Down_arrow_menu} alt="" />
                 </span>
               </summary>
-              <p class="mt-4 mb-5 text-gray-600 text-sm pl-4">
+              <p class="mt-4 mb-5 text-gray-600 text-lg pl-4">
                 For energy transition, new activities require an overnight mature management system. CODEX is a system fit for international standard and pragmatic operations. No implementation risk and focus on cost efficiency. Based on the Cost Intelligence Philosophy.
               </p>
             </details>
             <details class="group py-1">
-              <summary class="text-xl bg-[#EEF1FA] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
+              <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
               We negotiated with suppliers, but the cost are still high. What to do?
                 <span class="ml-2 text-gray-500 transform group-open:rotate-180 transition-transform">
                 <img src={Down_arrow_menu} alt="" />
                 </span>
               </summary>
-              <p class="mt-4 mb-5 text-gray-600 text-sm pl-4">
+              <p class="mt-4 mb-5 text-gray-600 text-lg pl-4">
                 For energy transition, new activities require an overnight mature management system. CODEX is a system fit for international standard and pragmatic operations. No implementation risk and focus on cost efficiency. Based on the Cost Intelligence Philosophy.
               </p>
             </details>
             <details class="group py-1">
-              <summary class="text-xl bg-[#EEF1FA] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
+              <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
               We lack specialist expertise for building remuneration models, how do we fix this?
                 <span class="ml-2 text-gray-500 transform group-open:rotate-180 transition-transform">
                 <img src={Down_arrow_menu} alt="" />
                 </span>
               </summary>
-              <p class="mt-4 mb-5 text-gray-600 text-sm pl-4">
+              <p class="mt-4 mb-5 text-gray-600 text-lg pl-4">
                 For energy transition, new activities require an overnight mature management system. CODEX is a system fit for international standard and pragmatic operations. No implementation risk and focus on cost efficiency. Based on the Cost Intelligence Philosophy.
               </p>
             </details>
             <details class="group py-1">
-              <summary class="text-xl bg-[#EEF1FA] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
+              <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
               How do we get an integrated, commercially driven and pragmatic Supply Chain Management System?
                 <span class="ml-2 text-gray-500 transform group-open:rotate-180 transition-transform">
                 <img src={Down_arrow_menu} alt="" />
                 </span>
               </summary>
-              <p class="mt-4 mb-5 text-gray-600 text-sm pl-4">
+              <p class="mt-4 mb-5 text-gray-600 text-lg pl-4">
                 For energy transition, new activities require an overnight mature management system. CODEX is a system fit for international standard and pragmatic operations. No implementation risk and focus on cost efficiency. Based on the Cost Intelligence Philosophy.
               </p>
             </details>
             <details class="group py-1">
-              <summary class="text-xl bg-[#EEF1FA] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
+              <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
               Our Materials Management system is not a reflection of reality. How do we fix this?
                 <span class="ml-2 text-gray-500 transform group-open:rotate-180 transition-transform">
                 <img src={Down_arrow_menu} alt="" />
                 </span>
               </summary>
-              <p class="mt-4 mb-5 text-gray-600 text-sm pl-4">
+              <p class="mt-4 mb-5 text-gray-600 text-lg pl-4">
                 For energy transition, new activities require an overnight mature management system. CODEX is a system fit for international standard and pragmatic operations. No implementation risk and focus on cost efficiency. Based on the Cost Intelligence Philosophy.
               </p>
             </details>
@@ -225,7 +225,10 @@ function Home() {
         </div>
       </div>
     </div>
-    <ImageSlider />
+    <div className="hidden md:flex">
+      <ImageSlider />
+    </div>
+
     {/* <Chatbot /> */}
       <Footer />
     </>

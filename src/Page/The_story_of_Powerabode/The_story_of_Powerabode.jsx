@@ -354,35 +354,35 @@ const The_story_of_Powerabode = () => {
             </div>   
 
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 my-20">
-                <div className="flex justify-center">
+                <div className="flex justify-center px-14 md:px-10 lg:px-5">
                     <img src={Why_powerabode_1} alt="" />
                 </div>
 
-                <div className="flex justify-center">
+                <div className="flex justify-center px-14 md:px-10 lg:px-5">
                     <img src={Why_powerabode_2} alt="" />
                 </div>
 
-                <div className="flex justify-center">
+                <div className="flex justify-center px-14 md:px-10 lg:px-5">
                     <img src={Why_powerabode_3} alt="" />
                 </div>
 
-                <div className="flex justify-center">
+                <div className="flex justify-center px-14 md:px-10 lg:px-5">
                     <img src={Why_powerabode_4} alt="" />
                 </div>
 
-                <div className="flex justify-center">
+                <div className="flex justify-center px-14 md:px-10 lg:px-5">
                     <img src={Why_powerabode_5} alt="" />
                 </div>
 
-                <div className="flex justify-center">
+                <div className="flex justify-center px-14 md:px-10 lg:px-5">
                     <img src={Why_powerabode_6} alt="" />
                 </div>
 
-                <div className="flex justify-center">
+                <div className="flex justify-center px-14 md:px-10 lg:px-5">
                     <img src={Why_powerabode_7} alt="" />
                 </div>
 
-                <div className="flex justify-center">
+                <div className="flex justify-center px-14 md:px-10 lg:px-5">
                     <img src={Why_powerabode_8} alt="" />
                 </div>
           </div>

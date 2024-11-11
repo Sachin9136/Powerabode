@@ -28,6 +28,7 @@ const About_us = () => {
         slidesToShow: 3,
         focusOnSelect: true,
         dots: true,
+        arrow: false,
         infinite: true,
         speed: 500,
         

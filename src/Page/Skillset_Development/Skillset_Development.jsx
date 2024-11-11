@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import Card_slider from "../../components/card_slider/card_slider";
-import {  Skillset_Development_banner, Skillset_Development_1, Skillset_Development_2, Skillset_Development_3, Skillset_Development_4, Card_img } from "../../components/Img/ImportedImage";
+import {  Skillset_Development_banner, Skillset_Development_1, Skillset_Development_2, Skillset_Development_3, Skillset_Development_4, Card_img, one, two, three } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -22,6 +22,7 @@ const About_us = () => {
 
     const settings = {
         dots: true,
+        arrow: false,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
@@ -54,7 +55,7 @@ const About_us = () => {
 
         <div className="px-4 md:px-20 my-10">
             <div>
-                <h2 className='text-center text-3xl font-bold text-[#29385E] mt-6 mb-3'>Local Content Development; Training is the key</h2>
+                <h2 className='text-center text-3xl font-bold text-[#29385E] mt-6 mb-3'>Local Content Development; Training is the key</h2>
             </div>
 
             <div className="my-10 block lg:flex justify-center gap-5">
@@ -99,7 +100,7 @@ const About_us = () => {
                 <img src={Skillset_Development_1} alt="" />
             </div>
 
-            <div className="my-10 flex">
+            <div className="my-10 block lg:flex">
                 <div className="w-full lg:w-1/2 px-0 md:px-10 lg:px-20">
                     <div className="shadow-lg rounded-lg px-4 py-8 mb-10">
                         <div>
@@ -152,7 +153,7 @@ const About_us = () => {
                         <img src={Skillset_Development_2} alt="" />
                     </div>
 
-                    <div className="px-4 py-8 mb-6 flex">
+                    <div className="px-4 py-8 mb-6 block md:flex">
                         <img className="-mt-56" src={Skillset_Development_3} alt="" />
                         <img className="-mt-56" src={Skillset_Development_4} alt="" />
                     </div>
@@ -165,29 +166,21 @@ const About_us = () => {
                 <Slider {...settings}>
                     <div>
                     <Card_slider
-                        image={Card_img}
+                        image={one}
                         title="Drilling Cost Transformation"
                         description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
                     />
                     </div>
                     <div>
                     <Card_slider
-                        image={Card_img}
+                        image={two}
                         title="Drilling Cost Transformation"
                         description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
                     />
                     </div>
                     <div>
                     <Card_slider
-                        image={Card_img}
-                        title="Drilling Cost Transformation"
-                        description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-                    />
-                    </div>
-
-                    <div>
-                    <Card_slider
-                        image={Card_img}
+                        image={three}
                         title="Drilling Cost Transformation"
                         description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
                     />
@@ -195,16 +188,22 @@ const About_us = () => {
 
                     <div>
                     <Card_slider
-                        image={Card_img}
+                        image={one}
+                        title="Drilling Cost Transformation"
+                        description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
+                    />
+                    </div>
+
+                    <div>
+                    <Card_slider
+                        image={two}
                         title="Drilling Cost Transformation"
                         description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
                     />
                     </div>
                 </Slider>
             </div>
-
         </div>
-
 
       <Footer />
     </>
