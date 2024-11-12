@@ -104,6 +104,13 @@ import Category_1 from "../../../src/assets/Images/category_1.svg";
 import one from "../../../src/assets/Images/1.svg";
 import two from "../../../src/assets/Images/2.svg";
 import three from "../../../src/assets/Images/3.svg";
+import Commercial_Assurance_banner from "../../../src/assets/Images/Commercial_Assurance_banner.svg";
+import Cost_Recovery_banner from "../../../src/assets/Images/Cost_Recovery_banner.svg";
+import Tendering_Outsourcing_banner from "../../../src/assets/Images/Tendering_Outsourcing_banner.svg";
+import Materials_Management_banner from "../../../src/assets/Images/Materials_Management_banner.svg";
+import Post_Award_banner from "../../../src/assets/Images/Post_Award_banner.svg";
+import Outsourcing from "../../../src/assets/Images/Outsourcing.png";
+
 
 
 
@@ -117,4 +124,4 @@ Supply_Chain_Resilience, Cost_Efficiency, Program_img, Energy_Transition, Why_po
 Why_powerabode_5, Why_powerabode_6, Why_powerabode_7, Why_powerabode_8, Category_Strategy_banner, Bell, Injection, Ship, CM_for_Contract_banner,
 CM_for_Contract_1, CM_for_Contract_2, CM_for_Contract_3, CM_for_Contract_4, Check, Skillset_Development_banner, Skillset_Development_1, Skillset_Development_2, Skillset_Development_3, Skillset_Development_4,
 Deal_Design_banner, Deal_Design1, Deal_Design2, Deal_Design3, Downarrow_white, CODEX_Supply_Chain_banner, CODEX_1, CODEX_2, CODEX_3, Tick, Dash, slider_1, slider_2, slider_3, slider_4, slider_5, Whatsapp_icon,
-Intelligence, DNA, Category_1, one, two, three };
+Intelligence, DNA, Category_1, one, two, three, Commercial_Assurance_banner, Cost_Recovery_banner, Tendering_Outsourcing_banner, Materials_Management_banner, Post_Award_banner, Outsourcing };
