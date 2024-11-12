@@ -10,7 +10,7 @@ import {
 } from "../../components/ComponentsIndex";
 
 import {Hero_banner, Cost_optimization, Downstream, Hydrogen, Nuclear, Power, Renewable_wind, Upstream_offshore, Upstream_onshore, Water, Renewable,
-  Supply_chain, OPEX, Codex, CM, Academy, Cost_and_Value, cost_efficiency, energy_transition, supply_chain_left, Down_arrow_menu} from "../../components/Img/ImportedImage";
+  Supply_chain, OPEX, Codex, CM, Academy, Cost_and_Value, cost_efficiency, energy_transition, supply_chain_left, Down_arrow_menu,} from "../../components/Img/ImportedImage";
 
 
 import Banners from "../../components/Banners/Banners";
@@ -24,13 +24,6 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <>
-
-    <div className="bg-gray-100">
-      {/* <div className="bg-white">
-        <div className="">
-          <img src={Hero_banner} alt="Icon 1" className="w-full" />
-        </div>
-      </div> */}
 
       <Banners />
 
@@ -224,7 +217,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+    
     <div className="hidden md:flex">
       <ImageSlider />
     </div>
