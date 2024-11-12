@@ -14,7 +14,7 @@ import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import Card_slider from "../../components/card_slider/card_slider";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
-import { Tendering_Outsourcing_banner, Card_img, Bell, Injection, Ship, Category_1, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, } from "../../components/Img/ImportedImage";
+import { Tendering_Outsourcing_banner, Card_img, Bell, Injection, Ship, Category_1, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, Outsourcing } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -177,9 +177,9 @@ const About_us = () => {
                         </div>
                     </div>
 
-                    {/* <div className="w-full lg:2/6 px-4 py-8 mb-6 ">
+                    <div className="w-full lg:2/6 px-4 py-8 mb-6 ">
                         <img src={Outsourcing} alt="" />
-                    </div> */}
+                    </div>
 
                     <div className="w-full lg:2/6 shadow-lg rounded-lg px-4 py-8 mb-6 bg-[#DCEEF0]">
                         <div>

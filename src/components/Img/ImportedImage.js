@@ -109,7 +109,7 @@ import Cost_Recovery_banner from "../../../src/assets/Images/Cost_Recovery_banne
 import Tendering_Outsourcing_banner from "../../../src/assets/Images/Tendering_Outsourcing_banner.svg";
 import Materials_Management_banner from "../../../src/assets/Images/Materials_Management_banner.svg";
 import Post_Award_banner from "../../../src/assets/Images/Post_Award_banner.svg";
-import Outsourcing from "../../../src/assets/Images/Outsourcing.png";
+import Outsourcing from "../../../src/assets/Images/OUTSOURCING.svg";
 import CVI_Logo from "../../../src/assets/Images/CVI_Logo.svg";
 
 
