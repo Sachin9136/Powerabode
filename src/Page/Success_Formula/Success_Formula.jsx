@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import Card_slider from "../../components/card_slider/card_slider";
-import { Success_Formula, Success_Formula1, Success_Formula2, Success_Formula3, Success_Formula4, Success_Formula5, DNA } from "../../components/Img/ImportedImage";
+import { Success_Formula, Success_Formula1, Success_Formula2, Success_Formula3, Success_Formula4, Success_Formula5, DNA, Tier_structure } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -33,25 +33,36 @@ const About_us = () => {
 
         <Row>
             <div className="px-4 md:px-20 my-10 block lg:flex justify-center gap-5">
-                <div className="w-full lg:2/6 border-2 bg-[#51A9B433] rounded-lg shadow-lg px-4 py-8 mb-6">
+                <div className="w-full lg:2/6 border border-black rounded-lg px-4 py-8 mb-6">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Why a program?</h3>
                     </div>
                     <div>
-                    <p className="text-medium font-medium">Standard is to negotiate lower prices with suppliers and service providers. This is only 20% of the savings potential. But this is where it stops for most companies. The Cost and Value Philosophy shows where additional value improvements and cost efficiencies are possible.</p>
+                    <p className="text-medium font-medium">Cost efficiency is a science. Organisations often see cost as static; Switch on / switch off. Cost Efficiency however is something else. Our Cost leadership Program analyses, gives tools, breaks existing conventions. It is critical to have a program in times where the revenue base is under pressure in every market. Cost inflation and Covid have also created a new reality that needs attention to stay competitive.</p>
                     </div>
                 </div>
 
-                <div className="w-full lg:2/6 border-2 bg-[#51A9B433] rounded-lg shadow-lg px-4 py-8 mb-6">
+                <div className="w-full lg:2/6 border border-black rounded-lg pt-8 mb-6 flex flex-col">
                     <div>
-                        <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">3-Tier structure</h3>
+                        <h3 className="text-2xl font-bold text-[#59ADB7] mb-8 px-4 ">3-Tier structure</h3>
                     </div>
                     <div>
-                    <p className="text-medium font-medium">We deliver savings. Also, we take your teams with us on that journey. Analysis, Delivery and optimise value Training are the three pillars of our Cost Leadership Program.</p>
+                        <p className="text-medium font-medium px-4 ">
+                        We deliver savings. Also, we take your teams with us on that journey. Analysis, Delivery and optimise value Training are the three pillars of our Cost Leadership Program.
+                        </p>
+                    </div>
+
+                    {/* Spacer to push the image to the bottom */}
+                    <div className="flex-grow"></div>
+
+                    {/* Image at the bottom */}
+                    <div className="flex">
+                        <img src={Tier_structure} alt="" className="mt-auto w-full" />
                     </div>
                 </div>
+
         
-                <div className="w-full lg:2/6 border-2 bg-[#51A9B433] rounded-lg shadow-lg px-4 py-8 mb-6">
+                <div className="w-full lg:2/6 border border-black rounded-lg px-4 py-8 mb-6">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Cost and Value intelligence</h3>
                     </div>
@@ -64,7 +75,7 @@ const About_us = () => {
 
         <Row>
             <div className="px-4 md:px-20 my-10 block lg:flex justify-center gap-5">
-                <div className="w-full lg:2/6 border-2 bg-[#51A9B433] rounded-lg shadow-lg px-4 py-8 mb-6">
+                <div className="w-full lg:2/6 border border-black rounded-lg px-4 py-8 mb-6">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Bespoke</h3>
                     </div>
@@ -73,7 +84,7 @@ const About_us = () => {
                     </div>
                 </div>
 
-                <div className="w-full lg:2/6 border-2 bg-[#51A9B433] rounded-lg shadow-lg px-4 py-8 mb-6">
+                <div className="w-full lg:2/6 border border-black rounded-lg px-4 py-8 mb-6">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Distruptive & Controlled</h3>
                     </div>
@@ -82,7 +93,7 @@ const About_us = () => {
                     </div>
                 </div>
         
-                <div className="w-full lg:2/6 border-2 bg-[#51A9B433] rounded-lg shadow-lg px-4 py-8 mb-6">
+                <div className="w-full lg:2/6 border border-black rounded-lg px-4 py-8 mb-6">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Winners!</h3>
                     </div>

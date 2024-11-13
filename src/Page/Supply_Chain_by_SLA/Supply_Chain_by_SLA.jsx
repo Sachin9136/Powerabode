@@ -88,7 +88,7 @@ const About_us = () => {
         <div className="px-4 md:px-20">
             <Row>
                 <div className="my-10 block lg:flex justify-center gap-5">
-                    <div className="w-full lg:2/6 shadow-lg rounded-lg px-4 py-8 mb-6">
+                    <div className="w-full lg:2/6 border border-black shadow-lg px-4 py-8 mb-6">
                         <div>
                             <h3 className="text-2xl font-bold text-[#29385E] mb-8">Why external expert?</h3>
                         </div>
@@ -97,7 +97,7 @@ const About_us = () => {
                         </div>
                     </div>
 
-                    <div className="w-full lg:2/6 shadow-lg rounded-lg px-4 py-8 mb-6">
+                    <div className="w-full lg:2/6 border border-black shadow-lg px-4 py-8 mb-6">
                         <div>
                             <h3 className="text-2xl font-bold text-[#29385E] mb-8">Service Level Agreement Value Proposition</h3>
                         </div>
@@ -106,7 +106,7 @@ const About_us = () => {
                         </div>
                     </div>
 
-                    <div className="w-full lg:2/6 shadow-lg rounded-lg px-4 py-8 mb-6">
+                    <div className="w-full lg:2/6 border border-black shadow-lg px-4 py-8 mb-6">
                         <div>
                             <h3 className="text-2xl font-bold text-[#29385E] mb-8">Remote?</h3>
                         </div>
@@ -118,7 +118,7 @@ const About_us = () => {
             </Row>
             <Row>
                 <div className="my-10 block lg:flex justify-center gap-5">
-                    <div className="w-full lg:2/6 shadow-lg rounded-lg px-4 py-8 mb-6">
+                    <div className="w-full lg:2/6 border border-black shadow-lg px-4 py-8 mb-6">
                         <div>
                             <h3 className="text-2xl font-bold text-[#29385E] mb-8">Delivery focussed</h3>
                         </div>
@@ -127,7 +127,7 @@ const About_us = () => {
                         </div>
                     </div>
 
-                    <div className="w-full lg:2/6 shadow-lg rounded-lg px-4 py-8 mb-6">
+                    <div className="w-full lg:2/6 border border-black shadow-lg px-4 py-8 mb-6">
                         <div>
                             <h3 className="text-2xl font-bold text-[#29385E] mb-8">Fixed Scope</h3>
                         </div>
@@ -136,7 +136,7 @@ const About_us = () => {
                         </div>
                     </div>
 
-                    <div className="w-full lg:2/6 shadow-lg rounded-lg px-4 py-8 mb-6">
+                    <div className="w-full lg:2/6 border border-black shadow-lg px-4 py-8 mb-6">
                         <div>
                             <h3 className="text-2xl font-bold text-[#29385E] mb-8">Contact us</h3>
                         </div>

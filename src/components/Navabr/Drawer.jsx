@@ -25,10 +25,12 @@ function OffCanvas() {
         }`}
       >
         <Column className="flex justify-between mx-3 mt-5 mb-3">
-          <Heading
-            children={"Powerabode"}
-            className={"text-xl font-bold tracking-widest text-white"}
-          />
+          <a href="/">
+            <Heading
+              children={"Powerabode"}
+              className={"text-xl font-bold tracking-widest text-white"}
+            />
+          </a>
           <i
             className="bi bi-x-lg text-xl text-white"
             onClick={() => setIsOpen(false)}

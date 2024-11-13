@@ -24,22 +24,22 @@ const footer = () => {
       {/* <ImageSlider /> */}
       <h2 class="text-3xl font-bold my-10 text-center">Get in Touch</h2>
       <div className='px-4 md:px-20 lg:flex gap-5 my-10'>
-        <div class="w-full lg:w-1/2 bg-[#DCEEF0] py-6 px-4 md:py-12 md:px-20 rounded-3xl shadow-md">
-          <h2 class="text-3xl font-bold mb-6 text-center">Book A Session</h2>
+        <div class="w-full lg:w-1/2 py-6 px-4 md:py-12 md:px-20 rounded-xl border border-black">
+          <h2 class="text-3xl font-medium mb-6 text-center">Book A Session</h2>
           <form>
               <div class="mb-4">
-                  <input type="text" placeholder='Name' id="name" name="name" class="mt-1 block w-full border border-[#ced4da] rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black" />
+                  <input type="text" placeholder='Name' id="name" name="name" class="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black" />
               </div>
               <div class="mb-4">
-                  <input type="email" placeholder='Email' id="email" name="email" class="mt-1 block w-full border border-[#ced4da] rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black" />
+                  <input type="email" placeholder='Email' id="email" name="email" class="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black" />
               </div>
               <div class="mb-4">
-                  <input type="text" placeholder='Subject' id="subject" name="subject" class="mt-1 block w-full border border-[#ced4da] rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black" />
+                  <input type="text" placeholder='Subject' id="subject" name="subject" class="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black" />
               </div>
               <div class="mb-4">
-                  <textarea id="message" placeholder='Message' name="message" rows="4" class="mt-1 block w-full border border-[#ced4da] rounded-lg shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"></textarea> 
+                  <textarea id="message" placeholder='Message' name="message" rows="4" class="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"></textarea> 
               </div>
-              <button type="submit" className="text-white bg-[#29385E] py-3 my-5 rounded-lg w-full">Send</button>
+              <button type="submit" className="text-white bg-[#29385E] py-3 my-5 w-full">Send</button>
           </form>
         </div>
         <div className='w-full lg:w-1/2'>
@@ -115,7 +115,7 @@ const footer = () => {
     </div>
       {/* Footer Section */}
       <footer className=" text-white px-4 md:px-10 lg:px-20" 
-      style={{ backgroundColor: "" }}>
+      style={{ backgroundColor: "#F8F8F8" }}>
         <Row className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 md:px-10">
           {/* Logo and Copyright */}
           <div className="col-span-1 py-4 md:py-5 lg:py-10">

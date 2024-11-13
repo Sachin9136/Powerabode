@@ -14,7 +14,7 @@ import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import Card_slider from "../../components/card_slider/card_slider";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
-import { Tendering_Outsourcing_banner, Card_img, Bell, Injection, Ship, Category_1, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, Outsourcing } from "../../components/Img/ImportedImage";
+import { Tendering_Outsourcing_banner, Card_img, Bell, Injection, Ship, Tendering_outsourcing_points, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, Outsourcing, Check, SLA_tag_White } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -83,6 +83,41 @@ const About_us = () => {
       <CommanBanner children={Tendering_Outsourcing_banner} />
 
         <div className="px-4 md:px-20 my-10">
+          <div className="bg-cover bg-center w-full rounded-none md:rounded-xl px-1 py-5 md:p-6" style={{ backgroundImage: `url(${Tendering_outsourcing_points})` }}>
+            <div>
+              <div>
+                <img src={SLA_tag_White} alt="" />
+              </div>
+              <div className="flex justify-center items-center">
+                <div className="w-full lg:w-6/12 px-3 mt-5 md:mt-5">
+                  <div className="p-5 bg-[#1d345ec9] rounded-xl">
+                    <h2 className="text-3xl font-medium text-white mt-6 mb-3">
+                      The Result
+                    </h2>
+                    <ul>
+                      <li className="text-xl font-medium text-white my-4 flex gap-3">
+                        <img src={Check} alt="" /> Evaluation Models designed for best match
+                      </li>
+                      <li className="text-xl font-medium text-white my-4 flex gap-3">
+                        <img src={Check} alt="" /> Savings by applying our Cost Intelligence philosophy
+                      </li>
+                      <li className="text-xl font-medium text-white my-4 flex gap-3">
+                        <img src={Check} alt="" /> Remuneration model stimulating business delivery & pay for performance
+                      </li>
+                      <li className="text-xl font-medium text-white my-4 flex gap-3">
+                        <img src={Check} alt="" /> Effective tools to drive performance & bank savings
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="flex justify-end items-end">
+                <h3 className="text-2xl md:text-4xl font-semibold md:font-medium text-white mt-6 mb-3">
+                  Tendering & Outsourcing
+                </h3>
+              </div>
+            </div>
+          </div>
             <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Building and implementing Category & Contract Strategies</h2>
         </div>
 
@@ -120,9 +155,6 @@ const About_us = () => {
         </div>
 
         <div className="px-4 md:px-20 my-10">
-          <div>
-            <img className="w-full" src={Category_1} alt="" />
-          </div>
           <div className="my-6">
             <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway]">From a winning strategy to delivery            </h4>
           </div>

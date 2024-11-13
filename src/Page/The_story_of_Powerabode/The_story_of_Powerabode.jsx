@@ -37,7 +37,7 @@ const The_story_of_Powerabode = () => {
 
         <Row>
             <div className="px-4 md:px-20 my-10 block lg:flex justify-center gap-5">
-                <div className="w-full lg:2/6 border-2 bg-[#51A9B433] rounded-lg shadow-lg px-4 py-8 mb-6">
+                <div className="w-full lg:2/6 border border-black rounded-lg px-4 py-8 mb-6">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Projects, Operations and Maintenance are all part of our scope.</h3>
                     </div>
@@ -47,7 +47,7 @@ const The_story_of_Powerabode = () => {
                     </div>
                 </div>
 
-                <div className="w-full lg:2/6 border-2 bg-[#51A9B433] rounded-lg shadow-lg px-4 py-8 mb-6">
+                <div className="w-full lg:2/6 border border-black rounded-lg px-4 py-8 mb-6">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Every Supply Chain has Waste. We Fix It.</h3>
                     </div>

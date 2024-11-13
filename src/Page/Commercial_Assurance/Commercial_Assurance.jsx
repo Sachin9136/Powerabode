@@ -14,7 +14,7 @@ import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import Card_slider from "../../components/card_slider/card_slider";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
-import { Commercial_Assurance_banner, Card_img, Bell, Injection, Ship, Category_1, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract } from "../../components/Img/ImportedImage";
+import { Commercial_Assurance_banner, Card_img, Bell, Injection, Ship, Commercial_assurance_points, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, Sla_tag, Check } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -83,7 +83,42 @@ const About_us = () => {
       <CommanBanner children={Commercial_Assurance_banner} />
 
         <div className="px-4 md:px-20 my-10">
-            <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Building and implementing Category & Contract Strategies</h2>
+          <div className="bg-cover bg-center w-full rounded-none md:rounded-xl px-1 py-5 md:p-6" style={{ backgroundImage: `url(${Commercial_assurance_points})` }}>
+            <div>
+              <div>
+                <img src={Sla_tag} alt="" />
+              </div>
+              <div className="flex justify-center items-center">
+                <div className="w-full lg:w-6/12 px-3 mt-5 md:mt-5">
+                  <div className="p-5 bg-[#1d345ec9] rounded-xl">
+                    <h2 className="text-3xl font-medium text-white mt-6 mb-3">
+                      The Result
+                    </h2>
+                    <ul>
+                      <li className="text-xl font-medium text-white my-4 flex gap-3">
+                        <img src={Check} alt="" /> Compliant systems for your end-to-end Supply Chain
+                      </li>
+                      <li className="text-xl font-medium text-white my-4 flex gap-3">
+                        <img src={Check} alt="" /> Bespoke wireframe for your Supply chain
+                      </li>
+                      <li className="text-xl font-medium text-white my-4 flex gap-3">
+                        <img src={Check} alt="" /> Improved compliance using Assurance process
+                      </li>
+                      <li className="text-xl font-medium text-white my-4 flex gap-3">
+                        <img src={Check} alt="" /> powerabode Codex basis for client requirements
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="flex justify-end items-end">
+                <h3 className="text-2xl md:text-4xl font-semibold md:font-medium text-[#1b3b64] mt-6 mb-3">
+                Commercial Assurance
+                </h3>
+              </div>
+            </div>
+          </div>
+          <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Building and implementing Category & Contract Strategies</h2>
         </div>
 
         <div className="px-4 md:px-20">
@@ -120,9 +155,6 @@ const About_us = () => {
         </div>
 
         <div className="px-4 md:px-20 my-10">
-          <div>
-            <img className="w-full" src={Category_1} alt="" />
-          </div>
           <div className="my-6">
             <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway]">Compliance and Governance are key for our clients</h4>
           </div>

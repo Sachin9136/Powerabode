@@ -67,7 +67,7 @@ const About_us = () => {
 
       <Row>
         <div className="px-4 md:px-20 my-10 block lg:flex justify-center gap-5">
-          <div className="w-full lg:2/6 border-2 bg-[#51A9B433] rounded-lg shadow-lg px-8 pb-24 pt-16 mb-6">
+          <div className="w-full lg:2/6 border border-black rounded-lg px-8 pb-10 pt-10 mb-6">
             <div>
               <h3 className="text-center text-2xl font-bold mb-8">Lower rates</h3>
             </div>
@@ -76,7 +76,7 @@ const About_us = () => {
             </div>
           </div>
 
-          <div className="w-full lg:2/6 border-2 bg-[#51A9B433] rounded-lg shadow-lg px-8 pb-24 pt-16 mb-6">
+          <div className="w-full lg:2/6 border border-black rounded-lg px-8 pb-10 pt-10 mb-6">
             <div>
               <h3 className="text-center text-2xl font-bold mb-8">Efficiency & Specification</h3>
             </div>
@@ -85,7 +85,7 @@ const About_us = () => {
             </div>
           </div>
  
-          <div className="w-full lg:2/6 border-2 bg-[#51A9B433] rounded-lg shadow-lg px-8 pb-24 pt-16 mb-6">
+          <div className="w-full lg:2/6 border border-black rounded-lg px-8 pb-10 pt-10 mb-6">
             <div>
               <h3 className="text-center text-2xl font-bold mb-8">What else?</h3>
             </div>
@@ -108,29 +108,29 @@ const About_us = () => {
           <div>
             <div className="md:flex">
               <div className="w-full md:w-1/2">
-                <div className="w-full border-2 bg-[#51A9B433] rounded-lg shadow-lg px-8 pb-10 pt-8 mb-6">
+                <div className="w-full border border-black rounded-lg px-8 pb-10 pt-8 mb-6">
                   <div>
                     <h3 className="text-center text-2xl font-bold mb-7 text-[#59ADB7]">Why the ECMT?</h3>
                   </div>
                   <div>
-                    <p className=" text-medium font-medium mb-2">The ECMT is in the heart of the integrated supply chain (ISC).They use & influence contracts everyday. Why the ECMT?</p>
+                    <p className=" text-medium font-medium mb-2 text-[#504F4F]">The ECMT is in the heart of the integrated supply chain (ISC).They use & influence contracts everyday. Why the ECMT?</p>
                   </div>
                   <div>
                     <ul className="list-disc pl-8">
-                      <li className="my-1">Create sense of urgency</li>
-                      <li className="my-1">Create ownership of savings process</li>
-                      <li className="my-1">Has influence & control on commercial performance</li>
-                      <li className="my-1">Ideal platform to achieve cost efficiency</li>
+                      <li className="my-1 text-[#504F4F]">Create sense of urgency</li>
+                      <li className="my-1 text-[#504F4F]">Create ownership of savings process</li>
+                      <li className="my-1 text-[#504F4F]">Has influence & control on commercial performance</li>
+                      <li className="my-1 text-[#504F4F]">Ideal platform to achieve cost efficiency</li>
                     </ul>
                   </div>
                 </div>
 
-                <div className="w-full border-2 bg-[#51A9B433] rounded-lg shadow-lg px-8 pb-16 pt-8 mb-6">
+                <div className="w-full border border-black rounded-lg px-8 pb-16 pt-8 mb-6">
                   <div>
                     <h3 className="text-center text-2xl font-bold mb-7 text-[#59ADB7]">What is the Integrated Supply Chain?</h3>
                   </div>
                   <div>
-                    <p className=" text-medium font-medium mb-2">Integrated Supply Chain (ISC) is all about interdependence and synergy between Client and its contracts. Recognising and mastering these between multidisciplinary teams, is the key to long-term value preservation and operational effectiveness.</p>
+                    <p className=" text-medium font-medium mb-2 text-[#504F4F]">Integrated Supply Chain (ISC) is all about interdependence and synergy between Client and its contracts. Recognising and mastering these between multidisciplinary teams, is the key to long-term value preservation and operational effectiveness.</p>
                   </div>
                 </div>
               </div>

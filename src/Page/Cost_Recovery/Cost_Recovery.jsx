@@ -14,7 +14,7 @@ import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import Card_slider from "../../components/card_slider/card_slider";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
-import { Cost_Recovery_banner, Card_img, Bell, Injection, Ship, Category_1, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract } from "../../components/Img/ImportedImage";
+import { Cost_Recovery_banner, Card_img, Cost_recovery_points, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, Sla_tag, Check } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -83,46 +83,45 @@ const About_us = () => {
       <CommanBanner children={Cost_Recovery_banner} />
 
         <div className="px-4 md:px-20 my-10">
+          <div className="bg-cover bg-center w-full rounded-none md:rounded-xl px-1 py-5 md:p-6" style={{ backgroundImage: `url(${Cost_recovery_points})` }}>
+            <div>
+              <div>
+                <img src={Sla_tag} alt="" />
+              </div>
+              <div className="flex justify-center items-center">
+                <div className="w-full lg:w-6/12 px-3 mt-5 md:mt-5">
+                  <div className="p-5 bg-[#1d345ec9] rounded-xl">
+                    <h2 className="text-3xl font-medium text-white mt-6 mb-3">
+                      The Result
+                    </h2>
+                    <ul>
+                      <li className="text-xl font-medium text-white my-4 flex gap-3">
+                        <img src={Check} alt="" /> Experts in control – understanding the project
+                      </li>
+                      <li className="text-xl font-medium text-white my-4 flex gap-3">
+                        <img src={Check} alt="" /> Best practices cost recovery
+                      </li>
+                      <li className="text-xl font-medium text-white my-4 flex gap-3">
+                        <img src={Check} alt="" /> Full recovery – fair challenge – avoid claims
+                      </li>
+                      <li className="text-xl font-medium text-white my-4 flex gap-3">
+                        <img src={Check} alt="" /> Compliant evidence for recovery
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="flex justify-end items-end">
+                <h3 className="text-2xl md:text-4xl font-semibold md:font-medium text-[#1b3b64] mt-6 mb-3">
+                Cost Recovery
+                </h3>
+              </div>
+            </div>
+          </div>
             <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Building and implementing Category & Contract Strategies</h2>
         </div>
 
-        {/* <div className="px-4 md:px-20">
-            <Row>
-                <div className="my-10 block lg:flex justify-center gap-5">
-                    <div className="w-full lg:2/6 shadow-lg rounded-lg px-8 pb-12 pt-5 mb-6 border-2 border-black">
-                        <div className="my-10 flex justify-center">
-                            <img src={Bell} alt="" />
-                        </div>
-                        <div>
-                            <p className="text-center text-medium font-medium">Post Covid we realised that some risks are real and some risks are new</p>
-                        </div>
-                    </div>
-
-                    <div className="w-full lg:2/6 shadow-lg rounded-lg px-8 pb-12 pt-5 mb-6 border-2 border-black">
-                        <div className="my-10 flex justify-center">
-                            <img src={Injection} alt="" />
-                        </div>
-                        <div>
-                            <p className="text-center text-medium font-medium">Covid 19 impact requires us to reassess our Category Strategies</p>
-                        </div>
-                    </div>
-
-                    <div className="w-full lg:2/6 shadow-lg rounded-lg px-8 pb-12 pt-5 mb-6 border-2 border-black">
-                        <div className="my-10 flex justify-center">
-                            <img src={Ship} alt="" />
-                        </div>
-                        <div>
-                            <p className="text-center text-medium font-medium">New energies require new Strategy. Energy transition is not about copying the traditional supply chain.</p>
-                        </div>
-                    </div>
-                </div>
-            </Row>
-        </div> */}
-
         <div className="px-4 md:px-20 my-10">
-          <div>
-            <img className="w-full" src={Category_1} alt="" />
-          </div>
           <div className="my-6">
             <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway]">Understanding the Cost.            </h4>
           </div>

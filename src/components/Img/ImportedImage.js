@@ -111,6 +111,15 @@ import Materials_Management_banner from "../../../src/assets/Images/Materials_Ma
 import Post_Award_banner from "../../../src/assets/Images/Post_Award_banner.svg";
 import Outsourcing from "../../../src/assets/Images/OUTSOURCING.svg";
 import CVI_Logo from "../../../src/assets/Images/CVI_Logo.svg";
+import Category_strategy_points from "../../../src/assets/Images/category-strategy_points.jpg";
+import Post_award_points from "../../../src/assets/Images/post-award_points.webp";
+import Commercial_assurance_points from "../../../src/assets/Images/commercial-assurance_points.webp";
+import Cost_recovery_points from "../../../src/assets/Images/cost-recovery_points.webp";
+import Tendering_outsourcing_points from "../../../src/assets/Images/tendering-outsourcing_points.webp";
+import Materials_management_points from "../../../src/assets/Images/materials-management_points.webp";
+import Sla_tag from "../../../src/assets/Images/Sla_tag.png";
+import SLA_tag_White from "../../../src/assets/Images/SLA_tag_White.png";
+import Tier_structure from "../../../src/assets/Images/Tier_structure.svg";
 
 
 
@@ -125,4 +134,5 @@ Supply_Chain_Resilience, Cost_Efficiency, Program_img, Energy_Transition, Why_po
 Why_powerabode_5, Why_powerabode_6, Why_powerabode_7, Why_powerabode_8, Category_Strategy_banner, Bell, Injection, Ship, CM_for_Contract_banner,
 CM_for_Contract_1, CM_for_Contract_2, CM_for_Contract_3, CM_for_Contract_4, Check, Skillset_Development_banner, Skillset_Development_1, Skillset_Development_2, Skillset_Development_3, Skillset_Development_4,
 Deal_Design_banner, Deal_Design1, Deal_Design2, Deal_Design3, Downarrow_white, CODEX_Supply_Chain_banner, CODEX_1, CODEX_2, CODEX_3, Tick, Dash, slider_1, slider_2, slider_3, slider_4, slider_5, Whatsapp_icon,
-Intelligence, DNA, Category_1, one, two, three, Commercial_Assurance_banner, Cost_Recovery_banner, Tendering_Outsourcing_banner, Materials_Management_banner, Post_Award_banner, Outsourcing, CVI_Logo };
+Intelligence, DNA, Category_1, one, two, three, Commercial_Assurance_banner, Cost_Recovery_banner, Tendering_Outsourcing_banner, Materials_Management_banner, Post_Award_banner, Outsourcing, CVI_Logo,
+Category_strategy_points, Post_award_points, Commercial_assurance_points, Cost_recovery_points, Tendering_outsourcing_points, Materials_management_points, Sla_tag, SLA_tag_White, Tier_structure };

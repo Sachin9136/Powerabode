@@ -41,6 +41,7 @@ function Navbar() {
       submenu: [
         { id: 1.1, name: "Cost and Value Philosophy", link: "/cost-and-value-philosophy" },
         { id: 1.2, name: "Article & Business Cases", link: "/article-business-cases-background" },
+        { id: 1.2, name: "Blog", link: "/drilling-cost-transformation" },
       ],
     },
     { id: 2, name: "About Us & Themes", link: "/the-story-of-powerabode" },
@@ -113,7 +114,7 @@ function Navbar() {
                       key={subItem.id}
                       to={subItem.link}
                       className="block px-4 py-2 text-sm text-black hover:bg-gray-100"
-                      onClick={() => toggleSubmenu(item.id, true)}  // Close submenu on click
+                      onClick={() => toggleSubmenu(item.id, true)} 
                     >
                       {subItem.name}
                     </NavLink>

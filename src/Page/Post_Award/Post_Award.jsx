@@ -14,7 +14,7 @@ import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import Card_slider from "../../components/card_slider/card_slider";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
-import { Post_Award_banner, Card_img, Bell, Injection, Ship, Category_1, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract } from "../../components/Img/ImportedImage";
+import { Post_Award_banner, Card_img, Bell, Injection, Ship, Category_1, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, Post_award_points, SLA_tag_White, Check, } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -81,6 +81,53 @@ const About_us = () => {
   return (
     <>
       <CommanBanner children={Post_Award_banner} />
+
+        <div className="px-0 md:px-20 my-10">
+          <div className="bg-cover bg-center w-full rounded-none md:rounded-xl px-1 py-5 md:p-6" style={{ backgroundImage: `url(${Post_award_points})` }}>
+            <div>
+              <div>
+                <img src={SLA_tag_White} alt="" />
+              </div>
+              <div className="flex justify-center items-center">
+                <div className="w-full lg:w-6/12 px-3 mt-5 md:mt-5">
+                  <div className="p-5 bg-[#1d345ec9] rounded-xl">
+                    <h2 className="text-3xl font-medium text-white mt-6 mb-3">
+                      The Result
+                    </h2>
+                    <ul>
+                      <li className="text-xl font-medium text-white my-3 flex gap-3">
+                        <img src={Check} alt="" /> Highly effective ECMT with ISC skillsets; delivering cost efficiency
+                      </li>
+                      <li className="text-xl font-medium text-white my-3 flex gap-3">
+                        <img src={Check} alt="" /> Bespoke tools to drive contract performance and bank savings
+                      </li>
+                      <li className="text-xl font-medium text-white my-3 flex gap-3">
+                        <img src={Check} alt="" /> Cost Intelligence delivers savings from efficiency/specification/rates
+                      </li>
+                      <li className="text-xl font-medium text-white my-3 flex gap-3">
+                        <img src={Check} alt="" /> Interface manager guarantees cost efficiency
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="flex justify-end items-end">
+                <h3 className="text-2xl md:text-4xl font-semibold md:font-medium text-white mt-6 mb-3">
+                  Post Award Contract Management  
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div className="my-6">
+            <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway]">
+              ‘If you always do what you always did, you will always get what you
+              always got.’
+            </h4>
+            <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway] mt-2">
+              -Henry Ford
+            </h4>
+          </div>
+        </div>
 
         <div className="px-4 md:px-20 my-10">
             <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Building and implementing Category & Contract Strategies</h2>
