@@ -160,7 +160,7 @@ const The_story_of_Powerabode = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div>
                         <div>
-                        <img className="h-48 w-48 mx-auto border-[#4C78B5] border-[12px] rounded-full" src={Codex} alt="" />
+                        <img className="h-64 w-64 mx-auto border-[#4C78B5] border-[20px] p-5 rounded-full" src={Codex} alt="" />
                         </div>
                         <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Codex</p>
@@ -170,7 +170,7 @@ const The_story_of_Powerabode = () => {
 
                     <div>
                         <div>
-                        <img className="h-48 w-48 mx-auto border-[#8F4A81] border-[12px] rounded-full" src={CM} alt="" />
+                        <img className="h-64 w-64 mx-auto border-[#8F4A81] border-[20px] p-5 rounded-full" src={CM} alt="" />
                         </div>
                         <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
@@ -184,7 +184,7 @@ const The_story_of_Powerabode = () => {
 
                     <div>
                         <div>
-                        <img className="h-48 w-48 mx-auto border-[#9ED033] border-[12px] rounded-full" src={Codex} alt="" />
+                        <img className="h-64 w-64 mx-auto border-[#9ED033] border-[20px] p-5 rounded-full" src={Codex} alt="" />
                         </div>
                         <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Supply Chain by SLA</p>
@@ -231,7 +231,7 @@ const The_story_of_Powerabode = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div>
                         <div>
-                        <img className="h-48 w-48 mx-auto border-[#4C78B5] border-[12px] rounded-full" src={Codex} alt="" />
+                        <img className="h-64 w-64 mx-auto border-[#4C78B5] border-[20px] p-5 rounded-full" src={Codex} alt="" />
                         </div>
                         <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Codex</p>
@@ -241,7 +241,7 @@ const The_story_of_Powerabode = () => {
 
                     <div>
                         <div>
-                        <img className="h-48 w-48 mx-auto border-[#8F4A81] border-[12px] rounded-full" src={CM} alt="" />
+                        <img className="h-64 w-64 mx-auto border-[#8F4A81] border-[20px] p-5 rounded-full" src={CM} alt="" />
                         </div>
                         <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
@@ -255,7 +255,7 @@ const The_story_of_Powerabode = () => {
 
                     <div>
                         <div>
-                        <img className="h-48 w-48 mx-auto border-[#9ED033] border-[12px] rounded-full" src={Codex} alt="" />
+                        <img className="h-64 w-64 mx-auto border-[#9ED033] border-[20px] p-5 rounded-full" src={Codex} alt="" />
                         </div>
                         <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Supply Chain by SLA</p>
@@ -265,7 +265,7 @@ const The_story_of_Powerabode = () => {
 
                     <div>
                         <div>
-                        <img className="h-48 w-48 mx-auto border-[#01BCB1] border-[12px] rounded-full" src={Program_img} alt="" />
+                        <img className="h-64 w-64 mx-auto border-[#01BCB1] border-[20px] p-5 rounded-full" src={Program_img} alt="" />
                         </div>
                         <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Program</p>
@@ -303,7 +303,7 @@ const The_story_of_Powerabode = () => {
 
         <div className="px-4 md:px-20">
             <div>
-                <h2 className='text-center text-3xl font-bold text-[#29385E] my-10'>Products & Services for Supply Chain Resilience</h2>
+                <h2 className='text-center text-3xl font-bold text-[#29385E] my-10'>Products & Services for Supply Chain Resilience</h2>
             </div>   
         </div>
 
@@ -312,7 +312,7 @@ const The_story_of_Powerabode = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     <div>
                         <div>
-                        <img className="h-48 w-48 mx-auto border-[#4C78B5] border-[12px] rounded-full" src={Codex} alt="" />
+                            <img className="h-64 w-64 mx-auto border-[#4C78B5] border-[20px] p-5 rounded-full" src={Codex} alt="" />
                         </div>
                         <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Codex</p>
@@ -322,7 +322,7 @@ const The_story_of_Powerabode = () => {
 
                     <div>
                         <div>
-                        <img className="h-48 w-48 mx-auto border-[#8F4A81] border-[12px] rounded-full" src={CM} alt="" />
+                        <img className="h-64 w-64 mx-auto border-[#8F4A81] border-[20px] p-5 rounded-full" src={CM} alt="" />
                         </div>
                         <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
@@ -336,7 +336,7 @@ const The_story_of_Powerabode = () => {
 
                     <div>
                         <div>
-                        <img className="h-48 w-48 mx-auto border-[#9ED033] border-[12px] rounded-full" src={Codex} alt="" />
+                        <img className="h-64 w-64 mx-auto border-[#9ED033] border-[20px] p-5 rounded-full" src={Codex} alt="" />
                         </div>
                         <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Supply Chain by SLA</p>
