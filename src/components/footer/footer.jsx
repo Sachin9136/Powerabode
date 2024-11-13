@@ -114,7 +114,7 @@ const footer = () => {
         </div>
     </div>
       {/* Footer Section */}
-      <footer className=" text-white px-4 md:px-10 lg:px-20" 
+      <footer className=" px-4 md:px-10 lg:px-20" 
       style={{ backgroundColor: "#F8F8F8" }}>
         <Row className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 md:px-10">
           {/* Logo and Copyright */}
@@ -194,7 +194,7 @@ const footer = () => {
         </Row>
         <Row>
           <div className='text-center pb-10'>
-            <p className="mt-2 mx-auto text-white text-lg font-medium ">
+            <p className="mt-2 mx-auto text-lg font-medium ">
             <span className='underline underline-offset-4'>Disclaimer</span> <span className="text-2xl text-white"> | </span> <span className='underline underline-offset-4'>Cookie & Privacy Policy</span> <span className="text-2xl text-white"> | </span> <span className='underline underline-offset-4'>Copyright</span> <span className="text-2xl text-white"> | </span> <span className='underline underline-offset-4'>©powerabode.com 2024</span>
             </p>
           </div>
