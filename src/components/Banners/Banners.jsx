@@ -46,32 +46,40 @@ const CustomBanner = () => {
       image: Banner_slider1,
       image2: icons,
       title: 'Driven by Energy',
-      subtitle: 'Driven by Energy',
-      description: 'Delivering value improvement & cost optimization.',
+      subtitle: 'Delivering value improvement & cost optimisation',
+      description: 'Powerabode is an expert in the supply chain and procurement space of large energy assets.',
+      description2: 'Consulting, Outsourcing, and Specialist Systems by frontline experts ready for implementation.',
+      gradient: 'bg-[linear-gradient(150deg,#00abb8,#1d345e)]', // Gradient for first banner
     },
     {
       id: 2,
       image: Banner_slider_2,
       image2: icons,
       title: 'Sustainable Solutions',
-      subtitle: 'Driven by Energy',
-      description: 'Innovating for a greener future.',
+      subtitle: 'Delivering value improvement & cost optimisation',
+      description: 'Powerabode is an expert in the supply chain and procurement space of large energy assets.',
+      description2: 'Consulting, Outsourcing, and Specialist Systems by frontline experts ready for implementation.',
+      gradient: 'bg-[linear-gradient(0deg,#08aeea,#2af598)]', // Gradient for second banner
     },
     {
       id: 3,
       image: Banner_slider_3,
       image2: icons,
       title: 'Global Impact',
-      subtitle: 'Driven by Energy',
-      description: 'Expanding our reach worldwide.',
+      subtitle: 'Delivering value improvement & cost optimisation',
+      description: 'Powerabode is an expert in the supply chain and procurement space of large energy assets.',
+      description2: 'Consulting, Outsourcing, and Specialist Systems by frontline experts ready for implementation.',
+      gradient: 'bg-[linear-gradient(150deg,#f97316,#ea580c)]', // Gradient for third banner
     },
     {
       id: 4,
       image: Banner_slider_4,
       image2: icons,
       title: 'Global Impact',
-      subtitle: 'Driven by Energy',
-      description: 'Expanding our reach worldwide.',
+      subtitle: 'Delivering value improvement & cost optimisation',
+      description: 'Powerabode is an expert in the supply chain and procurement space of large energy assets.',
+      description2: 'Consulting, Outsourcing, and Specialist Systems by frontline experts ready for implementation.',
+      gradient: 'bg-[linear-gradient(150deg,#9333ea,#a855f7)]', // Gradient for fourth banner
     },
   ];
 
@@ -89,9 +97,11 @@ const CustomBanner = () => {
 
             {/* Overlay content */}
             <div className="absolute inset-0 flex items-center">
-              <div className="text-center text-white animate-bubble ml-0 md:ml-20 px-8 py-10 lg:px-28 lg:py-48 bg-[linear-gradient(150deg,#00abb8,#1d345e)]">
-              <h2 className="text-2xl lg:text-6xl mb-2" style={{ fontWeight: 300 }}>{banner.title}</h2>
+            <div className={`w-[600px] text-center text-white animate-bubble ml-0 md:ml-20 px-8 py-10 lg:px-14 lg:py-28 ${banner.gradient}`}>
+                <h2 className="text-2xl lg:text-6xl mb-2" style={{ fontWeight: 300 }}>{banner.title}</h2>
+                <h4 className="text-2xl lg:text-2xl mb-2" style={{ fontWeight: 300 }}>{banner.subtitle}</h4>
                 <p className="text-xl lg:text-xl font-medium">{banner.description}</p>
+                <p className="text-xl lg:text-xl font-medium">{banner.description2}</p>
               </div>
             </div>
           </div>

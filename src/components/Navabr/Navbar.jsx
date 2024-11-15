@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import { Column, Row, Wraper } from "../ComponentsIndex";
+import { Column, Row } from "../ComponentsIndex";
 import OffCanvas from "./Drawer";
 import { useNavigate } from "react-router-dom";
 import DownArrow from "../../assets/Images/down-arrow-menu.svg"; 
@@ -21,6 +21,24 @@ function Navbar() {
   });
 
   const [searchTerm, setSearchTerm] = useState("");
+  const [isSticky, setIsSticky] = useState(false); // State for sticky navbar
+
+  // Detect scroll to toggle sticky navbar
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 200) { // You can adjust this value for when the navbar becomes sticky
+        setIsSticky(true);
+      } else {
+        setIsSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   const toggleSubmenu = (id, close = false) => {
     setIsSubmenuOpen((prevState) => ({
@@ -74,7 +92,7 @@ function Navbar() {
   ];
 
   return (
-    <Row className="flex justify-around items-center px-14 py-8 shadow-sm">
+    <Row className={`flex justify-around items-center px-14 py-8 shadow-sm transition-all duration-500 ${isSticky ? "fixed top-0 left-0 w-full bg-white z-50 shadow-lg" : "relative bg-transparent"}`}>
       <Column className="flex items-center">
         <OffCanvas />
         <a href="/"><img src={Logo} alt="Logo" width="200px" /></a>
@@ -124,24 +142,6 @@ function Navbar() {
             </div>
           ))}
         </Column>
-
-        {/* Search Bar */}
-        {/* <Column className="hidden md:flex items-center space-x-4 px-5">
-          <Wraper className="relative">
-            <input
-              type="text"
-              value={searchTerm}
-              onChange={handleSearch}
-              placeholder="Search"
-              className="border rounded-full px-4 py-2 w-52 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              style={{
-                backgroundImage: `url('/path-to-search-icon.png')`,
-                backgroundRepeat: 'no-repeat',
-                backgroundPosition: '10px center',
-              }}
-            />
-          </Wraper>
-        </Column> */}
       </Column>
     </Row>
   );

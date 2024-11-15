@@ -125,9 +125,20 @@ import Banner_slider_2 from "../../../src/assets/Images/Banner_slider_2.webp";
 import Banner_slider_3 from "../../../src/assets/Images/Banner_slide_3.webp";
 import Banner_slider_4 from "../../../src/assets/Images/Banner_slider_4.webp";
 import icons from "../../../src/assets/Images/icons.svg";
-
-
-
+import Cycle from "../../../src/assets/Images/cycle.jpeg";
+import Lion from "../../../src/assets/Images/lion.jpeg";
+import Snow from "../../../src/assets/Images/snow.jpeg";
+import Tower from "../../../src/assets/Images/tower.jpeg";
+import Find_the_gap from "../../../src/assets/Images/find_the_gap.jpeg";
+import Island from "../../../src/assets/Images/island.jpeg";
+import Structure from "../../../src/assets/Images/structure.jpeg";
+import Scm from "../../../src/assets/Images/scm.jpeg";
+import Dna_img from "../../../src/assets/Images/dna_img.jpeg";
+import Racks from "../../../src/assets/Images/racks.jpeg";
+import Boxes from "../../../src/assets/Images/boxes.jpeg";
+import Strategy from "../../../src/assets/Images/strategy.jpeg";
+import Mountains from "../../../src/assets/Images/mountains.jpeg";
+import Google from "../../../src/assets/Images/google.jpeg";
 
 export {
 Logo, Down_arrow_menu, Hero_banner, Cost_optimization, Downstream, Hydrogen, Nuclear, Power, Renewable_wind, Renewable, Upstream_offshore, Upstream_onshore, Water,
@@ -141,4 +152,4 @@ CM_for_Contract_1, CM_for_Contract_2, CM_for_Contract_3, CM_for_Contract_4, Chec
 Deal_Design_banner, Deal_Design1, Deal_Design2, Deal_Design3, Downarrow_white, CODEX_Supply_Chain_banner, CODEX_1, CODEX_2, CODEX_3, Tick, Dash, slider_1, slider_2, slider_3, slider_4, slider_5, Whatsapp_icon,
 Intelligence, DNA, Category_1, one, two, three, Commercial_Assurance_banner, Cost_Recovery_banner, Tendering_Outsourcing_banner, Materials_Management_banner, Post_Award_banner, Outsourcing, CVI_Logo,
 Category_strategy_points, Post_award_points, Commercial_assurance_points, Cost_recovery_points, Tendering_outsourcing_points, Materials_management_points, Sla_tag, SLA_tag_White, Tier_structure,
-Banner_slider1, Banner_slider_2, Banner_slider_3, Banner_slider_4, icons };
+Banner_slider1, Banner_slider_2, Banner_slider_3, Banner_slider_4, icons, Cycle, Lion, Snow, Tower, Find_the_gap, Island, Structure, Scm, Dna_img, Racks, Boxes, Strategy, Mountains, Google  };
