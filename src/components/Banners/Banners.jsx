@@ -69,7 +69,7 @@ const CustomBanner = () => {
       subtitle: 'Delivering value improvement & cost optimisation',
       description: 'Powerabode is an expert in the supply chain and procurement space of large energy assets.',
       description2: 'Consulting, Outsourcing, and Specialist Systems by frontline experts ready for implementation.',
-      gradient: 'bg-[linear-gradient(150deg,#f97316,#ea580c)]', // Gradient for third banner
+      gradient: 'bg-[linear-gradient(0deg,#636363,#a2ab58)]', // Gradient for third banner
     },
     {
       id: 4,
@@ -79,26 +79,26 @@ const CustomBanner = () => {
       subtitle: 'Delivering value improvement & cost optimisation',
       description: 'Powerabode is an expert in the supply chain and procurement space of large energy assets.',
       description2: 'Consulting, Outsourcing, and Specialist Systems by frontline experts ready for implementation.',
-      gradient: 'bg-[linear-gradient(150deg,#9333ea,#a855f7)]', // Gradient for fourth banner
+      gradient: 'bg-[linear-gradient(150deg,#00abb8,#1d345e)]', // Gradient for fourth banner
     },
   ];
 
   return (
-    <div className="relative">
+    <div className="relative ">
       <Slider {...settings}>
         {banners.map((banner) => (
           <div key={banner.id} className="relative">
-            <img className='absolute left-28 md:block' src={banner.image2} alt="" />
+            <img className='absolute left-28 hidden md:block icons_img' src={banner.image2} alt="" />
             <img
               src={banner.image}
               alt={banner.title}
-              className="w-full object-cover"
+              className="w-full object-cover h-[700px] md:h-[700px] lg:h-[900px]"
             />
 
             {/* Overlay content */}
-            <div className="absolute inset-0 flex items-center">
-            <div className={`w-[600px] text-center text-white animate-bubble ml-0 md:ml-20 px-8 py-10 lg:px-14 lg:py-28 ${banner.gradient}`}>
-                <h2 className="text-2xl lg:text-6xl mb-2" style={{ fontWeight: 300 }}>{banner.title}</h2>
+            <div className="absolute inset-0 flex items-center justify-center md:justify-start">
+              <div className={`w-full lg:w-[600px] text-white ml-0 md:ml-20 px-12 py-20 md:px-16 md:py-24 lg:px-14 lg:py-28 wave-container ${banner.gradient}`}>
+                <h2 className="text-4xl lg:text-6xl mb-2" style={{ fontWeight: 300 }}>{banner.title}</h2>
                 <h4 className="text-2xl lg:text-2xl mb-2" style={{ fontWeight: 300 }}>{banner.subtitle}</h4>
                 <p className="text-xl lg:text-xl font-medium">{banner.description}</p>
                 <p className="text-xl lg:text-xl font-medium">{banner.description2}</p>

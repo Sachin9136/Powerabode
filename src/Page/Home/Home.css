@@ -121,3 +121,55 @@
   .slick-next {
     right: 0px !important;
 }
+
+.wave-container {
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    animation: wave-motion 5s infinite linear;
+    /* background: linear-gradient(150deg,#00abb8,#1d345e); */
+    box-shadow: 0 4px 10px #0003
+}
+
+.icons_img{
+    display: none !important;
+}
+
+@keyframes wave-motion {
+    0% {
+        transform: scale(1.1);
+        border-radius: 50% 45% 55% 40%/40% 60% 35% 65%
+    }
+
+    50% {
+        transform: scale(1);
+        border-radius: 45% 50% 40% 60%/60% 40% 65% 35%
+    }
+
+    to {
+        transform: scale(1.1);
+        border-radius: 50% 45% 55% 40%/40% 60% 35% 65%
+    }
+}
+
+@media (max-width: 768px) {
+    .wave-container {
+        width:80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .wave-container {
+        width:90%;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .icons_img{
+        display: block !important;
+    }
+
+}
+
