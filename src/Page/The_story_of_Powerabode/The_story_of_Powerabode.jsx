@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import {
   Column,
   Heading,
-  Row,
+  Row, 
   Span,
   Wraper,
   Button,

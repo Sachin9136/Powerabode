@@ -120,6 +120,11 @@ import Materials_management_points from "../../../src/assets/Images/materials-ma
 import Sla_tag from "../../../src/assets/Images/Sla_tag.png";
 import SLA_tag_White from "../../../src/assets/Images/SLA_tag_White.png";
 import Tier_structure from "../../../src/assets/Images/Tier_structure.svg";
+import Banner_slider1 from "../../../src/assets/Images/Banner_slider1.webp";
+import Banner_slider_2 from "../../../src/assets/Images/Banner_slider_2.webp";
+import Banner_slider_3 from "../../../src/assets/Images/Banner_slide_3.webp";
+import Banner_slider_4 from "../../../src/assets/Images/Banner_slider_4.webp";
+import icons from "../../../src/assets/Images/icons.svg";
 
 
 
@@ -135,4 +140,5 @@ Why_powerabode_5, Why_powerabode_6, Why_powerabode_7, Why_powerabode_8, Category
 CM_for_Contract_1, CM_for_Contract_2, CM_for_Contract_3, CM_for_Contract_4, Check, Skillset_Development_banner, Skillset_Development_1, Skillset_Development_2, Skillset_Development_3, Skillset_Development_4,
 Deal_Design_banner, Deal_Design1, Deal_Design2, Deal_Design3, Downarrow_white, CODEX_Supply_Chain_banner, CODEX_1, CODEX_2, CODEX_3, Tick, Dash, slider_1, slider_2, slider_3, slider_4, slider_5, Whatsapp_icon,
 Intelligence, DNA, Category_1, one, two, three, Commercial_Assurance_banner, Cost_Recovery_banner, Tendering_Outsourcing_banner, Materials_Management_banner, Post_Award_banner, Outsourcing, CVI_Logo,
-Category_strategy_points, Post_award_points, Commercial_assurance_points, Cost_recovery_points, Tendering_outsourcing_points, Materials_management_points, Sla_tag, SLA_tag_White, Tier_structure };
+Category_strategy_points, Post_award_points, Commercial_assurance_points, Cost_recovery_points, Tendering_outsourcing_points, Materials_management_points, Sla_tag, SLA_tag_White, Tier_structure,
+Banner_slider1, Banner_slider_2, Banner_slider_3, Banner_slider_4, icons };
