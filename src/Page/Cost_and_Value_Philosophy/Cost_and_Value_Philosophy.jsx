@@ -14,6 +14,7 @@ import ImageSlider from "../../components/ImageSlider/ImageSlider";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import How_we_help_client from "../../components/How_we_help_client/How_we_help_client";
+import Cards from "../../components/Cards/Cards";
 import { Cost_and_Value_Philosophy_banner, Cost_and_Value_Philosophy, EMCT_bar, EMCT_circle, Intelligence } from "../../components/Img/ImportedImage";
 
 const About_us = () => {
@@ -24,10 +25,7 @@ const About_us = () => {
 
       <Row>
         <div className="px-4 md:px-20 my-10 lg:flex justify-center items-center">
-          <div className="w-full lg:w-2/5 flex justify-center">
-            <img src={Cost_and_Value_Philosophy} alt="" />
-          </div>
-          <div className="w-full lg:w-3/5">
+          <div className="w-full lg:w-2/5">
             <div className='bg-white py-5'>
               <h2 className='text-center text-3xl font-bold text-[#29385E]'>Cost and Value Philosophy</h2>
               <p className='text-center text-2xl font-medium mt-3'>How to deliver cost efficiency and value improvement?</p>
@@ -49,6 +47,9 @@ const About_us = () => {
                 </ul>
               </div>
             </div>
+          </div>
+          <div className="w-full lg:w-3/5 flex justify-center">
+            <img className="w-[80%]" src={Cost_and_Value_Philosophy} alt="" />
           </div>
         </div>
       </Row>
@@ -105,15 +106,33 @@ const About_us = () => {
             </div>
           </div>
 
+          <div className="flex items-center">
+            <div className="w-full md:w-1/2">
+              <div className="flex justify-center mb-5">
+                <img className="w-[80%]" src={EMCT_circle} alt="" />
+              </div>
+            </div>
+            <div className="w-full md:w-1/2">
+              <div className="">
+                <img className="w-[80%]" src={EMCT_bar} alt="" />
+                <div className="flex justify-center">
+                  <img className="w-60" src={Intelligence} alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div>
-            <div className="md:flex">
+            <div className="md:flex justify-center items-stretch gap-4"> {/* Changed from items-center to items-stretch */}
               <div className="w-full md:w-1/2">
-                <div className="w-full border border-black rounded-lg px-8 pb-10 pt-8 mb-6">
+                <div className="w-full border border-black rounded-lg px-8 pb-10 pt-8 mb-6 h-full"> {/* Added h-full */}
                   <div>
                     <h3 className="text-center text-2xl font-bold mb-7 text-[#59ADB7]">Why the ECMT?</h3>
                   </div>
                   <div>
-                    <p className=" text-medium font-medium mb-2 text-[#504F4F]">The ECMT is in the heart of the integrated supply chain (ISC).They use & influence contracts everyday. Why the ECMT?</p>
+                    <p className="text-medium font-medium mb-2 text-[#504F4F]">
+                      The ECMT is in the heart of the integrated supply chain (ISC). They use & influence contracts everyday. Why the ECMT?
+                    </p>
                   </div>
                   <div>
                     <ul className="list-disc pl-8">
@@ -124,26 +143,22 @@ const About_us = () => {
                     </ul>
                   </div>
                 </div>
-
-                <div className="w-full border border-black rounded-lg px-8 pb-16 pt-8 mb-6">
+              </div>
+              <div className="w-full md:w-1/2">
+                <div className="w-full border border-black rounded-lg px-8 pb-10 pt-8 mb-6 h-full"> {/* Added h-full */}
                   <div>
                     <h3 className="text-center text-2xl font-bold mb-7 text-[#59ADB7]">What is the Integrated Supply Chain?</h3>
                   </div>
                   <div>
-                    <p className=" text-medium font-medium mb-2 text-[#504F4F]">Integrated Supply Chain (ISC) is all about interdependence and synergy between Client and its contracts. Recognising and mastering these between multidisciplinary teams, is the key to long-term value preservation and operational effectiveness.</p>
+                    <p className="text-medium font-medium mb-2 text-[#504F4F]">
+                      Integrated Supply Chain (ISC) is all about interdependence and synergy between Client and its contracts. Recognising and mastering these between multidisciplinary teams, is the key to long-term value preservation and operational effectiveness.
+                    </p>
                   </div>
-                </div>
-              </div>
-              <div className="w-full md:w-1/2">
-                <div className="flex justify-center mb-5">
-                  <img src={EMCT_circle} alt="" />
-                </div>
-                <div className="flex justify-center">
-                  <img src={EMCT_bar} alt="" />
                 </div>
               </div>
             </div>
           </div>
+
         </div>
       </Row>
 
@@ -165,7 +180,11 @@ const About_us = () => {
 
       <div className="hidden md:flex">
         <ImageSlider />
-    </div>
+      </div>
+
+      <div className="px-4 md:px-20">
+        <Cards />
+      </div>
 
       <Footer />
     </>

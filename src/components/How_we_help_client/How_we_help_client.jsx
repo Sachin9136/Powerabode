@@ -26,7 +26,7 @@ const Card = ({ imgSrc, title, content, borderColor }) => {
       </p>
       <button
         onClick={handleReadMore}
-        className="text-white bg-[#1B3B64] mt-2 text-center block mx-auto border-2 border-black px-5 py-2 rounded-md"
+        className=" mt-2 text-center block mx-auto underline underline-offset-2"
       >
         {isExpanded ? "Read Less" : "Read More"}
       </button>

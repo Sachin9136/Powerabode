@@ -64,26 +64,26 @@ const The_story_of_Powerabode = () => {
 
         <Row>
             <div className="px-4 md:px-20 my-10 lg:flex justify-center items-center">
-                <div className="w-full lg:w-2/5 flex justify-center">
-                <img src={Cost_and_Value_Philosophy} alt="" />
-                </div>
-                <div className="w-full lg:w-3/5">
-                <div className='bg-white py-5'>
-                    <h2 className='text-center text-3xl font-bold text-[#29385E]'>Cost and Value Intelligence Philosophy</h2>
-                    <p className='text-center text-2xl font-medium mt-3'>How to deliver cost efficiency and value improvement?</p>
-                    <p className='text-2xl text-[#4AC4D9] font-medium text-center'>We help you do it.</p>
-                </div>
-                <div className='flex justify-center'> 
-                    <div className='w-full px-4'>
-                    <ul className='list-disc pl-8'>
-                        <li className='mt-2 font-medium text-md'>All our products and services are built around our cost and value philosophy. It will bring overall improvement (OPEX/CAPEX) by double digit percentage.</li>
-                        <li className='mt-2 font-medium text-md'>Rates are only 20% of any potential saving! Specification focus can deliver 30% of the Savings Potential. Efficiency focus can bring 40% of the Savings Potential.</li>
-                        <li className='mt-2 font-medium text-md'>We take your organization on the road to cost leadership.</li>
-                        <li className='mt-2 font-medium text-md'>Our analyses of Rates, Specification and Efficiency will bring out the maximum Savings Potential.</li>
-                        <li className='mt-2 font-medium text-md'>The Opex/Capex Program, our Supply Chain Services by SLA, but also our Codex Management System and CM+ empower your organisation utilising methods based on the Cost and value Philosophy. Consistently and sustainably optimising cost and value!</li>
-                    </ul>
+                <div className="w-full lg:w-2/5">
+                    <div className='bg-white py-5'>
+                        <h2 className='text-center text-3xl font-bold text-[#29385E]'>Cost and Value Intelligence Philosophy</h2>
+                        <p className='text-center text-2xl font-medium mt-3'>How to deliver cost efficiency and value improvement?</p>
+                        <p className='text-2xl text-[#4AC4D9] font-medium text-center'>We help you do it.</p>
+                    </div>
+                    <div className='flex justify-center'> 
+                        <div className='w-full px-4'>
+                            <ul className='list-disc pl-8'>
+                                <li className='mt-2 font-medium text-md'>All our products and services are built around our cost and value philosophy. It will bring overall improvement (OPEX/CAPEX) by double digit percentage.</li>
+                                <li className='mt-2 font-medium text-md'>Rates are only 20% of any potential saving! Specification focus can deliver 30% of the Savings Potential. Efficiency focus can bring 40% of the Savings Potential.</li>
+                                <li className='mt-2 font-medium text-md'>We take your organization on the road to cost leadership.</li>
+                                <li className='mt-2 font-medium text-md'>Our analyses of Rates, Specification and Efficiency will bring out the maximum Savings Potential.</li>
+                                <li className='mt-2 font-medium text-md'>The Opex/Capex Program, our Supply Chain Services by SLA, but also our Codex Management System and CM+ empower your organisation utilising methods based on the Cost and value Philosophy. Consistently and sustainably optimising cost and value!</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                <div className="w-full lg:w-3/5 flex justify-center">
+                    <img className="w-[80%]" src={Cost_and_Value_Philosophy} alt="" />
                 </div>
             </div>
         </Row>
