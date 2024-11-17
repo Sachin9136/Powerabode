@@ -12,8 +12,10 @@ import {
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
-import Card_slider from "../../components/card_slider/card_slider";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
+import Cards_with_bg from "../../components/Cards/Cards_with_bg";
+// import Cards from "./components/Cards"; // Import the dynamic Cards component
+import { Lion, Structure, Strategy, SLA_bg, Tower } from "../../components/Img/ImportedImage"; 
 import {
   Category_Strategy_banner,
   Card_img,
@@ -88,6 +90,24 @@ const About_us = () => {
       },
     ],
   };
+
+  const cardsContent = [
+    {
+      image: Strategy,
+      title: "Strategic Sourcing is not a Sourcing Strategy",
+      description: "Digitisation is key, but good old human intelligence is still key in defining the strategy. Artificial Intelligence is quickly gaining pace, but..."
+    },
+    {
+      image: Tower,
+      title: "Drilling Cost Transformation",
+      description: "Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model..."
+    },
+    {
+      image: Structure,
+      title: "Unlocking Value to your bottom line",
+      description: "Identifying a saving potential is a small step. The bigger thing is to bring it to your bottomline. We use the Integrated Supply Chain, the structure of our Cost Intelligence Philosophy and the people that use the contract to…"
+    }
+  ];
 
   return (
     <>
@@ -364,51 +384,11 @@ const About_us = () => {
         our experts, tools and systems the results improve significantly.
       </p>
 
-      <h2 className="text-center text-3xl font-bold text-[#29385E] mt-10">
-        Related Articles and Case Studies
-      </h2>
-
-      <div className="px-4 md:px-20 my-10">
-        <Slider {...settings}>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-        </Slider>
-      </div>
+      <div>
+      <h1 className="text-center text-3xl font-bold mb-6">Custom Page with Dynamic Cards</h1>
+      {/* Render the Cards component with dynamic content */}
+      <Cards_with_bg background={SLA_bg} cardsContent={cardsContent} />
+    </div>
 
       <Footer />
     </>

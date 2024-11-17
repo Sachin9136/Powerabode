@@ -12,17 +12,20 @@ import {
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
-import Card_slider from "../../components/card_slider/card_slider";
+import Cards_with_bg from "../../components/Cards/Cards_with_bg";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
 import {
   Materials_Management_banner,
-  Card_img,
+  SLA_bg,
   CategoryStrategy_img,
   TenderingandOutsourcing,
   PostAwardContract,
   Materials_management_points,
   Sla_tag,
   Check,
+  Racks,
+  Mountains,
+  Structure
 } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -85,6 +88,24 @@ const About_us = () => {
       },
     ],
   };
+
+  const cardsContent = [
+    {
+      image: Racks,
+      title: "Materials Management; a showstopper or a money maker?",
+      description: "As an asset gets older, how to keep performing? Increased pressure on maintenance, legacy parts..."
+    },
+    {
+      image: Mountains,
+      title: "The art of the deal",
+      description: "Tendering and outsourcing are where a big impact is created for future performance. Call it the art of the deal. One of our SLA service..."
+    },
+    {
+      image: Structure,
+      title: "Unlocking Value to your bottom line",
+      description: "Identifying a saving potential is a small step. The bigger thing is to bring it to your bottomline. We use the Integrated Supply Chain, the structure of our Cost Intelligence Philosophy and the people that use the contract to..."
+    }
+  ];
 
   return (
     <>
@@ -309,50 +330,10 @@ const About_us = () => {
         our experts, tools and systems the results improve significantly.
       </p>
 
-      <h2 className="text-center text-3xl font-bold text-[#29385E] mt-10">
-        Related Articles and Case Studies
-      </h2>
-
-      <div className="px-4 md:px-20 my-10">
-        <Slider {...settings}>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-        </Slider>
+      <div>
+        <h1 className="text-center text-3xl font-bold mb-6">Custom Page with Dynamic Cards</h1>
+        {/* Render the Cards component with dynamic content */}
+        <Cards_with_bg background={SLA_bg} cardsContent={cardsContent} />
       </div>
 
       <Footer />

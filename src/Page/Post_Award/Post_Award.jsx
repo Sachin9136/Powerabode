@@ -12,9 +12,9 @@ import {
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
-import Card_slider from "../../components/card_slider/card_slider";
+import Cards_with_bg from "../../components/Cards/Cards_with_bg";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
-import { Post_Award_banner, Card_img, Bell, Injection, Ship, Category_1, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, Post_award_points, SLA_tag_White, Check, } from "../../components/Img/ImportedImage";
+import { Post_Award_banner, Cycle, Snow, Lion, Ship, Category_1, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, Post_award_points, SLA_tag_White, Check, SLA_bg, } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -77,6 +77,24 @@ const About_us = () => {
         },
       ],
     };
+
+    const cardsContent = [
+      {
+        image: Cycle,
+        title: "Conflict or Conflicting KPI’s?",
+        description: "Working as a team. That’s what we do. But how do we know we are all aligned? Conflicting KPI’s cause massive inefficiencies. Who needs enemies if you have friends? "
+      },
+      {
+        image: Snow,
+        title: "Deliver as Planned",
+        description: "Sometimes ‘surprises’ are actually predictable. The top 5 of ‘predictable’ surprises..."
+      },
+      {
+        image: Lion,
+        title: "Hidden in Plain Sight",
+        description: "Crazy as it may sound; there’s always an elephant in the room.. Central in our way of work are the users of the contract, the ECMT. They are underestimated as a platform. 9 Quote: Our Experts know your business."
+      }
+    ];
 
   return (
     <>
@@ -264,49 +282,11 @@ const About_us = () => {
         <p className="text-center"  >Procurement is done in-house by most of our Clients.With involvement of our experts, tools and systems the results improve significantly.</p>
 
 
-      <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Related Articles and Case Studies</h2>
-
-      <div className="px-4 md:px-20 my-10">
-        <Slider {...settings}>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-        </Slider>
-      </div>
+        <div>
+          <h1 className="text-center text-3xl font-bold mb-6">Custom Page with Dynamic Cards</h1>
+          {/* Render the Cards component with dynamic content */}
+          <Cards_with_bg background={SLA_bg} cardsContent={cardsContent} />
+        </div>
 
 
       <Footer />

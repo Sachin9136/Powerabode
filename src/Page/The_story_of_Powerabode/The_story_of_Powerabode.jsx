@@ -12,7 +12,9 @@ import {
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
-import { Cost_and_Value_Philosophy, The_story_of_Powerabode_img,  our_sector1, our_sector2, our_sector3, our_sector4, our_sector5, our_sector6, our_sector7, our_sector8, our_sector9, Supply_Chain_Resilience, Cost_Efficiency, Codex, CM, Program_img, Energy_Transition,  Why_powerabode_1, Why_powerabode_2, Why_powerabode_3, Why_powerabode_4, Why_powerabode_5, Why_powerabode_6, Why_powerabode_7, Why_powerabode_8} from "../../components/Img/ImportedImage";
+import { Cost_and_Value_Philosophy, The_story_of_Powerabode_img,  our_sector1, our_sector2, our_sector3, our_sector4, our_sector5, our_sector6, our_sector7, our_sector8, our_sector9, Supply_Chain_Resilience, Cost_Efficiency, Codex, CM, Program_img, Energy_Transition,  Why_powerabode_1, Why_powerabode_2, Why_powerabode_3, Why_powerabode_4, Why_powerabode_5, Why_powerabode_6, Why_powerabode_7, Why_powerabode_8,
+    About_us_bars, Intelligence
+} from "../../components/Img/ImportedImage";
 
 
 const The_story_of_Powerabode = () => {
@@ -78,12 +80,19 @@ const The_story_of_Powerabode = () => {
                                 <li className='mt-2 font-medium text-md'>We take your organization on the road to cost leadership.</li>
                                 <li className='mt-2 font-medium text-md'>Our analyses of Rates, Specification and Efficiency will bring out the maximum Savings Potential.</li>
                                 <li className='mt-2 font-medium text-md'>The Opex/Capex Program, our Supply Chain Services by SLA, but also our Codex Management System and CM+ empower your organisation utilising methods based on the Cost and value Philosophy. Consistently and sustainably optimising cost and value!</li>
+                            
                             </ul>
+                            <div className="mt-3">
+                            <img className="w-48" src={Intelligence} alt="" />
+                            </div>
+                        </div>
+                        <div>
+
                         </div>
                     </div>
                 </div>
                 <div className="w-full lg:w-3/5 flex justify-center">
-                    <img className="w-[80%]" src={Cost_and_Value_Philosophy} alt="" />
+                    <img className="w-[80%]" src={About_us_bars} alt="" />
                 </div>
             </div>
         </Row>
@@ -127,10 +136,10 @@ const The_story_of_Powerabode = () => {
             <div className="px-4 md:px-20 my-10 lg:flex justify-center items-center">
                 <div className="w-full lg:w-3/5">
                     <div className='bg-white py-5'>
-                        <h2 className='text-3xl font-bold text-[#29385E] pl-8'>Supply Chain Resilience</h2>
+                        <h2 className='text-3xl font-bold text-[#29385E]'>Supply Chain Resilience</h2>
                     </div>
                     <div className='flex justify-center'> 
-                        <div className='w-full px-4'>
+                        <div className='w-full'>
                             <ul>
                                 <li className='mt-2 font-medium text-md'>The black swan events triggered by COVID have put our awareness of the importance of understanding our supply chain & procurement processes under our full attention.</li>
                                 <li className='mt-2 font-medium text-md'>Companies have always been aware, however, this time ‘small risks’ turned into high impact events. Cost price impact, but also availability of materials.</li>
@@ -195,28 +204,33 @@ const The_story_of_Powerabode = () => {
             </div>   
         </div>
 
-        <Row>
-            <div className="px-4 md:px-20 my-10 lg:flex justify-center items-center">
+        <Row className="px-4 md:px-20 my-10 py-5">
+            <div className=" lg:flex justify-center items-center">
                 <div className="w-full lg:w-3/5">
-                    <div className='bg-white py-5'>
-                        <h2 className='text-3xl font-bold text-[#29385E] pl-8'>Cost Efficiency</h2>
+                    <div className='bg-white'>
+                        <h2 className='text-3xl font-bold text-[#29385E]'>Cost Efficiency</h2>
                     </div>
                     <div className='flex justify-center'> 
-                        <div className='w-full px-4'>
+                        <div className='w-full'>
                             <ul>
                                 <li className='mt-2 font-medium text-md'>Any energy producer has to compete on electricity pricing. This is what it all comes to with the electrification of our world. Transport will move to EV's, and virtually all appliances are electric, communication digital - all battery powered.</li>
                                 <li className='mt-2 font-medium text-md'>Clearly cost is one of the key drivers.</li>
                                 <li className='mt-2 font-medium text-md'>Our Cost Intelligence Philosophy sets the basis for assessing your operations. In general the focus is on rates; but our approach is based on the premise that only 20% of a saving comes from sharper rates. The majority of savings comes from efficiency and specification. Check our Cost Intelligence Philosophy for better understanding. The site also holds articles and case studies in the 'thinking cost intelligence' section.</li>
                                 <li className='mt-2 font-medium text-md'>All our services will contribute to Cost Efficiency. Foremost because they are all based on the Cost Intelligence Philosophy.</li>
                                 <li className='mt-2 font-medium text-md'>Our flagship product is the Third Party Cost Program: The Road to Cost Leadership. This delivers savings, but also sets the right culture in terms of awareness of Cost Efficiency. The program is supported by a culture module and training, so it leaves a Commercial DNA within the client organisation.</li>
-                                <li className='mt-2 font-medium text-md'>CM+ is our product that provides users of a contract with context. In the real world hardly any contract users reads the contract (for various reasons, for example commercial confidentiality). CM+ gives each stakeholder the necessary information to handle their part of the process in optimised fashion. Visit our CM+ section on the site for detailed explanation.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div className="w-full lg:w-2/5 flex justify-center">
-                    <img src={Cost_Efficiency} alt="" />
+                <div className="w-full lg:w-2/5">
+                    <div>
+                        <img src={Cost_Efficiency} alt="" />
+                    </div>
                 </div>
+
+            </div>
+            <div>
+                <p className='mt-2 font-medium text-md'>CM+ is our product that provides users of a contract with context. In the real world hardly any contract users reads the contract (for various reasons, for example commercial confidentiality). CM+ gives each stakeholder the necessary information to handle their part of the process in optimised fashion. Visit our CM+ section on the site for detailed explanation.</p>
             </div>
         </Row>
 

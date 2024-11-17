@@ -12,9 +12,9 @@ import {
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
-import Card_slider from "../../components/card_slider/card_slider";
+import Cards_with_bg from "../../components/Cards/Cards_with_bg";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
-import { Cost_Recovery_banner, Card_img, Cost_recovery_points, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, Sla_tag, Check } from "../../components/Img/ImportedImage";
+import { Cost_Recovery_banner, SLA_bg, Cost_recovery_points, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, Sla_tag, Check, Island, Find_the_gap, Boxes } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -77,6 +77,24 @@ const About_us = () => {
         },
       ],
     };
+
+    const cardsContent = [
+      {
+        image: Island,
+        title: "Does focus on rates make sense?t",
+        description: "Cost Leadership will remain one of top 3 focus areas of Energy Industry for next decade. We excel in this area..."
+      },
+      {
+        image: Find_the_gap,
+        title: "Deliver despite budget constraints",
+        description: "Every supply chain has waste, we fix it. Complex analyses using our CI Philosophy, double digit improvement to your budget and opex, value optimisation..."
+      },
+      {
+        image: Boxes,
+        title: "Misalignment with the businessplan ",
+        description: "Not everyone knows the businessplan. This information is confidential or under evaluation. But, in the operations latest information is key for opex and capex decisions. How to deal with misalignment?"
+      }
+    ];
 
   return (
     <>
@@ -186,7 +204,6 @@ const About_us = () => {
 
         </div>
 
-          
         <div className="px-4 md:px-20 mt-20">
             <h2 className='text-4xl font-medium text-[#29385E] font-Montserrat'>The Supply Chain by <span className="text-[#00ABB8]">SLA Services</span></h2>
         </div>
@@ -231,51 +248,11 @@ const About_us = () => {
         <h3 className="text-center text-3xl font-[Raleway] my-5"><span className="text-[#1B3B64]">Tendering &</span> <span className="text-[#00ABB8]">Outsourcing</span></h3>
         <p className="text-center"  >Procurement is done in-house by most of our Clients.With involvement of our experts, tools and systems the results improve significantly.</p>
 
-
-      <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Related Articles and Case Studies</h2>
-
-      <div className="px-4 md:px-20 my-10">
-        <Slider {...settings}>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-        </Slider>
-      </div>
-
+        <div>
+          <h1 className="text-center text-3xl font-bold mb-6">Custom Page with Dynamic Cards</h1>
+          {/* Render the Cards component with dynamic content */}
+          <Cards_with_bg background={SLA_bg} cardsContent={cardsContent} />
+        </div>
 
       <Footer />
     </>

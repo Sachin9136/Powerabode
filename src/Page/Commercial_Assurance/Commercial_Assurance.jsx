@@ -12,9 +12,9 @@ import {
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
-import Card_slider from "../../components/card_slider/card_slider";
+import Cards_with_bg from "../../components/Cards/Cards_with_bg";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
-import { Commercial_Assurance_banner, Card_img, Bell, Injection, Ship, Commercial_assurance_points, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, Sla_tag, Check } from "../../components/Img/ImportedImage";
+import { Commercial_Assurance_banner, SLA_bg, Bell, Injection, Ship, Commercial_assurance_points, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, Sla_tag, Check, Scm, Snow, Lion } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -23,32 +23,32 @@ const About_us = () => {
 
   const [activeSlide, setActiveSlide] = useState(0);
 
-  const setting = {
-      centerMode: true,
-      centerPadding: '0',
-      slidesToShow: 3,
-      focusOnSelect: true,
-      dots: true,
-      arrow: false,
-      infinite: true,
-      speed: 500,
-      
-      beforeChange: (current, next) => setActiveSlide(next), // track active slide
-      responsive: [
-      {
-          breakpoint: 768,
-          settings: {
-          slidesToShow: 1, // Show 1 slide on smaller screens
-          },
-      },
-      {
-          breakpoint: 1024,
-          settings: {
-          slidesToShow: 3, // Show 3 slides on larger screens
-          },
-      },
-      ],
-  };
+    const setting = {
+        centerMode: true,
+        centerPadding: '0',
+        slidesToShow: 3,
+        focusOnSelect: true,
+        dots: true,
+        arrow: false,
+        infinite: true,
+        speed: 500,
+        
+        beforeChange: (current, next) => setActiveSlide(next), // track active slide
+        responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+            slidesToShow: 1, // Show 1 slide on smaller screens
+            },
+        },
+        {
+            breakpoint: 1024,
+            settings: {
+            slidesToShow: 3, // Show 3 slides on larger screens
+            },
+        },
+        ],
+    };
 
     const settings = {
       dots: true,
@@ -77,6 +77,24 @@ const About_us = () => {
         },
       ],
     };
+
+    const cardsContent = [
+      {
+        image: Scm,
+        title: "Getting the supply chain management and procurement system right",
+        description: "Off the shelf we developed a Codex system to support your delivery. Front line experts will adapt it for you, with a view..."
+      },
+      {
+        image: Snow,
+        title: "Deliver as Planned",
+        description: "Sometimes ‘surprises’ are actually predictable. The top 5 of ‘predictable’ surprises..."
+      },
+      {
+        image: Lion,
+        title: "Hidden in Plain Sight",
+        description: "Crazy as it may sound; there’s always an elephant in the room.. Central in our way of work are the users of the contract, the ECMT. They are underestimated as a platform. 9 Quote: Our Experts know your business..."
+      }
+    ];
 
   return (
     <>
@@ -234,7 +252,6 @@ const About_us = () => {
             </div>
 
         </div>
-
           
         <div className="px-4 md:px-20 mt-20">
             <h2 className='text-4xl font-medium text-[#29385E] font-Montserrat'>The Supply Chain by <span className="text-[#00ABB8]">SLA Services</span></h2>
@@ -280,50 +297,11 @@ const About_us = () => {
         <h3 className="text-center text-3xl font-[Raleway] my-5"><span className="text-[#1B3B64]">Tendering &</span> <span className="text-[#00ABB8]">Outsourcing</span></h3>
         <p className="text-center"  >Procurement is done in-house by most of our Clients.With involvement of our experts, tools and systems the results improve significantly.</p>
 
-
-      <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Related Articles and Case Studies</h2>
-
-      <div className="px-4 md:px-20 my-10">
-        <Slider {...settings}>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-        </Slider>
-      </div>
+        <div>
+          <h1 className="text-center text-3xl font-bold mb-6">Custom Page with Dynamic Cards</h1>
+          {/* Render the Cards component with dynamic content */}
+          <Cards_with_bg background={SLA_bg} cardsContent={cardsContent} />
+        </div>
 
 
       <Footer />

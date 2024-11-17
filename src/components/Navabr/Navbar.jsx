@@ -134,8 +134,8 @@ function Navbar() {
       link: "#",
       submenu: [
         { id: 4.1, name: "Supply Chain by SLA", link: "/supply-chain-by-sla" },
-        { id: 4.1, name: "Post Award Contract Management", link: "/post-award-contract-management" },
         { id: 4.2, name: "Category Strategy & Contract Strategy", link: "/category-strategy-contract-strategy" },
+        { id: 4.1, name: "Post Award Contract Management", link: "/post-award-contract-management" },
         { id: 4.3, name: "Commercial Assurance", link: "/commercial-assurance" },
         { id: 4.4, name: "Cost Recovery", link: "/cost-recovery" },
         { id: 4.5, name: "Tendering & Outsourcing", link: "/tendering-outsourcing" },

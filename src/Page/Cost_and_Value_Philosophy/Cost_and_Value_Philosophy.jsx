@@ -182,7 +182,7 @@ const About_us = () => {
         <ImageSlider />
       </div>
 
-      <div className="px-4 md:px-20">
+      <div className="px-0 md:px-5">
         <Cards />
       </div>
 

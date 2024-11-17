@@ -39,6 +39,7 @@ import Articles_Business_Cases_Background from "../../../src/assets/Images/Artic
 import Drilling_Cost_Transformation_banner from "../../../src/assets/Images/Drilling_Cost_Transformation_banner.svg";
 import Success_Formula from "../../../src/assets/Images/Success_Formula.svg";
 import Supply_Chain_by_SLA from "../../../src/assets/Images/Supply_Chain_by_SLA.svg";
+import SLA_bg from "../../../src/assets/Images/SLA_bg.webp";
 import Supply_Chain_by_SLA2 from "../../../src/assets/Images/Supply_Chain_by_SLA2.svg";
 import Supply_Chain_by_SLA3 from "../../../src/assets/Images/Supply_Chain_by_SLA3.svg";
 import CategoryStrategy_img from "../../../src/assets/Images/CategoryStrategy_img.svg";
@@ -55,7 +56,7 @@ import our_sector7 from "../../../src/assets/Images/our_sector7.svg";
 import our_sector8 from "../../../src/assets/Images/our_sector8.svg";
 import our_sector9 from "../../../src/assets/Images/our_sector9.svg";
 import Supply_Chain_Resilience from "../../../src/assets/Images/Supply_Chain_Resilience.svg";
-import Cost_Efficiency from "../../../src/assets/Images/Cost_Efficiency.svg";
+import Cost_Efficiency from "../../../src/assets/Images/Cost_Efficiency.webp";
 import Program_img from "../../../src/assets/Images/Program_img.svg";
 import Energy_Transition from "../../../src/assets/Images/Energy_Transition.svg";
 import Why_powerabode_1 from "../../../src/assets/Images/Why_powerabode_1.png";
@@ -139,6 +140,8 @@ import Boxes from "../../../src/assets/Images/boxes.jpeg";
 import Strategy from "../../../src/assets/Images/strategy.jpeg";
 import Mountains from "../../../src/assets/Images/mountains.jpeg";
 import Google from "../../../src/assets/Images/google.jpeg";
+import About_us_bars from "../../../src/assets/Images/about_us_bars.webp";
+import Winner from "../../../src/assets/Images/winner.png";
 
 export {
 Logo, Down_arrow_menu, Hero_banner, Cost_optimization, Downstream, Hydrogen, Nuclear, Power, Renewable_wind, Renewable, Upstream_offshore, Upstream_onshore, Water,
@@ -152,4 +155,5 @@ CM_for_Contract_1, CM_for_Contract_2, CM_for_Contract_3, CM_for_Contract_4, Chec
 Deal_Design_banner, Deal_Design1, Deal_Design2, Deal_Design3, Downarrow_white, CODEX_Supply_Chain_banner, CODEX_1, CODEX_2, CODEX_3, Tick, Dash, slider_1, slider_2, slider_3, slider_4, slider_5, Whatsapp_icon,
 Intelligence, DNA, Category_1, one, two, three, Commercial_Assurance_banner, Cost_Recovery_banner, Tendering_Outsourcing_banner, Materials_Management_banner, Post_Award_banner, Outsourcing, CVI_Logo,
 Category_strategy_points, Post_award_points, Commercial_assurance_points, Cost_recovery_points, Tendering_outsourcing_points, Materials_management_points, Sla_tag, SLA_tag_White, Tier_structure,
-Banner_slider1, Banner_slider_2, Banner_slider_3, Banner_slider_4, icons, Cycle, Lion, Snow, Tower, Find_the_gap, Island, Structure, Scm, Dna_img, Racks, Boxes, Strategy, Mountains, Google  };
+Banner_slider1, Banner_slider_2, Banner_slider_3, Banner_slider_4, icons, Cycle, Lion, Snow, Tower, Find_the_gap, Island, Structure, Scm, Dna_img, Racks, Boxes, Strategy, Mountains, Google, About_us_bars, Winner,
+SLA_bg  };

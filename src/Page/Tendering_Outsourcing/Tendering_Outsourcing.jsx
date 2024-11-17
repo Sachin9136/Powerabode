@@ -12,9 +12,9 @@ import {
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
-import Card_slider from "../../components/card_slider/card_slider";
+import Cards_with_bg from "../../components/Cards/Cards_with_bg";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
-import { Tendering_Outsourcing_banner, Card_img, Bell, Injection, Ship, Tendering_outsourcing_points, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, Outsourcing, Check, SLA_tag_White } from "../../components/Img/ImportedImage";
+import { Tendering_Outsourcing_banner, SLA_bg, Bell, Injection, Ship, Tendering_outsourcing_points, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, Outsourcing, Check, SLA_tag_White, Dna_img, Google, Mountains } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -77,6 +77,25 @@ const About_us = () => {
         },
       ],
     };
+
+    const cardsContent = [
+      {
+        image: Google,
+        title: "The synergy of local content development",
+        description: "NOC’s have a close connect to the economic development of their country. Our services empower and progress the commercial control on Capex and Opex, but also weave in local content. NOC’s are supported on their journey to become independent operators. We have strong..."
+      },
+      {
+        image: Mountains,
+        title: "The art of the deal",
+        description: "Tendering and outsourcing are where a big impact is created for future performance. Call it the art of the deal. One of our SLA service..."
+      },
+      {
+        image: Dna_img,
+        title: "How the DNA of your procurement department sets its performance",
+        description: "Is your function led by operations? By finance? Projects? Legal? They bring their DNA. We transform it to one driven by commercial DNA, getting cost and value efficiency..."
+      }
+    ];
+
 
   return (
     <>
@@ -230,7 +249,6 @@ const About_us = () => {
 
         </div>
 
-          
         <div className="px-4 md:px-20 mt-20">
             <h2 className='text-4xl font-medium text-[#29385E] font-Montserrat'>The Supply Chain by <span className="text-[#00ABB8]">SLA Services</span></h2>
         </div>
@@ -276,49 +294,11 @@ const About_us = () => {
         <p className="text-center"  >Procurement is done in-house by most of our Clients.With involvement of our experts, tools and systems the results improve significantly.</p>
 
 
-      <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Related Articles and Case Studies</h2>
-
-      <div className="px-4 md:px-20 my-10">
-        <Slider {...settings}>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-
-          <div>
-            <Card_slider
-              image={Card_img}
-              title="Drilling Cost Transformation"
-              description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-            />
-          </div>
-        </Slider>
-      </div>
+        <div>
+          <h1 className="text-center text-3xl font-bold mb-6">Custom Page with Dynamic Cards</h1>
+          {/* Render the Cards component with dynamic content */}
+          <Cards_with_bg background={SLA_bg} cardsContent={cardsContent} />
+        </div>
 
 
       <Footer />

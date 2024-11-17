@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import Card_slider from "../../components/card_slider/card_slider";
-import { Success_Formula, Success_Formula1, Success_Formula2, Success_Formula3, Success_Formula4, Success_Formula5, DNA, Tier_structure } from "../../components/Img/ImportedImage";
+import { Success_Formula, Success_Formula1, Success_Formula2, Success_Formula3, Success_Formula4, Success_Formula5, DNA, Tier_structure, Winner } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -33,7 +33,7 @@ const About_us = () => {
 
         <Row>
             <div className="px-4 md:px-20 my-10 block lg:flex justify-center gap-5">
-                <div className="w-full lg:2/6 border border-black rounded-lg px-4 py-8 mb-6">
+                <div className="w-full lg:3/6 border border-black rounded-lg px-4 py-8 mb-6">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Why a program?</h3>
                     </div>
@@ -42,7 +42,7 @@ const About_us = () => {
                     </div>
                 </div>
 
-                <div className="w-full lg:2/6 border border-black rounded-lg pt-8 mb-6 flex flex-col">
+                <div className="w-full lg:3/6 border border-black rounded-lg pt-8 mb-6 flex flex-col">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8 px-4 ">3-Tier structure</h3>
                     </div>
@@ -60,9 +60,13 @@ const About_us = () => {
                         <img src={Tier_structure} alt="" className="mt-auto w-full" />
                     </div>
                 </div>
-
         
-                <div className="w-full lg:2/6 border border-black rounded-lg px-4 py-8 mb-6">
+            </div>
+        </Row>
+
+        <Row>
+            <div className="px-4 md:px-20 my-10 block lg:flex justify-center gap-5">
+                <div className="w-full lg:3/6 border border-black rounded-lg px-4 py-8 mb-6">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Cost and Value intelligence</h3>
                     </div>
@@ -70,12 +74,8 @@ const About_us = () => {
                     <p className="text-medium font-medium">The basis of this philosophy is that cost is not about rates only. The majority of the savings potential sits in Specification and Efficiency. We use the Extended Contract Management Team (ECMT) to deliver the full savings potential.</p>
                     </div>
                 </div>
-            </div>
-        </Row>
 
-        <Row>
-            <div className="px-4 md:px-20 my-10 block lg:flex justify-center gap-5">
-                <div className="w-full lg:2/6 border border-black rounded-lg px-4 py-8 mb-6">
+                <div className="w-full lg:3/6 border border-black rounded-lg px-4 py-8 mb-6">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Bespoke</h3>
                     </div>
@@ -84,7 +84,13 @@ const About_us = () => {
                     </div>
                 </div>
 
-                <div className="w-full lg:2/6 border border-black rounded-lg px-4 py-8 mb-6">
+            </div>
+        </Row>
+
+        <Row>
+            <div className="px-4 md:px-20 my-10 block lg:flex justify-center gap-5">
+
+                <div className="w-full lg:3/6 border border-black rounded-lg px-4 py-8 mb-6">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Distruptive & Controlled</h3>
                     </div>
@@ -93,13 +99,18 @@ const About_us = () => {
                     </div>
                 </div>
         
-                <div className="w-full lg:2/6 border border-black rounded-lg px-4 py-8 mb-6">
+                <div className="w-full h-[250px] lg:3/6 border border-black rounded-lg pt-8 mb-6 flex flex-col bg-no-repeat bg-contain bg-bottom" style={{ backgroundImage: `url(${Winner})` }}>
                     <div>
-                        <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Winners!</h3>
+                        <h3 className="text-2xl font-bold text-[#59ADB7] mb-8 px-4 ">Winners!</h3>
                     </div>
                     <div>
-                    <p className="text-medium font-medium">A successful cost saving program is in the end delivered by your own people. We will equip them, involving them in our methods & providing training. Your cost Leadership will make you future proof in the turbulent energy markets</p>
+                        <p className="text-medium font-medium px-4 ">
+                        A successful cost saving program is in the end delivered by your own people. We will equip them, involving them in our methods & providing training. Your cost Leadership will make you future proof in the turbulent energy markets
+                        </p>
                     </div>
+
+                    {/* Spacer to push the image to the bottom */}
+                    <div className="flex-grow"></div>
                 </div>
             </div>
         </Row>
