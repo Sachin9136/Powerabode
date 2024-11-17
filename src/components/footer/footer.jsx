@@ -1,5 +1,5 @@
 import React from 'react';
-import {Logo, x, mail, linked_in, send_button, Get_in_touch, Whatsapp_icon} from "../Img/ImportedImage";
+import {Logo, x, mail, linked_in, send_button, Get_in_touch, Whatsapp_icon, The_hague, Dubai} from "../Img/ImportedImage";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'; // Import the X (Twitter) and LinkedIn icons
 import {
@@ -73,12 +73,23 @@ const footer = () => {
       <div className=''>
         <h1 className='text-3xl text-white font-bold text-center py-3'>Cost Efficiency Experts. Driven By Energy.</h1>
       </div>
-      <div class="bg-[#51A9B433] py-8">
+      <div class="bg-[#00abb842] py-8">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 ">   
                 <div class="mb-4 md:mb-0 col-span-1 lg:col-span-3 mt-3">
-                    <img src={Logo} alt="" />
+                    <div>
+                      <img src={Logo} alt="" />
+                    </div>
+                    <div className='flex'>
+                      <div className='flex'>
+                        <span>THE HAGUE</span><img className='w-5' src={The_hague} alt="" />
+                      </div>
+                      <div className='flex'>
+                        <span>DUBAI</span><img className='w-5' src={Dubai} alt="" />
+                      </div>
+                    </div>
                 </div>
+
                 <div class="mb-4 md:mb-0 col-span-1 lg:col-span-2 mt-3">
                     <h3 class="text-2xl font-bold mb-2">Follow Us</h3>
                     <div class="flex gap-5 items-center">
