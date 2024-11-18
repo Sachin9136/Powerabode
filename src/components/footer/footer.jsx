@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Logo,
   x,
@@ -26,8 +26,58 @@ import {
   Button,
 } from "../../components/ComponentsIndex";
 import TawkToChat from "../Chat/Chat";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  createContact,
+  createNewsletter,
+} from "../../ReduxToolkit/Slice/Contact";
+import { useEffect } from "react";
 
 const footer = () => {
+  const dispatch = useDispatch();
+  const { loadingStatus, loadingNewsletter } = useSelector(
+    (state) => state.Contact
+  );
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    reason: "",
+    message: "",
+    number: "",
+  });
+
+  const [email, setEmail] = useState();
+
+  // Handle form input changes
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  // Handle form submission
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    dispatch(createContact(formData));
+  };
+  // Handle form submission
+  const handleloadingNewsletterSubmit = async (e) => {
+    e.preventDefault();
+    const formData = {
+      email,
+    };
+    dispatch(createNewsletter(formData));
+  };
+
+  // Reset form data when submission succeeds
+  useEffect(() => {
+    if (loadingStatus === "succeeded") {
+      setFormData({ name: "", email: "", reason: "", message: "", number: "" });
+    }
+    if (loadingNewsletter === "succeeded") {
+      setEmail("");
+    }
+  }, [loadingStatus, loadingNewsletter]);
+
   return (
     <Row>
       <div className="fixed bottom-5 left-3">
@@ -40,7 +90,7 @@ const footer = () => {
         </a>
       </div>
       {/* <div className="fixed bottom-10 left-3"> */}
-        <TawkToChat />
+      <TawkToChat />
       {/* </div> */}
 
       {/* <ImageSlider /> */}
@@ -48,48 +98,84 @@ const footer = () => {
       <div className="px-4 md:px-20 lg:flex gap-5 my-10">
         <div class="w-full lg:w-1/2 py-6 px-4 md:py-12 md:px-20 rounded-xl border border-black">
           <h2 class="text-3xl font-medium mb-6 text-center">Book A Session</h2>
-          <form>
-            <div class="mb-4">
+          <form onSubmit={handleSubmit}>
+            <div className="mb-4">
               <input
                 type="text"
                 placeholder="Name"
                 id="name"
                 name="name"
-                class="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
+                value={formData.name}
+                onChange={handleChange}
+                className="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
+                required
               />
             </div>
-            <div class="mb-4">
+            <div className="mb-4">
               <input
                 type="email"
                 placeholder="Email"
                 id="email"
                 name="email"
-                class="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
+                value={formData.email}
+                onChange={handleChange}
+                className="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
+                required
               />
             </div>
-            <div class="mb-4">
+            <div className="mb-4">
+              <input
+                type="tel"
+                placeholder="Number"
+                id="number"
+                name="number"
+                value={formData.number}
+                onChange={handleChange}
+                className="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
+                required
+              />
+            </div>
+            <div className="mb-4">
               <input
                 type="text"
                 placeholder="Subject"
-                id="subject"
-                name="subject"
-                class="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
+                id="reason"
+                name="reason"
+                value={formData.reason}
+                onChange={handleChange}
+                className="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
+                required
               />
             </div>
-            <div class="mb-4">
+            <div className="mb-4">
               <textarea
                 id="message"
                 placeholder="Message"
                 name="message"
                 rows="4"
-                class="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
+                value={formData.message}
+                onChange={handleChange}
+                className="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
+                required
               ></textarea>
             </div>
             <button
               type="submit"
-              className="text-white bg-[#29385E] py-3 my-5 w-full"
+              className={`text-white bg-[#29385E] py-3 my-5 w-full ${
+                loadingStatus === "loading"
+                  ? "opacity-50 cursor-not-allowed"
+                  : ""
+              }`}
+              disabled={loadingStatus === "loading"}
             >
-              Send
+              {loadingStatus === "loading" ? (
+                <div className="flex items-center justify-center">
+                  <span className="spinner-border spinner-border-sm"></span>
+                  Sending...
+                </div>
+              ) : (
+                "Send"
+              )}
             </button>
           </form>
         </div>
@@ -180,16 +266,42 @@ const footer = () => {
                   <p>To our Newsletter</p>
                 </div>
               </div>
-              <div className="flex align-middle">
-                <input
-                  type="email"
-                  placeholder="Subscribe"
-                  class="bg-white text-[#504F4F] py-2 px-3 rounded mb-2 placeholder-[#504F4F] w-60"
-                />
-                <button class="bg-[#29385E] px-3 py-1 h-10 -ml-2 rounded-r-lg">
-                  <img src={send_button} alt="" width="20px" />
-                </button>
-              </div>
+              <form action="" onSubmit={handleloadingNewsletterSubmit}>
+                <div className="flex align-middle">
+                  <input
+                    type="email"
+                    placeholder="Subscribe"
+                    onChange={(e) => setEmail(e.target.value)}
+                    value={email}
+                    required
+                    class="bg-white text-[#504F4F] py-2 px-3 rounded mb-2 placeholder-[#504F4F] w-60"
+                  />
+                  {/* <button
+                    type="submit"
+                    class="bg-[#29385E] px-3 py-1 h-10 -ml-2 rounded-r-lg"
+                  >
+                    
+                  </button> */}
+                  <button
+                    type="submit"
+                    className={`bg-[#29385E] px-3 py-1 h-10 -ml-2 rounded-r-lg ${
+                      loadingNewsletter === "loading"
+                        ? "opacity-50 cursor-not-allowed"
+                        : ""
+                    }`}
+                    disabled={loadingNewsletter === "loading"}
+                  >
+                    {loadingNewsletter === "loading" ? (
+                      <div className="flex items-center justify-center">
+                        <span className="spinner-border spinner-border-sm text-white"></span>
+                        O
+                      </div>
+                    ) : (
+                      <img src={send_button} alt="" width="20px" />
+                    )}
+                  </button>
+                </div>
+              </form>
             </div>
             <div class="mb-4 md:mb-0 col-span-1 lg:col-span-3 mt-3">
               <div className="flex items-center gap-3 mb-3">
@@ -363,7 +475,6 @@ const footer = () => {
               </li>
             </ul>
           </div>
-
           {/* Quick Links */}
           <div className="col-span-1 py-4 md:py-5 lg:py-10">
             <h4 className="text-black font-bold text-3xl mb-4">Departments</h4>
@@ -426,7 +537,6 @@ const footer = () => {
               </li>
             </ul>
           </div>
-
           {/* Our Works */}
           <div className="col-span-1 py-4 md:py-5 lg:py-10">
             <h4 className="text-black font-bold text-3xl mb-4">Stakeholders</h4>
@@ -529,7 +639,6 @@ const footer = () => {
               </li>
             </ul>
           </div>
-
           <div className="col-span-1 py-4 md:py-5 lg:py-10">
             <h4 className="text-black font-bold text-3xl mb-4">Stakeholders</h4>
             <ul>

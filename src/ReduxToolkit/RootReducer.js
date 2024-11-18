@@ -1,6 +1,6 @@
 import { combineReducers } from "@reduxjs/toolkit";
 import authSlice from "./Slice/LoginSlice";
-import Plan from "./Slice/Plan";
+import Contact from "./Slice/Contact";
 import Teacher from "./Slice/Teacher";
 import Banner from "./Slice/Banner";
 import Story from "./Slice/our_story";
@@ -16,7 +16,7 @@ import Course from "./Slice/Course";
 
 const rootReducer = combineReducers({
   auth: authSlice,
-  plan: Plan,
+  Contact,
   teacher: Teacher,
   banner: Banner,
   story: Story,

@@ -1,4 +1,4 @@
-const BASE_URL = "https://kawach-backend.vercel.app/";
+const BASE_URL = "https://powerabode-backend.vercel.app/";
 export const loginapi = `${BASE_URL}api/admin/auth/login`;
 
 // plan
@@ -43,3 +43,7 @@ export const getSingleProgrammeApi = `${BASE_URL}api/v1/admin/getsingleProgramme
 
 // Blog
 export const getCourseApi = `${BASE_URL}api/v1/admin/getallCrouse`; 
+
+// contact
+export const createContactApi = `${BASE_URL}api/v1/powerAbode/contact/upload`; 
+export const createNewsletterApi = `${BASE_URL}api/v1/powerAbode/newsletter/upload`; 
