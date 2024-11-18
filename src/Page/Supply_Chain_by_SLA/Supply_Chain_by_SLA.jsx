@@ -158,49 +158,7 @@ const About_us = () => {
             <h2 className='text-4xl font-medium text-[#29385E] font-Montserrat'>The Supply Chain by <span className="text-[#00ABB8]">SLA Services</span></h2>
         </div>
 
-        {/* <div className="px-4 md:px-20 my-10">
-            <div className=" my-10">
-                <Slider {...settings}>
-                    <div>
-                        <Img_Slider
-                            image={CategoryStrategy_img}
-                            isCenter={activeSlide === 0}
-                        />
-                    </div>
-                    <div>
-                        <Img_Slider
-                            image={TenderingandOutsourcing}
-                            isCenter={activeSlide === 1}
-                        />
-                    </div>
-                    <div>
-                        <Img_Slider
-                            image={PostAwardContract}
-                            isCenter={activeSlide === 2}
-                        />
-                    </div>
-                    <div>
-                        <Img_Slider
-                            image={CategoryStrategy_img}
-                            isCenter={activeSlide === 3}
-                        />
-                    </div>
-                    <div>
-                        <Img_Slider
-                            image={PostAwardContract}
-                            isCenter={activeSlide === 4}
-                        />
-                    </div>
-                </Slider>
-            </div>
-        </div> */}
-
         <Img_Slider />
-
-        <div className="px-4 md:px-20">
-            <h2 className='text-2xl font-medium text-[#29385E] font-Montserrat text-center mb-3'>Tendering &  <span className="text-[#00ABB8]">Outsourcing</span></h2>
-            <p className="text-[#212529] text-center">Procurement is done in-house by most of our Clients.With involvement of our experts, tools and systems the results improve significantly.</p>
-        </div>
 
       <Footer />
     </>

@@ -14,7 +14,7 @@ import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import Cards_with_bg from "../../components/Cards/Cards_with_bg";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
-import { Tendering_Outsourcing_banner, SLA_bg, Bell, Injection, Ship, Tendering_outsourcing_points, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, Outsourcing, Check, SLA_tag_White, Dna_img, Google, Mountains } from "../../components/Img/ImportedImage";
+import { Tendering_Outsourcing_banner, SLA_bg, Bell, Injection, Ship, Tendering_outsourcing_points, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract, OUTSOURCINGIN, Check, SLA_tag_White, Dna_img, Google, Mountains } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -231,7 +231,7 @@ const About_us = () => {
                     </div>
 
                     <div className="w-full lg:2/6 px-4 py-8 mb-6 ">
-                        <img src={Outsourcing} alt="" />
+                        <img src={OUTSOURCINGIN} alt="" />
                     </div>
 
                     <div className="w-full lg:2/6 shadow-lg rounded-lg px-4 py-8 mb-6 bg-[#DCEEF0]">
@@ -255,46 +255,7 @@ const About_us = () => {
             <h2 className='text-4xl font-medium text-[#29385E] font-Montserrat'>The Supply Chain by <span className="text-[#00ABB8]">SLA Services</span></h2>
         </div>
 
-        <div className="px-4 md:px-20 my-10">
-            <div className=" my-10">
-                <Slider {...setting}>
-                    <div>
-                        <Img_Slider
-                            image={CategoryStrategy_img}
-                            isCenter={activeSlide === 0}
-                        />
-                    </div>
-                    <div>
-                        <Img_Slider
-                            image={TenderingandOutsourcing}
-                            isCenter={activeSlide === 1}
-                        />
-                    </div>
-                    <div>
-                        <Img_Slider
-                            image={PostAwardContract}
-                            isCenter={activeSlide === 2}
-                        />
-                    </div>
-                    <div>
-                        <Img_Slider
-                            image={CategoryStrategy_img}
-                            isCenter={activeSlide === 3}
-                        />
-                    </div>
-                    <div>
-                        <Img_Slider
-                            image={PostAwardContract}
-                            isCenter={activeSlide === 4}
-                        />
-                    </div>
-                </Slider>
-            </div>
-        </div>
-
-        <h3 className="text-center text-3xl font-[Raleway] my-5"><span className="text-[#1B3B64]">Tendering &</span> <span className="text-[#00ABB8]">Outsourcing</span></h3>
-        <p className="text-center"  >Procurement is done in-house by most of our Clients.With involvement of our experts, tools and systems the results improve significantly.</p>
-
+        <Img_Slider />
 
         <div>
           <h1 className="text-center text-3xl font-bold mb-6">Custom Page with Dynamic Cards</h1>
