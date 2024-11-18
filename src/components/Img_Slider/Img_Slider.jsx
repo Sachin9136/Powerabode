@@ -23,7 +23,7 @@ const ImgSlider = ({ image, title, isCenter }) => {
   return (
     <div
       className={`relative transition-all duration-500 ease-in-out ${
-        isCenter ? "scale-105 z-10 opacity-100" : "scale-95"
+        isCenter ? "scale-100 z-10 opacity-100" : "scale-90"
       }`}
     >
       <img
@@ -32,8 +32,8 @@ const ImgSlider = ({ image, title, isCenter }) => {
         className="w-full h-[300px] object-cover rounded-lg"
       />
       {!isCenter && (
-        <div className="absolute bottom-0 w-full text-white p-2 text-center">
-          <h3 className="text-lg font-bold bg-black bg-opacity-50">{title}</h3>
+        <div className="absolute bottom-0 w-full text-white p-2 text-center bg-black bg-opacity-50 mb-5">
+          <h3 className="text-lg font-bold  ">{title}</h3>
         </div>
       )}
     </div>
@@ -45,6 +45,7 @@ const CustomSlider = () => {
 
   const settings = {
     centerMode: true,
+    dots: true,
     centerPadding: "0",
     slidesToShow: 3, // Default to 3 slides for larger screens
     infinite: true,
@@ -109,7 +110,7 @@ const CustomSlider = () => {
   return (
     <div className="px-4 md:px-20 my-10">
       {/* Image Slider */}
-      <Slider {...settings}>
+      <Slider {...settings} className="custom-dots">
         {slidesData.map((slide, index) => (
           <div key={index}>
             <ImgSlider

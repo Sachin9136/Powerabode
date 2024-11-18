@@ -58,7 +58,7 @@ const About_us = () => {
 "/>
      
        <Row>
-        <img src={Supply_Chain_by_SLA2} alt="" />
+        <img className="w-full" src={Supply_Chain_by_SLA2} alt="" />
        </Row>
 
         <div className="px-4 md:px-20">
