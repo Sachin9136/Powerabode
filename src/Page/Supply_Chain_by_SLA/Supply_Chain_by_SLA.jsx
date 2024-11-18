@@ -52,8 +52,14 @@ const About_us = () => {
 
   return (
     <>
-      <CommanBanner children={Supply_Chain_by_SLA} />
-      <CommanBanner children={Supply_Chain_by_SLA2} />
+      <CommanBanner children={Supply_Chain_by_SLA} heading="Supply Chain by SLA
+" subheading="Always an expert in house. Set excellence for integrated supply chain in over 40 services. All by Service Level Agreement (SLA). Always delivered by experts. When you need it. Driven by energy.
+
+"/>
+     
+       <Row>
+        <img src={Supply_Chain_by_SLA2} alt="" />
+       </Row>
 
         <div className="px-4 md:px-20">
             <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>The Advantage of Supply Chain by Service Level Agreement</h2>

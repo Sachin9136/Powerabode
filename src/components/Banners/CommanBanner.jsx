@@ -2,18 +2,30 @@ import React from "react";
 import { Heading, Row } from "../ComponentsIndex";
 import Img from "../Img/Img";
 
-function CommanBanner({ children, heading, className = "", ...props }) {
+function CommanBanner({
+  heading,
+  subheading,
+  className = "",
+  ...props
+}) {
   return (
-    <Row className="relative">
+    <Row className="relative w-full">
       <Img
-        children={children}
         className={`w-full object-cover ${className}`}
         {...props}
       />
-      <Heading
-        children={heading}
-        className="absolute inset-0 flex items-center justify-center text-white text-5xl font-bold"
-      />
+      {/* Content div with responsive positioning */}
+      <div className="md:block hidden slideInRight">
+      <div className="rounded-l-md absolute p-5 bg-[#1d345ec9] w-full h-auto md:w-1/2 md:h-auto md:bottom-32 md:right-0 flex flex-col justify-center items-center md:items-start md:text-left">
+  <Heading className="text-white  text-3xl  shadow-md md:shadow-none">
+    {heading}
+  </Heading>
+  <p className="text-white text-lg mt-2 shadow-md md:shadow-none">
+    {subheading}
+  </p>
+</div>
+      </div>
+
     </Row>
   );
 }

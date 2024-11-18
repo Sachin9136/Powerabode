@@ -25,7 +25,7 @@ import {
   Check,
   Racks,
   Mountains,
-  Structure
+  Structure,
 } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -93,60 +93,75 @@ const About_us = () => {
     {
       image: Racks,
       title: "Materials Management; a showstopper or a money maker?",
-      description: "As an asset gets older, how to keep performing? Increased pressure on maintenance, legacy parts..."
+      description:
+        "As an asset gets older, how to keep performing? Increased pressure on maintenance, legacy parts...",
     },
     {
       image: Mountains,
       title: "The art of the deal",
-      description: "Tendering and outsourcing are where a big impact is created for future performance. Call it the art of the deal. One of our SLA service..."
+      description:
+        "Tendering and outsourcing are where a big impact is created for future performance. Call it the art of the deal. One of our SLA service...",
     },
     {
       image: Structure,
       title: "Unlocking Value to your bottom line",
-      description: "Identifying a saving potential is a small step. The bigger thing is to bring it to your bottomline. We use the Integrated Supply Chain, the structure of our Cost Intelligence Philosophy and the people that use the contract to..."
-    }
+      description:
+        "Identifying a saving potential is a small step. The bigger thing is to bring it to your bottomline. We use the Integrated Supply Chain, the structure of our Cost Intelligence Philosophy and the people that use the contract to...",
+    },
   ];
 
   return (
     <>
-      <CommanBanner children={Materials_Management_banner} />
+      <CommanBanner
+        children={Materials_Management_banner}
+        heading="Materials Management"
+        subheading="The right goods at the right place, at the right time. Today, but also in 5 years. Is Materials Management a cost, or can it make you money?
+
+"
+      />
 
       <div className="px-4 md:px-20 my-10">
-      <div className="bg-cover bg-center w-full rounded-none md:rounded-xl px-1 py-5 md:p-6" style={{ backgroundImage: `url(${Materials_management_points})` }}>
+        <div
+          className="bg-cover bg-center w-full rounded-none md:rounded-xl px-1 py-5 md:p-6"
+          style={{ backgroundImage: `url(${Materials_management_points})` }}
+        >
+          <div>
             <div>
-              <div>
-                <img src={Sla_tag} alt="" />
-              </div>
-              <div className="flex justify-center items-center">
-                <div className="w-full lg:w-6/12 px-3 mt-5 md:mt-5">
-                  <div className="p-5 bg-[#1d345ec9] rounded-xl">
-                    <h2 className="text-3xl font-medium text-white mt-6 mb-3">
-                      The Result
-                    </h2>
-                    <ul>
-                      <li className="text-xl font-medium text-white my-4 flex gap-3">
-                        <img src={Check} alt="" /> Unlock Cash & free up working capital
-                      </li>
-                      <li className="text-xl font-medium text-white my-4 flex gap-3">
-                        <img src={Check} alt="" /> Inventory optimisation
-                      </li>
-                      <li className="text-xl font-medium text-white my-4 flex gap-3">
-                        <img src={Check} alt="" /> Map asset & inventory; secure supply
-                      </li>
-                      <li className="text-xl font-medium text-white my-4 flex gap-3">
-                        <img src={Check} alt="" /> Fully trained ECMT for Materials & Inventory
-                      </li>
-                    </ul>
-                  </div>
+              <img src={Sla_tag} alt="" />
+            </div>
+            <div className="flex justify-center items-center">
+              <div className="w-full lg:w-6/12 px-3 mt-5 md:mt-5">
+                <div className="p-5 bg-[#1d345ec9] rounded-xl">
+                  <h2 className="text-3xl font-medium text-white mt-6 mb-3">
+                    The Result
+                  </h2>
+                  <ul>
+                    <li className="text-xl font-medium text-white my-4 flex gap-3">
+                      <img src={Check} alt="" /> Unlock Cash & free up working
+                      capital
+                    </li>
+                    <li className="text-xl font-medium text-white my-4 flex gap-3">
+                      <img src={Check} alt="" /> Inventory optimisation
+                    </li>
+                    <li className="text-xl font-medium text-white my-4 flex gap-3">
+                      <img src={Check} alt="" /> Map asset & inventory; secure
+                      supply
+                    </li>
+                    <li className="text-xl font-medium text-white my-4 flex gap-3">
+                      <img src={Check} alt="" /> Fully trained ECMT for
+                      Materials & Inventory
+                    </li>
+                  </ul>
                 </div>
               </div>
-              <div className="flex justify-end items-end">
-                <h3 className="text-2xl md:text-4xl font-semibold md:font-medium text-white mt-6 mb-3">
-                  Materials Management
-                </h3>
-              </div>
+            </div>
+            <div className="flex justify-end items-end">
+              <h3 className="text-2xl md:text-4xl font-semibold md:font-medium text-white mt-6 mb-3">
+                Materials Management
+              </h3>
             </div>
           </div>
+        </div>
         <h2 className="text-center text-3xl font-bold text-[#29385E] mt-10">
           Building and implementing Category & Contract Strategies
         </h2>
@@ -331,7 +346,9 @@ const About_us = () => {
       </p>
 
       <div>
-        <h1 className="text-center text-3xl font-bold mb-6">Custom Page with Dynamic Cards</h1>
+        <h1 className="text-center text-3xl font-bold mb-6">
+          Custom Page with Dynamic Cards
+        </h1>
         {/* Render the Cards component with dynamic content */}
         <Cards_with_bg background={SLA_bg} cardsContent={cardsContent} />
       </div>

@@ -22,7 +22,8 @@ const About_us = () => {
 
   return (
     <>
-      <CommanBanner children={Success_Formula} />
+      <CommanBanner children={Success_Formula} heading="Success Formula!
+Disruptive and Controlled."/>
 
       <div className="">
         <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Capex / Opex Program</h2>

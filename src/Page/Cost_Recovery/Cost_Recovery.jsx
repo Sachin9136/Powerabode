@@ -98,7 +98,9 @@ const About_us = () => {
 
   return (
     <>
-      <CommanBanner children={Cost_Recovery_banner} />
+      <CommanBanner children={Cost_Recovery_banner} heading="Understanding cost is not only a numbers game." subheading="It always surprises us. Cost recovery is carried out by people that understand numbers, but don’t understand the field and the contracts. Or, even worse, people that understand the contract, but not the numbers. Not with us. We offer a process with high impact. It prevents problems. Delivers projects. Recovers your Cost.
+
+"/>
 
         <div className="px-4 md:px-20 my-10">
           <div className="bg-cover bg-center w-full rounded-none md:rounded-xl px-1 py-5 md:p-6" style={{ backgroundImage: `url(${Cost_recovery_points})` }}>

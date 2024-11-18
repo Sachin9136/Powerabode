@@ -98,7 +98,7 @@ const About_us = () => {
 
   return (
     <>
-      <CommanBanner children={Commercial_Assurance_banner} />
+      <CommanBanner children={Commercial_Assurance_banner} heading="Commercial Assurance"/>
 
         <div className="px-4 md:px-20 my-10">
           <div className="bg-cover bg-center w-full rounded-none md:rounded-xl px-1 py-5 md:p-6" style={{ backgroundImage: `url(${Commercial_assurance_points})` }}>

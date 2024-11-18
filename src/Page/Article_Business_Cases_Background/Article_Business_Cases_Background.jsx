@@ -19,7 +19,7 @@ const About_us = () => {
 
   return (
     <>
-      <CommanBanner children={Articles_Business_Cases_Background} />
+      <CommanBanner children={Articles_Business_Cases_Background} heading={"Articles, Business Cases & Background"} />
 
       <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Articles & Case Study</h2>
 

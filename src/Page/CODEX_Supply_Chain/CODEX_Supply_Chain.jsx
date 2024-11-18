@@ -18,7 +18,8 @@ const About_us = () => {
 
   return (
     <>
-      <CommanBanner children={CODEX_Supply_Chain_banner} />
+      <CommanBanner children={CODEX_Supply_Chain_banner} heading="CODEX Supply Chain Management System
+" subheading="Procurement and Supply Chain Management System for Energy Assets In 7 volumes. A team of PowerAbode Experts have developed the ideal Procurement and Supply Chain Management System. Focussed on Cost Efficiency and compliant delivery. Creating the optimum ways of work. Adaptable to individual standards and thresholds of any energy asset. The volumes are delivered through digital portal ‘MyAbode’. Commercial Assurance, Cost Recovery and Training are provided as a Service by PowerAbode." />
 
         <div className="px-4 md:px-20 my-10">
             <div className="lg:flex my-10">

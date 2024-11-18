@@ -99,7 +99,9 @@ const About_us = () => {
 
   return (
     <>
-      <CommanBanner children={Tendering_Outsourcing_banner} />
+      <CommanBanner children={Tendering_Outsourcing_banner} heading="Tendering & Outsourcing" subheading="Procurement is done in-house by most of our Clients. With involvement of our experts, tools and systems the results improve significantly. Also beyond any tender we offer services that help making things ‘work’. Our focus is always to progress on the Road to Cost Leadership.
+
+"/>
 
         <div className="px-4 md:px-20 my-10">
           <div className="bg-cover bg-center w-full rounded-none md:rounded-xl px-1 py-5 md:p-6" style={{ backgroundImage: `url(${Tendering_outsourcing_points})` }}>

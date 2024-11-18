@@ -111,7 +111,10 @@ const About_us = () => {
 
   return (
     <>
-      <CommanBanner children={Category_Strategy_banner} />
+      <CommanBanner children={Category_Strategy_banner} heading="Category Strategy & Contract Strategy
+" subheading="Reducing cost is an art. Our Experts are not classic ‘consultants’. They had long careers in Category Management and Front-line Operations at various IOCs formulating many Category and Contracting strategies. powerabode have deep understanding of strategy and the value it can bring. We know it is the fundament to sustainable performance.
+
+"/>
 
       <div className="px-4 md:px-20 my-10">
         <h2 className="text-center text-3xl font-bold text-[#29385E] mt-10">

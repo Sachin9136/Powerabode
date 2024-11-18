@@ -18,7 +18,7 @@ const About_us = () => {
 
   return (
     <>
-      <CommanBanner children={Deal_Design_banner} />
+      <CommanBanner children={Deal_Design_banner} heading="Deal Design"/>
 
         <div className="px-4 md:px-20 my-10">
             <div>

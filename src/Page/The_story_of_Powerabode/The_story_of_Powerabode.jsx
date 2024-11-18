@@ -24,7 +24,7 @@ const The_story_of_Powerabode = () => {
 
   return (
     <>
-      <CommanBanner children={The_story_of_Powerabode_img} />
+      <CommanBanner children={The_story_of_Powerabode_img} heading={"The story of powerabode is a story of Energy."} subheading={"Energy assets have complex supply chains and are very comparable, regardless of the type of energy. Our solutions touch on themes like energy transition, Value improvement, cost efficiency and supply chain Resilience. The commercial ecosystem we developed has dozens of services that are delivered to keep our clients cost efficient."}/>
 
         <div className="px-4 md:px-20">
             <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Who do we serve?</h2>
