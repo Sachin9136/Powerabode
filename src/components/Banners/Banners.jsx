@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { Banner_slider1, Banner_slider_2, Banner_slider_3, Banner_slider_4, icons } from "../Img/ImportedImage";
 
 const CustomBanner = () => {
-  // Slider settings
+  // Slider 
   const settings = {
     dots: true,
     infinite: true,
