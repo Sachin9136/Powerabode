@@ -156,6 +156,8 @@ import CategoryStrategy from "../../../src/assets/Images/CategoryStrategy.webp";
 import Pins from "../../../src/assets/Images/pins.webp";
 import Lighting from "../../../src/assets/Images/lighting.webp";
 import OUTSOURCINGIN from "../../../src/assets/Images/OUTSOURCINGIN.png";
+import Cycle_banner from "../../../src/assets/Images/cycle_banner.jpg";
+import Smart from "../../../src/assets/Images/smart.png";
 
 export {
 Logo, Down_arrow_menu, Hero_banner, Cost_optimization, Downstream, Hydrogen, Nuclear, Power, Renewable_wind, Renewable, Upstream_offshore, Upstream_onshore, Water,
@@ -170,4 +172,4 @@ Deal_Design_banner, Deal_Design1, Deal_Design2, Deal_Design3, Downarrow_white, C
 Intelligence, DNA, Category_1, one, two, three, Commercial_Assurance_banner, Cost_Recovery_banner, Tendering_Outsourcing_banner, Materials_Management_banner, Post_Award_banner, Outsourcing, CVI_Logo,
 Category_strategy_points, Post_award_points, Commercial_assurance_points, Cost_recovery_points, Tendering_outsourcing_points, Materials_management_points, Sla_tag, SLA_tag_White, Tier_structure,
 Banner_slider1, Banner_slider_2, Banner_slider_3, Banner_slider_4, icons, Cycle, Lion, Snow, Tower, Find_the_gap, Island, Structure, Scm, Dna_img, Racks, Boxes, Strategy, Mountains, Google, About_us_bars, Winner,
-SLA_bg, The_hague, Dubai, Subscribe, Follow_us, Email, Linked_in, Twitter, Pins, Eagle, Paper, Pipes, CategoryStrategy, Lighting, OUTSOURCINGIN  };
+SLA_bg, The_hague, Dubai, Subscribe, Follow_us, Email, Linked_in, Twitter, Pins, Eagle, Paper, Pipes, CategoryStrategy, Lighting, OUTSOURCINGIN, Cycle_banner, Smart  };

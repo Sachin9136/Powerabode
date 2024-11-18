@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import {
   Column,
@@ -9,19 +10,40 @@ import {
   Button,
 } from "../../components/ComponentsIndex";
 
-import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import Card from "../../components/card/card";
-import { Articles_Business_Cases_Background, Card_img, Cycle, Lion, Snow, Tower, Find_the_gap, Island, Structure, Scm, Dna_img, Racks, Boxes, Strategy, Mountains, Google } from "../../components/Img/ImportedImage";
+import {
+  Articles_Business_Cases_Background,
+  Cycle,
+  Lion,
+  Snow,
+  Tower,
+  Find_the_gap,
+  Island,
+  Structure,
+  Scm,
+  Dna_img,
+  Racks,
+  Boxes,
+  Strategy,
+  Mountains,
+  Google,
+} from "../../components/Img/ImportedImage";
 
 const About_us = () => {
+  const navigate = useNavigate(); // Hook for navigation
 
   return (
     <>
-      <CommanBanner children={Articles_Business_Cases_Background} heading={"Articles, Business Cases & Background"} />
+      <CommanBanner
+        children={Articles_Business_Cases_Background}
+        heading={"Articles, Business Cases & Background"}
+      />
 
-      <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Articles & Case Study</h2>
+      <h2 className="text-center text-3xl font-bold text-[#29385E] mt-10">
+        Articles & Case Study
+      </h2>
 
       <div className="px-4 md:px-20 my-10 block lg:flex justify-center gap-5">
         <Card
@@ -31,7 +53,7 @@ const About_us = () => {
           articleText="Article"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
+          onReadClick={() => navigate("/conflict-or-conflicting-KPI")} // Navigate on click
         />
 
         <Card
@@ -41,7 +63,7 @@ const About_us = () => {
           articleText="Philosophy"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
+          onReadClick={() => navigate("/hidden-in-plain-sight")} // Navigate on click
         />
 
         <Card
@@ -51,10 +73,10 @@ const About_us = () => {
           articleText="Article"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
+          onReadClick={() => navigate("/deliver-as-planned")} // Navigate on click
         />
       </div>
-      
+
       <div className="px-4 md:px-20 my-10 block lg:flex gap-5">
         <Card
           image={Tower}
@@ -63,7 +85,7 @@ const About_us = () => {
           articleText="Case Study"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
+          onReadClick={() => navigate("/drilling-cost-transformation")} // Navigate on click
         />
 
         <Card
@@ -73,7 +95,7 @@ const About_us = () => {
           articleText="Case Study"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
+          onReadClick={() => navigate("/deliver-budget-constraints")} // Navigate on click
         />
 
         <Card
@@ -83,13 +105,11 @@ const About_us = () => {
           articleText="Thinking"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
+          onReadClick={() => navigate("/focus-on-rates")} // Navigate on click
         />
+      </div>
 
-        </div>
-
-        <div className="px-4 md:px-20 my-10 block lg:flex gap-5">
-
+      <div className="px-4 md:px-20 my-10 block lg:flex gap-5">
         <Card
           image={Scm}
           title="Getting the supply chain management and procurement system right"
@@ -97,7 +117,7 @@ const About_us = () => {
           articleText="Case Study"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
+          onReadClick={() => navigate("/supply-chain-management")} // Navigate on click
         />
 
         <Card
@@ -107,7 +127,7 @@ const About_us = () => {
           articleText="Philosophy"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
+          onReadClick={() => navigate("/unlocking-value-bottom-line")} // Navigate on click
         />
 
         <Card
@@ -117,13 +137,11 @@ const About_us = () => {
           articleText="Article"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
+          onReadClick={() => navigate("/procurement-department-dna")} // Navigate on click
         />
+      </div>
 
-        </div>
-
-        <div className="px-4 md:px-20 my-10 block lg:flex gap-5">
-
+      <div className="px-4 md:px-20 my-10 block lg:flex gap-5">
         <Card
           image={Racks}
           title="Materials Management; a showstopper or a money maker?"
@@ -131,7 +149,7 @@ const About_us = () => {
           articleText="Article"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
+          onReadClick={() => navigate("/materials-management")} // Navigate on click
         />
 
         <Card
@@ -141,7 +159,7 @@ const About_us = () => {
           articleText="Case Study"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
+          onReadClick={() => navigate("/misalignment-business-plan")} // Navigate on click
         />
 
         <Card
@@ -151,13 +169,11 @@ const About_us = () => {
           articleText="Case Study"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
+          onReadClick={() => navigate("/local-content-development")} // Navigate on click
         />
+      </div>
 
-        </div>
-
-        <div className="px-4 md:px-20 my-10 block lg:flex gap-5">
-
+      <div className="px-4 md:px-20 my-10 block lg:flex gap-5">
         <Card
           image={Strategy}
           title="Strategic Sourcing is not a Sourcing Strategy"
@@ -165,7 +181,7 @@ const About_us = () => {
           articleText="Case Study"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
+          onReadClick={() => navigate("/strategic-sourcing")} // Navigate on click
         />
 
         <Card
@@ -175,65 +191,9 @@ const About_us = () => {
           articleText="Article"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
+          onReadClick={() => navigate("/art-of-the-deal")} // Navigate on click
         />
       </div>
-
-      {/* <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Philosophy & Thinking</h2>
-
-      <div className="px-4 md:px-20 my-10 block lg:flex justify-center gap-5">
-        <Card
-          image={Card_img}
-          title="Drilling Cost Transformation"
-          description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-          articleText="Article"
-          readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
-        />
-
-        <Card
-          image={Card_img}
-          title="Another Transformation"
-          description="Another strategy and sourcing initiative. We help build delivery models, including optimizing operational costs."
-          articleText="Article"
-          readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
-        />
-
-        <Card
-          image={Card_img}
-          title="Operational Efficiency"
-          description="We drive operational efficiencies through best-in-class delivery and sourcing strategies, tailored to your needs."
-          articleText="Article"
-          readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
-        />
-      </div>
-
-      <div className="px-4 md:px-20 my-10 block lg:flex gap-5">
-        <Card
-          image={Card_img}
-          title="Drilling Cost Transformation"
-          description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model......."
-          articleText="Article"
-          readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
-        />
-
-        <Card
-          image={Card_img}
-          title="Another Transformation"
-          description="Another strategy and sourcing initiative. We help build delivery models, including optimizing operational costs."
-          articleText="Article"
-          readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => alert("Read button clicked!")}
-        />
-      </div> */}
 
       <Footer />
     </>

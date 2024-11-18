@@ -26,6 +26,7 @@ import CM_for_Contract from "./Page/CM_for_Contract/CM_for_Contract";
 import Skillset_Development from "./Page/Skillset_Development/Skillset_Development";
 import Deal_Design from "./Page/Deal_Design/Deal_Design";
 import CODEX_Supply_Chain from "./Page/CODEX_Supply_Chain/CODEX_Supply_Chain";
+import Conflict_or_Conflicting_KPI from "./Page/Single_blogs/Conflict_or_Conflicting_KPI";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -48,6 +49,12 @@ const router = createBrowserRouter(
       <Route path="skillset-development" element={<Skillset_Development />} />
       <Route path="deal-design" element={<Deal_Design />} />
       <Route path="codex-supply-chain" element={<CODEX_Supply_Chain />} />
+
+      {/* Single Blogs */}
+
+      <Route path="conflict-or-conflicting-KPI" element={<Conflict_or_Conflicting_KPI />} />
+
+
     </Route>
   )
 );

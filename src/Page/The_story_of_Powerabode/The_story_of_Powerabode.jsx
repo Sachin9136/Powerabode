@@ -179,15 +179,15 @@ const The_story_of_Powerabode = () => {
 
                     <div>
                         <div>
-                        <img className="h-64 w-64 mx-auto border-[#8F4A81] border-[20px] p-5 rounded-full" src={CM} alt="" />
+                            <img className="h-64 w-64 mx-auto border-[#8F4A81] border-[20px] p-5 rounded-full" src={CM} alt="" />
                         </div>
                         <div>
-                        <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
-                        <p className="text-xl mt-2 px-2 md:px-5 text-center">
+                            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
+                            <p className="text-xl mt-2 px-2 md:px-5 text-center">
                             Hands on Tool <br />
                             - Supported by cost experts <br />
                             - For Cost efficiency in transition
-                        </p>
+                            </p>
                         </div>
                     </div>
 

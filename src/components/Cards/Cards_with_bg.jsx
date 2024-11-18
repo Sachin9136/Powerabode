@@ -13,12 +13,12 @@ const Cards = ({ background, cardsContent }) => {
       className="container mt-10 mx-auto h-[400px] sm:h-[500px] md:h-[600px] lg:h-[600px] w-full bg-cover bg-no-repeat mb-[900px] md:mb-[200px]" 
       style={{ backgroundImage: `url(${background})` }}
     >
-        <div className="relative top-10 left-0 md:left-10 px-4">
-            <h3 className="text-3xl text-[#1b3b64] font-medium">Related Articles and Case Studies</h3>
+        <div className="relative top-10 px-4">
+            <h3 className="text-3xl text-[#1b3b64] font-medium pl-0 md:pl-20">Related Articles and Case Studies</h3>
         </div>
 
-        <div className="relative top-10 md:top-80 left-0 md:left-10 px-4">
-            <h3 className="text-3xl text-[#1b3b64] font-medium">Top <span className="text-[#00abb8]">Articles</span> & <span className="text-[#00abb8]">Case Studies</span></h3>
+        <div className="relative top-10 md:top-80 px-4">
+            <h3 className="text-3xl text-[#1b3b64] font-medium pl-0 md:pl-20">Top <span className="text-[#00abb8]">Articles</span> & <span className="text-[#00abb8]">Case Studies</span></h3>
         </div>
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 px-4 md:px-2 lg:px-20 py-10">
         
