@@ -144,6 +144,17 @@ import About_us_bars from "../../../src/assets/Images/about_us_bars.webp";
 import Winner from "../../../src/assets/Images/winner.png";
 import The_hague from "../../../src/assets/Images/the_hue.svg";
 import Dubai from "../../../src/assets/Images/dubai.svg";
+import Subscribe from "../../../src/assets/Images/subscribe.png";
+import Follow_us from "../../../src/assets/Images/follow_us.png";
+import Email from "../../../src/assets/Images/email.png";
+import Linked_in from "../../../src/assets/Images/linked_in.png";
+import Twitter from "../../../src/assets/Images/twitter.png";
+import Eagle from "../../../src/assets/Images/eagle.webp";
+import Paper from "../../../src/assets/Images/paper.webp";
+import Pipes from "../../../src/assets/Images/pipes.webp";
+import CategoryStrategy from "../../../src/assets/Images/CategoryStrategy.webp";
+import Pins from "../../../src/assets/Images/pins.webp";
+import Lighting from "../../../src/assets/Images/lighting.webp";
 
 export {
 Logo, Down_arrow_menu, Hero_banner, Cost_optimization, Downstream, Hydrogen, Nuclear, Power, Renewable_wind, Renewable, Upstream_offshore, Upstream_onshore, Water,
@@ -158,4 +169,4 @@ Deal_Design_banner, Deal_Design1, Deal_Design2, Deal_Design3, Downarrow_white, C
 Intelligence, DNA, Category_1, one, two, three, Commercial_Assurance_banner, Cost_Recovery_banner, Tendering_Outsourcing_banner, Materials_Management_banner, Post_Award_banner, Outsourcing, CVI_Logo,
 Category_strategy_points, Post_award_points, Commercial_assurance_points, Cost_recovery_points, Tendering_outsourcing_points, Materials_management_points, Sla_tag, SLA_tag_White, Tier_structure,
 Banner_slider1, Banner_slider_2, Banner_slider_3, Banner_slider_4, icons, Cycle, Lion, Snow, Tower, Find_the_gap, Island, Structure, Scm, Dna_img, Racks, Boxes, Strategy, Mountains, Google, About_us_bars, Winner,
-SLA_bg, The_hague, Dubai  };
+SLA_bg, The_hague, Dubai, Subscribe, Follow_us, Email, Linked_in, Twitter, Pins, Eagle, Paper, Pipes, CategoryStrategy, Lighting  };

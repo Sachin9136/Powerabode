@@ -1,5 +1,5 @@
 import React from 'react';
-import {Logo, x, mail, linked_in, send_button, Get_in_touch, Whatsapp_icon, The_hague, Dubai} from "../Img/ImportedImage";
+import {Logo, x, mail, linked_in, send_button, Get_in_touch, Whatsapp_icon, The_hague, Dubai, Subscribe, Follow_us, Email, Twitter, Linked_in} from "../Img/ImportedImage";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'; // Import the X (Twitter) and LinkedIn icons
 import {
@@ -73,54 +73,76 @@ const footer = () => {
       <div className=''>
         <h1 className='text-3xl text-white font-bold text-center py-3'>Cost Efficiency Experts. Driven By Energy.</h1>
       </div>
-      <div class="bg-[#00abb842] py-8">
+      <div class="bg-[#00abb842] py-8 px-4 md:px-20">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 ">   
                 <div class="mb-4 md:mb-0 col-span-1 lg:col-span-3 mt-3">
                     <div>
-                      <img src={Logo} alt="" />
+                      <img className='w-[80%]' src={Logo} alt=""  />
                     </div>
-                    <div className='flex'>
-                      <div className='flex'>
-                        <span>THE HAGUE</span><img className='w-5' src={The_hague} alt="" />
+                    <div className='flex gap-3 mt-2'>
+                      <div className='flex gap-2'>
+                        <span className='text-md text-[#1b3b64]'>THE HAGUE</span><img className='w-5' src={The_hague} alt="" />
                       </div>
-                      <div className='flex'>
-                        <span>DUBAI</span><img className='w-5' src={Dubai} alt="" />
-                      </div>
-                    </div>
-                </div>
-
-                <div class="mb-4 md:mb-0 col-span-1 lg:col-span-2 mt-3">
-                    <h3 class="text-2xl font-bold mb-2">Follow Us</h3>
-                    <div class="flex gap-5 items-center">
-                      <div className='bg-[#29385E] p-4 rounded-2xl'>
-                        <a href="#"><img src={x} alt="" width="20px" /></a>
-                      </div>
-                      <div className='bg-[#29385E] p-4 rounded-2xl'>
-                        <a href="#" class=""><img src={linked_in} alt="" width="20px" /></a>
+                      <div className='flex gap-2'>
+                        <span className='text-md text-[#1b3b64]'>DUBAI</span><img className='w-5' src={Dubai} alt="" />
                       </div>
                     </div>
                 </div>
-                <div class="mb-4 md:mb-0 col-span-1 lg:col-span-4 mt-3">
-                    <h3 class="text-2xl font-bold mb-2">Contact Us</h3>
+                <div className='col-span-1 lg:col-span-3 mt-3'>
+                    <div className='flex items-center gap-3 mb-3'>
+                      <div>
+                        <img className='w-10' src={Subscribe} alt="" />
+                      </div>
+                      <div>
+                        <h3 class="text-3xl text-[#00abb8] font-normal">Subscribe</h3>
+                        <p>To our Newsletter</p>
+                      </div>
+                    </div>
+                    <div className='flex align-middle'>
+                      <input type="email" placeholder="Subscribe" class="bg-white text-[#504F4F] py-2 px-3 rounded mb-2 placeholder-[#504F4F] w-60"/>
+                      <button class="bg-[#29385E] px-3 py-1 h-10 -ml-2 rounded-r-lg"><img src={send_button} alt="" width="20px" /></button>
+                    </div>
+                </div>
+                <div class="mb-4 md:mb-0 col-span-1 lg:col-span-3 mt-3">
+                  <div className='flex items-center gap-3 mb-3'>
+                    <div>
+                      <img className='w-16' src={Follow_us} alt="" />
+                    </div>
+                    <div>
+                      <h3 class="text-3xl text-[#00abb8] font-normal">Follow Us</h3>
+                      <p>On Social Media</p>
+                    </div>
+                  </div>
+                    <div class="flex gap-5 ml-14">
+                      <div className='bg-white p-2 rounded-full shadow-lg'>
+                        <a href="#"><img src={Linked_in} alt="" width="25px" /></a>
+                      </div>
+                      <div className='bg-white p-2 rounded-full shadow-lg'>
+                        <a href="#" class=""><img src={Twitter} alt="" width="25px" /></a>
+                      </div>
+                    </div>
+                </div>
+                <div class="mb-4 md:mb-0 col-span-1 lg:col-span-3 mt-3">
+                  <div className='flex items-center gap-3 mb-3'>
+                    <div>
+                      <img className='w-14' src={Email} alt="" />
+                    </div>
+                    <div>
+                      <h3 class="text-3xl text-[#00abb8] font-normal">Email</h3>
+                      <p>Contact Us</p>
+                    </div>
+                  </div>
                       <div className='flex items-center gap-3'>
-                        <div className='bg-[#29385E] p-4 rounded-2xl'>
-                          <a href="#"><img src={mail} alt="" width="23px" /></a>
-                        </div>
-                          <div className='text-2xl text-[#504F4F]'>
-                            <a href="mailto:info@powerabode.com" className="hover:underline">
+                          <div className='text-lg text-[#504F4F]'>
+                            Email: 
+                            <a href="mailto:info@powerabode.com" className="hover:underline text-[#0d6efd]">
                               info@powerabode.com
                             </a>
                           </div>
                       </div>
                   </div>
-                <div className='col-span-1 lg:col-span-3 mt-3'>
-                    <h3 class="text-3xl font-bold mb-2">Subscribe</h3>
-                    <div className='flex align-middle'>
-                      <input type="email" placeholder="Subscribe" class="bg-white text-[#504F4F] border-t-2 border-l-2 border-b-2 border-[#504F4F] py-2 px-3 rounded mb-2 placeholder-[#504F4F] w-80"/>
-                      <button class="bg-[#29385E] px-3 py-1 h-11 -ml-2 rounded-r-lg"><img src={send_button} alt="" width="19px" /></button>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
