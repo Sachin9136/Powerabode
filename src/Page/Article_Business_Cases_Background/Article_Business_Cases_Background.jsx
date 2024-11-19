@@ -85,7 +85,7 @@ const About_us = () => {
           articleText="Case Study"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/drilling-cost-transformation")} // Navigate on click
+          onReadClick={() => navigate("/drilling-cost-transformationblog")} // Navigate on click
         />
 
         <Card
