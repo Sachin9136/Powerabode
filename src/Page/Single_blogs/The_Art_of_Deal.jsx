@@ -12,9 +12,9 @@ import {
 import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
-import Img_Slider from "../../components/Img_Slider/Img_Slider";
+import Img_Slider2 from "../../components/Img_Slider/Img_Slider2";
 import { Mountain_banner, Supply_chain, Star, CM, The_Art_of_the_Deal_Graph, Sla_tag } from "../../components/Img/ImportedImage";
-import ImageSlider2 from "../../components/ImageSlider/ImageSlider";
+import ImageSlider from "../../components/ImageSlider/ImageSlider";
 
 const About_us = () => {
 
@@ -159,10 +159,10 @@ const About_us = () => {
             <h2 className='text-4xl font-medium text-[#29385E] font-Montserrat text-center'>More Articles & <span className="text-[#00ABB8]">Business Cases?</span></h2>
         </div>
 
-        <Img_Slider />
+        <Img_Slider2 />
         
         <div className="hidden md:flex">
-            <ImageSlider2 />
+            <ImageSlider />
         </div>
 
       <Footer />
