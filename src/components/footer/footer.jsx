@@ -363,7 +363,7 @@ const footer = () => {
             <ul>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Gas
@@ -371,7 +371,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Oil
@@ -379,7 +379,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Desalination
@@ -387,7 +387,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Renewables
@@ -395,7 +395,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Solar
@@ -403,7 +403,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Wind
@@ -411,7 +411,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Hydrogen
@@ -419,7 +419,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   LNG
@@ -427,7 +427,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Refineries
@@ -435,7 +435,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Processing
@@ -443,7 +443,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Upstream
@@ -451,7 +451,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Downstream
@@ -459,7 +459,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Offshore
@@ -467,7 +467,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Onshore
@@ -481,7 +481,7 @@ const footer = () => {
             <ul>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Finance
@@ -489,7 +489,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   C&P
@@ -497,7 +497,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Procurement
@@ -505,7 +505,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Operations
@@ -513,7 +513,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Maintenance
@@ -521,7 +521,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Production
@@ -529,7 +529,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#contact"
+                  href="#"
                   className="text-[#747474] hover:underline text-md font-medium"
                 >
                   Strategy
@@ -543,7 +543,7 @@ const footer = () => {
             <ul>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   CEO
@@ -551,7 +551,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   CFO
@@ -559,7 +559,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   COO
@@ -567,7 +567,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Asset manager
@@ -575,7 +575,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Project manager
@@ -583,7 +583,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Project director
@@ -591,7 +591,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Finance director
@@ -599,7 +599,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Functional lead
@@ -607,7 +607,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Operations director
@@ -615,7 +615,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Maintenance manager
@@ -623,7 +623,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Production manager
@@ -631,7 +631,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Procurement manager
@@ -644,7 +644,7 @@ const footer = () => {
             <ul>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Kazakhstan
@@ -652,7 +652,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Netherlands
@@ -660,7 +660,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   United Kingdom
@@ -668,7 +668,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Norway
@@ -676,7 +676,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Angola
@@ -684,7 +684,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Ghana
@@ -692,7 +692,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Nigeria
@@ -700,7 +700,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   United Arab Emirates
@@ -708,7 +708,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Qatar
@@ -716,7 +716,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Bahrain
@@ -724,7 +724,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Brunei
@@ -732,7 +732,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Malaysia
@@ -740,7 +740,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Indonesia
@@ -748,7 +748,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Vietnam
@@ -756,7 +756,7 @@ const footer = () => {
               </li>
               <li className="py-1">
                 <a
-                  href="#works"
+                  href="#"
                   className="text-[#747474] hover:underline text-md my-20 font-medium"
                 >
                   Saudi Arabia
@@ -768,16 +768,16 @@ const footer = () => {
         <Row>
           <div className="text-center pb-10">
             <p className="mt-2 mx-auto text-lg font-medium ">
-              <span className="underline underline-offset-4">Disclaimer</span>{" "}
+              <span className="underline underline-offset-4"><a href="#">Disclaimer</a></span>{" "}
               <span className="text-2xl text-white"> | </span>{" "}
               <span className="underline underline-offset-4">
-                Cookie & Privacy Policy
+                <a href="#">Cookie & Privacy Policy</a>
               </span>{" "}
               <span className="text-2xl text-white"> | </span>{" "}
-              <span className="underline underline-offset-4">Copyright</span>{" "}
+              <span className="underline underline-offset-4"><a href="#">Copyright</a></span>{" "}
               <span className="text-2xl text-white"> | </span>{" "}
               <span className="underline underline-offset-4">
-                ©powerabode.com 2024
+                <a href="#">©powerabode.com 2024</a>
               </span>
             </p>
           </div>

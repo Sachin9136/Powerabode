@@ -30,6 +30,16 @@ import Conflict_or_Conflicting_KPI from "./Page/Single_blogs/Conflict_or_Conflic
 import Hidden_in_plain_Sight from "./Page/Single_blogs/Hidden_in_plain_Sight";
 import Deliver_as_Planned from "./Page/Single_blogs/Deliver_as_Planned";
 import Drilling_Cost_Transformation_blog from "./Page/Single_blogs/Drilling_Cost_Transformation_blog";
+import Deliver_Despite_Budget from "./Page/Single_blogs/Deliver_Despite_Budget";
+import Focus_on_Rates from "./Page/Single_blogs/Focus_on_Rates";
+import Supply_Chain_Management from "./Page/Single_blogs/Supply_Chain_Management";
+import Unlocking_Value_bottom from "./Page/Single_blogs/Unlocking_Value_bottom";
+import Procurement_Department from "./Page/Single_blogs/Procurement_Department";
+import Materials_Management_blog from "./Page/Single_blogs/Materials_Management_blog";
+import Misalignment_with_business from "./Page/Single_blogs/Misalignment_with_business";
+import Local_content_development from "./Page/Single_blogs/Local_content_development";
+import Strategic_Sourcing from "./Page/Single_blogs/Strategic_Sourcing";
+import The_Art_of_Deal from "./Page/Single_blogs/The_Art_of_Deal";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -60,6 +70,16 @@ const router = createBrowserRouter(
       <Route path="hidden-in-plain-sight" element={<Hidden_in_plain_Sight />} />
       <Route path="deliver-as-planned" element={<Deliver_as_Planned />} />
       <Route path="drilling-cost-transformationblog" element={<Drilling_Cost_Transformation_blog />} />
+      <Route path="deliver-despite-budget" element={<Deliver_Despite_Budget />} />
+      <Route path="focus-on-rates" element={<Focus_on_Rates />} />
+      <Route path="supply-chain-management" element={<Supply_Chain_Management />} />
+      <Route path="unlocking-value-bottom" element={<Unlocking_Value_bottom />} />
+      <Route path="procurement-department" element={<Procurement_Department />} />
+      <Route path="materials-management-blog" element={<Materials_Management_blog />} />
+      <Route path="misalignment-with-business" element={<Misalignment_with_business />} />
+      <Route path="local-content-development" element={<Local_content_development />} />
+      <Route path="strategic-sourcing" element={<Strategic_Sourcing />} />
+      <Route path="the-art-of-deal" element={<The_Art_of_Deal />} />
 
     </Route>
   )

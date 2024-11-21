@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import { Cost_and_Value_Philosophy, The_story_of_Powerabode_img,  our_sector1, our_sector2, our_sector3, our_sector4, our_sector5, our_sector6, our_sector7, our_sector8, our_sector9, Supply_Chain_Resilience, Cost_Efficiency, Codex, CM, Program_img, Energy_Transition,  Why_powerabode_1, Why_powerabode_2, Why_powerabode_3, Why_powerabode_4, Why_powerabode_5, Why_powerabode_6, Why_powerabode_7, Why_powerabode_8,
-    About_us_bars, Intelligence
+    About_us_bars, Intelligence, Supply_chain
 } from "../../components/Img/ImportedImage";
 
 
@@ -68,9 +68,9 @@ const The_story_of_Powerabode = () => {
             <div className="px-4 md:px-20 my-10 lg:flex justify-center items-center">
                 <div className="w-full lg:w-2/5">
                     <div className='bg-white py-5'>
-                        <h2 className='text-center text-3xl font-bold text-[#29385E]'>Cost and Value Intelligence Philosophy</h2>
-                        <p className='text-center text-2xl font-medium mt-3'>How to deliver cost efficiency and value improvement?</p>
-                        <p className='text-2xl text-[#4AC4D9] font-medium text-center'>We help you do it.</p>
+                        <h2 className=' text-3xl font-bold text-[#29385E]'>Cost and Value Intelligence Philosophy</h2>
+                        <p className=' text-2xl font-medium mt-3'>How to deliver cost efficiency and value improvement?</p>
+                        <p className='text-2xl text-[#4AC4D9] font-medium '>We help you do it.</p>
                     </div>
                     <div className='flex justify-center'> 
                         <div className='w-full px-4'>
@@ -193,7 +193,7 @@ const The_story_of_Powerabode = () => {
 
                     <div>
                         <div>
-                        <img className="h-64 w-64 mx-auto border-[#9ED033] border-[20px] p-5 rounded-full" src={Codex} alt="" />
+                        <img className="h-64 w-64 mx-auto border-[#9ED033] border-[20px] p-5 rounded-full" src={Supply_chain} alt="" />
                         </div>
                         <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Supply Chain by SLA</p>
@@ -269,7 +269,7 @@ const The_story_of_Powerabode = () => {
 
                     <div>
                         <div>
-                        <img className="h-64 w-64 mx-auto border-[#9ED033] border-[20px] p-5 rounded-full" src={Codex} alt="" />
+                        <img className="h-64 w-64 mx-auto border-[#9ED033] border-[20px] p-5 rounded-full" src={Supply_chain} alt="" />
                         </div>
                         <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Supply Chain by SLA</p>
@@ -350,7 +350,7 @@ const The_story_of_Powerabode = () => {
 
                     <div>
                         <div>
-                        <img className="h-64 w-64 mx-auto border-[#9ED033] border-[20px] p-5 rounded-full" src={Codex} alt="" />
+                        <img className="h-64 w-64 mx-auto border-[#9ED033] border-[20px] p-5 rounded-full" src={Supply_chain} alt="" />
                         </div>
                         <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Supply Chain by SLA</p>

@@ -163,6 +163,25 @@ import Ecmt from "../../../src/assets/Images/ecmt.png";
 import Snow_banner from "../../../src/assets/Images/snow_banner.jpg";
 import DeliverasPlanned from "../../../src/assets/Images/DeliverasPlanned.png";
 import Tower_banner from "../../../src/assets/Images/tower_banner.jpg";
+import Find_the_gap_banner from "../../../src/assets/Images/find_the_gap_banner.jpg";
+import Deliverdespitebudgetconstraints from "../../../src/assets/Images/Deliverdespitebudgetconstraints.png";
+import Evi from "../../../src/assets/Images/evi.png";
+import DeliverdespiteTable from "../../../src/assets/Images/DeliverdespiteTable.png";
+import Island_banner from "../../../src/assets/Images/Island_banner.jpg";
+import Scm_banner from "../../../src/assets/Images/Scm_banner.jpg";
+import Batch from "../../../src/assets/Images/batch.webp";
+import Structure_bannerjpg from "../../../src/assets/Images/Structure_bannerjpg.jpg";
+import Dna_banner from "../../../src/assets/Images/Dna_banner.jpg";
+import Racks_banner from "../../../src/assets/Images/Racks_banner.jpg";
+import MaterialsManagementWindow from "../../../src/assets/Images/MaterialsManagementWindow.webp";
+import Boxes_banner from "../../../src/assets/Images/Boxes_banner.jpg";
+import Google_banner from "../../../src/assets/Images/Google_banner.jpg";
+import PA_logo from "../../../src/assets/Images/PA_logo.png";
+import Location from "../../../src/assets/Images/Location.png";
+import Stragety_banner from "../../../src/assets/Images/Stragety_banner.jpg";
+import Mountain_banner from "../../../src/assets/Images/Mountain_banner.jpg";
+import Star from "../../../src/assets/Images/star.png";
+import The_Art_of_the_Deal_Graph from "../../../src/assets/Images/The-Art-of-the-Deal-Graph.jpeg";
 
 export {
 Logo, Down_arrow_menu, Hero_banner, Cost_optimization, Downstream, Hydrogen, Nuclear, Power, Renewable_wind, Renewable, Upstream_offshore, Upstream_onshore, Water,
@@ -178,4 +197,5 @@ Intelligence, DNA, Category_1, one, two, three, Commercial_Assurance_banner, Cos
 Category_strategy_points, Post_award_points, Commercial_assurance_points, Cost_recovery_points, Tendering_outsourcing_points, Materials_management_points, Sla_tag, SLA_tag_White, Tier_structure,
 Banner_slider1, Banner_slider_2, Banner_slider_3, Banner_slider_4, icons, Cycle, Lion, Snow, Tower, Find_the_gap, Island, Structure, Scm, Dna_img, Racks, Boxes, Strategy, Mountains, Google, About_us_bars, Winner,
 SLA_bg, The_hague, Dubai, Subscribe, Follow_us, Email, Linked_in, Twitter, Pins, Eagle, Paper, Pipes, CategoryStrategy, Lighting, OUTSOURCINGIN, Cycle_banner, Smart, Lion_banner, Ecmt, Snow_banner, DeliverasPlanned,
-Tower_banner  };
+Tower_banner, Find_the_gap_banner, Deliverdespitebudgetconstraints, Evi, DeliverdespiteTable, Island_banner, Scm_banner, Batch, Structure_bannerjpg, Dna_banner, Racks_banner, MaterialsManagementWindow, Boxes_banner,
+Google_banner, PA_logo, Location, Stragety_banner, Mountain_banner, Star, The_Art_of_the_Deal_Graph  };

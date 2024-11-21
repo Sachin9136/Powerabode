@@ -84,8 +84,8 @@ const About_us = () => {
         </div>
 
         <div className="px-4 md:px-20 mt-20">
-            <div className="flex gap-5">
-                <div className="w-1/2">
+            <div className="block md:flex gap-5">
+                <div className="w-full md:w-1/2">
                     <div>
                         <h5 className="mb-3 text-2xl font-thin text-[#1b3b64] text-center">We were asked to deliver a contract strategy and sourcing approach that would support reducing well costs by 50%</h5>
                     </div>
@@ -99,7 +99,7 @@ const About_us = () => {
                         <p className="mb-3">The bids came in and none of the tenderers met the aspired cost level. Therefore approval was sought to negotiate with the leading bidder with the best TCO (total cost of ownership) and TVO (total value of ownership) in an “open book” manner. Target was reduce inefficiencies in the supply chain and to reach the aspired drilling performance; rate was not important.</p>
                     </div>
                 </div>
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                     <div className="border-2 border-[#eee] py-8 px-5 rounded-xl">
                       <h5 className="mb-3 text-2xl text-[#1b3b64]">Outcome Of The Negotiation</h5>
                       <p className="mb-3">The aspired cost level was met through a combination of factors:</p>

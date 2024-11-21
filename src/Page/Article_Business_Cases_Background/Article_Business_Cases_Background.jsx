@@ -95,7 +95,7 @@ const About_us = () => {
           articleText="Case Study"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/deliver-budget-constraints")} // Navigate on click
+          onReadClick={() => navigate("/deliver-despite-budget")} // Navigate on click
         />
 
         <Card
@@ -127,7 +127,7 @@ const About_us = () => {
           articleText="Philosophy"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/unlocking-value-bottom-line")} // Navigate on click
+          onReadClick={() => navigate("/unlocking-value-bottom")} // Navigate on click
         />
 
         <Card
@@ -137,7 +137,7 @@ const About_us = () => {
           articleText="Article"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/procurement-department-dna")} // Navigate on click
+          onReadClick={() => navigate("/procurement-department")} // Navigate on click
         />
       </div>
 
@@ -149,7 +149,7 @@ const About_us = () => {
           articleText="Article"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/materials-management")} // Navigate on click
+          onReadClick={() => navigate("/materials-management-blog")} // Navigate on click
         />
 
         <Card
@@ -159,7 +159,7 @@ const About_us = () => {
           articleText="Case Study"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/misalignment-business-plan")} // Navigate on click
+          onReadClick={() => navigate("/misalignment-with-business")} // Navigate on click
         />
 
         <Card
@@ -191,7 +191,7 @@ const About_us = () => {
           articleText="Article"
           readText="Read"
           onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/art-of-the-deal")} // Navigate on click
+          onReadClick={() => navigate("/the-art-of-deal")} // Navigate on click
         />
       </div>
 

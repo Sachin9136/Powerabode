@@ -84,8 +84,8 @@ const About_us = () => {
         </div>
 
         <div className="px-4 md:px-20 mt-20">
-            <div className="flex gap-5">
-                <div className="w-1/2">
+            <div className="block md:flex gap-5">
+                <div className="w-full md:w-1/2">
                     <div className="flex justify-center">
                         <img className="w-72" src={Smart} alt="" />
                     </div>
@@ -107,7 +107,7 @@ const About_us = () => {
                         <p className="mb-3"> For the sake of argument, we mention changed production targets, but it could be a changed asset strategy or something else. Setting up KPI’s is one thing, but they have to be in sync. And when events happen during the year, revisions and updates are necessary.</p>
                     </div>
                 </div>
-                <div className="w-1/2">
+                <div className="w-full md:w-1/2">
                     <div className="border-2 border-[#eee] py-8 px-5 rounded-xl">
                         <h5 className="mb-3 text-2xl text-[#1b3b64]">Conflicting kpi’s result in conflict. And cost inefficiency.</h5>
                         <p className="mb-3">We have all been there. When changes were pending, or actually happened. And not everyone knew of them. Or only found out later. The consequence is inefficiency, tension or even conflict. Once one of the parameters was changed, all kpi’s should have been revised.</p>
