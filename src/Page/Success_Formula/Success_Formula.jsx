@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import Card_slider from "../../components/card_slider/card_slider";
-import { Success_Formula, Success_Formula1, Success_Formula2, Success_Formula3, Success_Formula4, Success_Formula5, DNA, Tier_structure, Winner } from "../../components/Img/ImportedImage";
+import { Success_Formula, Success_Formula1, Success_Formula2, Success_Formula3, Success_Formula4, Success_Formula5, DNA, Tier_structure, Winner, SLA1, SLA2, SLA3, SLA4, SLA5, SLA6 } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -26,15 +26,17 @@ const About_us = () => {
 Disruptive and Controlled."/>
 
       <div className="">
-        <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Capex / Opex Program</h2>
-        <h2 className='text-center text-xl font-medium text-[#29385E] mt-3 mb-6'>The Road To Cost Leadership</h2>
-        <div>
-          <h3 className="text-[#504F4F] text-xl text-center">Reducing Opex by double digit percentage. Optimising Capex and Opex. Involving <br /> cost experts with frontline experience to optimise value.</h3>
+        <div className="px-4 md:px-20 my-10">
+            <h2 className='text-6xl font-bold text-[#29385E] mt-10'>Capex / Opex Program</h2>
+            <h2 className='text-4xl font-medium text-[#29385E] mt-3 mb-6'>The Road To Cost Leadership</h2>
+            <div>
+            <h3 className="text-[#504F4F] text-xl">Reducing Opex by double digit percentage. Optimising Capex and Opex. Involving cost experts with frontline experience to optimise value.</h3>
+            </div>
         </div>
 
         <Row>
             <div className="px-4 md:px-20 my-10 block lg:flex justify-center gap-5">
-                <div className="w-full lg:3/6 border border-black rounded-lg px-4 py-8 mb-6">
+                <div className="w-full lg:3/6 border border-[#eee] rounded-lg px-4 py-8 mb-6">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Why a program?</h3>
                     </div>
@@ -43,7 +45,7 @@ Disruptive and Controlled."/>
                     </div>
                 </div>
 
-                <div className="w-full lg:3/6 border border-black rounded-lg pt-8 mb-6 flex flex-col">
+                <div className="w-full lg:3/6 border border-[#eee] rounded-lg pt-8 mb-6 flex flex-col">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8 px-4 ">3-Tier structure</h3>
                     </div>
@@ -67,7 +69,7 @@ Disruptive and Controlled."/>
 
         <Row>
             <div className="px-4 md:px-20 my-10 block lg:flex justify-center gap-5">
-                <div className="w-full lg:3/6 border border-black rounded-lg px-4 py-8 mb-6">
+                <div className="w-full lg:3/6 border border-[#eee] rounded-lg px-4 py-8 mb-6">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Cost and Value intelligence</h3>
                     </div>
@@ -76,7 +78,7 @@ Disruptive and Controlled."/>
                     </div>
                 </div>
 
-                <div className="w-full lg:3/6 border border-black rounded-lg px-4 py-8 mb-6">
+                <div className="w-full lg:3/6 border border-[#eee] rounded-lg px-4 py-8 mb-6">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Bespoke</h3>
                     </div>
@@ -91,7 +93,7 @@ Disruptive and Controlled."/>
         <Row>
             <div className="px-4 md:px-20 my-10 block lg:flex justify-center gap-5">
 
-                <div className="w-full lg:3/6 border border-black rounded-lg px-4 py-8 mb-6">
+                <div className="w-full lg:3/6 border border-[#eee] rounded-lg px-4 py-8 mb-6">
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8">Distruptive & Controlled</h3>
                     </div>
@@ -100,7 +102,7 @@ Disruptive and Controlled."/>
                     </div>
                 </div>
         
-                <div className="w-full h-[250px] lg:3/6 border border-black rounded-lg pt-8 mb-6 flex flex-col bg-no-repeat bg-contain bg-bottom" style={{ backgroundImage: `url(${Winner})` }}>
+                <div className="w-full h-[250px] lg:3/6 border border-[#eee] rounded-lg pt-8 mb-6 flex flex-col bg-no-repeat bg-contain bg-bottom" style={{ backgroundImage: `url(${Winner})` }}>
                     <div>
                         <h3 className="text-2xl font-bold text-[#59ADB7] mb-8 px-4 ">Winners!</h3>
                     </div>

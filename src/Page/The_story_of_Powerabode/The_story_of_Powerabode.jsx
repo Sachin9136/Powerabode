@@ -166,41 +166,55 @@ const The_story_of_Powerabode = () => {
 
         <div className="px-4 md:px-20 my-20">
             <div>
-                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+  
+                {/* Codex Block */}
+                <a href="/codex-supply-chain" rel="noopener noreferrer">
                     <div>
-                        <div>
-                        <img className="h-64 w-64 mx-auto border-[#4C78B5] border-[20px] p-5 rounded-full" src={Codex} alt="" />
-                        </div>
-                        <div>
+                    <div>
+                        <img className="h-64 w-64 mx-auto border-[#4C78B5] border-[20px] p-5 rounded-full" src={Codex} alt="Codex" />
+                    </div>
+                    <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Codex</p>
-                        <p className="text-xl mt-2 px-2 md:px-5 text-center">The unique system for energy transition</p>
-                        </div>
+                        <p className="text-xl mt-2 px-2 md:px-5 text-center">The unique system for energy <br /> transition</p>
                     </div>
-
-                    <div>
-                        <div>
-                            <img className="h-64 w-64 mx-auto border-[#8F4A81] border-[20px] p-5 rounded-full" src={CM} alt="" />
-                        </div>
-                        <div>
-                            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
-                            <p className="text-xl mt-2 px-2 md:px-5 text-center">
-                            Hands on Tool <br />
-                            - Supported by cost experts <br />
-                            - For Cost efficiency in transition
-                            </p>
-                        </div>
                     </div>
+                </a>
 
+                {/* CM+ Block */}
+                <a href="/cm-for-contract" rel="noopener noreferrer">
                     <div>
-                        <div>
-                        <img className="h-64 w-64 mx-auto border-[#9ED033] border-[20px] p-5 rounded-full" src={Supply_chain} alt="" />
-                        </div>
-                        <div>
+                    <div>
+                        <img className="h-64 w-64 mx-auto border-[#8F4A81] border-[20px] p-5 rounded-full" src={CM} alt="CM+" />
+                    </div>
+                    <div>
+                        <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
+                        <p className="text-xl mt-2 px-2 md:px-5 text-center">
+                        Hands on Tool <br />
+                        - Supported by cost experts <br />
+                        - For Cost efficiency in transition
+                        </p>
+                    </div>
+                    </div>
+                </a>
+
+                {/* Supply Chain by SLA Block */}
+                <a href="/supply-chain-by-sla" target="_blank" rel="noopener noreferrer">
+                    <div>
+                    <div>
+                        <img className="h-64 w-64 mx-auto border-[#9ED033] border-[20px] p-5 rounded-full" src={Supply_chain} alt="Supply Chain by SLA" />
+                    </div>
+                    <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Supply Chain by SLA</p>
-                        <p className="text-xl mt-2 px-2 md:px-5 text-center">Mature organization to run your SC & <br /> cost efficiency</p>
-                        </div>
+                        <p className="text-xl mt-2 px-2 md:px-5 text-center">
+                        Mature organization to run your SC & <br /> cost efficiency
+                        </p>
                     </div>
+                    </div>
+                </a>
+                
                 </div>
+
             </div>   
         </div>
 
@@ -242,50 +256,65 @@ const The_story_of_Powerabode = () => {
 
         <div className="px-4 md:px-20 my-20">
             <div>
-                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div>
+                <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+                    {/* Codex Block */}
+                    <a href="/codex-supply-chain" rel="noopener noreferrer">
                         <div>
-                        <img className="h-64 w-64 mx-auto border-[#4C78B5] border-[20px] p-5 rounded-full" src={Codex} alt="" />
+                        <div>
+                            <img className="h-64 w-64 mx-auto border-[#4C78B5] border-[20px] p-5 rounded-full" src={Codex} alt="Codex" />
                         </div>
                         <div>
-                        <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Codex</p>
-                        <p className="text-xl mt-2 px-2 md:px-5 text-center">The unique system for energy transition</p>
+                            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Codex</p>
+                            <p className="text-xl mt-2 px-2 md:px-5 text-center">The unique system for energy <br /> transition</p>
                         </div>
-                    </div>
+                        </div>
+                    </a>
 
-                    <div>
+                    {/* CM+ Block */}
+                    <a href="/cm-for-contract" rel="noopener noreferrer">
                         <div>
-                        <img className="h-64 w-64 mx-auto border-[#8F4A81] border-[20px] p-5 rounded-full" src={CM} alt="" />
+                        <div>
+                            <img className="h-64 w-64 mx-auto border-[#8F4A81] border-[20px] p-5 rounded-full" src={CM} alt="CM+" />
                         </div>
                         <div>
-                        <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
-                        <p className="text-xl mt-2 px-2 md:px-5 text-center">
-                            Hands on Tool <br />
-                            - Supported by cost experts <br />
-                            - For Cost efficiency in transition
-                        </p>
+                            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
+                            <p className="text-xl mt-2 px-2 md:px-5 text-center">
+                            Hands on Tool <br /> - Supported by cost experts <br /> - For Cost efficiency in transition
+                            </p>
                         </div>
-                    </div>
+                        </div>
+                    </a>
 
-                    <div>
+                    {/* Supply Chain by SLA Block */}
+                    <a href="/supply-chain-by-sla" rel="noopener noreferrer">
                         <div>
-                        <img className="h-64 w-64 mx-auto border-[#9ED033] border-[20px] p-5 rounded-full" src={Supply_chain} alt="" />
+                        <div>
+                            <img className="h-64 w-64 mx-auto border-[#9ED033] border-[20px] p-5 rounded-full" src={Supply_chain} alt="Supply Chain by SLA" />
                         </div>
                         <div>
-                        <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Supply Chain by SLA</p>
-                        <p className="text-xl mt-2 px-2 md:px-5 text-center">Mature organization to run your SC & <br /> cost efficiency</p>
+                            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Supply Chain by SLA</p>
+                            <p className="text-xl mt-2 px-2 md:px-5 text-center">
+                            Mature organization to run your SC & <br /> cost efficiency
+                            </p>
                         </div>
-                    </div>
-
-                    <div>
+                        </div>
+                    </a>
+                </div>
+                <div className="flex justify-center mt-10">
+                    {/* Program Block */}
+                    <a href="/success-formula-disruptive-and-controlled" rel="noopener noreferrer">
                         <div>
-                        <img className="h-64 w-64 mx-auto border-[#01BCB1] border-[20px] p-5 rounded-full" src={Program_img} alt="" />
+                        <div>
+                            <img className="h-64 w-64 mx-auto border-[#01BCB1] border-[20px] p-5 rounded-full" src={Program_img} alt="Program" />
                         </div>
                         <div>
-                        <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Program</p>
-                        <p className="text-xl mt-2 px-2 md:px-5 text-center">20%+ Commercial improvement. <br />A disruptive & controlled process <br />focused on delivery</p>
+                            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Program</p>
+                            <p className="text-xl mt-2 px-2 md:px-5 text-center">
+                            20%+ Commercial improvement. <br /> A disruptive & controlled process <br /> focused on delivery
+                            </p>
                         </div>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>   
         </div>
@@ -324,39 +353,60 @@ const The_story_of_Powerabode = () => {
         <div className="px-4 md:px-20 my-20">
             <div>
                 <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div>
+                    {/* First Block with Codex Image */}
+                    <a href="/codex-supply-chain" rel="noopener noreferrer">
                         <div>
-                            <img className="h-64 w-64 mx-auto border-[#4C78B5] border-[20px] p-5 rounded-full" src={Codex} alt="" />
+                        <div>
+                            <img
+                            className="h-64 w-64 mx-auto border-[#4C78B5] border-[20px] p-5 rounded-full"
+                            src={Codex}
+                            alt="Codex"
+                            />
                         </div>
                         <div>
-                        <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Codex</p>
-                        <p className="text-xl mt-2 px-2 md:px-5 text-center">The unique system for energy transition</p>
+                            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Codex</p>
+                            <p className="text-xl mt-2 px-2 md:px-5 text-center">The unique system for energy <br /> transition</p>
                         </div>
-                    </div>
+                        </div>
+                    </a>
 
-                    <div>
+                    {/* Second Block with CM+ Image */}
+                    <a href="/cm-for-contract" rel="noopener noreferrer">
                         <div>
-                        <img className="h-64 w-64 mx-auto border-[#8F4A81] border-[20px] p-5 rounded-full" src={CM} alt="" />
+                        <div>
+                            <img
+                            className="h-64 w-64 mx-auto border-[#8F4A81] border-[20px] p-5 rounded-full"
+                            src={CM}
+                            alt="CM+"
+                            />
                         </div>
                         <div>
-                        <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
-                        <p className="text-xl mt-2 px-2 md:px-5 text-center">
-                            Hands on Tool <br />
-                            - Supported by cost experts <br />
-                            - For Cost efficiency in transition
-                        </p>
+                            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
+                            <p className="text-xl mt-2 px-2 md:px-5 text-center">
+                            Hands on Tool <br />- Supported by cost experts <br />- For Cost efficiency in transition
+                            </p>
                         </div>
-                    </div>
+                        </div>
+                    </a>
 
-                    <div>
+                    {/* Third Block with Supply Chain by SLA Image */}
+                    <a href="/supply-chain-by-sla" rel="noopener noreferrer">
                         <div>
-                        <img className="h-64 w-64 mx-auto border-[#9ED033] border-[20px] p-5 rounded-full" src={Supply_chain} alt="" />
+                        <div>
+                            <img
+                            className="h-64 w-64 mx-auto border-[#9ED033] border-[20px] p-5 rounded-full"
+                            src={Supply_chain}
+                            alt="Supply Chain by SLA"
+                            />
                         </div>
                         <div>
-                        <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Supply Chain by SLA</p>
-                        <p className="text-xl mt-2 px-2 md:px-5 text-center">Mature organization to run your SC & <br /> cost efficiency</p>
+                            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">Supply Chain by SLA</p>
+                            <p className="text-xl mt-2 px-2 md:px-5 text-center">
+                            Mature organization to run your SC & <br /> cost efficiency
+                            </p>
                         </div>
-                    </div>
+                        </div>
+                    </a>
                 </div>
             </div>   
         </div>

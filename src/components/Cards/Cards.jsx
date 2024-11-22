@@ -1,14 +1,13 @@
 import React from "react";
-import { Lion, Structure, Strategy, SLA_bg } from "../../components/Img/ImportedImage"; // Assuming these are imported correctly
+import { Lion, Structure, Strategy } from "../../components/Img/ImportedImage"; // Assuming these are imported correctly
 
 const Cards = () => {
   return (
-    <div 
-      className="container mx-auto" >
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 px-4 md:px-2 py-10">
+    <div className="container mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 px-4 md:px-20 py-10">
         
         {/* First Card with Structure Image */}
-        <div className="relative group w-full h-80 md:h-72 lg:h-80 rounded-lg overflow-hidden shadow-lg transition-all duration-500">
+        <a href="/unlocking-value-bottom" rel="noopener noreferrer" className="relative group w-full h-80 md:h-72 lg:h-80 rounded-3xl overflow-hidden shadow-lg transition-all duration-500">
           {/* Image part */}
           <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${Structure})` }}></div>
 
@@ -24,10 +23,10 @@ const Cards = () => {
               Identifying a saving potential is a small step. The bigger thing is to bring it to your bottomline. We use the Integrated Supply Chain, the structure of our Cost Intelligence Philosophy...
             </p>
           </div>
-        </div>
+        </a>
 
         {/* Second Card with Strategy Image */}
-        <div className="relative group w-full h-80 md:h-72 lg:h-80 rounded-lg overflow-hidden shadow-lg transition-all duration-500">
+        <a href="/strategic-sourcing" rel="noopener noreferrer" className="relative group w-full h-80 md:h-72 lg:h-80 rounded-3xl overflow-hidden shadow-lg transition-all duration-500">
           {/* Image part */}
           <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${Strategy})` }}></div>
 
@@ -43,10 +42,10 @@ const Cards = () => {
               Digitisation is key, but good old human intelligence is still key in defining the strategy. Artificial Intelligence is quickly gaining pace, but...
             </p>
           </div>
-        </div>
+        </a>
 
         {/* Third Card with Lion Image */}
-        <div className="relative group w-full h-80 md:h-72 lg:h-80 rounded-lg overflow-hidden shadow-lg transition-all duration-500">
+        <a href="/hidden-in-plain-sight" rel="noopener noreferrer" className="relative group w-full h-80 md:h-72 lg:h-80 rounded-3xl overflow-hidden shadow-lg transition-all duration-500">
           {/* Image part */}
           <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: `url(${Lion})` }}></div>
 
@@ -62,7 +61,7 @@ const Cards = () => {
               Crazy as it may sound; there’s always an elephant in the room.. Central in our way of work are the users of the contract, the ECMT...
             </p>
           </div>
-        </div>
+        </a>
 
       </div>
     </div>

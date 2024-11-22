@@ -117,12 +117,12 @@ const About_us = () => {
         <div className="px-4 md:px-20 my-10 block lg:flex justify-center gap-5">
           <div className="w-full lg:2/6 border border-black rounded-lg px-8 pb-10 pt-10 mb-6">
             <div>
-              <h3 className="text-center text-2xl font-bold mb-8">
+              <h3 className="text-center text-2xl font-bold mb-8 text-[#59ADB7]">
                 Lower rates
               </h3>
             </div>
             <div>
-              <p className="text-center text-medium font-medium">
+              <p className="text-center text-medium font-medium text-[#504F4F]">
                 Standard is to negotiate lower prices with suppliers and service
                 providers. This is only 20% of the savings potential. But this
                 is where it stops for most companies. The Cost and Value
@@ -134,12 +134,12 @@ const About_us = () => {
 
           <div className="w-full lg:2/6 border border-black rounded-lg px-8 pb-10 pt-10 mb-6">
             <div>
-              <h3 className="text-center text-2xl font-bold mb-8">
+              <h3 className="text-center text-2xl font-bold mb-8 text-[#59ADB7]">
                 Efficiency & Specification
               </h3>
             </div>
             <div>
-              <p className="text-center text-medium font-medium">
+              <p className="text-center text-medium font-medium text-[#504F4F]">
                 A main potential of value and savings sit in the space of
                 improved efficiency and rationalised specification. Together,
                 they deliver an extra 70% of the cost saving potential. On top
@@ -152,12 +152,12 @@ const About_us = () => {
 
           <div className="w-full lg:2/6 border border-black rounded-lg px-8 pb-10 pt-10 mb-6">
             <div>
-              <h3 className="text-center text-2xl font-bold mb-8">
+              <h3 className="text-center text-2xl font-bold mb-8 text-[#59ADB7]">
                 What else?
               </h3>
             </div>
             <div>
-              <p className="text-center text-medium font-medium">
+              <p className="text-center text-medium font-medium text-[#504F4F]">
                 After splitting up the savings potential, we map the
                 organisation into the stakeholders for each part of the
                 potential. Our products and services are all designed to deliver
@@ -303,7 +303,7 @@ const About_us = () => {
         <ImageSlider />
       </div>
 
-      <div className="px-0 md:px-5">
+      <div>
         <Cards />
       </div>
 

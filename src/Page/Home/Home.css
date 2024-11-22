@@ -3,6 +3,10 @@
     font-weight: 300 !important;
 }
 
+p, li{
+    color: #29385E;
+}
+
 .our-impact-carousel{
     padding: 10px 0px;
 }

@@ -12,30 +12,34 @@ export default function ImageSlider() {
       title: 'Services',
       description: 'Supply Chain by SLA. Home for Category Management and Supply Chain Challenges. Delivered by our experts. Optimising cost and adding value through 6 areas of delivery.',
       caseStudies: 'We carry out and deliver; for operations, maintenance, projects and production. Delivery is underpinned by our powerabode Codex, our productised services, training, and off course the experts who all had mileage with IOC’s working in the field. In everything powerabode does, the focus is on Cost Leadership for you.',
+      link: '/supply-chain-by-sla',
     },
     {
       url: slider_2,
       title: 'Program',
       description: 'Supply Chain by SLA. Home for Category Management and Supply Chain Challenges. Delivered by our experts. Optimising cost and adding value through 6 areas of delivery.',
-      caseStudies: 'We are organised around three activities, that support and complement each other: Supply Chain by SLA; for all your Supply Chain/Procurement activities Programs; Secondly, the third party cost Program, The Road to Cost Leadership . And, lastly the support by our training section; powerabode Academy. ',
+      caseStudies: 'We are organised around three activities, that support and complement each other: Supply Chain by SLA; for all your Supply Chain/Procurement activities Programs; Secondly, the third party cost Program, The Road to Cost Leadership . And, lastly the support by our training section; powerabode Academy.',
+      link: '/success-formula-disruptive-and-controlled',
     },
     {
       url: slider_3,
       title: 'Academy',
       description: 'Supply Chain by SLA. Home for Category Management and Supply Chain Challenges. Delivered by our experts. Optimising cost and adding value through 6 areas of delivery.',
-      caseStudies: 'We understand the commercials of energy supply chains better then anyone. Our philosophy of cost intelligence delivers cost efficiency. It’s not just about reducing rates, efficiency and specification will bring savings as well.',
+      caseStudies: 'We understand the commercials of energy supply chains better than anyone. Our philosophy of cost intelligence delivers cost efficiency. It’s not just about reducing rates, efficiency and specification will bring savings as well.',
+      link: '/skillset-development',
     },
     {
       url: slider_4,
       title: 'Thinking',
       description: 'Supply Chain by SLA. Home for Category Management and Supply Chain Challenges. Delivered by our experts. Optimising cost and adding value through 6 areas of delivery.',
       caseStudies: 'Off the Shelf. Comprehensive management system. Adapted to your organisation. For better Compliance and Governance. Including procedures, forms, work instructions and cost efficiency tips. This is a great system for new energy assets and NOC’s.',
+      link: '/article-business-cases-background',
     },
     {
       url: slider_5,
       title: 'CODEX',
       description: 'Supply Chain by SLA. Home for Category Management and Supply Chain Challenges. Delivered by our experts. Optimising cost and adding value through 6 areas of delivery.',
-      // caseStudies: 'Case study for CODEX: How CODEX helps streamline supply chain challenges.',
+      link: '/codex-supply-chain',
     },
   ];
 
@@ -68,6 +72,15 @@ export default function ImageSlider() {
             style={{ backgroundImage: `url(${image.url})` }}
             onMouseEnter={() => handleMouseEnter(index)} // Change from onClick to onMouseEnter
           >
+            {/* Wrap content with <a> tag but maintain the layout */}
+            <a
+              href={image.link} // Link to each image's URL
+              rel="noopener noreferrer"
+              className="absolute inset-0 z-10"
+            >
+              {/* Transparent anchor over the entire div */}
+            </a>
+
             {/* Show title for non-active images */}
             {activeIndex !== index && (
               <h3

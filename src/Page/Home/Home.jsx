@@ -258,13 +258,16 @@ function Home() {
                 Cost Intelligence Philosophy.
               </p>
               <div>
-                <img
-                  className="h-[200px] w-[200px] mx-auto border-[#fea029] border-[20px] p-1 rounded-full"
-                  src={CVI_Logo}
-                  alt=""
-                />
+                <a href="/cost-and-value-philosophy">
+                  <img
+                    className="h-[200px] w-[200px] mx-auto border-[#fea029] border-[20px] p-1 rounded-full"
+                    src={CVI_Logo}
+                    alt=""
+                  />
+                </a>
               </div>
             </details>
+
             <details class="group py-1">
               <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
                 Our operating cost are high, how can we reduce them sustainably?
@@ -281,23 +284,27 @@ function Home() {
                 cost and dramatically increase your value! Check out below links
                 to learn more.
               </p>
-              <div className="flex">
-                <img
-                  className="h-[200px] w-[200px] mx-auto border-[#fea029] border-[20px] p-1 rounded-full"
-                  src={CVI_Logo}
-                  alt=""
-                />
-                <img
-                  className="h-[200px] w-[200px] mx-auto border-[#fea029] border-[20px] p-1 rounded-full"
-                  src={OPEX}
-                  alt=""
-                />
+              <div className="flex justify-center gap-5">
+                <a href="/cost-and-value-philosophy">
+                  <img
+                    className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
+                    src={CVI_Logo}
+                    alt=""
+                  />
+                </a>
+                <a href="/success-formula-disruptive-and-controlled">
+                  <img
+                    className="h-[200px] w-[200px] border-[#01bcb1] border-[20px] p-1 rounded-full"
+                    src={OPEX}
+                    alt=""
+                  />
+                </a>
               </div>
             </details>
+
             <details class="group py-1">
               <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
-                We negotiated with suppliers, but the cost are still high. What
-                to do?
+                We negotiated with suppliers, but the cost are still high. What to do?
                 <span class="ml-2 text-gray-500 transform group-open:rotate-180 transition-transform">
                   <img src={Down_arrow_menu} alt="" />
                 </span>
@@ -309,28 +316,34 @@ function Home() {
                 always too expensive to obtain. Check out below links to learn
                 more.
               </p>
-              <div className="flex">
-                <img
-                  className="h-[200px] w-[200px] mx-auto border-[#fea029] border-[20px] p-1 rounded-full"
-                  src={CVI_Logo}
-                  alt=""
-                />
-                <img
-                  className="h-[200px] w-[200px] mx-auto border-[#fea029] border-[20px] p-1 rounded-full"
-                  src={Supply_chain}
-                  alt=""
-                />
-                <img
-                  className="h-[200px] w-[200px] mx-auto border-[#01bcb1] border-[20px] p-1 rounded-full"
-                  src={OPEX}
-                  alt=""
-                />
+              <div className="flex justify-center gap-5">
+                <a href="/cost-and-value-philosophy">
+                  <img
+                    className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
+                    src={CVI_Logo}
+                    alt=""
+                  />
+                </a>
+                <a href="/supply-chain-by-sla">
+                  <img
+                    className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
+                    src={Supply_chain}
+                    alt=""
+                  />
+                </a>
+                <a href="/success-formula-disruptive-and-controlled">
+                  <img
+                    className="h-[200px] w-[200px] border-[#01bcb1] border-[20px] p-1 rounded-full"
+                    src={OPEX}
+                    alt=""
+                  />
+                </a>
               </div>
             </details>
+
             <details class="group py-1">
               <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
-                We lack specialist expertise for building remuneration models,
-                how do we fix this?
+                We lack specialist expertise for building remuneration models, how do we fix this?
                 <span class="ml-2 text-gray-500 transform group-open:rotate-180 transition-transform">
                   <img src={Down_arrow_menu} alt="" />
                 </span>
@@ -342,40 +355,40 @@ function Home() {
                 services under Supply Chain by SLA. Check out below links to
                 learn more.
               </p>
-              <div className="flex justify-evenly">
-                <div>
+              <div className="flex justify-center gap-5">
+                <a href="/supply-chain-by-sla">
                   <img
                     className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
                     src={Supply_chain}
                     alt=""
                   />
-                </div>
-                <div className="h-[200px] w-[200px] mx-auto border-[#fea029] border-[20px] rounded-full">
-                  <div className="flex justify-center">
-                    <img className="w-28 mt-5 " src={Sla_tag} alt="" />
+                </a>
+                <a href="/tendering-outsourcing">
+                  <div className="h-[200px] w-[200px] border-[#fea029] border-[20px] rounded-full">
+                    <div className="flex justify-center">
+                      <img className="w-28 mt-5" src={Sla_tag} alt="" />
+                    </div>
+                    <div className="flex justify-center items-center mt-5">
+                      <p className="text-lg">Tendering & <br /> Outsourcing</p>
+                    </div>
                   </div>
-                  <div className="flex justify-center items-center mt-5">
-                    <p className="text-lg">
-                      Tendering & <br /> Outsourcing
-                    </p>
+                </a>
+                <a href="/category-strategy-contract-strategy">
+                  <div className="h-[200px] w-[200px] border-[#fea029] border-[20px] rounded-full">
+                    <div className="flex justify-center">
+                      <img className="w-28 mt-5" src={Sla_tag} alt="" />
+                    </div>
+                    <div className="flex justify-center items-center mt-5">
+                      <p className="text-lg text-center">Post Award <br /> Contract Management</p>
+                    </div>
                   </div>
-                </div>
-                <div className="h-[200px] w-[200px] border-[#fea029] border-[20px] rounded-full">
-                  <div className="flex justify-center">
-                    <img className="w-28 mt-5 " src={Sla_tag} alt="" />
-                  </div>
-                  <div className="flex justify-center items-center mt-5">
-                    <p className="text-lg text-center">
-                      Post Award <br /> Contract Management
-                    </p>
-                  </div>
-                </div>
+                </a>
               </div>
             </details>
+
             <details class="group py-1">
               <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
-                How do we get an integrated, commercially driven and pragmatic
-                Supply Chain Management System?
+                How do we get an integrated, commercially driven and pragmatic Supply Chain Management System?
                 <span class="ml-2 text-gray-500 transform group-open:rotate-180 transition-transform">
                   <img src={Down_arrow_menu} alt="" />
                 </span>
@@ -391,54 +404,55 @@ function Home() {
                 below links to learn more.
               </p>
               <div>
-                <img
-                  className="h-[200px] w-[200px] mx-auto border-[#4c78b5] border-[20px] p-1 rounded-full"
-                  src={Codex}
-                  alt=""
-                />
+                <a href="/codex-supply-chain">
+                  <img
+                    className="h-[200px] w-[200px] mx-auto border-[#4c78b5] border-[20px] p-1 rounded-full"
+                    src={Codex}
+                    alt=""
+                  />
+                </a>
               </div>
             </details>
+
             <details class="group py-1">
               <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
-                Our Materials Management system is not a reflection of reality.
-                How do we fix this?
+                Our Materials Management system is not a reflection of reality. How do we fix this?
                 <span class="ml-2 text-gray-500 transform group-open:rotate-180 transition-transform">
                   <img src={Down_arrow_menu} alt="" />
                 </span>
               </summary>
               <p class="mt-4 mb-5 text-gray-600 text-lg pl-4">
                 Obsolescence. In materials management time always catches up
-                with you. And once it does, it can be costly. We can start with
-                red & blue assessment. Materials Management is a key part of our
-                Codex system. It covers processes, procedures, forms and work
-                instructions. After all, if not in shape it can stop you in your
-                tracks. Check out below links to learn more.
+                with you. And once it does, it can be costly. We can role out
+                our Materials Management program for you. With full
+                obsolescence mitigation model and a supporting inventory
+                control model. Check out below links to learn more.
               </p>
-              <div className="flex justify-around">
-                <div>
+              <div className="flex justify-center gap-5">
+                <a href="/supply-chain-by-sla">
                   <img
-                    className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
+                    className="h-[200px] w-[200px] mx-auto border-[#fea029] border-[20px] p-1 rounded-full"
                     src={Supply_chain}
                     alt=""
                   />
-                </div>
-                <div className="h-[200px] w-[200px] border-[#fea029] border-[20px] rounded-full">
-                  <div className="flex justify-center">
-                    <img className="w-28 mt-5 " src={Sla_tag} alt="" />
+                </a>
+                <a href="/materials-management">
+                  <div className="h-[200px] w-[200px] border-[#fea029] border-[20px] rounded-full">
+                    <div className="flex justify-center">
+                      <img className="w-28 mt-5" src={Sla_tag} alt="" />
+                    </div>
+                    <div className="flex justify-center items-center mt-5">
+                      <p className="text-lg text-center">Materials <br /> Management</p>
+                    </div>
                   </div>
-                  <div className="flex justify-center items-center mt-5">
-                    <p className="text-lg text-center">
-                      Materials <br /> Management
-                    </p>
-                  </div>
-                </div>
-                <div>
+                </a>
+                <a href="#">
                   <img
                     className="h-[200px] w-[200px] mx-auto border-[#4c78b5] border-[20px] p-1 rounded-full"
                     src={Codex}
                     alt=""
                   />
-                </div>
+                </a>
               </div>
             </details>
             <details class="group py-1">
@@ -456,31 +470,37 @@ function Home() {
                 stakeholders get piece of mind. Check out below links to learn
                 more.
               </p>
-              <div className="flex justify-around">
-                <div className="h-[200px] w-[200px] border-[#fea029] border-[20px] rounded-full">
-                  <div className="flex justify-center">
-                    <img className="w-28 mt-5 " src={Sla_tag} alt="" />
+              <div className="flex justify-center gap-5">
+                <a href="/commercial-assurance">
+                  <div className="h-[200px] w-[200px] border-[#fea029] border-[20px] rounded-full">
+                    <div className="flex justify-center">
+                      <img className="w-28 mt-5 " src={Sla_tag} alt="" />
+                    </div>
+                    <div className="flex justify-center items-center mt-5">
+                      <p className="text-lg text-center">
+                        Commercial <br /> Assurance
+                      </p>
+                    </div>
                   </div>
-                  <div className="flex justify-center items-center mt-5">
-                    <p className="text-lg text-center">
-                      Commercial <br /> Assurance
-                    </p>
+                </a>
+                <a href="/codex-supply-chain">
+                  <div>
+                    <img
+                      className="h-[200px] w-[200px] border-[#4c78b5] border-[20px] p-1 rounded-full"
+                      src={Codex}
+                      alt=""
+                    />
                   </div>
-                </div>
-                <div>
-                  <img
-                    className="h-[200px] w-[200px] mx-auto border-[#4c78b5] border-[20px] p-1 rounded-full"
-                    src={Codex}
-                    alt=""
-                  />
-                </div>
-                <div>
-                  <img
-                    className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
-                    src={Supply_chain}
-                    alt=""
-                  />
-                </div>
+                </a>
+                <a href="/supply-chain-by-sla">
+                  <div>
+                    <img
+                      className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
+                      src={Supply_chain}
+                      alt=""
+                    />
+                  </div>
+                </a>
               </div>
             </details>
             <details class="group py-1">
@@ -499,17 +519,21 @@ function Home() {
                 a ‘how to’. We do it for you & with you. Check out below links
                 to learn more.
               </p>
-              <div className="flex">
-              <img
-                  className="h-[200px] w-[200px] mx-auto border-[#01bcb1] border-[20px] p-1 rounded-full"
-                  src={OPEX}
-                  alt=""
-                />
-                <img
-                  className="h-[200px] w-[200px] mx-auto border-[#fea029] border-[20px] p-1 rounded-full"
-                  src={CVI_Logo}
-                  alt=""
-                />
+              <div className="flex justify-center gap-5">
+                <a href="/success-formula-disruptive-and-controlled">
+                  <img
+                    className="h-[200px] w-[200px] border-[#01bcb1] border-[20px] p-1 rounded-full"
+                    src={OPEX}
+                    alt=""
+                  />
+                </a>
+                <a href="/cost-and-value-philosophy">
+                  <img
+                    className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
+                    src={CVI_Logo}
+                    alt=""
+                  />
+                </a>
               </div>
             </details>
             <details class="group py-1">
@@ -528,24 +552,28 @@ function Home() {
                 conversation on the best way how to do it. Or better, let us do
                 it for you. Check out below links to learn more.
               </p>
-              <div className="flex justify-around">
-                <div className="h-[200px] w-[200px] border-[#4c5194] border-[20px] rounded-full">
-                  <div className="flex justify-center">
-                    <img className="w-28 mt-5 " src={Sla_tag} alt="" />
+              <div className="flex justify-center gap-5">
+                <a href="/cost-recovery">
+                  <div className="h-[200px] w-[200px] border-[#4c5194] border-[20px] rounded-full">
+                    <div className="flex justify-center">
+                      <img className="w-28 mt-5 " src={Sla_tag} alt="" />
+                    </div>
+                    <div className="flex justify-center items-center mt-5">
+                      <p className="text-lg text-center">
+                        Cost Recovery
+                      </p>
+                    </div>
                   </div>
-                  <div className="flex justify-center items-center mt-5">
-                    <p className="text-lg text-center">
-                      Cost Recovery
-                    </p>
+                </a>
+                <a href="/codex-supply-chain">
+                  <div>
+                    <img
+                      className="h-[200px] w-[200px] border-[#4c78b5] border-[20px] p-1 rounded-full"
+                      src={Codex}
+                      alt=""
+                    />
                   </div>
-                </div>
-                <div>
-                  <img
-                    className="h-[200px] w-[200px] mx-auto border-[#4c78b5] border-[20px] p-1 rounded-full"
-                    src={Codex}
-                    alt=""
-                  />
-                </div>
+                </a>
               </div>
             </details>
             <details class="group py-1">
@@ -563,17 +591,21 @@ function Home() {
                 are key in our Cost and Value (C&V) philosophy. And in CM+.
                 Check out below link to learn more.
               </p>
-              <div className="flex justify-around">
-                <img
-                  className="h-[200px] w-[200px] mx-auto border-[#fea029] border-[20px] p-1 rounded-full"
-                  src={CVI_Logo}
-                  alt=""
-                />   
+              <div className="flex justify-center gap-5">
+                <a href="/cost-and-value-philosophy">
                   <img
-                    className="h-[200px] w-[200px] mx-auto border-[#4c78b5] border-[20px] p-1 rounded-full"
-                    src={Codex}
+                    className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
+                    src={CVI_Logo}
                     alt=""
-                  />
+                  />   
+                </a>
+                  <a href="/codex-supply-chain">
+                    <img
+                      className="h-[200px] w-[200px] border-[#4c78b5] border-[20px] p-1 rounded-full"
+                      src={Codex}
+                      alt=""
+                    />
+                  </a>
                 </div>
             </details>
             <details class="group py-1">
@@ -589,17 +621,22 @@ function Home() {
                 are key. And that rate (‘the price’) is only 20% of any
                 potential saving. Check out below link to learn more.
               </p>
-                <div className="flex justify-around">
-                  <img
-                    className="h-[200px] w-[200px] mx-auto border-[#01bcb1] border-[20px] p-1 rounded-full"
-                    src={OPEX}
-                    alt=""
-                  />   
-                  <img
-                    className="h-[200px] w-[200px] mx-auto border-[#fea029] border-[20px] p-1 rounded-full"
-                    src={CVI_Logo}
-                    alt=""
-                  />
+                <div className="flex justify-center gap-5">
+                  <a href="/success-formula-disruptive-and-controlled">
+                    <img
+                      className="h-[200px] w-[200px] border-[#01bcb1] border-[20px] p-1 rounded-full"
+                      src={OPEX}
+                      alt=""
+                    />  
+                  </a>
+                  
+                  <a href="/cost-and-value-philosophy">
+                    <img
+                      className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
+                      src={CVI_Logo}
+                      alt=""
+                    />
+                  </a>
                 </div>
             </details>
           </div>

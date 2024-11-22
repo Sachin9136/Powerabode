@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
-import { Success_Formula, Supply_Chain_by_SLA, Supply_Chain_by_SLA2, Supply_Chain_by_SLA3, CategoryStrategy_img, TenderingandOutsourcing, PostAwardContract } from "../../components/Img/ImportedImage";
+import { Supply_Chain_by_SLA, Supply_Chain_by_SLA2, Supply_Chain_by_SLA3, SLA1, SLA2, SLA3, SLA4, SLA5, SLA6 } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -57,9 +57,16 @@ const About_us = () => {
 
 "/>
      
-       <Row>
-        <img className="w-full" src={Supply_Chain_by_SLA2} alt="" />
-       </Row>
+       {/* <Row>
+            <div className="flex h-[222px]">
+                <img className="w-full" src={SLA1} alt="" />
+                <img className="w-full" src={SLA2} alt="" />
+                <img className="w-full" src={SLA3} alt="" />
+                <img className="w-full" src={SLA4} alt="" />
+                <img className="w-full" src={SLA5} alt="" />
+                <img className="w-full" src={SLA6} alt="" />
+            </div>
+       </Row> */}
 
         <div className="px-4 md:px-20">
             <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>The Advantage of Supply Chain by Service Level Agreement</h2>
