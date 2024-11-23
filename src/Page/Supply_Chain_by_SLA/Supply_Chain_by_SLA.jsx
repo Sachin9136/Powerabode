@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
-import { Supply_Chain_by_SLA, Supply_Chain_by_SLA2, Supply_Chain_by_SLA3, SLA1, SLA2, SLA3, SLA4, SLA5, SLA6 } from "../../components/Img/ImportedImage";
+import { Supply_Chain_by_SLA, Supply_Chain_by_SLA2, Supply_Chain_by_SLA3, SLA1, SLA2, SLA3, SLA4, SLA5, SLA6, Comma_top, Comma_bottom   } from "../../components/Img/ImportedImage";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -86,10 +86,12 @@ const About_us = () => {
 
             <div className="w-full lg:w-1/2 py-5 px-10 lg:py-16 ">
                 <div>
-                    <h1 className="text-2xl lg:text-4xl font-bold">“Every Supply Chain has <br /> Waste</h1>
+                    <img className="w-24" src={ Comma_top } alt="" />
+                    <h1 className="text-xl lg:text-3xl font-medium italic relative -top-9 left-4">Every Supply Chain has Waste</h1>
                 </div>
-                <div className="flex justify-end mt-10 lg:mt-20">
-                    <h1 className="text-2xl lg:text-4xl font-bold">We Fix It!”</h1>
+                <div className="flex justify-end">
+                    <img className="w-24 absolute" src={ Comma_bottom  } alt="" />
+                    <h1 className="text-xl lg:text-3xl font-medium italic relative pr-4">We Fix It!</h1>
                 </div>
             </div>
         </div>

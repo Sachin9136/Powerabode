@@ -58,7 +58,7 @@ function Home() {
               alt="Upstream Onshore"
               className="h-10 mx-auto"
             />
-            <p className="mt-2">
+            <p className="mt-2 text-white">
               Upstream <br /> Onshore
             </p>
           </div>
@@ -68,7 +68,7 @@ function Home() {
               alt="Upstream Offshore"
               className="h-10 mx-auto"
             />
-            <p className="mt-2">
+            <p className="mt-2 text-white">
               Upstream <br /> Offshore
             </p>
           </div>
@@ -78,13 +78,13 @@ function Home() {
               alt="Downstream Refinery"
               className="h-10 mx-auto"
             />
-            <p className="mt-2">
+            <p className="mt-2 text-white">
               Downstream <br /> Refinery
             </p>
           </div>
           <div className="w-1/2 md:w-1/6 lg:w-1/12 p-2 text-center">
             <img src={Power} alt="Power" className="h-10 mx-auto" />
-            <p className="mt-2">Power</p>
+            <p className="mt-2 text-white">Power</p>
           </div>
           <div className="w-1/2 md:w-1/6 lg:w-1/12 p-2 text-center">
             <img
@@ -92,13 +92,13 @@ function Home() {
               alt="Water Desalination"
               className="h-10 mx-auto"
             />
-            <p className="mt-2">
+            <p className="mt-2 text-white">
               Water <br /> Desalination
             </p>
           </div>
           <div className="w-1/2 md:w-1/6 lg:w-1/12 p-2 text-center">
             <img src={Nuclear} alt="Nuclear Energy" className="h-10 mx-auto" />
-            <p className="mt-2">
+            <p className="mt-2 text-white">
               Nuclear <br /> Energy
             </p>
           </div>
@@ -108,7 +108,7 @@ function Home() {
               alt="Renewable Solar"
               className="h-10 mx-auto"
             />
-            <p className="mt-2">
+            <p className="mt-2 text-white">
               Renewable <br /> Solar
             </p>
           </div>
@@ -118,13 +118,13 @@ function Home() {
               alt="Renewable Wind"
               className="h-10 mx-auto"
             />
-            <p className="mt-2">
+            <p className="mt-2 text-white">
               Renewable <br /> Wind
             </p>
           </div>
           <div className="w-1/2 md:w-1/6 lg:w-1/12 p-2 text-center">
             <img src={Hydrogen} alt="Hydrogen" className="h-10 mx-auto" />
-            <p className="mt-2">Hydrogen</p>
+            <p className="mt-2 text-white">Hydrogen</p>
           </div>
           {/* Repeat similar divs for other categories */}
         </div>

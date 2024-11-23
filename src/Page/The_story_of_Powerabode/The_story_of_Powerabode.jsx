@@ -184,9 +184,15 @@ const The_story_of_Powerabode = () => {
                 {/* CM+ Block */}
                 <a href="/cm-for-contract" rel="noopener noreferrer">
                     <div>
-                    <div>
-                        <img className="h-64 w-64 mx-auto border-[#8F4A81] border-[20px] p-5 rounded-full" src={CM} alt="CM+" />
-                    </div>
+                        <div className="flex justify-center">
+                            <div className="h-64 w-64 p-5 rounded-full border-[#8F4A81] border-[20px] flex justify-center items-center">
+                                <img
+                                className=""
+                                src={CM}
+                                alt="CM+"
+                                />
+                            </div>
+                        </div>
                     <div>
                         <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
                         <p className="text-xl mt-2 px-2 md:px-5 text-center">
@@ -273,9 +279,15 @@ const The_story_of_Powerabode = () => {
                     {/* CM+ Block */}
                     <a href="/cm-for-contract" rel="noopener noreferrer">
                         <div>
-                        <div>
-                            <img className="h-64 w-64 mx-auto border-[#8F4A81] border-[20px] p-5 rounded-full" src={CM} alt="CM+" />
-                        </div>
+                        <div className="flex justify-center">
+                                <div className="h-64 w-64 p-5 rounded-full border-[#8F4A81] border-[20px] flex justify-center items-center">
+                                    <img
+                                    className=""
+                                    src={CM}
+                                    alt="CM+"
+                                    />
+                                </div>
+                            </div>
                         <div>
                             <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
                             <p className="text-xl mt-2 px-2 md:px-5 text-center">
@@ -372,20 +384,22 @@ const The_story_of_Powerabode = () => {
 
                     {/* Second Block with CM+ Image */}
                     <a href="/cm-for-contract" rel="noopener noreferrer">
-                        <div>
-                        <div>
-                            <img
-                            className="h-64 w-64 mx-auto border-[#8F4A81] border-[20px] p-5 rounded-full"
-                            src={CM}
-                            alt="CM+"
-                            />
-                        </div>
-                        <div>
-                            <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
-                            <p className="text-xl mt-2 px-2 md:px-5 text-center">
-                            Hands on Tool <br />- Supported by cost experts <br />- For Cost efficiency in transition
-                            </p>
-                        </div>
+                        <div className="">
+                            <div className="flex justify-center">
+                                <div className="h-64 w-64 p-5 rounded-full border-[#8F4A81] border-[20px] flex justify-center items-center">
+                                    <img
+                                    className=""
+                                    src={CM}
+                                    alt="CM+"
+                                    />
+                                </div>
+                            </div>
+                            <div>
+                                <p className="mt-5 text-[#1B3B64] text-3xl font-bold text-center">CM+</p>
+                                <p className="text-xl mt-2 px-2 md:px-5 text-center">
+                                    Hands on Tool <br />- Supported by cost experts <br />- For Cost efficiency in transition
+                                </p>
+                            </div>
                         </div>
                     </a>
 
