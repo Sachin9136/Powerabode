@@ -77,7 +77,8 @@ const About_us = () => {
 
   return (
     <>
-      <CommanBanner className = "h-[700px] bg-cover bg-no-repeat" children={Stragety_banner} blogheading={"blogheading"} />
+      <CommanBanner className = "h-[700px] bg-cover bg-no-repeat" children={Stragety_banner} heading="Category Strategy & Contract Strategy"
+        subheading="Reducing cost is an art. Our Experts are not classic ‘consultants’. They had long careers in Category Management and Front-line Operations at various IOCs formulating many Category and Contracting strategies. powerabode have deep understanding of strategy and the value it can bring. We know it is the fundament to sustainable performance." />
 
         <div className="px-4 md:px-20 mt-20">
             <h2 className='text-4xl font-medium text-[#1b3b64] font-Montserrat text-center'>The Limits of Digitisation</h2>

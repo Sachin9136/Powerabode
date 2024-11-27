@@ -15,7 +15,13 @@ import CommanBanner from "../../components/Banners/CommanBanner";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
 import Cards_with_bg from "../../components/Cards/Cards_with_bg";
 // import Cards from "./components/Cards"; // Import the dynamic Cards component
-import { Lion, Structure, Strategy, SLA_bg, Tower } from "../../components/Img/ImportedImage"; 
+import {
+  Lion,
+  Structure,
+  Strategy,
+  SLA_bg,
+  Tower,
+} from "../../components/Img/ImportedImage";
 import {
   Category_Strategy_banner,
   Card_img,
@@ -95,26 +101,34 @@ const About_us = () => {
     {
       image: Strategy,
       title: "Strategic Sourcing is not a Sourcing Strategy",
-      description: "Digitisation is key, but good old human intelligence is still key in defining the strategy. Artificial Intelligence is quickly gaining pace, but..."
+      description:
+        "Digitisation is key, but good old human intelligence is still key in defining the strategy. Artificial Intelligence is quickly gaining pace, but...",
+      link: "strategic-sourcing",
     },
     {
       image: Tower,
       title: "Drilling Cost Transformation",
-      description: "Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model..."
+      description:
+        "Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model...",
+      link:"drilling-cost-transformationblog"
+       
     },
     {
       image: Structure,
       title: "Unlocking Value to your bottom line",
-      description: "Identifying a saving potential is a small step. The bigger thing is to bring it to your bottomline. We use the Integrated Supply Chain, the structure of our Cost Intelligence Philosophy and the people that use the contract to…"
-    }
+      description:
+        "Identifying a saving potential is a small step. The bigger thing is to bring it to your bottomline. We use the Integrated Supply Chain, the structure of our Cost Intelligence Philosophy and the people that use the contract to…",
+         link:"unlocking-value-bottom"
+    },
   ];
 
   return (
     <>
-      <CommanBanner children={Category_Strategy_banner} heading="Category Strategy & Contract Strategy
-" subheading="Reducing cost is an art. Our Experts are not classic ‘consultants’. They had long careers in Category Management and Front-line Operations at various IOCs formulating many Category and Contracting strategies. powerabode have deep understanding of strategy and the value it can bring. We know it is the fundament to sustainable performance.
-
-"/>
+      <CommanBanner
+        children={Category_Strategy_banner}
+        heading="Category Strategy & Contract Strategy"
+        subheading="Reducing cost is an art. Our Experts are not classic ‘consultants’. They had long careers in Category Management and Front-line Operations at various IOCs formulating many Category and Contracting strategies. powerabode have deep understanding of strategy and the value it can bring. We know it is the fundament to sustainable performance."
+      />
 
       <div className="px-4 md:px-20 my-10">
         <h2 className="text-center text-3xl font-bold text-[#29385E] mt-10">
@@ -165,7 +179,10 @@ const About_us = () => {
       </div>
 
       <div className="px-0 md:px-20 my-10">
-        <div className="bg-cover bg-center w-full rounded-none md:rounded-xl px-1 py-5 md:p-6" style={{ backgroundImage: `url(${Category_strategy_points})` }}>
+        <div
+          className="bg-cover bg-center w-full rounded-none md:rounded-xl px-1 py-5 md:p-6"
+          style={{ backgroundImage: `url(${Category_strategy_points})` }}
+        >
           <div>
             <div>
               <img src={Sla_tag} alt="" />
@@ -344,10 +361,12 @@ const About_us = () => {
       <Img_Slider />
 
       <div>
-      <h1 className="text-center text-3xl font-bold mb-6">Custom Page with Dynamic Cards</h1>
-      {/* Render the Cards component with dynamic content */}
-      <Cards_with_bg background={SLA_bg} cardsContent={cardsContent} />
-    </div>
+        <h1 className="text-center text-3xl font-bold mb-6 text-[#29385E]">
+          Custom Page with Dynamic Cards
+        </h1>
+        {/* Render the Cards component with dynamic content */}
+        <Cards_with_bg background={SLA_bg} cardsContent={cardsContent} />
+      </div>
 
       <Footer />
     </>

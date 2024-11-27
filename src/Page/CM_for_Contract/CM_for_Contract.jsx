@@ -18,6 +18,7 @@ import {
   CM_for_Contract_2,
   CM_for_Contract_3,
   CM_for_Contract_4,
+  cmimage,
   Check,
 } from "../../components/Img/ImportedImage";
 
@@ -35,7 +36,7 @@ const About_us = () => {
 
       <div className="px-4 md:px-20 my-10">
         <div className="lg:flex ">
-          <div className="w-full lg:w-1/2">
+          <div className="w-full lg:w-12/12">
             <div>
               <h2 className="text-3xl font-bold text-[#29385E] mt-6 mb-3">
                 Why CM+?
@@ -73,56 +74,62 @@ const About_us = () => {
               </p>
             </div>
           </div>
-
-          <div className="w-full lg:w-1/2 ">
-            <div className="lg:flex justify-center mb-10 mt-3">
+        </div>
+        <div className="w-full flex flex-col lg:flex-row justify-between my-5">
+          <div className="lg:w-5/12 w-full flex justify-center items-center">
+            <div className="digital-platform-logo w-full">
               <img src={CM_for_Contract_1} alt="" />
             </div>
-            <div>
-              <img src={CM_for_Contract_2} alt="" />
-            </div>
+          </div>
+          <div className="lg:w-7/12 w-full text-center">
+            <img src={CM_for_Contract_2} alt="" className="w-full" />
           </div>
         </div>
-
+        {/*  */}
         <div className="lg:flex mt-20">
-          <div className="w-full lg:w-1/2 ">
-            <div className="flex justify-center mb-10">
-              <img src={CM_for_Contract_3} alt="" />
-            </div>
-          </div>
-          <div className="w-full lg:w-1/2">
-            <div className="mt-14">
-              <h2 className="text-3xl font-bold text-[#29385E] mt-6 mb-3">
+          <div className="w-full lg:w-7/12 p-5">
+           <div className="bg-[#4d5f80] p-5 text-white rounded">
+           <div className="">
+              <h2 className="text-3xl font-bold">
                 Why CM+?
               </h2>
-              <ul>
-                <li className="text-lg font-normal my-2 flex gap-3">
+              <ul className="">
+                <li className="text-lg font-normal my-2 flex gap-3 text-white">
                   <img src={Check} alt="" /> People don't read the contract, but
                   they will use CM+
                 </li>
-                <li className="text-lg font-normal my-2 flex gap-3">
+                <li className="text-lg font-normal my-2 flex gap-3 text-white">
                   <img src={Check} alt="" /> Implementation supported by experts
                 </li>
-                <li className="text-lg font-normal my-2 flex gap-3">
+                <li className="text-lg font-normal my-2 flex gap-3 text-white">
                   <img src={Check} alt="" /> Enables users of the contract
                 </li>
-                <li className="text-lg font-normal my-2 flex gap-3">
+                <li className="text-lg font-normal my-2 flex gap-3 text-white">
                   <img src={Check} alt="" /> Results in cost efficiency
                 </li>
-                <li className="text-lg font-normal my-2 flex gap-3">
+                <li className="text-lg font-normal my-2 flex gap-3 text-white">
                   <img src={Check} alt="" /> Strong focus on governance &
                   compliance
                 </li>
               </ul>
             </div>
-            <h2 className="text-3xl font-bold text-[#29385E] mt-6 mb-3">
+            <h2 className="text-3xl font-bold mt-6 mb-3">
               Contract + Context
             </h2>
+           </div>
+          </div>
+          <div className="w-full lg:w-5/12 ">
+            <div className="items-center flex justify-center">
+              <img src={cmimage} alt=""  className="w-72 h-auto"/>
+            </div>
           </div>
         </div>
 
-        <div className="lg:-mt-28">
-          <img src={CM_for_Contract_4} alt="" />
+        <div className="w-full flex justify-center items-center">
+        <div>
+        <img src={CM_for_Contract_3} alt="" className="w-full"/>
+        <img src={CM_for_Contract_4} alt="" className="lg:-mt-28" />
+        </div>
         </div>
       </div>
 

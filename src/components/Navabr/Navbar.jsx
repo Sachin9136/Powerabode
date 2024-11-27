@@ -3,12 +3,12 @@ import { NavLink, useLocation } from "react-router-dom";
 import { Column, Row } from "../ComponentsIndex";
 import OffCanvas from "./Drawer";
 import { useNavigate } from "react-router-dom";
-import DownArrow from "../../assets/Images/down-arrow-menu.svg"; 
-import { Logo, icons } from "../Img/ImportedImage";  // Add the icons import
+import DownArrow from "../../assets/Images/down-arrow-menu.svg";
+import { Logo, s1, s2, s3, s4, s5, s6, s7, s8, s9 } from "../Img/ImportedImage"; // Add the icons import
 
 function Navbar() {
   const navigate = useNavigate();
-  const location = useLocation();  // Get the current location
+  const location = useLocation(); // Get the current location
 
   const logout = () => {
     localStorage.removeItem("token");
@@ -24,7 +24,7 @@ function Navbar() {
 
   const [searchTerm, setSearchTerm] = useState("");
   const [isSticky, setIsSticky] = useState(false); // State for sticky navbar
-  const [titleName, setTitleName] = useState("");  // State for the dynamic page title
+  const [titleName, setTitleName] = useState(""); // State for the dynamic page title
 
   // Detect scroll to toggle sticky navbar
   useEffect(() => {
@@ -97,11 +97,20 @@ function Navbar() {
       case "/deal-design":
         title = "Deal Design";
         break;
+      case "/strategic-sourcing":
+        title = "strategic sourcing";
+        break;
+      case "/unlocking-value-bottom":
+        title = "unlocking value";
+        break;
+      case "/drilling-cost-transformationblog":
+        title = "drilling  cost transformationblog";
+        break;
       default:
         title = "Default Title";
     }
 
-    setTitleName(title);  // Update the title state
+    setTitleName(title); // Update the title state
   }, [location]);
 
   const toggleSubmenu = (id, close = false) => {
@@ -121,25 +130,57 @@ function Navbar() {
       name: "Cost and Value Philosophy",
       link: "#",
       submenu: [
-        { id: 1.1, name: "Cost and Value Philosophy", link: "/cost-and-value-philosophy" },
-        { id: 1.2, name: "Article & Business Cases", link: "/article-business-cases-background" },
+        {
+          id: 1.1,
+          name: "Cost and Value Philosophy",
+          link: "/cost-and-value-philosophy",
+        },
+        {
+          id: 1.2,
+          name: "Article & Business Cases",
+          link: "/article-business-cases-background",
+        },
         // { id: 1.2, name: "Blog", link: "/drilling-cost-transformation" },
       ],
     },
     { id: 2, name: "About Us & Themes", link: "/the-story-of-powerabode" },
-    { id: 3, name: "Capex/Opex Program", link: "/success-formula-disruptive-and-controlled" },
+    {
+      id: 3,
+      name: "Capex/Opex Program",
+      link: "/success-formula-disruptive-and-controlled",
+    },
     {
       id: 4,
       name: "Supply Chain by SLA",
       link: "#",
       submenu: [
         { id: 4.1, name: "Supply Chain by SLA", link: "/supply-chain-by-sla" },
-        { id: 4.2, name: "Category Strategy & Contract Strategy", link: "/category-strategy-contract-strategy" },
-        { id: 4.1, name: "Post Award Contract Management", link: "/post-award-contract-management" },
-        { id: 4.3, name: "Commercial Assurance", link: "/commercial-assurance" },
+        {
+          id: 4.2,
+          name: "Category Strategy & Contract Strategy",
+          link: "/category-strategy-contract-strategy",
+        },
+        {
+          id: 4.1,
+          name: "Post Award Contract Management",
+          link: "/post-award-contract-management",
+        },
+        {
+          id: 4.3,
+          name: "Commercial Assurance",
+          link: "/commercial-assurance",
+        },
         { id: 4.4, name: "Cost Recovery", link: "/cost-recovery" },
-        { id: 4.5, name: "Tendering & Outsourcing", link: "/tendering-outsourcing" },
-        { id: 4.6, name: "Materials Management", link: "/materials-management" },
+        {
+          id: 4.5,
+          name: "Tendering & Outsourcing",
+          link: "/tendering-outsourcing",
+        },
+        {
+          id: 4.6,
+          name: "Materials Management",
+          link: "/materials-management",
+        },
       ],
     },
     {
@@ -157,10 +198,18 @@ function Navbar() {
 
   return (
     <>
-      <Row className={`flex justify-around items-center px-14 py-8 shadow-sm transition-all duration-500 ${isSticky ? "fixed top-0 left-0 w-full bg-white z-50 shadow-lg" : "relative bg-transparent"}`}>
+      <Row
+        className={`flex justify-around items-center py-8 shadow-sm transition-all duration-500 ${
+          isSticky
+            ? "fixed top-0 left-0 w-full bg-white z-50 shadow-lg"
+            : "relative bg-transparent"
+        }`}
+      >
         <Column className="flex items-center">
           <OffCanvas />
-          <a href="/"><img src={Logo} alt="Logo" width="200px" /></a>
+          <a href="/">
+            <img src={Logo} alt="Logo" width="200px" />
+          </a>
         </Column>
 
         <Column className="lg:flex items-center space-x-4">
@@ -175,7 +224,7 @@ function Navbar() {
               >
                 <NavLink
                   to={item.link}
-                  className="text-sm flex items-center"
+                  className="text-sm flex items-center hover:border-b-2 hover:border-b-[#00abb8] hover:text-[#00abb8]"
                   onClick={item.submenu ? () => toggleSubmenu(item.id) : null}
                 >
                   {item.name}
@@ -183,7 +232,9 @@ function Navbar() {
                     <img
                       src={DownArrow}
                       alt="Arrow"
-                      className={`ml-2 transition-transform ${isSubmenuOpen[item.id] ? "rotate-180" : ""}`}
+                      className={`ml-2 transition-transform ${
+                        isSubmenuOpen[item.id] ? "rotate-180" : ""
+                      }`}
                       style={{ width: "12px", height: "12px" }}
                     />
                   )}
@@ -197,7 +248,7 @@ function Navbar() {
                         key={subItem.id}
                         to={subItem.link}
                         className="block px-4 py-2 text-sm text-black hover:bg-gray-100"
-                        onClick={() => toggleSubmenu(item.id, true)} 
+                        onClick={() => toggleSubmenu(item.id, true)}
                       >
                         {subItem.name}
                       </NavLink>
@@ -211,12 +262,23 @@ function Navbar() {
       </Row>
 
       {/* Dynamic Page Title */}
-      <Row className="w-4/10 bg-white z-10 absolute ml-40 rounded-b-md hidden lg:block">
-        <div className="w-full">
+      <Row className="w-5/10 bg-white z-10 absolute ml-40 rounded-b-md hidden lg:block">
+        <div className="w-full p-10">
           <p className="text-center text-[#00abb8] capitalize text-2xl">
             {titleName}
           </p>
-          <img src={icons} alt="icon" className="mx-auto" />
+          <div className="flex gap-x4 mt-5 mb-2">
+            <img src={s1} alt="icon" className="mx-auto w-auto h-6" />
+            <img src={s2} alt="icon" className="mx-auto w-auto h-6" />
+            <img src={s3} alt="icon" className="mx-auto w-auto h-6" />
+            <img src={s4} alt="icon" className="mx-auto w-auto h-6" />
+            <img src={s5} alt="icon" className="mx-auto w-auto h-6" />
+            <img src={s6} alt="icon" className="mx-auto w-auto h-6" />
+            <img src={s7} alt="icon" className="mx-auto w-auto h-6" />
+            <img src={s8} alt="icon" className="mx-auto w-auto h-6" />
+            <img src={s9} alt="icon" className="mx-auto w-auto h-6" />
+          </div>
+          <p><p class="text-center">Operations | Maintenance | Production </p></p>
         </div>
       </Row>
     </>

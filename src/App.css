@@ -17,26 +17,61 @@ body {
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  }
-  @-webkit-keyframes slideInRight {
+}
+@-webkit-keyframes slideInRight {
   0% {
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  visibility: visible;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
   }
   100% {
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
-  }
-  @keyframes slideInRight {
+}
+@keyframes slideInRight {
   0% {
-  -webkit-transform: translateX(100%);
-  transform: translateX(100%);
-  visibility: visible;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
   }
   100% {
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
-  } 
+}
+
+.digital-platform-logo {
+  align-items: center;
+  -webkit-animation: bubble 5s linear infinite;
+  animation: bubble 5s linear infinite;
+  background-image: linear-gradient(0deg, #dd4454 0, #dd9044);
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 400px !important;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  animation: wave-motion 5s infinite linear;
+}
+
+@keyframes wave-motion {
+  0% {
+      transform: scale(1.1);
+      border-radius: 50% 45% 55% 40%/40% 60% 35% 65%
+  }
+
+  50% {
+      transform: scale(1);
+      border-radius: 45% 50% 40% 60%/60% 40% 65% 35%
+  }
+
+  to {
+      transform: scale(1.1);
+      border-radius: 50% 45% 55% 40%/40% 60% 35% 65%
+  }
+}
+

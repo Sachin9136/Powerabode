@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import { Banner_slider1, Banner_slider_2, Banner_slider_3, Banner_slider_4, icons } from "../Img/ImportedImage";
+import { Banner_slider1, Banner_slider_2, Banner_slider_3, Banner_slider_4, } from "../Img/ImportedImage";
 
 const CustomBanner = () => {
   // Slider 
@@ -44,7 +44,7 @@ const CustomBanner = () => {
     {
       id: 3,
       image: Banner_slider_4,
-      image2: icons,
+      // image2: icons,
       title: 'Global Impact',
       subtitle: 'Delivering value improvement & cost optimisation',
       description: 'Powerabode is an expert in the supply chain and procurement space of large energy assets.',
@@ -54,7 +54,7 @@ const CustomBanner = () => {
     {
       id: 1,
       image: Banner_slider1,
-      image2: icons,
+      // image2: icons,
       title: 'Driven by Energy',
       subtitle: 'Delivering value improvement & cost optimisation',
       description: 'Powerabode is an expert in the supply chain and procurement space of large energy assets.',
@@ -64,7 +64,7 @@ const CustomBanner = () => {
     {
       id: 4,
       image: Banner_slider_2,
-      image2: icons,
+      // image2: icons,
       title: 'Sustainable Solutions',
       subtitle: 'Delivering value improvement & cost optimisation',
       description: 'Powerabode is an expert in the supply chain and procurement space of large energy assets.',
@@ -75,7 +75,7 @@ const CustomBanner = () => {
     {
       id: 2,
       image: Banner_slider_3,
-      image2: icons,
+      // image2: icons,
       title: 'Global Impact',
       subtitle: 'Delivering value improvement & cost optimisation',
       description: 'Powerabode is an expert in the supply chain and procurement space of large energy assets.',

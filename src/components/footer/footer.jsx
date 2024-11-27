@@ -94,7 +94,7 @@ const footer = () => {
       {/* </div> */}
 
       {/* <ImageSlider /> */}
-      <h2 class="text-3xl font-bold my-10 text-center">Get in Touch</h2>
+      <h2 class="text-3xl font-bold my-10 text-center text-[#29385E]">Get in Touch</h2>
       <div className="px-4 md:px-20 lg:flex gap-5 my-10">
         <div class="w-full lg:w-1/2 py-6 px-4 md:py-12 md:px-20 rounded-xl border border-black">
           <h2 class="text-3xl font-medium mb-6 text-center">Book A Session</h2>

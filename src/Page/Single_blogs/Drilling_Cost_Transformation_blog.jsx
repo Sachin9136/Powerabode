@@ -77,7 +77,7 @@ const About_us = () => {
 
   return (
     <>
-      <CommanBanner className = "h-[700px] bg-cover bg-no-repeat" children={Tower_banner} blogheading={"blogheading"} />
+      <CommanBanner className = "h-[700px] bg-cover bg-no-repeat" children={Tower_banner} heading={"Specialised Contract Strategy and sourcing approach can reduce your well cost by 50%"} />
 
         <div className="px-4 md:px-20 mt-20">
             <h2 className='text-4xl font-medium text-[#1b3b64] font-Montserrat text-center'>Specialised Contract Strategy and sourcing approach can reduce your well cost by 50%</h2>

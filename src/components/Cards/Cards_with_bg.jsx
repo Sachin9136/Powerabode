@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // Card component that will be reusable
 const Cards = ({ background, cardsContent }) => {
@@ -24,6 +25,7 @@ const Cards = ({ background, cardsContent }) => {
         
         {/* Dynamically render cards */}
         {cardsContent.map((card, index) => (
+          <Link to={`/${card.link}`}>
           <div 
             key={index}
             className="relative group w-full h-80 md:h-72 lg:h-80 rounded-3xl overflow-hidden shadow-lg transition-all duration-500 mt-10 md:mt-80 lg:mt-80"
@@ -43,12 +45,13 @@ const Cards = ({ background, cardsContent }) => {
 
             {/* Full Overlay appears on hover with the full title */}
             <div className="absolute inset-0 bg-[#35322ffe] bg-opacity-0 group-hover:bg-opacity-75 transition-all duration-500 text-white flex flex-col justify-center items-center p-6 transform translate-y-full group-hover:translate-y-0 opacity-0 group-hover:opacity-100">
-              <h3 className="text-lg md:text-xl font-bold mb-2">{card.title}</h3>
-              <p className="text-base md:text-md font-semibold text-center">
+              <h3 className="text-lg md:text-xl font-bold mb-2 text-start">{card.title}</h3>
+              <p className="text-base md:text-md font-semibold text-start text-white">
                 {card.description}
               </p>
             </div>
           </div>
+          </Link>
         ))}
       </div>
     </div>
