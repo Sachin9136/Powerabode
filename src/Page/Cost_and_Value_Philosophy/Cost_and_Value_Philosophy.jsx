@@ -31,16 +31,16 @@ const About_us = () => {
 "/>
 
       <Row>
-        <div className="px-4 md:px-20 my-10 lg:flex justify-center items-center">
-          <div className="w-full lg:w-2/5">
+        <div className="px-4 md:px-20 my-10 lg:flex justify-start items-center">
+          <div className="w-full lg:w-4/12">
             <div className="bg-white py-5">
-              <h2 className="text-center text-3xl font-bold text-[#29385E]">
+              <h2 className="text-3xl font-bold text-[#29385E]">
                 Cost and Value Philosophy
               </h2>
-              <p className="text-center text-2xl font-medium mt-3">
+              <p className="text-2xl font-medium mt-3">
                 How to deliver cost efficiency and value improvement?
               </p>
-              <p className="text-2xl text-[#4AC4D9] font-medium text-center">
+              <p className="text-2xl text-[#4AC4D9] font-medium">
                 We help you do it.
               </p>
             </div>
@@ -80,7 +80,7 @@ const About_us = () => {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-3/5 flex justify-center">
+          <div className="w-full lg:w-8/12 flex justify-center">
             <img className="w-[80%]" src={Cost_and_Value_Philosophy} alt="" />
           </div>
         </div>

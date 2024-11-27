@@ -22,9 +22,9 @@ import energy_transition from "../../../src/assets/Images/energy-transition.svg"
 import supply_chain_left from "../../../src/assets/Images/supply-chain-left.svg";
 import x from "../../../src/assets/Images/x.svg";
 import linked_in from "../../../src/assets/Images/linked_in.svg";
-import send_button from "../../../src/assets/Images/send_button.svg";
+import send_button from "../../../src/assets/Images/send_button.svg";   
 import mail from "../../../src/assets/Images/mail.svg";
-import Cost_and_Value_Philosophy from "../../../src/assets/Images/Cost_and_Value_Philosophy.svg";
+import Cost_and_Value_Philosophy from "../../../src/assets/Images/Cost_and_Value_Philosophy.webp";
 import Get_in_touch from "../../../src/assets/Images/get_in_touch.svg";
 import EMCT_circle from "../../../src/assets/Images/EMCT_circle.svg";
 import EMCT_bar from "../../../src/assets/Images/EMCT_bar.svg";
