@@ -210,11 +210,11 @@ const About_us = () => {
           </div>
         </div>
 
-        <h2 className="text-center text-3xl font-bold text-[#29385E] mt-10">
+        {/* <h2 className="text-center text-3xl font-bold text-[#29385E] mt-10">
           Top Articles & Case Studies
-        </h2>
+        </h2> */}
 
-        <div className="my-10">
+        {/* <div className="my-10">
           <Slider {...settings}>
             <div>
               <Card_slider
@@ -254,7 +254,7 @@ const About_us = () => {
               />
             </div>
           </Slider>
-        </div>
+        </div> */}
       </div>
 
       <Footer />
