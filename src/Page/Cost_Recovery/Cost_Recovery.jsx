@@ -82,17 +82,20 @@ const About_us = () => {
       {
         image: Island,
         title: "Does focus on rates make sense?t",
-        description: "Cost Leadership will remain one of top 3 focus areas of Energy Industry for next decade. We excel in this area..."
+        description: "Cost Leadership will remain one of top 3 focus areas of Energy Industry for next decade. We excel in this area...",
+        link:"focus-on-rates"
       },
       {
         image: Find_the_gap,
         title: "Deliver despite budget constraints",
-        description: "Every supply chain has waste, we fix it. Complex analyses using our CI Philosophy, double digit improvement to your budget and opex, value optimisation..."
+        description: "Every supply chain has waste, we fix it. Complex analyses using our CI Philosophy, double digit improvement to your budget and opex, value optimisation...",
+        link:"deliver-despite-budget"
       },
       {
         image: Boxes,
-        title: "Misalignment with the businessplan ",
-        description: "Not everyone knows the businessplan. This information is confidential or under evaluation. But, in the operations latest information is key for opex and capex decisions. How to deal with misalignment?"
+        title: "Misalignment with the businessplan",
+        description: "Not everyone knows the businessplan. This information is confidential or under evaluation. But, in the operations latest information is key for opex and capex decisions. How to deal with misalignment?",
+        link:"misalignment-with-business"
       }
     ];
 
@@ -138,17 +141,17 @@ const About_us = () => {
               </div>
             </div>
           </div>
-            <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Building and implementing Category & Contract Strategies</h2>
+            {/* <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Building and implementing Category & Contract Strategies</h2> */}
         </div>
 
         <div className="px-4 md:px-20 my-10">
           <div className="my-6">
-            <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway]">Understanding the Cost.            </h4>
+            <h4 className="text-[#00ABB8] text-3xl font-normal text-end">Understanding the Cost.            </h4>
           </div>
         </div>
 
         <div className="px-4 md:px-20">
-            <h2 className='text-center text-3xl font-bold text-[#29385E]'>Our Scope</h2>
+            <h2 className='text-3xl font-bold text-[#29385E]'>Our Scope : </h2>
         </div>
 
         <div className="px-4 md:px-20">
@@ -175,8 +178,8 @@ const About_us = () => {
                 </div>
             </Row>
             <div className="">
-              <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway] mt-2">The analogy of cost recovery in most cases:</h4>
-              <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway] mt-2">Driving a car forward, just using the rearview mirror.              </h4>
+              <h4 className="text-[#00ABB8] text-3xl font-normal text-end mt-2">The analogy of cost recovery in most cases:</h4>
+              <h4 className="text-[#00ABB8] text-3xl font-normal text-end mt-2">Driving a car forward, just using the rearview mirror.              </h4>
             </div>
             <Row>
                 <div className="mt-5 block lg:flex justify-center gap-5">
@@ -201,7 +204,8 @@ const About_us = () => {
             </Row>
 
             <div className="">
-              <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway] mt-2">Do you know your market? Engage. A successful outcome is defined by its’ strategy.</h4>
+              <h4 className="text-[#00ABB8] text-3xl font-normal text-end mt-2">We work for government, NOC"s or energy assets directly.
+              </h4>
             </div>
 
         </div>

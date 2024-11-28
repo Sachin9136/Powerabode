@@ -89,13 +89,13 @@ function Navbar() {
         title = "Codex Supply Chain";
         break;
       case "/cm-for-contract":
-        title = "CM for Contract";
+        title = "CM+";
         break;
       case "/skillset-development":
         title = "Skillset Development";
         break;
-      case "/deal-design":
-        title = "Deal Design";
+      case "/ai-ecosystem":
+        title = "AI Ecosystem";
         break;
       case "/strategic-sourcing":
         title = "strategic sourcing";
@@ -106,8 +106,41 @@ function Navbar() {
       case "/drilling-cost-transformationblog":
         title = "drilling  cost transformationblog";
         break;
+      case "/conflict-or-conflicting-KPI":
+        title = "Conflict or Conflicting KPI’s?";
+        break;
+      case "/deliver-as-planned":
+        title = "deliver as planned";
+        break;
+      case "/hidden-in-plain-sight":
+        title = "Hidden in Plain Sight";
+        break;
+      case "/supply-chain-management":
+        title = "supply chain management";
+        break;
+      case "/focus-on-rates":
+        title = "focus on rates";
+        break;
+      case "/deliver-despite-budget":
+        title = "deliver despite budget";
+        break;
+      case "/misalignment-with-business":
+        title = "misalignment with business";
+        break;
+      case "/local-content-development":
+        title = "local content development";
+        break;
+      case "/the-art-of-deal":
+        title = "the art of deal";
+        break;
+      case "/procurement-department":
+        title = "procurement department";
+        break;
+      case "/materials-management-blog":
+        title = "materials management";
+        break;
       default:
-        title = "Default Title";
+        title = "";
     }
 
     setTitleName(title); // Update the title state
@@ -193,7 +226,7 @@ function Navbar() {
         { id: 5.2, name: "Academy", link: "/skillset-development" },
       ],
     },
-    { id: 6, name: "Deal Design", link: "/deal-design" },
+    { id: 6, name: "AI Ecosystem", link: "/ai-ecosystem" },
   ];
 
   return (
@@ -278,7 +311,9 @@ function Navbar() {
             <img src={s8} alt="icon" className="mx-auto w-auto h-6" />
             <img src={s9} alt="icon" className="mx-auto w-auto h-6" />
           </div>
-          <p><p class="text-center">Operations | Maintenance | Production </p></p>
+          <p>
+            <p class="text-center">Operations | Maintenance | Production </p>
+          </p>
         </div>
       </Row>
     </>

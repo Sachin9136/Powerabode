@@ -200,6 +200,10 @@ import s7 from "../../../src/assets/Images/7.png";
 import s8 from "../../../src/assets/Images/8.png";
 import s9 from "../../../src/assets/Images/9.png";
 import cmimage from "../../../src/assets/Images/cmimage.png";
+import serturle from "../../../src/assets/Images/Sea Turtle.png";
+import ProgramLogo from "../../../src/assets/Images/Program Logo.png";
+import turtleimg from "../../../src/assets/Images/turtleimg.jpeg";
+import aboutimageEnergyTransition from "../../../src/assets/Images/aboutimageEnergyTransition.webp";
 
 export {
 Logo, Down_arrow_menu, Hero_banner, Cost_optimization, Downstream, Hydrogen, Nuclear, Power, Renewable_wind, Renewable, Upstream_offshore, Upstream_onshore, Water,
@@ -216,4 +220,4 @@ Category_strategy_points, Post_award_points, Commercial_assurance_points, Cost_r
 Banner_slider1, Banner_slider_2, Banner_slider_3, Banner_slider_4, icons, Cycle, Lion, Snow, Tower, Find_the_gap, Island, Structure, Scm, Dna_img, Racks, Boxes, Strategy, Mountains, Google, About_us_bars, Winner,
 SLA_bg, The_hague, Dubai, Subscribe, Follow_us, Email, Linked_in, Twitter, Pins, Eagle, Paper, Pipes, CategoryStrategy, Lighting, OUTSOURCINGIN, Cycle_banner, Smart, Lion_banner, Ecmt, Snow_banner, DeliverasPlanned,
 Tower_banner, Find_the_gap_banner, Deliverdespitebudgetconstraints, Evi, DeliverdespiteTable, Island_banner, Scm_banner, Batch, Structure_bannerjpg, Dna_banner, Racks_banner, MaterialsManagementWindow, Boxes_banner,
-Google_banner, PA_logo, Location, Stragety_banner, Mountain_banner, Star, The_Art_of_the_Deal_Graph, SLA1, SLA2, SLA3, SLA4, SLA5, SLA6, Comma_top, Comma_bottom,s1 ,s2 ,s3,s4,s5,s6,s7,s8,s9,cmimage};
+Google_banner, PA_logo, Location, Stragety_banner, Mountain_banner, Star, The_Art_of_the_Deal_Graph, SLA1, SLA2, SLA3, SLA4, SLA5, SLA6, Comma_top, Comma_bottom,s1 ,s2 ,s3,s4,s5,s6,s7,s8,s9,cmimage,serturle,ProgramLogo,turtleimg,aboutimageEnergyTransition};

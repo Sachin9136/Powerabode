@@ -110,15 +110,14 @@ const About_us = () => {
       title: "Drilling Cost Transformation",
       description:
         "Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model...",
-      link:"drilling-cost-transformationblog"
-       
+      link: "drilling-cost-transformationblog",
     },
     {
       image: Structure,
       title: "Unlocking Value to your bottom line",
       description:
         "Identifying a saving potential is a small step. The bigger thing is to bring it to your bottomline. We use the Integrated Supply Chain, the structure of our Cost Intelligence Philosophy and the people that use the contract to…",
-         link:"unlocking-value-bottom"
+      link: "unlocking-value-bottom",
     },
   ];
 
@@ -131,7 +130,7 @@ const About_us = () => {
       />
 
       <div className="px-4 md:px-20 my-10">
-        <h2 className="text-center text-3xl font-bold text-[#29385E] mt-10">
+        <h2 className="text-3xl font-bold text-[#29385E] mt-10">
           Building and implementing Category & Contract Strategies
         </h2>
       </div>
@@ -139,8 +138,8 @@ const About_us = () => {
       <div className="px-4 md:px-20">
         <Row>
           <div className="my-10 block lg:flex justify-center gap-5">
-            <div className="w-full lg:2/6 rounded-lg px-8 pb-12 pt-5 mb-6 border-2 border-black">
-              <div className="my-10 flex justify-center">
+            <div className="w-full lg:2/6 rounded-lg px-8 pb-5 pt-5 mb-6 border-2 border-[#eee]">
+              <div className="my-5 flex justify-center">
                 <img src={Bell} alt="" />
               </div>
               <div>
@@ -151,7 +150,7 @@ const About_us = () => {
               </div>
             </div>
 
-            <div className="w-full lg:2/6 rounded-lg px-8 pb-12 pt-5 mb-6 border-2 border-black">
+            <div className="w-full lg:2/6 rounded-lg px-8 pb-12 pt-5 mb-6 border-2 border-[#eee]">
               <div className="my-10 flex justify-center">
                 <img src={Injection} alt="" />
               </div>
@@ -163,7 +162,7 @@ const About_us = () => {
               </div>
             </div>
 
-            <div className="w-full lg:2/6 rounded-lg px-8 pb-12 pt-5 mb-6 border-2 border-black">
+            <div className="w-full lg:2/6 rounded-lg px-8 pb-12 pt-5 mb-6 border-2 border-[#eee]">
               <div className="my-10 flex justify-center">
                 <img src={Ship} alt="" />
               </div>
@@ -185,7 +184,7 @@ const About_us = () => {
         >
           <div>
             <div>
-              <img src={Sla_tag} alt="" />
+              <img src={Sla_tag} alt="" />  
             </div>
             <div className="flex justify-center items-center">
               <div className="w-full lg:w-6/12 px-3 mt-5 md:mt-5">
@@ -222,26 +221,26 @@ const About_us = () => {
           </div>
         </div>
         <div className="my-6 px-4 md:px-0">
-          <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway]">
-            ‘If you always do what you always did, you will always get what you
-            always got.’
+          <h4 className="text-[#00ABB8] text-2xl font-normal text-end">
+           <i> ‘If you always do what you always did, you will always get what you
+           always got.’</i>
           </h4>
-          <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway] mt-2">
+          <h4 className="text-[#00ABB8] text-3xl text-end  mt-2 font-bold">
             -Henry Ford
           </h4>
         </div>
       </div>
 
       <div className="px-4 md:px-20">
-        <h2 className="text-center text-3xl font-bold text-[#29385E]">
-          Our Scope
+        <h2 className="text-3xl font-bold text-[#29385E]">
+          Our Scope :
         </h2>
       </div>
 
       <div className="px-4 md:px-20">
         <Row>
           <div className="mt-10 block lg:flex justify-center gap-5">
-            <div className="w-full lg:2/6 border border-black px-4 py-8 mb-6">
+            <div className="w-full lg:2/6 border border-[#eee] px-4 py-8 mb-6">
               <div>
                 <h3 className="text-2xl font-bold text-[#29385E] mb-8">
                   Hold Strategic Dialog
@@ -257,7 +256,7 @@ const About_us = () => {
               </div>
             </div>
 
-            <div className="w-full lg:2/6 border border-black px-4 py-8 mb-6">
+            <div className="w-full lg:2/6 border border-[#eee] px-4 py-8 mb-6">
               <div>
                 <h3 className="text-2xl font-bold text-[#29385E] mb-8">
                   Co-Design Contract Strategy
@@ -273,7 +272,7 @@ const About_us = () => {
               </div>
             </div>
 
-            <div className="w-full lg:2/6 border border-black px-4 py-8 mb-6">
+            <div className="w-full lg:2/6 border border-[#eee] px-4 py-8 mb-6">
               <div>
                 <h3 className="text-2xl font-bold text-[#29385E] mb-8">
                   Market Research
@@ -289,13 +288,13 @@ const About_us = () => {
           </div>
         </Row>
         <div className="">
-          <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway] mt-2">
+          <h4 className="text-[#00ABB8] text-2xl font-normal text-end mt-2">
             A category strategy is about creating synergy and leverage.
           </h4>
         </div>
         <Row>
           <div className="mt-5 block lg:flex justify-center gap-5">
-            <div className="w-full lg:2/6 border border-black px-4 py-8 mb-6">
+            <div className="w-full lg:2/6 border border-[#eee] px-4 py-8 mb-6">
               <div>
                 <h3 className="text-2xl font-bold text-[#29385E] mb-8">
                   Demand & Supply Assessment
@@ -310,7 +309,7 @@ const About_us = () => {
               </div>
             </div>
 
-            <div className="w-full lg:2/6 border border-black px-4 py-8 mb-6">
+            <div className="w-full lg:2/6 border border-[#eee] px-4 py-8 mb-6">
               <div>
                 <h3 className="text-2xl font-bold text-[#29385E] mb-8">
                   Contract Models
@@ -324,7 +323,7 @@ const About_us = () => {
               </div>
             </div>
 
-            <div className="w-full lg:2/6 border border-black px-4 py-8 mb-6">
+            <div className="w-full lg:2/6 border border-[#eee] px-4 py-8 mb-6">
               <div>
                 <h3 className="text-2xl font-bold text-[#29385E] mb-8">
                   Co-Design Category Strategy
@@ -344,7 +343,7 @@ const About_us = () => {
         </Row>
 
         <div className="">
-          <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway] mt-2">
+          <h4 className="text-[#00ABB8] text-2xl font-normal text-end mt-2">
             Do you know your market? Engage. A successful outcome is defined by
             its’ strategy.
           </h4>

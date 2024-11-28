@@ -60,7 +60,7 @@ const router = createBrowserRouter(
       <Route path="materials-management" element={<Materials_Management />} />
       <Route path="cm-for-contract" element={<CM_for_Contract />} />
       <Route path="skillset-development" element={<Skillset_Development />} />
-      <Route path="deal-design" element={<Deal_Design />} />
+      <Route path="ai-ecosystem" element={<Deal_Design />} />
       <Route path="codex-supply-chain" element={<CODEX_Supply_Chain />} />
    
 

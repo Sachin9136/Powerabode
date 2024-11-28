@@ -77,7 +77,7 @@ const About_us = () => {
 
   return (
     <>
-      <CommanBanner className = "h-[700px] bg-cover bg-no-repeat" children={Lion_banner} blogheading={"blogheading"} />
+      <CommanBanner className = "h-[700px] bg-cover bg-no-repeat" children={Lion_banner} heading={"Hidden in Plain Sight"} />
 
         <div className="px-4 md:px-20 mt-20">
             <h2 className='text-4xl font-medium text-[#1b3b64] font-Montserrat text-center'>What is the best team to manage a contract? How Does It Work?</h2>

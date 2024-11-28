@@ -75,3 +75,13 @@ body {
   }
 }
 
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('../src/assets//font/ABEAKRG.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.customeFont {
+  font-family: 'MyCustomFont', sans-serif;
+}

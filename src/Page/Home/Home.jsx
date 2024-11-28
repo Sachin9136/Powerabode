@@ -171,7 +171,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="py-6 bg-white">
+      <div className="py-6 ">
         <div className="container mx-auto text-center">
           <h3 className="text-4xl font-semibold text-[#29385E]">
             How we help Clients?
@@ -258,13 +258,25 @@ function Home() {
                 Cost Intelligence Philosophy.
               </p>
               <div>
-                <a href="/cost-and-value-philosophy">
+                <Link to="/cost-and-value-philosophy">
                   <img
-                    className="h-[200px] w-[200px] mx-auto border-[#fea029] border-[20px] p-1 rounded-full"
                     src={CVI_Logo}
-                    alt=""
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#fea029] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
                   />
-                </a>
+                </Link>
               </div>
             </details>
 
@@ -285,26 +297,51 @@ function Home() {
                 to learn more.
               </p>
               <div className="flex justify-center gap-5">
-                <a href="/cost-and-value-philosophy">
+                <Link to="/cost-and-value-philosophy">
                   <img
-                    className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
                     src={CVI_Logo}
-                    alt=""
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#fea029] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
                   />
-                </a>
-                <a href="/success-formula-disruptive-and-controlled">
+                </Link>
+                <Link to="/success-formula-disruptive-and-controlled">
                   <img
-                    className="h-[200px] w-[200px] border-[#01bcb1] border-[20px] p-1 rounded-full"
                     src={OPEX}
-                    alt=""
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#01bcb1] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
                   />
-                </a>
+                </Link>
               </div>
             </details>
 
             <details class="group py-1">
               <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
-                We negotiated with suppliers, but the cost are still high. What to do?
+                We negotiated with suppliers, but the cost are still high. What
+                to do?
                 <span class="ml-2 text-gray-500 transform group-open:rotate-180 transition-transform">
                   <img src={Down_arrow_menu} alt="" />
                 </span>
@@ -317,33 +354,70 @@ function Home() {
                 more.
               </p>
               <div className="flex justify-center gap-5">
-                <a href="/cost-and-value-philosophy">
+                <Link to="/cost-and-value-philosophy">
                   <img
-                    className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
                     src={CVI_Logo}
-                    alt=""
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#fea029] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
                   />
-                </a>
-                <a href="/supply-chain-by-sla">
+                </Link>
+                <Link to="/supply-chain-by-sla">
                   <img
-                    className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
                     src={Supply_chain}
-                    alt=""
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#9ece36] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
                   />
-                </a>
-                <a href="/success-formula-disruptive-and-controlled">
+                </Link>
+                <Link to="/success-formula-disruptive-and-controlled">
                   <img
-                    className="h-[200px] w-[200px] border-[#01bcb1] border-[20px] p-1 rounded-full"
                     src={OPEX}
-                    alt=""
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#01bcb1] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
                   />
-                </a>
+                </Link>
               </div>
             </details>
 
             <details class="group py-1">
               <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
-                We lack specialist expertise for building remuneration models, how do we fix this?
+                We lack specialist expertise for building remuneration models,
+                how do we fix this?
                 <span class="ml-2 text-gray-500 transform group-open:rotate-180 transition-transform">
                   <img src={Down_arrow_menu} alt="" />
                 </span>
@@ -356,39 +430,85 @@ function Home() {
                 learn more.
               </p>
               <div className="flex justify-center gap-5">
-                <a href="/supply-chain-by-sla">
+                <Link to="/supply-chain-by-sla">
                   <img
-                    className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
                     src={Supply_chain}
-                    alt=""
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#9ece36] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
                   />
-                </a>
-                <a href="/tendering-outsourcing">
-                  <div className="h-[200px] w-[200px] border-[#fea029] border-[20px] rounded-full">
+                </Link>
+
+                <Link to="/tendering-outsourcing">
+                  <div
+                    className={`h-[180px] w-[180px] mx-auto border-[#9ece36] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
+                  >
                     <div className="flex justify-center">
                       <img className="w-28 mt-5" src={Sla_tag} alt="" />
                     </div>
                     <div className="flex justify-center items-center mt-5">
-                      <p className="text-lg">Tendering & <br /> Outsourcing</p>
+                      <p className="text-lg">
+                        Tendering & <br /> Outsourcing
+                      </p>
                     </div>
                   </div>
-                </a>
-                <a href="/category-strategy-contract-strategy">
-                  <div className="h-[200px] w-[200px] border-[#fea029] border-[20px] rounded-full">
+                </Link>
+                <Link to="/category-strategy-contract-strategy">
+                  <div
+                    className={`h-[180px] w-[180px] mx-auto border-[#9ece36] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
+                  >
                     <div className="flex justify-center">
                       <img className="w-28 mt-5" src={Sla_tag} alt="" />
                     </div>
                     <div className="flex justify-center items-center mt-5">
-                      <p className="text-lg text-center">Post Award <br /> Contract Management</p>
+                      <p className="text-lg text-center">
+                        Post Award <br /> Contract Management
+                      </p>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
             </details>
 
             <details class="group py-1">
               <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
-                How do we get an integrated, commercially driven and pragmatic Supply Chain Management System?
+                How do we get an integrated, commercially driven and pragmatic
+                Supply Chain Management System?
                 <span class="ml-2 text-gray-500 transform group-open:rotate-180 transition-transform">
                   <img src={Down_arrow_menu} alt="" />
                 </span>
@@ -404,19 +524,32 @@ function Home() {
                 below links to learn more.
               </p>
               <div>
-                <a href="/codex-supply-chain">
+                <Link to="/codex-supply-chain">
                   <img
-                    className="h-[200px] w-[200px] mx-auto border-[#4c78b5] border-[20px] p-1 rounded-full"
                     src={Codex}
-                    alt=""
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#4c78b5] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
                   />
-                </a>
+                </Link>
               </div>
             </details>
 
             <details class="group py-1">
               <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
-                Our Materials Management system is not a reflection of reality. How do we fix this?
+                Our Materials Management system is not a reflection of reality.
+                How do we fix this?
                 <span class="ml-2 text-gray-500 transform group-open:rotate-180 transition-transform">
                   <img src={Down_arrow_menu} alt="" />
                 </span>
@@ -424,37 +557,80 @@ function Home() {
               <p class="mt-4 mb-5 text-gray-600 text-lg pl-4">
                 Obsolescence. In materials management time always catches up
                 with you. And once it does, it can be costly. We can role out
-                our Materials Management program for you. With full
-                obsolescence mitigation model and a supporting inventory
-                control model. Check out below links to learn more.
+                our Materials Management program for you. With full obsolescence
+                mitigation model and a supporting inventory control model. Check
+                out below links to learn more.
               </p>
               <div className="flex justify-center gap-5">
-                <a href="/supply-chain-by-sla">
+                <Link to="/supply-chain-by-sla">
                   <img
-                    className="h-[200px] w-[200px] mx-auto border-[#fea029] border-[20px] p-1 rounded-full"
                     src={Supply_chain}
-                    alt=""
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#9ece36] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
                   />
-                </a>
-                <a href="/materials-management">
-                  <div className="h-[200px] w-[200px] border-[#fea029] border-[20px] rounded-full">
+                </Link>
+
+                <Link to="/materials-management">
+                  <div
+                    className={`h-[180px] w-[180px] mx-auto border-[#9ece36] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
+                  >
                     <div className="flex justify-center">
                       <img className="w-28 mt-5" src={Sla_tag} alt="" />
                     </div>
                     <div className="flex justify-center items-center mt-5">
-                      <p className="text-lg text-center">Materials <br /> Management</p>
+                      <p className="text-lg text-center">
+                        Materials <br /> Management
+                      </p>
                     </div>
                   </div>
-                </a>
-                <a href="#">
+                </Link>
+
+                <Link to="/codex-supply-chain">
                   <img
-                    className="h-[200px] w-[200px] mx-auto border-[#4c78b5] border-[20px] p-1 rounded-full"
                     src={Codex}
-                    alt=""
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#4c78b5] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
                   />
-                </a>
+                </Link>
               </div>
             </details>
+
             <details class="group py-1">
               <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
                 Can Commercial Assurance help us with compliance and governance
@@ -471,10 +647,24 @@ function Home() {
                 more.
               </p>
               <div className="flex justify-center gap-5">
-                <a href="/commercial-assurance">
-                  <div className="h-[200px] w-[200px] border-[#fea029] border-[20px] rounded-full">
+                <Link to="/commercial-assurance">
+                  <div
+                    className={`h-[180px] w-[180px] mx-auto border-[#fea029] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
+                  >
                     <div className="flex justify-center">
-                      <img className="w-28 mt-5 " src={Sla_tag} alt="" />
+                      <img className="w-28 mt-5" src={Sla_tag} alt="" />
                     </div>
                     <div className="flex justify-center items-center mt-5">
                       <p className="text-lg text-center">
@@ -482,27 +672,48 @@ function Home() {
                       </p>
                     </div>
                   </div>
-                </a>
-                <a href="/codex-supply-chain">
-                  <div>
-                    <img
-                      className="h-[200px] w-[200px] border-[#4c78b5] border-[20px] p-1 rounded-full"
-                      src={Codex}
-                      alt=""
-                    />
-                  </div>
-                </a>
-                <a href="/supply-chain-by-sla">
-                  <div>
-                    <img
-                      className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
-                      src={Supply_chain}
-                      alt=""
-                    />
-                  </div>
-                </a>
+                </Link>
+                <Link to="/codex-supply-chain">
+                  <img
+                    src={Codex}
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#4c78b5] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
+                  />
+                </Link>
+                <Link to="/supply-chain-by-sla">
+                  <img
+                    src={Supply_chain}
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#9ece36] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
+                  />
+                </Link>
               </div>
             </details>
+
             <details class="group py-1">
               <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
                 How can we do a full cost program?
@@ -520,22 +731,48 @@ function Home() {
                 to learn more.
               </p>
               <div className="flex justify-center gap-5">
-                <a href="/success-formula-disruptive-and-controlled">
+                <Link to="/success-formula-disruptive-and-controlled">
                   <img
-                    className="h-[200px] w-[200px] border-[#01bcb1] border-[20px] p-1 rounded-full"
                     src={OPEX}
-                    alt=""
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#01bcb1] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
                   />
-                </a>
-                <a href="/cost-and-value-philosophy">
+                </Link>
+
+                <Link to="/cost-and-value-philosophy">
                   <img
-                    className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
                     src={CVI_Logo}
-                    alt=""
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#fea029] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
                   />
-                </a>
+                </Link>
               </div>
             </details>
+
             <details class="group py-1">
               <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
                 Why is cost recovery always creating so many disputes? How can
@@ -553,27 +790,51 @@ function Home() {
                 it for you. Check out below links to learn more.
               </p>
               <div className="flex justify-center gap-5">
-                <a href="/cost-recovery">
-                  <div className="h-[200px] w-[200px] border-[#4c5194] border-[20px] rounded-full">
+                
+
+                <Link to="/cost-recovery">
+                  <div
+                    className={`h-[180px] w-[180px] mx-auto border-[#4c5194] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
+                  >
                     <div className="flex justify-center">
-                      <img className="w-28 mt-5 " src={Sla_tag} alt="" />
+                      <img className="w-28 mt-5" src={Sla_tag} alt="" />
                     </div>
                     <div className="flex justify-center items-center mt-5">
-                      <p className="text-lg text-center">
-                        Cost Recovery
-                      </p>
+                    <p className="text-lg text-center">Cost Recovery</p>
                     </div>
                   </div>
-                </a>
-                <a href="/codex-supply-chain">
-                  <div>
-                    <img
-                      className="h-[200px] w-[200px] border-[#4c78b5] border-[20px] p-1 rounded-full"
-                      src={Codex}
-                      alt=""
-                    />
-                  </div>
-                </a>
+                </Link>
+                <Link to="/codex-supply-chain">
+                  <img
+                    src={Codex}
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#4c78b5] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
+                  />
+                </Link>
               </div>
             </details>
             <details class="group py-1">
@@ -592,21 +853,45 @@ function Home() {
                 Check out below link to learn more.
               </p>
               <div className="flex justify-center gap-5">
-                <a href="/cost-and-value-philosophy">
+              <Link to="/cost-and-value-philosophy">
                   <img
-                    className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
                     src={CVI_Logo}
-                    alt=""
-                  />   
-                </a>
-                  <a href="/codex-supply-chain">
-                    <img
-                      className="h-[200px] w-[200px] border-[#4c78b5] border-[20px] p-1 rounded-full"
-                      src={Codex}
-                      alt=""
-                    />
-                  </a>
-                </div>
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#fea029] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
+                  />
+                </Link>
+                <Link to="/codex-supply-chain">
+                  <img
+                    src={Codex}
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#4c78b5] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
+                  />
+                </Link>
+              </div>
             </details>
             <details class="group py-1">
               <summary class="text-2xl bg-[#EEF1FA] text-[#29385E] py-4 px-6 border-l-8 border-black font-medium cursor-pointer flex justify-between items-center">
@@ -621,23 +906,48 @@ function Home() {
                 are key. And that rate (‘the price’) is only 20% of any
                 potential saving. Check out below link to learn more.
               </p>
-                <div className="flex justify-center gap-5">
-                  <a href="/success-formula-disruptive-and-controlled">
-                    <img
-                      className="h-[200px] w-[200px] border-[#01bcb1] border-[20px] p-1 rounded-full"
-                      src={OPEX}
-                      alt=""
-                    />  
-                  </a>
-                  
-                  <a href="/cost-and-value-philosophy">
-                    <img
-                      className="h-[200px] w-[200px] border-[#fea029] border-[20px] p-1 rounded-full"
-                      src={CVI_Logo}
-                      alt=""
-                    />
-                  </a>
-                </div>
+              <div className="flex justify-center gap-5">
+                
+                <Link to="/success-formula-disruptive-and-controlled">
+                  <img
+                    src={OPEX}
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#01bcb1] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
+                  />
+                </Link>
+
+                <Link to="/cost-and-value-philosophy">
+                  <img
+                    src={CVI_Logo}
+                    alt={"title"}
+                    className={`h-[180px] w-[180px] mx-auto border-[#fea029] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
+                    style={{
+                      transition:
+                        "border-color 0.7s ease, border-width 0.7s ease, box-shadow 0.5s ease",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 10px 30px rgba(0, 0, 0, 0.2)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.boxShadow =
+                        "0 0 0 rgba(0, 0, 0, 0)";
+                    }}
+                  />
+                </Link>
+              </div>
             </details>
           </div>
         </div>

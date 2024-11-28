@@ -77,7 +77,7 @@ const About_us = () => {
 
   return (
     <>
-      <CommanBanner className = "h-[700px] bg-cover bg-no-repeat" children={Cycle_banner} blogheading={"blogheading"} />
+      <CommanBanner className = "h-[700px] bg-cover bg-no-repeat" children={Cycle_banner} heading={"Conflict or Conflicting KPI’s?"} />
 
         <div className="px-4 md:px-20 mt-20">
             <h2 className='text-4xl font-medium text-[#1b3b64] font-Montserrat text-center'>KPI’s. They drive performance. But they can also cause inefficiency.</h2>

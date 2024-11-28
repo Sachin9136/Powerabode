@@ -97,18 +97,21 @@ const About_us = () => {
       title: "Conflict or Conflicting KPI’s?",
       description:
         "Working as a team. That’s what we do. But how do we know we are all aligned? Conflicting KPI’s cause massive inefficiencies. Who needs enemies if you have friends? ",
+      link: "conflict-or-conflicting-KPI",
     },
     {
       image: Snow,
       title: "Deliver as Planned",
       description:
         "Sometimes ‘surprises’ are actually predictable. The top 5 of ‘predictable’ surprises...",
+      link: "deliver-as-planned",
     },
     {
       image: Lion,
       title: "Hidden in Plain Sight",
       description:
         "Crazy as it may sound; there’s always an elephant in the room.. Central in our way of work are the users of the contract, the ECMT. They are underestimated as a platform. 9 Quote: Our Experts know your business.",
+      link: "hidden-in-plain-sight",
     },
   ];
 
@@ -165,17 +168,14 @@ const About_us = () => {
           </div>
         </div>
         <div className="my-6">
-          <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway]">
-            ‘If you always do what you always did, you will always get what you
-            always got.’
+          <h4 className="text-[#00ABB8] text-3xl font-normal text-end">
+            High impact area for delivery
           </h4>
-          <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway] mt-2">
-            -Henry Ford
-          </h4>
+          
         </div>
       </div>
 
-      <div className="px-4 md:px-20 my-10">
+      {/* <div className="px-4 md:px-20 my-10">
         <h2 className="text-center text-3xl font-bold text-[#29385E] mt-10">
           Building and implementing Category & Contract Strategies
         </h2>
@@ -190,11 +190,11 @@ const About_us = () => {
             High impact area for delivery
           </h4>
         </div>
-      </div>
+      </div> */}
 
       <div className="px-4 md:px-20">
-        <h2 className="text-center text-3xl font-bold text-[#29385E]">
-          Our Scope
+        <h2 className="text-3xl font-bold text-[#29385E]">
+          Our Scope :
         </h2>
       </div>
 
@@ -247,7 +247,7 @@ const About_us = () => {
           </div>
         </Row>
         <div className="">
-          <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway] mt-2">
+          <h4 className="text-[#00ABB8] text-2xl font-normal text-end mt-2">
             Did you ever check if there are conflicting KPI's?
           </h4>
         </div>
@@ -303,10 +303,10 @@ const About_us = () => {
         </Row>
 
         <div className="">
-          <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway] mt-2">
+          <h4 className="text-[#00ABB8] text-2xl font-normal text-end mt-2">
             'What gets measured, gets managed'
           </h4>
-          <h4 className="text-[#00ABB8] text-3xl font-bold text-end font-[Raleway] mt-2">
+          <h4 className="text-[#00ABB8] text-3xl font-bold text-end  mt-2">
             -Peter Drucker
           </h4>
         </div>
@@ -319,9 +319,7 @@ const About_us = () => {
         </h2>
       </div>
 
-
       <Img_Slider />
-
 
       <div>
         <h1 className="text-center text-3xl font-bold mb-6">

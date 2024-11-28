@@ -77,7 +77,7 @@ const About_us = () => {
 
   return (
     <>
-      <CommanBanner className = "h-[700px] bg-cover bg-no-repeat" children={Island_banner} blogheading={"blogheading"} />
+      <CommanBanner className = "h-[700px] bg-cover bg-no-repeat" children={Island_banner} heading={"Does focus on rates make sense?"} />
 
         <div className="px-4 md:px-20 mt-20">
             <h2 className='text-4xl font-medium text-[#1b3b64] font-Montserrat text-center'>Cost Leadership will remain one of top 3 focus areas of Energy Industry for next decade.</h2>

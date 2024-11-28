@@ -22,12 +22,11 @@ const About_us = () => {
 
   return (
     <>
-      <CommanBanner children={Success_Formula} heading="Success Formula!
-Disruptive and Controlled."/>
+      <CommanBanner children={Success_Formula} heading="Success Formula!" subheading={"Disruptive and Controlled."}/>
 
       <div className="">
         <div className="px-4 md:px-20 my-10">
-            <h2 className='text-6xl font-bold text-[#29385E] mt-10'>Capex / Opex Program</h2>
+            <h2 className='text-5xl font-bold text-[#29385E] mt-10'>Capex / Opex Program</h2>
             <h2 className='text-4xl font-medium text-[#29385E] mt-3 mb-6'>The Road To Cost Leadership</h2>
             <div>
             <h3 className="text-[#504F4F] text-xl">Reducing Opex by double digit percentage. Optimising Capex and Opex. Involving cost experts with frontline experience to optimise value.</h3>

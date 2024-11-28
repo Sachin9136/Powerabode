@@ -82,23 +82,26 @@ const About_us = () => {
       {
         image: Scm,
         title: "Getting the supply chain management and procurement system right",
-        description: "Off the shelf we developed a Codex system to support your delivery. Front line experts will adapt it for you, with a view..."
+        description: "Off the shelf we developed a Codex system to support your delivery. Front line experts will adapt it for you, with a view...",
+        link:"supply-chain-management",
       },
       {
         image: Snow,
         title: "Deliver as Planned",
-        description: "Sometimes ‘surprises’ are actually predictable. The top 5 of ‘predictable’ surprises..."
+        description: "Sometimes ‘surprises’ are actually predictable. The top 5 of ‘predictable’ surprises...",
+        link: "deliver-as-planned",
       },
       {
         image: Lion,
         title: "Hidden in Plain Sight",
-        description: "Crazy as it may sound; there’s always an elephant in the room.. Central in our way of work are the users of the contract, the ECMT. They are underestimated as a platform. 9 Quote: Our Experts know your business..."
+        description: "Crazy as it may sound; there’s always an elephant in the room.. Central in our way of work are the users of the contract, the ECMT. They are underestimated as a platform. 9 Quote: Our Experts know your business...",
+        link: "hidden-in-plain-sight",
       }
     ];
 
   return (
     <>
-      <CommanBanner children={Commercial_Assurance_banner} heading="Commercial Assurance"/>
+      <CommanBanner children={Commercial_Assurance_banner} heading="Commercial Assurance" subheading={"We identify a wide range of commercial risks and assess & control those out of your contracts. It increases transparency, enhances performance and increases overall control. We are very much an assurance company. powerabode can compose and improve your Supply Chain systems and procedures."}/>
 
         <div className="px-4 md:px-20 my-10">
           <div className="bg-cover bg-center w-full rounded-none md:rounded-xl px-1 py-5 md:p-6" style={{ backgroundImage: `url(${Commercial_assurance_points})` }}>
@@ -136,13 +139,13 @@ const About_us = () => {
               </div>
             </div>
           </div>
-          <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10'>Building and implementing Category & Contract Strategies</h2>
+          <h2 className='text-3xl font-bold text-[#29385E] mt-10'>Building and implementing Category & Contract Strategies</h2>
         </div>
 
         <div className="px-4 md:px-20">
             <Row>
                 <div className="my-10 block lg:flex justify-center gap-5">
-                    <div className="w-full lg:2/6 shadow-lg rounded-lg px-8 pb-12 pt-5 mb-6 border-2 border-black">
+                    <div className="w-full lg:2/6 shadow-lg rounded-lg px-8 pb-12 pt-5 mb-6 border-2 border-[#eee]">
                         <div className="my-10 flex justify-center">
                             <img src={Bell} alt="" />
                         </div>
@@ -151,7 +154,7 @@ const About_us = () => {
                         </div>
                     </div>
 
-                    <div className="w-full lg:2/6 shadow-lg rounded-lg px-8 pb-12 pt-5 mb-6 border-2 border-black">
+                    <div className="w-full lg:2/6 shadow-lg rounded-lg px-8 pb-12 pt-5 mb-6 border-2 border-[#eee]">
                         <div className="my-10 flex justify-center">
                             <img src={Injection} alt="" />
                         </div>
@@ -160,7 +163,7 @@ const About_us = () => {
                         </div>
                     </div>
 
-                    <div className="w-full lg:2/6 shadow-lg rounded-lg px-8 pb-12 pt-5 mb-6 border-2 border-black">
+                    <div className="w-full lg:2/6 shadow-lg rounded-lg px-8 pb-12 pt-5 mb-6 border-2 border-[#eee]">
                         <div className="my-10 flex justify-center">
                             <img src={Ship} alt="" />
                         </div>
@@ -174,12 +177,12 @@ const About_us = () => {
 
         <div className="px-4 md:px-20 my-10">
           <div className="my-6">
-            <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway]">Compliance and Governance are key for our clients</h4>
+            <h4 className="text-[#00ABB8] text-2xl font-normal text-end ">Compliance and Governance are key for our clients</h4>
           </div>
         </div>
 
         <div className="px-4 md:px-20">
-            <h2 className='text-center text-3xl font-bold text-[#29385E]'>Our Scope</h2>
+            <h2 className='text-3xl font-bold text-[#29385E]'>Our Scope : </h2>
         </div>
 
         <div className="px-4 md:px-20">
@@ -214,7 +217,7 @@ const About_us = () => {
                 </div>
             </Row>
             <div className="">
-              <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway] mt-2">Governments and NOC's embrace our approach.              </h4>
+              <h4 className="text-[#00ABB8] text-2xl font-normal text-end  mt-2">Governments and NOC's embrace our approach.              </h4>
             </div>
             <Row>
                 <div className="mt-5 block lg:flex justify-center gap-5">
@@ -248,7 +251,7 @@ const About_us = () => {
             </Row>
 
             <div className="">
-              <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway] mt-2">Energy assets need highest compliance and governance standards!</h4>
+              <h4 className="text-[#00ABB8] text-2xl font-normal text-end mt-2">Energy assets need highest compliance and governance standards!</h4>
             </div>
 
         </div>

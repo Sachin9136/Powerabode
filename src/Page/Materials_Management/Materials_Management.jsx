@@ -95,18 +95,21 @@ const About_us = () => {
       title: "Materials Management; a showstopper or a money maker?",
       description:
         "As an asset gets older, how to keep performing? Increased pressure on maintenance, legacy parts...",
+        link:"materials-management-blog"
     },
     {
       image: Mountains,
       title: "The art of the deal",
       description:
         "Tendering and outsourcing are where a big impact is created for future performance. Call it the art of the deal. One of our SLA service...",
+        link:"the-art-of-deal"
     },
     {
       image: Structure,
       title: "Unlocking Value to your bottom line",
       description:
         "Identifying a saving potential is a small step. The bigger thing is to bring it to your bottomline. We use the Integrated Supply Chain, the structure of our Cost Intelligence Philosophy and the people that use the contract to...",
+        link:"unlocking-value-bottom"
     },
   ];
 
@@ -162,22 +165,22 @@ const About_us = () => {
             </div>
           </div>
         </div>
-        <h2 className="text-center text-3xl font-bold text-[#29385E] mt-10">
+        {/* <h2 className="text-center text-3xl font-bold text-[#29385E] mt-10">
           Building and implementing Category & Contract Strategies
-        </h2>
+        </h2> */}
       </div>
 
       <div className="px-4 md:px-20 my-10">
         <div className="my-6">
-          <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway]">
+          <h4 className="text-[#00ABB8] text-3xl font-normal text-end">
             Materials in the right place, at the right time{" "}
           </h4>
         </div>
       </div>
 
       <div className="px-4 md:px-20">
-        <h2 className="text-center text-3xl font-bold text-[#29385E]">
-          Our Scope
+        <h2 className="text-3xl font-bold text-[#29385E]">
+          Our Scope :
         </h2>
       </div>
 
@@ -236,7 +239,7 @@ const About_us = () => {
           </div>
         </Row>
         <div className="">
-          <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway] mt-2">
+          <h4 className="text-[#00ABB8] text-3xl font-normal text-end mt-2">
             Focus on Supply Chain Resilience{" "}
           </h4>
         </div>
@@ -286,7 +289,7 @@ const About_us = () => {
         </Row>
 
         <div className="">
-          <h4 className="text-[#00ABB8] text-3xl font-normal text-end font-[Raleway] mt-2">
+          <h4 className="text-[#00ABB8] text-3xl font-normal text-end mt-2">
             What Covid learnings have you implemented?{" "}
           </h4>
         </div>

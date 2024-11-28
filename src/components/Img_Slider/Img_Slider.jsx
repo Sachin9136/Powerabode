@@ -2,8 +2,14 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import {
-  Pins, Eagle, Paper, Pipes, CategoryStrategy, Lighting
+  Pins,
+  Eagle,
+  Paper,
+  Pipes,
+  CategoryStrategy,
+  Lighting,
 } from "../Img/ImportedImage";
+import { Link } from "react-router-dom";
 
 // Custom Previous Arrow Component
 const PrevArrow = ({ onClick }) => (
@@ -78,32 +84,44 @@ const CustomSlider = () => {
     {
       image: Pipes,
       title: "Materials Management",
-      description: "The right goods at the right place, at the right time. Today, but also in 5 years. Is Materials Management a cost, or can it make you money?",
+      description:
+        "The right goods at the right place, at the right time. Today, but also in 5 years. Is Materials Management a cost, or can it make you money?",
+      link: "materials-management",
     },
     {
       image: Eagle,
       title: "Commercial Assurance",
-      description: "We identify a wide range of commercial risks and assess & control those out of your contracts. It increases transparency, enhances performance and increases overall control. We are very much an assurance company.",
+      description:
+        "We identify a wide range of commercial risks and assess & control those out of your contracts. It increases transparency, enhances performance and increases overall control. We are very much an assurance company.",
+      link: "commercial-assurance",
     },
     {
       image: Paper,
       title: "Cost Recovery",
-      description: "It always surprises us. Cost recovery is carried out by people that understand numbers, but don’t understand the field and the contracts. Or, even worse, people that understand the contract, but not the numbers. Not with us. We offer a process with high impact.",
+      description:
+        "It always surprises us. Cost recovery is carried out by people that understand numbers, but don’t understand the field and the contracts. Or, even worse, people that understand the contract, but not the numbers. Not with us. We offer a process with high impact.",
+      link: "cost-recovery",
     },
     {
       image: CategoryStrategy,
       title: "Category Strategy & Contract Strategy",
-      description: "Reducing cost is an art. Our Experts are not classic ‘consultants’. They had long careers in Category Management and Front-line Operations at various IOCs formulating many Category and Contracting strategies.",
+      description:
+        "Reducing cost is an art. Our Experts are not classic ‘consultants’. They had long careers in Category Management and Front-line Operations at various IOCs formulating many Category and Contracting strategies.",
+      link: "category-strategy-contract-strategy",
     },
     {
       image: Pins,
       title: "Tendering & Outsourcing",
-      description: "Procurement is done in-house by most of our Clients.With involvement of our experts, tools and systems the results improve significantly.",
+      description:
+        "Procurement is done in-house by most of our Clients.With involvement of our experts, tools and systems the results improve significantly.",
+        link: "tendering-outsourcing",
     },
     {
       image: Lighting,
       title: "Post Award Contract Management",
-      description: "Underrated and little loved. But delivery is heavily impacted by Post-Award Contract Management. Being on top of it. Discipline. Also understanding the scope and the performance drivers. Working with all stakeholders.",
+      description:
+        "Underrated and little loved. But delivery is heavily impacted by Post-Award Contract Management. Being on top of it. Discipline. Also understanding the scope and the performance drivers. Working with all stakeholders.",
+      link: "post-award-contract-management",
     },
   ];
 
@@ -112,14 +130,17 @@ const CustomSlider = () => {
       {/* Image Slider */}
       <Slider {...settings} className="custom-dots">
         {slidesData.map((slide, index) => (
-          <div key={index}>
-            <ImgSlider
-              className="w-[100%] h-[500px] mx-2 rounded-xl"
-              image={slide.image}
-              title={slide.title}
-              isCenter={activeSlide === index} // Center the slide based on its index
-            />
-          </div>
+          <Link to={`/${slide.link}`}>
+            {" "}
+            <div key={index}>
+              <ImgSlider
+                className="w-[100%] h-[500px] mx-2 rounded-xl"
+                image={slide.image}
+                title={slide.title}
+                isCenter={activeSlide === index} // Center the slide based on its index
+              />
+            </div>
+          </Link>
         ))}
       </Slider>
 

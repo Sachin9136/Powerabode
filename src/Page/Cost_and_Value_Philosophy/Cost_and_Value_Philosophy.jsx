@@ -115,7 +115,7 @@ const About_us = () => {
 
       <Row>
         <div className="px-4 md:px-20 my-10 block lg:flex justify-center gap-5">
-          <div className="w-full lg:2/6 border border-black rounded-lg px-8 pb-10 pt-10 mb-6">
+          <div className="w-full lg:2/6 border border-[#eee] rounded-lg px-8 pb-10 pt-10 mb-6">
             <div>
               <h3 className="text-center text-2xl font-bold mb-8 text-[#59ADB7]">
                 Lower rates
@@ -132,7 +132,7 @@ const About_us = () => {
             </div>
           </div>
 
-          <div className="w-full lg:2/6 border border-black rounded-lg px-8 pb-10 pt-10 mb-6">
+          <div className="w-full lg:2/6 border border-[#eee] rounded-lg px-8 pb-10 pt-10 mb-6">
             <div>
               <h3 className="text-center text-2xl font-bold mb-8 text-[#59ADB7]">
                 Efficiency & Specification
@@ -150,7 +150,7 @@ const About_us = () => {
             </div>
           </div>
 
-          <div className="w-full lg:2/6 border border-black rounded-lg px-8 pb-10 pt-10 mb-6">
+          <div className="w-full lg:2/6 border border-[#eee] rounded-lg px-8 pb-10 pt-10 mb-6">
             <div>
               <h3 className="text-center text-2xl font-bold mb-8 text-[#59ADB7]">
                 What else?
@@ -205,7 +205,7 @@ const About_us = () => {
               {" "}
               {/* Changed from items-center to items-stretch */}
               <div className="w-full md:w-1/2">
-                <div className="w-full border border-black rounded-lg px-8 pb-10 pt-8 mb-6 h-full">
+                <div className="w-full border border-[#eee] rounded-lg px-8 pb-10 pt-8 mb-6 h-full">
                   {" "}
                   {/* Added h-full */}
                   <div>
@@ -239,7 +239,7 @@ const About_us = () => {
                 </div>
               </div>
               <div className="w-full md:w-1/2">
-                <div className="w-full border border-black rounded-lg px-8 pb-10 pt-8 mb-6 h-full">
+                <div className="w-full border border-[#eee] rounded-lg px-8 pb-10 pt-8 mb-6 h-full">
                   {" "}
                   {/* Added h-full */}
                   <div>
