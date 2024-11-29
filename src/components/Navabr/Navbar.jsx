@@ -26,6 +26,15 @@ function Navbar() {
   const [isSticky, setIsSticky] = useState(false); // State for sticky navbar
   const [titleName, setTitleName] = useState(""); // State for the dynamic page title
 
+
+
+  // Check if the current path is /disclaimer or /privacy-policy
+  const shouldHideRow = location.pathname === '/disclaimer' || location.pathname === '/privacy_policy'|| location.pathname === '/copyright';
+
+  // if (shouldHideRow) {
+  //   return null; // Do not render if on Disclaimer or Privacy Policy page
+  // }
+
   // Detect scroll to toggle sticky navbar
   useEffect(() => {
     const handleScroll = () => {
@@ -295,27 +304,27 @@ function Navbar() {
       </Row>
 
       {/* Dynamic Page Title */}
-      <Row className="w-5/10 bg-white z-10 absolute ml-40 rounded-b-md hidden lg:block">
-        <div className="w-full p-5">
-          <p className="text-center text-[#00abb8] capitalize text-2xl">
-            {titleName}
-          </p>
-          <div className="flex gap-x4 mt-5 mb-2">
-            <img src={s1} alt="icon" className="mx-auto w-auto h-6" />
-            <img src={s2} alt="icon" className="mx-auto w-auto h-6" />
-            <img src={s3} alt="icon" className="mx-auto w-auto h-6" />
-            <img src={s4} alt="icon" className="mx-auto w-auto h-6" />
-            <img src={s5} alt="icon" className="mx-auto w-auto h-6" />
-            <img src={s6} alt="icon" className="mx-auto w-auto h-6" />
-            <img src={s7} alt="icon" className="mx-auto w-auto h-6" />
-            <img src={s8} alt="icon" className="mx-auto w-auto h-6" />
-            <img src={s9} alt="icon" className="mx-auto w-auto h-6" />
-          </div>
-          <p>
-            <p class="text-center">Operations | Maintenance | Production </p>
-          </p>
-        </div>
-      </Row>
+   {!shouldHideRow && (
+    <Row className="w-5/10 bg-white z-10 absolute ml-40 rounded-b-md hidden lg:block">
+    <div className="w-full p-5">
+      <p className="text-center text-[#00abb8] capitalize text-2xl">
+        {titleName}
+      </p>
+      <div className="flex gap-x4 mt-5 mb-2">
+        <img src={s1} alt="icon" className="mx-auto w-auto h-6" />
+        <img src={s2} alt="icon" className="mx-auto w-auto h-6" />
+        <img src={s3} alt="icon" className="mx-auto w-auto h-6" />
+        <img src={s4} alt="icon" className="mx-auto w-auto h-6" />
+        <img src={s5} alt="icon" className="mx-auto w-auto h-6" />
+        <img src={s6} alt="icon" className="mx-auto w-auto h-6" />
+        <img src={s7} alt="icon" className="mx-auto w-auto h-6" />
+        <img src={s8} alt="icon" className="mx-auto w-auto h-6" />
+        <img src={s9} alt="icon" className="mx-auto w-auto h-6" />
+      </div>
+      <p className="text-center">Operations | Maintenance | Production</p>
+    </div>
+  </Row>
+   )}   
     </>
   );
 }

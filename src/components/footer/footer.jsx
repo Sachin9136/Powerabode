@@ -32,6 +32,7 @@ import {
   createNewsletter,
 } from "../../ReduxToolkit/Slice/Contact";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const footer = () => {
   const dispatch = useDispatch();
@@ -768,13 +769,13 @@ const footer = () => {
         <Row>
           <div className="text-center pb-10">
             <p className="mt-2 mx-auto text-lg font-medium ">
-              <span className="underline underline-offset-4"><a href="#">Disclaimer</a></span>{" "}
+              <span className="underline underline-offset-4"><Link to="/disclaimer">Disclaimer</Link></span>{" "}
               <span className="text-2xl text-white"> | </span>{" "}
               <span className="underline underline-offset-4">
-                <a href="#">Cookie & Privacy Policy</a>
+                <Link to="/privacy_policy">Cookie & Privacy Policy</Link>
               </span>{" "}
               <span className="text-2xl text-white"> | </span>{" "}
-              <span className="underline underline-offset-4"><a href="#">Copyright</a></span>{" "}
+              <span className="underline underline-offset-4"><Link to="/copyright">Copyright</Link></span>{" "}
               <span className="text-2xl text-white"> | </span>{" "}
               <span className="underline underline-offset-4">
                 <a href="#">©powerabode.com 2024</a>

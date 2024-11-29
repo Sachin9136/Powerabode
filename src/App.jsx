@@ -40,6 +40,9 @@ import Misalignment_with_business from "./Page/Single_blogs/Misalignment_with_bu
 import Local_content_development from "./Page/Single_blogs/Local_content_development";
 import Strategic_Sourcing from "./Page/Single_blogs/Strategic_Sourcing";
 import The_Art_of_Deal from "./Page/Single_blogs/The_Art_of_Deal";
+import Disclaimer from "./components/footer/Disclaimer";
+import { PrivacyPolicy } from "./components/footer/PrivacyPolicy";
+import Copyright from "./components/footer/CopyRight";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -62,6 +65,9 @@ const router = createBrowserRouter(
       <Route path="skillset-development" element={<Skillset_Development />} />
       <Route path="ai-ecosystem" element={<Deal_Design />} />
       <Route path="codex-supply-chain" element={<CODEX_Supply_Chain />} />
+      <Route path="disclaimer" element={<Disclaimer />} />
+      <Route path="privacy_policy" element={<PrivacyPolicy />} />
+      <Route path="copyright" element={<Copyright />} />
    
 
       {/* Single Blogs */}
