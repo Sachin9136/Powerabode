@@ -296,7 +296,7 @@ function Navbar() {
 
       {/* Dynamic Page Title */}
       <Row className="w-5/10 bg-white z-10 absolute ml-40 rounded-b-md hidden lg:block">
-        <div className="w-full p-10">
+        <div className="w-full p-5">
           <p className="text-center text-[#00abb8] capitalize text-2xl">
             {titleName}
           </p>

@@ -139,10 +139,10 @@ const About_us = () => {
               </div>
             </div>
           </div>
-          <h2 className='text-3xl font-bold text-[#29385E] mt-10'>Building and implementing Category & Contract Strategies</h2>
+          {/* <h2 className='text-3xl font-bold text-[#29385E] mt-10'>Building and implementing Category & Contract Strategies</h2> */}
         </div>
 
-        <div className="px-4 md:px-20">
+        {/* <div className="px-4 md:px-20">
             <Row>
                 <div className="my-10 block lg:flex justify-center gap-5">
                     <div className="w-full lg:2/6 shadow-lg rounded-lg px-8 pb-12 pt-5 mb-6 border-2 border-[#eee]">
@@ -173,7 +173,7 @@ const About_us = () => {
                     </div>
                 </div>
             </Row>
-        </div>
+        </div> */}
 
         <div className="px-4 md:px-20 my-10">
           <div className="my-6">

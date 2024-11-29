@@ -66,7 +66,7 @@ const The_story_of_Powerabode = () => {
         <div className="w-full">
           <p className="my-2">
             {" "}
-            <span className="customeFont font-bold">Powerabode</span> is the
+            <span className="customeFont font-bold">powerabode</span> is the
             platform for a large part of the energy industry to get to cost
             efficient delivery. The integrated supply chain sits at the core of
             this. For us, the development of the commercial ecosystem was a

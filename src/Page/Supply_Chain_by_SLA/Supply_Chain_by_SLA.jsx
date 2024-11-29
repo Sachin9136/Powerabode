@@ -185,7 +185,7 @@ const About_us = () => {
       </div>
 
       <div className="px-4 md:px-20">
-        <h2 className="text-center text-3xl font-bold text-[#29385E]">
+        <h2 className="text-3xl font-bold text-[#29385E]">
           How do We Deliver Our Services
         </h2>
       </div>
@@ -193,7 +193,7 @@ const About_us = () => {
       <div className="px-4 md:px-20">
         <Row>
           <div className="my-10 block lg:flex justify-center gap-5">
-            <div className="w-full lg:2/6 border border-[#eee] rounded-md shadow-lg px-4 py-8 mb-6">
+            <div className="w-full lg:2/6 border border-[#eee] rounded-md  px-4 py-8 mb-6">
               <div>
                 <h3 className="text-2xl font-bold text-[#29385E] mb-8">
                   Why external expert?
@@ -209,7 +209,7 @@ const About_us = () => {
               </div>
             </div>
 
-            <div className="w-full lg:2/6 border border-[#eee] rounded-md shadow-lg px-4 py-8 mb-6">
+            <div className="w-full lg:2/6 border border-[#eee] rounded-md  px-4 py-8 mb-6">
               <div>
                 <h3 className="text-2xl font-bold text-[#29385E] mb-8">
                   Service Level Agreement Value Proposition
@@ -224,7 +224,7 @@ const About_us = () => {
               </div>
             </div>
 
-            <div className="w-full lg:2/6 border border-[#eee] rounded-md shadow-lg px-4 py-8 mb-6">
+            <div className="w-full lg:2/6 border border-[#eee] rounded-md  px-4 py-8 mb-6">
               <div>
                 <h3 className="text-2xl font-bold text-[#29385E] mb-8">
                   Remote?
@@ -242,7 +242,7 @@ const About_us = () => {
         </Row>
         <Row>
           <div className="my-10 block lg:flex justify-center gap-5">
-            <div className="w-full lg:2/6 border border-[#eee] rounded-md shadow-lg px-4 py-8 mb-6">
+            <div className="w-full lg:2/6 border border-[#eee] rounded-md  px-4 py-8 mb-6">
               <div>
                 <h3 className="text-2xl font-bold text-[#29385E] mb-8">
                   Delivery focussed
@@ -257,7 +257,7 @@ const About_us = () => {
               </div>
             </div>
 
-            <div className="w-full lg:2/6 border border-[#eee] rounded-md shadow-lg px-4 py-8 mb-6">
+            <div className="w-full lg:2/6 border border-[#eee] rounded-md  px-4 py-8 mb-6">
               <div>
                 <h3 className="text-2xl font-bold text-[#29385E] mb-8">
                   Fixed Scope
@@ -272,7 +272,7 @@ const About_us = () => {
               </div>
             </div>
 
-            <div className="w-full lg:2/6 border border-[#eee] rounded-md shadow-lg px-4 py-8 mb-6">
+            <div className="w-full lg:2/6 border border-[#eee] rounded-md  px-4 py-8 mb-6">
               <div>
                 <h3 className="text-2xl font-bold text-[#29385E] mb-8">
                   Contact us
