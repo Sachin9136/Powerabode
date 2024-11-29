@@ -46,7 +46,7 @@ const About_us = () => {
         <div className="lg:flex my-10">
           <div className="w-full lg:w-1/2 px-3">
             <div>
-              <h2 className="text-3xl font-bold mt-6 mb-3">Agents</h2>
+              <h2 className="text-3xl font-bold mt-6 mb-3 text-[#29385E]">Agents</h2>
               <p className="text-lg font-normal lg:mr-12 mb-3">
                 With Google we built our first user cases. An integrate
                 structure of agents is the next step, following the boundaries
@@ -75,7 +75,7 @@ const About_us = () => {
           </div>
           <div className="w-full lg:w-1/2 px-3">
             <div>
-              <h2 className="text-3xl font-bold mt-6 mb-3">
+              <h2 className="text-3xl font-bold mt-6 mb-3 text-[#29385E]">
                 Understanding the Client: Cost Program
               </h2>
               <p className="text-xl font-medium lg:mr-12 mb-3">
@@ -101,7 +101,7 @@ const About_us = () => {
         <div className="lg:flex my-10">
           <div className="w-full lg:w-1/2 px-3">
             <div>
-              <h2 className="text-3xl font-bold mt-6 mb-3">
+              <h2 className="text-3xl font-bold mt-6 mb-3 text-[#29385E]">
                 First of its kind
               </h2>
               <p className="text-xl font-medium lg:mr-12 mb-3">

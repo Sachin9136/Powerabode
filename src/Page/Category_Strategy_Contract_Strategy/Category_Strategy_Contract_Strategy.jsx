@@ -360,9 +360,9 @@ const About_us = () => {
       <Img_Slider />
 
       <div>
-        <h1 className="text-center text-3xl font-bold mb-6 text-[#29385E]">
+        {/* <h1 className="text-center text-3xl font-bold mb-6 text-[#29385E]">
           Custom Page with Dynamic Cards
-        </h1>
+        </h1> */}
         {/* Render the Cards component with dynamic content */}
         <Cards_with_bg background={SLA_bg} cardsContent={cardsContent} />
       </div>

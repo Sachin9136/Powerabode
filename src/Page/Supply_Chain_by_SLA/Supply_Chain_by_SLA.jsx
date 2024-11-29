@@ -98,21 +98,23 @@ const About_us = () => {
 "
       />
 
-      <Slider {...settings}>
-        {slidesData.map((slide, index) => (
-          <div key={index} className="group">
-            <Link to={`/${slide.link}`}>
-              <div
-                className={`h-[222px] flex items-center justify-center transition-all duration-300 bg-[${slide.color}] group-hover:bg-gradient-to-t group-hover:from-[#042b3d] group-hover:to-[#00abb8]`}
-              >
-                <p className="text-lg font-bold text-[#00abb8] text-center group-hover:text-white">
-                  {slide.text}
-                </p>
-              </div>
-            </Link>
-          </div>
-        ))}
-      </Slider>
+<Slider {...settings}>
+  {slidesData.map((slide, index) => (
+    <div key={index} className="group">
+      <Link to={`/${slide.link}`}>
+        <div
+          style={{ backgroundColor: slide.color }}
+          className="h-[222px] flex items-center justify-center transition-all duration-300 group-hover:bg-gradient-to-t group-hover:from-[#042b3d] group-hover:to-[#00abb8]"
+        >
+          <p className="text-lg font-bold text-[#00abb8] text-center group-hover:text-white">
+            {slide.text}
+          </p>
+        </div>
+      </Link>
+    </div>
+  ))}
+</Slider>
+
       <Row className="flex justify-center">
       <div className="grid md:grid-cols-2 grid-cols-1 w-10/12 mt-5">
         {/* Left Section */}
@@ -148,7 +150,7 @@ const About_us = () => {
 
       <div className="px-4 md:px-20 my-10 lg:my-20 lg:flex">
         <div className="w-full lg:w-1/2">
-          <h3 className="text-3xl">
+          <h3 className="text-3xl text-[#29385E]">
             Outsource Supply Chain and <br /> Procurement to powerabode
           </h3>
           <p className="my-2">

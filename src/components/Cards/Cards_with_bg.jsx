@@ -37,14 +37,14 @@ const Cards = ({ background, cardsContent }) => {
             ></div>
 
             {/* Title Overlay visible by default */}
-            <div className="absolute bottom-0 w-full bg-[#35322ffe] p-4 transition-all duration-500 group-hover:opacity-0 rounded-t-3xl">
+            <div className="absolute bottom-0 w-full bg-black bg-opacity-40 backdrop-blur-md  p-4 transition-all duration-500 group-hover:opacity-0 rounded-t-3xl">
               <h3 className="text-white text-xl md:text-xl font-medium mb-6">
                 {truncateTitle(card.title)}
               </h3>
             </div>
 
             {/* Full Overlay appears on hover with the full title */}
-            <div className="absolute inset-0 bg-[#35322ffe] bg-opacity-0 group-hover:bg-opacity-75 transition-all duration-500 text-white flex flex-col justify-center items-center p-6 transform translate-y-full group-hover:translate-y-0 opacity-0 group-hover:opacity-100">
+            <div className="absolute inset-0 bg-black bg-opacity-40 backdrop-blur-md group-hover:bg-opacity-40 transition-all duration-500 text-white flex flex-col justify-center items-center p-6 transform translate-y-full group-hover:translate-y-0 opacity-0 group-hover:opacity-100 rounded-lg">
               <h3 className="text-lg md:text-xl font-bold mb-2 text-start">{card.title}</h3>
               <p className="text-base md:text-md font-semibold text-start text-white">
                 {card.description}
