@@ -26,12 +26,13 @@ function Navbar() {
   const [isSticky, setIsSticky] = useState(false); // State for sticky navbar
   const [titleName, setTitleName] = useState(""); // State for the dynamic page title
 
-
-
   // Check if the current path is /disclaimer or /privacy-policy
-  const shouldHideRow = location.pathname === '/disclaimer' || location.pathname === '/privacy_policy'|| location.pathname === '/copyright';
+  const shouldHideRow =
+    location.pathname === "/disclaimer" ||
+    location.pathname === "/privacy_policy" ||
+    location.pathname === "/privacy_policy";
 
-  // if (shouldHideRow) {
+  // if (shouldHideRow) {copyright
   //   return null; // Do not render if on Disclaimer or Privacy Policy page
   // }
 
@@ -171,6 +172,10 @@ function Navbar() {
       id: 1,
       name: "Cost and Value Philosophy",
       link: "#",
+      title: "Cost and Value Philosophy",
+      pra1: "How does the Cost & Value Philosophy Work? We explain in this section. Also on the page with articles and business cases you can study an recognise its application.",
+      pra2: "",
+      pra3: "",
       submenu: [
         {
           id: 1.1,
@@ -195,6 +200,10 @@ function Navbar() {
       id: 4,
       name: "Supply Chain by SLA",
       link: "#",
+      title: "Supply Chain by Service Level Agreement",
+      pra1: "Operations, Maintenance or Production. Even Projects. Supply Chain by SLA provides dozens of services in 6 key areas related to your contracts. They all contribute to cost efficiency.​",
+      pra2: "Outsource some or all of your Supply Chain and Procurement activities by Service Level Agreement.",
+      pra3: "",
       submenu: [
         { id: 4.1, name: "Supply Chain by SLA", link: "/supply-chain-by-sla" },
         {
@@ -229,6 +238,17 @@ function Navbar() {
       id: 5,
       name: "Systems & Delivery",
       link: "#",
+      title: "Codex & Delivery",
+      pra1: "Codex is a contracting procurement & supply chain management system and services that transforms 3 rdparty goods and services into finished product in commercially competitive controlled and compliant manner.​",
+      pra2: "cm+ is Contract + Context And focused on the users of the contract. Enabling them to execute the contract as it was intended.",
+      pra3: (
+        <p>
+          <span className="customeFont">powerabode</span> Academy focuses on the
+          extended contract user group that use & influence the contract
+          regularly. The trainings are designed to inject commercial DNA into
+          the team.
+        </p>
+      ),
       submenu: [
         { id: 5.1, name: "CODEX", link: "/codex-supply-chain" },
         { id: 5.1, name: "CM+", link: "/cm-for-contract" },
@@ -284,18 +304,52 @@ function Navbar() {
 
                 {/* Submenu */}
                 {item.submenu && isSubmenuOpen[item.id] && (
-                  <Column className="absolute left-0 py-2 w-48 bg-white shadow-lg rounded-lg z-20">
-                    {item.submenu.map((subItem) => (
-                      <NavLink
-                        key={subItem.id}
-                        to={subItem.link}
-                        className="block px-4 py-2 text-sm text-black hover:bg-gray-100"
-                        onClick={() => toggleSubmenu(item.id, true)}
-                      >
-                        {subItem.name}
-                      </NavLink>
-                    ))}
-                  </Column>
+                  <div className="fixed top-[60px] left-0 w-screen bg-white shadow-lg z-20 border-b-4 border-[#00abb8]">
+                    {/* Submenu Content */}
+                    <div className="flex justify-center">
+                      <div className="w-full max-w-screen-lg p-6 grid grid-cols-12 gap-5">
+                        {/* Left Section - Conditionally rendered */}
+                        {item.pra1 || item.pra2 || item.pra3 ? (
+                          <div className="col-span-8 border-r pr-5">
+                            <h3 className="text-lg font-semibold text-[#00abb8]">
+                              {item.title}
+                            </h3>
+                            {item.pra1 && (
+                              <p className="text-sm text-gray-600 mt-2">
+                                {item.pra1}
+                              </p>
+                            )}
+                            {item.pra2 && (
+                              <p className="text-sm text-gray-600 mt-2">
+                                {item.pra2}
+                              </p>
+                            )}
+                            {item.pra3 && (
+                              <div className="text-sm text-gray-600 mt-2">
+                                {item.pra3}
+                              </div>
+                            )}
+                          </div>
+                        ) : null}
+
+                        {/* Right Section */}
+                        <div className="col-span-4">
+                          <ul className="space-y-2">
+                            {item.submenu.map((subItem) => (
+                              <li key={subItem.id}>
+                                <NavLink
+                                  to={subItem.link}
+                                  className="text-sm text-gray-700 hover:text-[#00abb8] hover:underline"
+                                >
+                                  → {subItem.name}
+                                </NavLink>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 )}
               </div>
             ))}
@@ -304,27 +358,27 @@ function Navbar() {
       </Row>
 
       {/* Dynamic Page Title */}
-   {!shouldHideRow && (
-    <Row className="w-5/10 bg-white z-10 absolute ml-40 rounded-b-md hidden lg:block">
-    <div className="w-full p-5">
-      <p className="text-center text-[#00abb8] capitalize text-2xl">
-        {titleName}
-      </p>
-      <div className="flex gap-x4 mt-5 mb-2">
-        <img src={s1} alt="icon" className="mx-auto w-auto h-6" />
-        <img src={s2} alt="icon" className="mx-auto w-auto h-6" />
-        <img src={s3} alt="icon" className="mx-auto w-auto h-6" />
-        <img src={s4} alt="icon" className="mx-auto w-auto h-6" />
-        <img src={s5} alt="icon" className="mx-auto w-auto h-6" />
-        <img src={s6} alt="icon" className="mx-auto w-auto h-6" />
-        <img src={s7} alt="icon" className="mx-auto w-auto h-6" />
-        <img src={s8} alt="icon" className="mx-auto w-auto h-6" />
-        <img src={s9} alt="icon" className="mx-auto w-auto h-6" />
-      </div>
-      <p className="text-center">Operations | Maintenance | Production</p>
-    </div>
-  </Row>
-   )}   
+      {!shouldHideRow && (
+        <Row className="w-5/10 bg-white z-10 absolute ml-40 rounded-b-md hidden lg:block">
+          <div className="w-full p-5">
+            <p className="text-center text-[#00abb8] capitalize text-2xl">
+              {titleName}
+            </p>
+            <div className="flex gap-x4 mt-5 mb-2">
+              <img src={s1} alt="icon" className="mx-auto w-auto h-6" />
+              <img src={s2} alt="icon" className="mx-auto w-auto h-6" />
+              <img src={s3} alt="icon" className="mx-auto w-auto h-6" />
+              <img src={s4} alt="icon" className="mx-auto w-auto h-6" />
+              <img src={s5} alt="icon" className="mx-auto w-auto h-6" />
+              <img src={s6} alt="icon" className="mx-auto w-auto h-6" />
+              <img src={s7} alt="icon" className="mx-auto w-auto h-6" />
+              <img src={s8} alt="icon" className="mx-auto w-auto h-6" />
+              <img src={s9} alt="icon" className="mx-auto w-auto h-6" />
+            </div>
+            <p className="text-center">Operations | Maintenance | Production</p>
+          </div>
+        </Row>
+      )}
     </>
   );
 }
