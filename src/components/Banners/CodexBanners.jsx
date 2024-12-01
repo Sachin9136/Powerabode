@@ -4,9 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import {
-  Banner_slider1,
-  Banner_slider_2,
-  Banner_slider_3,
   Banner_slider_4,
 } from "../Img/ImportedImage";
 
@@ -56,45 +53,9 @@ const CustomBanner = () => {
         "Powerabode is an expert in the supply chain and procurement space of large energy assets.",
       description2:
         "Consulting, Outsourcing, and Specialist Systems by frontline experts ready for implementation.",
-      gradient: "bg-[linear-gradient(150deg,#00abb8,#1d345e)]", // Gradient for fourth banner
+      gradient: "bg-[linear-gradient(150deg,#00abb8,#1d345e)]", 
     },
-    {
-      id: 1,
-      image: Banner_slider1,
-      // image2: icons,
-      title: "Driven by Energy",
-      subtitle: "Delivering value improvement & cost optimisation",
-      description:
-        "Powerabode is an expert in the supply chain and procurement space of large energy assets.",
-      description2:
-        "Consulting, Outsourcing, and Specialist Systems by frontline experts ready for implementation.",
-      gradient: "bg-[linear-gradient(150deg,#00abb8,#1d345e)]", // Gradient for first banner
-    },
-    {
-      id: 4,
-      image: Banner_slider_2,
-      // image2: icons,
-      title: "Driven by Energy",
-      subtitle: "Delivering value improvement & cost optimisation",
-      description:
-        "Powerabode is an expert in the supply chain and procurement space of large energy assets.",
-      description2:
-        "Consulting, Outsourcing, and Specialist Systems by frontline experts ready for implementation.",
-      gradient: "bg-[linear-gradient(0deg,#08aeea,#2af598)]", // Gradient for second banner
-    },
-
-    {
-      id: 2,
-      image: Banner_slider_3,
-      // image2: icons,
-      title: "Driven by Energy",
-      subtitle: "Delivering value improvement & cost optimisation",
-      description:
-        "Powerabode is an expert in the supply chain and procurement space of large energy assets.",
-      description2:
-        "Consulting, Outsourcing, and Specialist Systems by frontline experts ready for implementation.",
-      gradient: "bg-[linear-gradient(0deg,#636363,#a2ab58)]", // Gradient for third banner
-    },
+   
   ];
 
   return (
