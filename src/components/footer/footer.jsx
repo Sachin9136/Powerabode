@@ -201,26 +201,26 @@ const footer = () => {
             help:
           </p>
           <ul className="list-disc pl-8">
-            <li className="text-[#504F4F] font-medium text-md">
+            <li className="text-[#29385E] font-medium text-md">
               Streamline and optimise your contracting and procurement
             </li>
-            <li className="text-[#504F4F] font-medium text-md">
+            <li className="text-[#29385E] font-medium text-md">
               Reduce cost and Improve value
             </li>
-            <li className="text-[#504F4F] font-medium text-md">
+            <li className="text-[#29385E] font-medium text-md">
               Third party cost reduction presentation
             </li>
-            <li className="text-[#504F4F] font-medium text-md">
+            <li className="text-[#29385E] font-medium text-md">
               Get introduced to the Academy skillset trainings
             </li>
-            <li className="text-[#504F4F] font-medium text-md">
+            <li className="text-[#29385E] font-medium text-md">
               Manage all your contracts with fine-grained control
             </li>
-            <li className="text-[#504F4F] font-medium text-md">
+            <li className="text-[#29385E] font-medium text-md">
               Outsource some , or all of your Supply Chain and Procurement
               activities.
             </li>
-            <li className="text-[#504F4F] font-medium text-md">
+            <li className="text-[#29385E] font-medium text-md">
               Introduce governance and systems fit for best practice delivery
             </li>
           </ul>
@@ -275,7 +275,7 @@ const footer = () => {
                     onChange={(e) => setEmail(e.target.value)}
                     value={email}
                     required
-                    class="bg-white text-[#504F4F] py-2 px-3 rounded mb-2 placeholder-[#504F4F] w-60"
+                    class="bg-white text-[#29385E] py-2 px-3 rounded mb-2 placeholder-[#29385E] w-60"
                   />
                   {/* <button
                     type="submit"
@@ -338,7 +338,7 @@ const footer = () => {
                 </div>
               </div>
               <div className="flex items-center gap-3">
-                <div className="text-lg text-[#504F4F]">
+                <div className="text-lg text-[#29385E]">
                   Email:
                   <a
                     href="mailto:info@powerabode.com"

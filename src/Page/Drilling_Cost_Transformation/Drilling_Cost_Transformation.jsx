@@ -55,7 +55,7 @@ const About_us = () => {
       <div className="px-4 md:px-20">
         <h2 className='text-center text-3xl font-bold text-[#29385E] mt-10 mb-6'>Specialised Contract Strategy and sourcing approach can reduce your <br /> well cost by 50%</h2>
         <div>
-          <h3 className="text-[#504F4F] text-xl">We were asked to deliver a contract strategy and sourcing approach that <br /> would support reducing well costs by 50%</h3>
+          <h3 className="text-[#29385E] text-xl">We were asked to deliver a contract strategy and sourcing approach that <br /> would support reducing well costs by 50%</h3>
         </div>
 
         <div className="my-3">

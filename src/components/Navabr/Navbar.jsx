@@ -276,7 +276,7 @@ function Navbar() {
 
         <Column className="lg:flex items-center space-x-4">
           {/* Menu Items */}
-          <Column className="hidden lg:flex items-center font-medium space-x-4 gap-3 ml-16">
+          <Column className="hidden lg:flex items-center font-medium space-x-4 gap-3 ml-16 text-[#29385E]">
             {menuItems.map((item) => (
               <div
                 key={item.id}

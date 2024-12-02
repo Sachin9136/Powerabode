@@ -36,7 +36,7 @@ const About_us = () => {
           <h4 className="text-2xl font-medium mb-3 text-[#29385E] ">
             Ai Ecosystem: Turtle is your new Ai Assistent for cost efficiency!
           </h4>
-          <p className="text-md font-medium mb-3 text-[#504F4F]">
+          <p className="text-md font-medium mb-3 text-[#29385E]">
             Every job position will get its own Ai. Not today, but soon. We’re
             working on it. It captures corporate memory. <br /> An enormous
             upside and collateral gain. The Turtle system of agents brings cost

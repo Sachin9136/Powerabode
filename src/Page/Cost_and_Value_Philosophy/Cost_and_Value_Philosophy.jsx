@@ -122,7 +122,7 @@ const About_us = () => {
               </h3>
             </div>
             <div>
-              <p className="text-center text-medium font-medium text-[#504F4F]">
+              <p className="text-center text-medium font-medium text-[#29385E]">
                 Standard is to negotiate lower prices with suppliers and service
                 providers. This is only 20% of the savings potential. But this
                 is where it stops for most companies. The Cost and Value
@@ -139,7 +139,7 @@ const About_us = () => {
               </h3>
             </div>
             <div>
-              <p className="text-center text-medium font-medium text-[#504F4F]">
+              <p className="text-center text-medium font-medium text-[#29385E]">
                 A main potential of value and savings sit in the space of
                 improved efficiency and rationalised specification. Together,
                 they deliver an extra 70% of the cost saving potential. On top
@@ -157,7 +157,7 @@ const About_us = () => {
               </h3>
             </div>
             <div>
-              <p className="text-center text-medium font-medium text-[#504F4F]">
+              <p className="text-center text-medium font-medium text-[#29385E]">
                 After splitting up the savings potential, we map the
                 organisation into the stakeholders for each part of the
                 potential. Our products and services are all designed to deliver
@@ -214,7 +214,7 @@ const About_us = () => {
                     </h3>
                   </div>
                   <div>
-                    <p className="text-medium font-medium mb-2 text-[#504F4F]">
+                    <p className="text-medium font-medium mb-2 text-[#29385E]">
                       The ECMT is in the heart of the integrated supply chain
                       (ISC). They use & influence contracts everyday. Why the
                       ECMT?
@@ -222,16 +222,16 @@ const About_us = () => {
                   </div>
                   <div>
                     <ul className="list-disc pl-8">
-                      <li className="my-1 text-[#504F4F]">
+                      <li className="my-1 text-[#29385E]">
                         Create sense of urgency
                       </li>
-                      <li className="my-1 text-[#504F4F]">
+                      <li className="my-1 text-[#29385E]">
                         Create ownership of savings process
                       </li>
-                      <li className="my-1 text-[#504F4F]">
+                      <li className="my-1 text-[#29385E]">
                         Has influence & control on commercial performance
                       </li>
-                      <li className="my-1 text-[#504F4F]">
+                      <li className="my-1 text-[#29385E]">
                         Ideal platform to achieve cost efficiency
                       </li>
                     </ul>
@@ -248,7 +248,7 @@ const About_us = () => {
                     </h3>
                   </div>
                   <div>
-                    <p className="text-medium font-medium mb-2 text-[#504F4F]">
+                    <p className="text-medium font-medium mb-2 text-[#29385E]">
                       Integrated Supply Chain (ISC) is all about interdependence
                       and synergy between Client and its contracts. Recognising
                       and mastering these between multidisciplinary teams, is

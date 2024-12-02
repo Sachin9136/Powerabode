@@ -173,13 +173,13 @@ const About_us = () => {
         <div className="w-full lg:w-1/2 py-5 px-10 lg:py-16 ">
           <div>
             <img className="w-24" src={Comma_top} alt="" />
-            <h1 className="text-xl lg:text-3xl font-medium italic relative -top-9 left-4">
+            <h1 className="text-xl lg:text-3xl font-medium italic relative -top-9 left-4 text-[#29385e]">
               Every Supply Chain has Waste
             </h1>
           </div>
           <div className="flex justify-end">
             <img className="w-24 absolute" src={Comma_bottom} alt="" />
-            <h1 className="text-xl lg:text-3xl font-medium italic relative pr-4">
+            <h1 className="text-xl lg:text-3xl font-medium italic relative pr-4 text-[#29385e]">
               We Fix It!
             </h1>
           </div>

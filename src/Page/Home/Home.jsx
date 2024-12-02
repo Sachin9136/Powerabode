@@ -179,7 +179,7 @@ function Home() {
           <p className="mt-4 mx-auto text-base font-normal">
             Commercial Ecosystem with Products and Services
           </p>
-          <p className="mt-2 mx-auto text-[#504F4F] text-base font-medium">
+          <p className="mt-2 mx-auto text-[#29385E] text-base font-medium">
             Delivering Cost Efficiency and Value Improvement{" "}
             <span className="text-2xl text-black">|</span> Dealing with Supply
             Chain Resilience <span className="text-2xl text-black">|</span>{" "}

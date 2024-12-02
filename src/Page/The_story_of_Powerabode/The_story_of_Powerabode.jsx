@@ -66,7 +66,7 @@ const The_story_of_Powerabode = () => {
         <div className="w-full">
           <p className="my-2">
             {" "}
-            <span className="customeFont font-bold">powerabode</span> is the
+            <span className="customeFont font-bold text-[#29385E]">powerabode</span> is the
             platform for a large part of the energy industry to get to cost
             efficient delivery. The integrated supply chain sits at the core of
             this. For us, the development of the commercial ecosystem was a
@@ -91,14 +91,14 @@ const The_story_of_Powerabode = () => {
               </h3>
             </div>
             <div>
-              <p className="text-medium font-medium">
+              <p className="text-medium font-medium text-[#29385E]">
                 We bring them to asset owners through Supply Chain by SLA
                 Services, our Cost Program 'The Road to Cost Leadership' and off
                 the shelf products like our Codex Management System for Supply
                 Chain and Procurement. Everything is supported by front line
                 experts.
               </p>
-              <p className="text-medium font-medium mt-3">
+              <p className="text-medium font-medium mt-3 text-[#29385E]">
                 Powerabode Academy is there to implement our products and
                 programs, and develop local content.
               </p>
@@ -112,7 +112,7 @@ const The_story_of_Powerabode = () => {
               </h3>
             </div>
             <div>
-              <p className="text-medium font-medium">
+              <p className="text-medium font-medium text-[#29385E]">
                 All our experts are experienced in front line delivery. They
                 complement our systems and methods with hands-on experience.
                 Driven by Energy We Deliver.
@@ -137,7 +137,7 @@ const The_story_of_Powerabode = () => {
               <h2 className=" text-3xl font-bold text-[#29385E]">
                 Cost and Value Intelligence Philosophy
               </h2>
-              <p className=" text-2xl font-medium mt-3">
+              <p className=" text-2xl font-medium mt-3 text-[#29385E]">
                 How to deliver cost efficiency and value improvement?
               </p>
               <p className="text-2xl text-[#4AC4D9] font-medium ">
@@ -147,24 +147,24 @@ const The_story_of_Powerabode = () => {
             <div className="flex justify-center">
               <div className="w-full px-4">
                 <ul className="list-disc pl-8">
-                  <li className="mt-2 font-medium text-md">
+                  <li className="mt-2 font-medium text-md text-[#29385E]">
                     All our products and services are built around our cost and
                     value philosophy. It will bring overall improvement
                     (OPEX/CAPEX) by double digit percentage.
                   </li>
-                  <li className="mt-2 font-medium text-md">
+                  <li className="mt-2 font-medium text-md text-[#29385E]">
                     Rates are only 20% of any potential saving! Specification
                     focus can deliver 30% of the Savings Potential. Efficiency
                     focus can bring 40% of the Savings Potential.
                   </li>
-                  <li className="mt-2 font-medium text-md">
+                  <li className="mt-2 font-medium text-md text-[#29385E]">
                     We take your organization on the road to cost leadership.
                   </li>
-                  <li className="mt-2 font-medium text-md">
+                  <li className="mt-2 font-medium text-md text-[#29385E]">
                     Our analyses of Rates, Specification and Efficiency will
                     bring out the maximum Savings Potential.
                   </li>
-                  <li className="mt-2 font-medium text-md">
+                  <li className="mt-2 font-medium text-md text-[#29385E]">
                     The Opex/Capex Program, our Supply Chain Services by SLA,
                     but also our Codex Management System and CM+ empower your
                     organisation utilising methods based on the Cost and value
@@ -267,7 +267,7 @@ const The_story_of_Powerabode = () => {
               </h2>
             </div>
             <div className="flex justify-center">
-              <div className="w-full">
+              <div className="w-full text-[#29385E]">
                 <ul>
                   <li className="mt-2 font-medium text-md">
                     The black swan events triggered by COVID have put our
