@@ -11,7 +11,7 @@ import Upstream_offshore from "../../../src/assets/Images/upstream_offshore.svg"
 import Upstream_onshore from "../../../src/assets/Images/Upstream_onshore.svg";
 import Cost_optimization from "../../../src/assets/Images/cost_optimization.svg";
 import Academy from "../../../src/assets/Images/Academy.svg";
-import CM from "../../../src/assets/Images/CM.svg";
+import CM from "../../../src/assets/Images/CM.png";
 import Codex from "../../../src/assets/Images/Codex.svg";
 import OPEX from "../../../src/assets/Images/OPEX.svg";
 import Supply_chain from "../../../src/assets/Images/Supply_chain.svg";
