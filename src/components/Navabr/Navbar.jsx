@@ -30,7 +30,8 @@ function Navbar() {
   const shouldHideRow =
     location.pathname === "/disclaimer" ||
     location.pathname === "/privacy_policy" ||
-    location.pathname === "/privacy_policy";
+    location.pathname === "/privacy_policy" || 
+    location.pathname === "/copyright";
 
   // if (shouldHideRow) {copyright
   //   return null; // Do not render if on Disclaimer or Privacy Policy page
