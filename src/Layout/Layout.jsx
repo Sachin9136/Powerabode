@@ -5,6 +5,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import TopToScroll from '../../src/TopToScroll';
 import Chatbot from "../components/Chat/ChatBot";
+import ClarityScript from "../components/Chat/ClarityScript";
 
 function Layout() {
   return (
@@ -15,6 +16,7 @@ function Layout() {
         <Navbar />
         <Outlet />
         <Chatbot/>
+        <ClarityScript/>
       </Container>
     </>
   );
