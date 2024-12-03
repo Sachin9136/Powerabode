@@ -6,6 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import TopToScroll from '../../src/TopToScroll';
 import Chatbot from "../components/Chat/ChatBot";
 import ClarityScript from "../components/Chat/ClarityScript";
+import CookieConsent from "../components/Chat/Cookie";
 // 
 
 function Layout() {
@@ -18,6 +19,7 @@ function Layout() {
         <Outlet />
         <Chatbot/>
         <ClarityScript/>
+        <CookieConsent/>
       </Container>
     </>
   );
