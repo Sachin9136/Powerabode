@@ -18,14 +18,8 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons"; // Import the X (Twitter) and LinkedIn icons
 import {
-  Column,
-  Heading,
   Row,
-  Span,
-  Wraper,
-  Button,
 } from "../../components/ComponentsIndex";
-import TawkToChat from "../Chat/Chat";
 import { useDispatch, useSelector } from "react-redux";
 import {
   createContact,
@@ -33,9 +27,12 @@ import {
 } from "../../ReduxToolkit/Slice/Contact";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import Chatbot from "../Chat/ChatBot";
 
 const footer = () => {
   const dispatch = useDispatch();
+  const [isModalOpen, setIsModalOpen] = useState(false); // Modal visibility state
+
   const { loadingStatus, loadingNewsletter } = useSelector(
     (state) => state.Contact
   );
@@ -76,8 +73,21 @@ const footer = () => {
     }
     if (loadingNewsletter === "succeeded") {
       setEmail("");
+      setIsModalOpen(false);
     }
   }, [loadingStatus, loadingNewsletter]);
+
+    // Function to open the modal
+    const openModal = () => {
+      setIsModalOpen(true);
+    };
+  
+    // Function to close the modal
+    const closeModal = () => {
+      setIsModalOpen(false);
+    };
+
+    
 
   return (
     <Row>
@@ -91,14 +101,18 @@ const footer = () => {
         </a>
       </div>
       {/* <div className="fixed bottom-10 left-3"> */}
-      <TawkToChat />
+    {/* <Chatbot /> */}
       {/* </div> */}
 
       {/* <ImageSlider /> */}
-      <h2 class="text-3xl font-bold my-10 text-center text-[#29385E]">Get in Touch</h2>
+      <h2 className="text-3xl font-bold my-10 text-center text-[#29385E]">
+        Get in Touch
+      </h2>
       <div className="px-4 md:px-20 lg:flex gap-5 my-10">
-        <div class="w-full lg:w-1/2 py-6 px-4 md:py-12 md:px-20 rounded-xl border border-black">
-          <h2 class="text-3xl font-medium mb-6 text-center text-[#29385E]">Book A Session</h2>
+        <div className="w-full lg:w-1/2 py-6 px-4 md:py-12 md:px-20 rounded-xl border border-black">
+          <h2 className="text-3xl font-medium mb-6 text-center text-[#29385E]">
+            Book A Session
+          </h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <input
@@ -225,7 +239,10 @@ const footer = () => {
             </li>
           </ul>
           <div className="flex justify-center">
-            <button className="text-white bg-[#29385E] py-3 px-24 my-5 rounded-lg">
+          <button
+              className="text-white bg-[#29385E] py-3 px-24 my-5 rounded-lg"
+              onClick={openModal} // Open the modal on button click
+            >
               Request
             </button>
           </div>
@@ -237,12 +254,12 @@ const footer = () => {
           Cost Efficiency Experts. Driven By Energy.
         </h1>
       </div>
-      <div class="bg-[#00abb842] py-8 px-4 md:px-20">
-        <div class="container mx-auto px-4">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 ">
+      <div className="bg-[#00abb842] py-8 px-4 md:px-20">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 ">
             {" "}
              
-            <div class="mb-4 md:mb-0 col-span-1 lg:col-span-3 mt-3">
+            <div className="mb-4 md:mb-0 col-span-1 lg:col-span-3 mt-3">
               <div>
                 <img className="w-[80%]" src={Logo} alt="" />
               </div>
@@ -263,7 +280,7 @@ const footer = () => {
                   <img className="w-10" src={Subscribe} alt="" />
                 </div>
                 <div>
-                  <h3 class="text-3xl text-[#00abb8] font-normal">Subscribe</h3>
+                  <h3 className="text-3xl text-[#00abb8] font-normal">Subscribe</h3>
                   <p>To our Newsletter</p>
                 </div>
               </div>
@@ -275,11 +292,11 @@ const footer = () => {
                     onChange={(e) => setEmail(e.target.value)}
                     value={email}
                     required
-                    class="bg-white text-[#29385E] py-2 px-3 rounded mb-2 placeholder-[#29385E] w-60"
+                    className="bg-white text-[#29385E] py-2 px-3 rounded mb-2 placeholder-[#29385E] w-60"
                   />
                   {/* <button
                     type="submit"
-                    class="bg-[#29385E] px-3 py-1 h-10 -ml-2 rounded-r-lg"
+                    className="bg-[#29385E] px-3 py-1 h-10 -ml-2 rounded-r-lg"
                   >
                     
                   </button> */}
@@ -304,36 +321,36 @@ const footer = () => {
                 </div>
               </form>
             </div>
-            <div class="mb-4 md:mb-0 col-span-1 lg:col-span-3 mt-3">
+            <div className="mb-4 md:mb-0 col-span-1 lg:col-span-3 mt-3">
               <div className="flex items-center gap-3 mb-3">
                 <div>
                   <img className="w-16" src={Follow_us} alt="" />
                 </div>
                 <div>
-                  <h3 class="text-3xl text-[#00abb8] font-normal">Follow Us</h3>
+                  <h3 className="text-3xl text-[#00abb8] font-normal">Follow Us</h3>
                   <p>On Social Media</p>
                 </div>
               </div>
-              <div class="flex gap-5 ml-14">
+              <div className="flex gap-5 ml-14">
                 <div className="bg-white p-2 rounded-full shadow-lg">
                   <a href="#">
                     <img src={Linked_in} alt="" width="25px" />
                   </a>
                 </div>
                 <div className="bg-white p-2 rounded-full shadow-lg">
-                  <a href="#" class="">
+                  <a href="#" className="">
                     <img src={Twitter} alt="" width="25px" />
                   </a>
                 </div>
               </div>
             </div>
-            <div class="mb-4 md:mb-0 col-span-1 lg:col-span-3 mt-3">
+            <div className="mb-4 md:mb-0 col-span-1 lg:col-span-3 mt-3">
               <div className="flex items-center gap-3 mb-3">
                 <div>
                   <img className="w-14" src={Email} alt="" />
                 </div>
                 <div>
-                  <h3 class="text-3xl text-[#00abb8] font-normal">Email</h3>
+                  <h3 className="text-3xl text-[#00abb8] font-normal">Email</h3>
                   <p>Contact Us</p>
                 </div>
               </div>
@@ -769,13 +786,17 @@ const footer = () => {
         <Row>
           <div className="text-center pb-10">
             <p className="mt-2 mx-auto text-lg font-medium ">
-              <span className="underline underline-offset-4"><Link to="/disclaimer">Disclaimer</Link></span>{" "}
+              <span className="underline underline-offset-4">
+                <Link to="/disclaimer">Disclaimer</Link>
+              </span>{" "}
               <span className="text-2xl text-white"> | </span>{" "}
               <span className="underline underline-offset-4">
                 <Link to="/privacy_policy">Cookie & Privacy Policy</Link>
               </span>{" "}
               <span className="text-2xl text-white"> | </span>{" "}
-              <span className="underline underline-offset-4"><Link to="/copyright">Copyright</Link></span>{" "}
+              <span className="underline underline-offset-4">
+                <Link to="/copyright">Copyright</Link>
+              </span>{" "}
               <span className="text-2xl text-white"> | </span>{" "}
               <span className="underline underline-offset-4">
                 <a href="#">©powerabode.com 2024</a>
@@ -784,6 +805,103 @@ const footer = () => {
           </div>
         </Row>
       </footer>
+
+       {/* Modal */}
+       {isModalOpen && (
+        <div className="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center z-50">
+          <div className="bg-white p-8 rounded-lg w-full md:w-1/2">
+            <button
+              className="absolute top-2 right-2 text-xl"
+              onClick={closeModal}
+            >
+              <FontAwesomeIcon icon={faXTwitter} />
+            </button>
+            <h2 className="text-center text-2xl font-bold mb-5 text-[#29385E]">
+              Request for Information / Proposal / Quotation
+            </h2>
+            <form onSubmit={handleSubmit}>
+              <div className="mb-4">
+                <input
+                  type="text"
+                  placeholder="Name"
+                  id="name"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  className="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
+                  required
+                />
+              </div>
+              <div className="mb-4">
+                <input
+                  type="email"
+                  placeholder="Email"
+                  id="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  className="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
+                  required
+                />
+              </div>
+              <div className="mb-4">
+                <input
+                  type="tel"
+                  placeholder="Number"
+                  id="number"
+                  name="number"
+                  value={formData.number}
+                  onChange={handleChange}
+                  className="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
+                  required
+                />
+              </div>
+              <div className="mb-4">
+                <input
+                  type="text"
+                  placeholder="Subject"
+                  id="reason"
+                  name="reason"
+                  value={formData.reason}
+                  onChange={handleChange}
+                  className="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
+                  required
+                />
+              </div>
+              <div className="mb-4">
+                <textarea
+                  id="message"
+                  placeholder="Message"
+                  name="message"
+                  rows="4"
+                  value={formData.message}
+                  onChange={handleChange}
+                  className="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
+                  required
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                className={`text-white bg-[#29385E] py-3 my-5 w-full ${
+                  loadingStatus === "loading"
+                    ? "opacity-50 cursor-not-allowed"
+                    : ""
+                }`}
+                disabled={loadingStatus === "loading"}
+              >
+                {loadingStatus === "loading" ? (
+                  <div className="flex items-center justify-center">
+                    <span className="spinner-border spinner-border-sm"></span>
+                    Sending...
+                  </div>
+                ) : (
+                  "Send"
+                )}
+              </button>
+            </form>
+          </div>
+        </div>
+      )}
     </Row>
   );
 };

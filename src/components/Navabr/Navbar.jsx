@@ -80,7 +80,7 @@ function Navbar() {
       case "/post-award-contract-management":
         title = "Post Award Contract Management";
         break;
-      case "/category-strategy-contract-strategy":
+      case "/category-strategy":
         title = "Category Strategy Contract Strategy";
         break;
       case "/commercial-assurance":
@@ -107,46 +107,46 @@ function Navbar() {
       case "/ai-ecosystem":
         title = "AI Ecosystem";
         break;
-      case "/strategic-sourcing":
+      case "/articles-business-cases/sourcing-strategy":
         title = "strategic sourcing";
         break;
-      case "/unlocking-value-bottom":
+      case "/blog-articles-business-cases/Unlocking-value-savings-bottom-line":
         title = "unlocking value";
         break;
-      case "/drilling-cost-transformationblog":
+      case "/blog-articles-business-cases/drilling-cost-transformationblog":
         title = "drilling  cost transformationblog";
         break;
-      case "/conflict-or-conflicting-KPI":
+      case "/blog-articles-business-cases/key-performance-indicators-kpi":
         title = "Conflict or Conflicting KPI’s?";
         break;
-      case "/deliver-as-planned":
+      case "/blog-articles-business-cases/Project-management-bottle-necks":
         title = "deliver as planned";
         break;
-      case "/hidden-in-plain-sight":
+      case "/blog-articles-business-cases/Solutions-to-influence-cost":
         title = "Hidden in Plain Sight";
         break;
-      case "/supply-chain-management":
+      case "/articles-business-cases/supply-Chain-Procurement-Management-System":
         title = "supply chain management";
         break;
-      case "/focus-on-rates":
+      case "/blog-articles-business-cases/discount-price-reduction":
         title = "focus on rates";
         break;
-      case "/deliver-despite-budget":
+      case "/blog-articles-business-cases/budget-constraints-delivery":
         title = "deliver despite budget";
         break;
-      case "/misalignment-with-business":
+      case "/blog-articles-business-cases/businessplan":
         title = "misalignment with business";
         break;
-      case "/local-content-development":
+      case "/blog-articles-business-cases/local-content-development":
         title = "local content development";
         break;
-      case "/the-art-of-deal":
+      case "/blog-articles-business-cases/the-art-of-the-deal-outsourcing-supply-chain":
         title = "the art of deal";
         break;
-      case "/procurement-department":
+      case "/blog-articles-business-cases/Performance-dna-procurement-supplychain-department":
         title = "procurement department";
         break;
-      case "/materials-management-blog":
+      case "/blog-articles-business-cases/Materials-Management":
         title = "materials management";
         break;
       default:
@@ -209,7 +209,7 @@ function Navbar() {
         {
           id: 4.2,
           name: "Category Strategy & Contract Strategy",
-          link: "/category-strategy-contract-strategy",
+          link: "/category-strategy",
         },
         {
           id: 4.1,

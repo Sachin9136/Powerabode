@@ -7,7 +7,7 @@ const Cards = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 px-4 md:px-20 py-10">
         {/* First Card with Structure Image */}
         <a
-          href="/unlocking-value-bottom"
+          href="/blog-articles-business-cases/Unlocking-value-savings-bottom-line"
           rel="noopener noreferrer"
           className="relative group w-full h-80 md:h-72 lg:h-80 rounded-3xl overflow-hidden shadow-lg transition-all duration-500"
         >
@@ -39,7 +39,7 @@ const Cards = () => {
 
         {/* Second Card with Strategy Image */}
         <a
-          href="/strategic-sourcing"
+          href="/articles-business-cases/sourcing-strategy"
           rel="noopener noreferrer"
           className="relative group w-full h-80 md:h-72 lg:h-80 rounded-3xl overflow-hidden shadow-lg transition-all duration-500"
         >
@@ -71,7 +71,7 @@ const Cards = () => {
 
         {/* Third Card with Lion Image */}
         <a
-          href="/hidden-in-plain-sight"
+          href="/blog-articles-business-cases/Solutions-to-influence-cost"
           rel="noopener noreferrer"
           className="relative group w-full h-80 md:h-72 lg:h-80 rounded-3xl overflow-hidden shadow-lg transition-all duration-500"
         >

@@ -62,7 +62,7 @@ const About_us = () => {
     {
       color: "#042b3d",
       text: "Category Strategy & Contract Strategy",
-      link: "category-strategy-contract-strategy",
+      link: "category-strategy",
     },
     {
       color: "#053043",

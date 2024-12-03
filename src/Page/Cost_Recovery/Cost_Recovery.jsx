@@ -83,19 +83,19 @@ const About_us = () => {
         image: Island,
         title: "Does focus on rates make sense?t",
         description: "Cost Leadership will remain one of top 3 focus areas of Energy Industry for next decade. We excel in this area...",
-        link:"focus-on-rates"
+        link:"blog-articles-business-cases/discount-price-reduction"
       },
       {
         image: Find_the_gap,
         title: "Deliver despite budget constraints",
         description: "Every supply chain has waste, we fix it. Complex analyses using our CI Philosophy, double digit improvement to your budget and opex, value optimisation...",
-        link:"deliver-despite-budget"
+        link:"blog-articles-business-cases/budget-constraints-delivery"
       },
       {
         image: Boxes,
         title: "Misalignment with the businessplan",
         description: "Not everyone knows the businessplan. This information is confidential or under evaluation. But, in the operations latest information is key for opex and capex decisions. How to deal with misalignment?",
-        link:"misalignment-with-business"
+        link:"blog-articles-business-cases/businessplan"
       }
     ];
 

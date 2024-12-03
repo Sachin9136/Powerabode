@@ -97,21 +97,21 @@ const About_us = () => {
       title: "Conflict or Conflicting KPI’s?",
       description:
         "Working as a team. That’s what we do. But how do we know we are all aligned? Conflicting KPI’s cause massive inefficiencies. Who needs enemies if you have friends? ",
-      link: "conflict-or-conflicting-KPI",
+      link: "blog-articles-business-cases/key-performance-indicators-kpi",
     },
     {
       image: Snow,
       title: "Deliver as Planned",
       description:
         "Sometimes ‘surprises’ are actually predictable. The top 5 of ‘predictable’ surprises...",
-      link: "deliver-as-planned",
+      link: "blog-articles-business-cases/Project-management-bottle-necks",
     },
     {
       image: Lion,
       title: "Hidden in Plain Sight",
       description:
         "Crazy as it may sound; there’s always an elephant in the room.. Central in our way of work are the users of the contract, the ECMT. They are underestimated as a platform. 9 Quote: Our Experts know your business.",
-      link: "hidden-in-plain-sight",
+      link: "blog-articles-business-cases/Solutions-to-influence-cost",
     },
   ];
 

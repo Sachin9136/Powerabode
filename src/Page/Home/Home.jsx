@@ -476,7 +476,7 @@ function Home() {
                     </div>
                   </div>
                 </Link>
-                <Link to="/category-strategy-contract-strategy">
+                <Link to="/category-strategy">
                   <div
                     className={`h-[180px] w-[180px] mx-auto border-[#9ece36] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
                     style={{

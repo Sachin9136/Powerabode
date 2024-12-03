@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import {
-    aboutimageEnergyTransition,
+  aboutimageEnergyTransition,
   The_story_of_Powerabode_img,
   our_sector1,
   our_sector2,
@@ -45,6 +45,17 @@ import {
 
 const The_story_of_Powerabode = () => {
   const [activeSlide, setActiveSlide] = useState(0);
+  const items = [
+    { text: "Integrated Commercial Ecosystem" },
+    { text: "Fast and Flexible Delivery" },
+    { text: "Managed Services by SLA" },
+    { text: "Unique Cost Program" },
+    { text: "Expert Team" },
+    { text: "Productized Solutions" },
+    { text: "Advanced Quality, Compliance & Governance" },
+    { text: "Pioneering AI Development" },
+  ];
+  
 
   return (
     <>
@@ -66,11 +77,13 @@ const The_story_of_Powerabode = () => {
         <div className="w-full">
           <p className="my-2">
             {" "}
-            <span className="customeFont font-bold text-[#29385E]">powerabode</span> is the
-            platform for a large part of the energy industry to get to cost
-            efficient delivery. The integrated supply chain sits at the core of
-            this. For us, the development of the commercial ecosystem was a
-            logical consequence of seeing how cost efficiency will play a
+            <span className="customeFont font-bold text-[#29385E]">
+              powerabode
+            </span>
+             is the platform for a large part of the energy industry to get to
+            cost efficient delivery. The integrated supply chain sits at the
+            core of this. For us, the development of the commercial ecosystem
+            was a logical consequence of seeing how cost efficiency will play a
             critical role in the changing energy landscape.
           </p>
           <p className="my-2">
@@ -565,47 +578,77 @@ const The_story_of_Powerabode = () => {
       </div>
 
       <Row>
-  <div className="px-4 md:px-20 my-10 lg:flex justify-center items-center">
-    {/* Text Section (50% width) */}
-    <div className="w-full lg:w-1/2">
-      <div className="bg-white py-5">
-        <h2 className="text-3xl font-bold text-[#29385E] pl-8">Energy Transition</h2>
-      </div>
-      <div className="px-4">
-        <ul>
-          <li className="mt-2 font-medium text-md">
-            Across the globe we are moving towards an energy transition. Where energy demand will grow over 25% over the next 20 years, an enormous task lies ahead of us. Firstly, to transit to a more sustainable energy mix, but secondly to keep up with future demand.
-          </li>
-          <li className="mt-2 font-medium text-md">
-            During this transition, systems will co-exist in parallel. Old and New. To an extent, they will also compete on a cost level. Therefore, cost efficiency is critical.
-          </li>
-          <li className="mt-2 font-medium text-md">
-            New energies will be produced by new industries. Fragmented, local, and often on a relatively ‘small’ scale.
-          </li>
-          <li className="mt-2 font-medium text-md">
-            Gas is a key source of the current mix, but also for decades to come. Hydrogen (grey, blue, and green) is likely to take a large percentage as a proxy for storage. Its true source will often be renewable energy. This transition will put massive pressure on the industry. Resources will be scarce, specialist expertise in high demand, contractors, and production capacity; it is all part of what will drive the transition.
-          </li>
-        </ul>
-      </div>
-    </div>
+        <div className="px-4 md:px-20 my-10 lg:flex justify-center items-center">
+          {/* Text Section (50% width) */}
+          <div className="w-full lg:w-1/2">
+            <div className="bg-white py-5">
+              <h2 className="text-3xl font-bold text-[#29385E] pl-8">
+                Energy Transition
+              </h2>
+            </div>
+            <div className="px-4">
+              <ul>
+                <li className="mt-2 font-medium text-md">
+                  Across the globe we are moving towards an energy transition.
+                  Where energy demand will grow over 25% over the next 20 years,
+                  an enormous task lies ahead of us. Firstly, to transit to a
+                  more sustainable energy mix, but secondly to keep up with
+                  future demand.
+                </li>
+                <li className="mt-2 font-medium text-md">
+                  During this transition, systems will co-exist in parallel. Old
+                  and New. To an extent, they will also compete on a cost level.
+                  Therefore, cost efficiency is critical.
+                </li>
+                <li className="mt-2 font-medium text-md">
+                  New energies will be produced by new industries. Fragmented,
+                  local, and often on a relatively ‘small’ scale.
+                </li>
+                <li className="mt-2 font-medium text-md">
+                  Gas is a key source of the current mix, but also for decades
+                  to come. Hydrogen (grey, blue, and green) is likely to take a
+                  large percentage as a proxy for storage. Its true source will
+                  often be renewable energy. This transition will put massive
+                  pressure on the industry. Resources will be scarce, specialist
+                  expertise in high demand, contractors, and production
+                  capacity; it is all part of what will drive the transition.
+                </li>
+              </ul>
+            </div>
+          </div>
 
-    {/* Image Section (50% width) */}
-    <div className="w-full lg:w-1/2 flex justify-center">
-      <img src={aboutimageEnergyTransition} alt="Energy Transition" className="max-w-full rounded" />
-    </div>
-  </div>
+          {/* Image Section (50% width) */}
+          <div className="w-full lg:w-1/2 flex justify-center">
+            <img
+              src={aboutimageEnergyTransition}
+              alt="Energy Transition"
+              className="max-w-full rounded"
+            />
+          </div>
+        </div>
 
-  {/* Full-width Text Section (100% width) */}
-  <div className="w-full px-4 md:px-20 mt-8">
-    <p className="mt-2 font-medium text-md">
-      <span className="customeFont font-bold">powerabode</span> has defined a set of services that support this process and the activities. We offer Supply Chain by SLA, as a common denominator for the transition is a high level of Supply Chain and procurement activities. The perfect set of delivery services is available, and delivered by front-line experts.
-    </p>
-    <p className="mt-2 font-medium text-md">
-      Our Codex Management system is a platform to manage and control everything around the Supply Chain. Not just pre- and post-award; also materials management and commercial assurance. In its standard format, it is ‘off the shelf’ but will be adapted to your organisation. After this, we supply a range of services to guarantee compliance and governance standards. The transition will see many new start-up energy assets and suppliers. We create their mature supply chain ‘overnight’. What took us years is now available.
-    </p>
-  </div>
-</Row>
-
+        {/* Full-width Text Section (100% width) */}
+        <div className="w-full px-4 md:px-20 mt-8">
+          <p className="mt-2 font-medium text-md">
+            <span className="customeFont font-bold">powerabode</span> has
+            defined a set of services that support this process and the
+            activities. We offer Supply Chain by SLA, as a common denominator
+            for the transition is a high level of Supply Chain and procurement
+            activities. The perfect set of delivery services is available, and
+            delivered by front-line experts.
+          </p>
+          <p className="mt-2 font-medium text-md">
+            Our Codex Management system is a platform to manage and control
+            everything around the Supply Chain. Not just pre- and post-award;
+            also materials management and commercial assurance. In its standard
+            format, it is ‘off the shelf’ but will be adapted to your
+            organisation. After this, we supply a range of services to guarantee
+            compliance and governance standards. The transition will see many
+            new start-up energy assets and suppliers. We create their mature
+            supply chain ‘overnight’. What took us years is now available.
+          </p>
+        </div>
+      </Row>
 
       <div className="px-4 md:px-20">
         <div>
@@ -690,38 +733,25 @@ const The_story_of_Powerabode = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 my-20">
-          <div className="flex justify-center px-14 md:px-10 lg:px-5">
-            <img src={Why_powerabode_1} alt="" />
-          </div>
-
-          <div className="flex justify-center px-14 md:px-10 lg:px-5">
-            <img src={Why_powerabode_2} alt="" />
-          </div>
-
-          <div className="flex justify-center px-14 md:px-10 lg:px-5">
-            <img src={Why_powerabode_3} alt="" />
-          </div>
-
-          <div className="flex justify-center px-14 md:px-10 lg:px-5">
-            <img src={Why_powerabode_4} alt="" />
-          </div>
-
-          <div className="flex justify-center px-14 md:px-10 lg:px-5">
-            <img src={Why_powerabode_5} alt="" />
-          </div>
-
-          <div className="flex justify-center px-14 md:px-10 lg:px-5">
-            <img src={Why_powerabode_6} alt="" />
-          </div>
-
-          <div className="flex justify-center px-14 md:px-10 lg:px-5">
-            <img src={Why_powerabode_7} alt="" />
-          </div>
-
-          <div className="flex justify-center px-14 md:px-10 lg:px-5">
-            <img src={Why_powerabode_8} alt="" />
-          </div>
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          {items.map((item, index) => (
+            <div
+              key={index}
+              className={`relative rounded-full w-44 h-44 shadow-lg 
+                  ${
+                    index % 2 === 0
+                      ? "bg-gradient-to-r from-blue-400 to-blue-600"
+                      : "bg-gradient-to-r from-purple-400 to-purple-600"
+                  }`}
+            >
+              {/* Inner circle */}
+              <div className="absolute inset-2 bg-white rounded-full flex items-center justify-center shadow-inner">
+                <p className="text-lg font-semibold text-gray-800 px-4 text-center">
+                  {item.text}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
 

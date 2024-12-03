@@ -4,6 +4,7 @@ import { Container, Navbar } from "../components/ComponentsIndex";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import TopToScroll from '../../src/TopToScroll';
+import Chatbot from "../components/Chat/ChatBot";
 
 function Layout() {
   return (
@@ -13,6 +14,7 @@ function Layout() {
         <TopToScroll/>
         <Navbar />
         <Outlet />
+        <Chatbot/>
       </Container>
     </>
   );

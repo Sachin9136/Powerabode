@@ -95,21 +95,21 @@ const About_us = () => {
       title: "Materials Management; a showstopper or a money maker?",
       description:
         "As an asset gets older, how to keep performing? Increased pressure on maintenance, legacy parts...",
-        link:"materials-management-blog"
+        link:"blog-articles-business-cases/Materials-Management"
     },
     {
       image: Mountains,
       title: "The art of the deal",
       description:
         "Tendering and outsourcing are where a big impact is created for future performance. Call it the art of the deal. One of our SLA service...",
-        link:"the-art-of-deal"
+        link:"blog-articles-business-cases/the-art-of-the-deal-outsourcing-supply-chain"
     },
     {
       image: Structure,
       title: "Unlocking Value to your bottom line",
       description:
         "Identifying a saving potential is a small step. The bigger thing is to bring it to your bottomline. We use the Integrated Supply Chain, the structure of our Cost Intelligence Philosophy and the people that use the contract to...",
-        link:"unlocking-value-bottom"
+        link:"blog-articles-business-cases/Unlocking-value-savings-bottom-line"
     },
   ];
 

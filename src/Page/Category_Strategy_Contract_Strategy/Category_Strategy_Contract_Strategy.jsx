@@ -1,15 +1,9 @@
 import React, { useState } from "react";
 
 import {
-  Column,
-  Heading,
   Row,
-  Span,
-  Wraper,
-  Button,
 } from "../../components/ComponentsIndex";
 
-import { Link } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import CommanBanner from "../../components/Banners/CommanBanner";
 import Img_Slider from "../../components/Img_Slider/Img_Slider";
@@ -24,78 +18,17 @@ import {
 } from "../../components/Img/ImportedImage";
 import {
   Category_Strategy_banner,
-  Card_img,
   Bell,
   Injection,
   Ship,
   Category_strategy_points,
-  CategoryStrategy_img,
-  TenderingandOutsourcing,
-  PostAwardContract,
   Sla_tag,
   Check,
 } from "../../components/Img/ImportedImage";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const About_us = () => {
-  const [activeSlide, setActiveSlide] = useState(0);
-
-  const setting = {
-    centerMode: true,
-    centerPadding: "0",
-    slidesToShow: 3,
-    focusOnSelect: true,
-    dots: true,
-    arrow: false,
-    infinite: true,
-    speed: 500,
-
-    beforeChange: (current, next) => setActiveSlide(next), // track active slide
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1, // Show 1 slide on smaller screens
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3, // Show 3 slides on larger screens
-        },
-      },
-    ],
-  };
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
 
   const cardsContent = [
     {
@@ -103,21 +36,21 @@ const About_us = () => {
       title: "Strategic Sourcing is not a Sourcing Strategy",
       description:
         "Digitisation is key, but good old human intelligence is still key in defining the strategy. Artificial Intelligence is quickly gaining pace, but...",
-      link: "strategic-sourcing",
+      link: "articles-business-cases/sourcing-strategy",
     },
     {
       image: Tower,
       title: "Drilling Cost Transformation",
       description:
         "Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model...",
-      link: "drilling-cost-transformationblog",
+      link: "blog-articles-business-cases/drilling-cost-transformationblog",
     },
     {
       image: Structure,
       title: "Unlocking Value to your bottom line",
       description:
         "Identifying a saving potential is a small step. The bigger thing is to bring it to your bottomline. We use the Integrated Supply Chain, the structure of our Cost Intelligence Philosophy and the people that use the contract to…",
-      link: "unlocking-value-bottom",
+      link: "blog-articles-business-cases/Unlocking-value-savings-bottom-line",
     },
   ];
 
@@ -184,7 +117,7 @@ const About_us = () => {
         >
           <div>
             <div>
-              <img src={Sla_tag} alt="" />  
+              <img src={Sla_tag} alt="" />
             </div>
             <div className="flex justify-center items-center">
               <div className="w-full lg:w-6/12 px-3 mt-5 md:mt-5">
@@ -222,8 +155,11 @@ const About_us = () => {
         </div>
         <div className="my-6 px-4 md:px-0">
           <h4 className="text-[#00ABB8] text-2xl font-normal text-end">
-           <i> ‘If you always do what you always did, you will always get what you
-           always got.’</i>
+            <i>
+              {" "}
+              ‘If you always do what you always did, you will always get what
+              you always got.’
+            </i>
           </h4>
           <h4 className="text-[#00ABB8] text-3xl text-end  mt-2 font-bold">
             -Henry Ford
@@ -232,9 +168,7 @@ const About_us = () => {
       </div>
 
       <div className="px-4 md:px-20">
-        <h2 className="text-3xl font-bold text-[#29385E]">
-          Our Scope :
-        </h2>
+        <h2 className="text-3xl font-bold text-[#29385E]">Our Scope :</h2>
       </div>
 
       <div className="px-4 md:px-20">

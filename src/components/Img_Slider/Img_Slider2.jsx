@@ -91,85 +91,85 @@ const CustomSlider = () => {
         image: Lion,
         title: "Hidden in Plain sight",
         description: "Crazy as it may sound; there’s always an elephant in the room.. Central in our way of work are the users of the contract, the ECMT. They are underestimated as a platform. 9 Quote: Our Experts know your business",
-        link: "/hidden-in-plain-sight"
+        link: "/blog-articles-business-cases/Solutions-to-influence-cost"
       },
       {
         image: Cycle,
         title: "Conflict or Conflicting KPI’s?",
         description: "Working as a team. That’s what we do. But how do we know we are all aligned? Conflicting KPI’s cause massive inefficiencies. Who needs enemies if you have friends? powerabode can...",
-        link: "/conflict-or-conflicting-KPI"
+        link: "/blog-articles-business-cases/key-performance-indicators-kpi"
       },
       {
         image: Snow,
         title: "Deliver as Planned",
         description: "Sometimes ‘surprises’ are actually predictable. The top 5 of ‘predictable’ surprises...",
-        link: "/deliver-as-planned"
+        link: "/blog-articles-business-cases/Project-management-bottle-necks"
       },
       {
         image: Find_the_gap,
         title: "Deliver despite budget constraints",
         description: "Every supply chain has waste, we fix it. Complex analyses using our CI Philosophy, double digit improvement to your budget and opex, value optimisation...",
-        link: "/deliver-despite-budget"
+        link: "/blog-articles-business-cases/budget-constraints-delivery"
       },
       {
         image: Island,
         title: "Does focus on rates make sense?",
         description: "Cost Leadership will remain one of top 3 focus areas of Energy Industry for next decade. We excel in this area",
-        link: "/focus-on-rates"
+        link: "/blog-articles-business-cases/discount-price-reduction"
       },
       {
         image: Tower,
         title: "Drilling Cost Transformation",
         description: "Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model…",
-        link: "/drilling-cost-transformationblog"
+        link: "/blog-articles-business-cases/drilling-cost-transformationblog"
       },
       {
         image: Scm,
         title: "Getting the supply chain management and procurement system right",
         description: "Off the shelf we developed a Codex system to support your delivery. Front line experts will adapt it for you, with a view...",
-        link: "/supply-chain-management"
+        link: "/articles-business-cases/supply-Chain-Procurement-Management-System"
       },
       {
         image: DNA,
         title: "How the DNA of your procurement department sets its performance",
         description: "Is your function led by operations? By finance? Projects? Legal? They bring their DNA. We transform it to one driven by commercial DNA, getting cost and value efficiency...",
-        link: "/procurement-department"
+        link: "/blog-articles-business-cases/Performance-dna-procurement-supplychain-department"
       },
       {
         image: Racks,
         title: "Materials Management; a showstopper or a money maker?",
         description: "As an asset gets older, how to keep performing? Increased pressure on maintenance, legacy parts.",
-        link: "/materials-management-blog"
+        link: "/blog-articles-business-cases/Materials-Management"
       },
       {
         image: Boxes,
         title: "Misalignment with the business plan.",
         description: "Not everyone knows the businessplan. This information is confidential or under evaluation. But, in the operations latest information is key for opex and capex decisions. How to deal with misalignment?...",
-        link: "/misalignment-with-business"
+        link: "/blog-articles-business-cases/businessplan"
       },
       {
         image: Structure,
         title: "Unlocking Value to your bottom line",
         description: "Identifying a saving potential is a small step. The bigger thing is to bring it to your bottomline. We use the Integrated Supply Chain, the structure of our Cost Intelligence Philosophy and the people that use the contract to…",
-        link: "/unlocking-value-bottom"
+        link: "/blog-articles-business-cases/Unlocking-value-savings-bottom-line"
       },
       {
         image: CategoryStrategy,
         title: "Strategic Sourcing is not a Sourcing Strategy",
         description: "Reducing cost is an art. Our Experts are not classic ‘consultants’. They had long careers in Category Management and Front-line Operations at various IOCs formulating many Category and Contracting strategies.",
-        link: "/strategic-sourcing"
+        link: "/articles-business-cases/sourcing-strategy"
       },
       {
         image: Google,
         title: "The synergy of local content development",
         description: "NOC’s have a close connect to the economic development of their country. Our services empower and progress the commercial control on Capex and Opex, but also weave in local content. NOC’s are supported on their journey to become independent operators. We have strong…",
-        link: "/local-content-development"
+        link: "/blog-articles-business-cases/local-content-development"
       },
       {
         image: Mountains,
         title: "The art of the deal.",
         description: "Tendering and outsourcing are where a big impact is created for future performance. Call it the art of the deal. One of our SLA service…",
-        link: "/the-art-of-deal"
+        link: "/blog-articles-business-cases/the-art-of-the-deal-outsourcing-supply-chain"
       },
   ];
 

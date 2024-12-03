@@ -109,7 +109,7 @@ const About_us = () => {
                 commerciality is part of our Turtle Ai development. Fully
                 automated, top level skillset, from the ‘colleague’ that never
                 sleeps! Contact us for a presentation and indepth dialogue on
-                yourAi ambitions.
+                your Ai ambitions.
               </p>
             </div>
           </div>

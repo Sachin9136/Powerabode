@@ -28,7 +28,7 @@ function OffCanvas() {
           <a href="/">
             <Heading
               children={"Powerabode"}
-              className={"text-xl font-bold tracking-widest text-white"}
+              className={"text-xl font-bold tracking-widest text-white customeFont"}
             />
           </a>
           <i

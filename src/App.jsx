@@ -55,7 +55,7 @@ const router = createBrowserRouter(
       <Route path="article-business-cases-background" element={<Article_Business_Cases_Background />} />
       <Route path="supply-chain-by-sla" element={<Supply_Chain_by_SLA />} />
       <Route path="the-story-of-powerabode" element={<The_story_of_Powerabode />} />
-      <Route path="category-strategy-contract-strategy" element={<Category_Strategy_Contract_Strategy />} />
+      <Route path="category-strategy" element={<Category_Strategy_Contract_Strategy />} />
       <Route path="post-award-contract-management" element={<Post_Award />} />
       <Route path="commercial-assurance" element={<Commercial_Assurance />} />
       <Route path="cost-recovery" element={<Cost_Recovery />} />
@@ -72,20 +72,20 @@ const router = createBrowserRouter(
 
       {/* Single Blogs */}
 
-      <Route path="conflict-or-conflicting-KPI" element={<Conflict_or_Conflicting_KPI />} />
-      <Route path="hidden-in-plain-sight" element={<Hidden_in_plain_Sight />} />
-      <Route path="deliver-as-planned" element={<Deliver_as_Planned />} />
-      <Route path="drilling-cost-transformationblog" element={<Drilling_Cost_Transformation_blog />} />
-      <Route path="deliver-despite-budget" element={<Deliver_Despite_Budget />} />
-      <Route path="focus-on-rates" element={<Focus_on_Rates />} />
-      <Route path="supply-chain-management" element={<Supply_Chain_Management />} />
-      <Route path="unlocking-value-bottom" element={<Unlocking_Value_bottom />} />
-      <Route path="procurement-department" element={<Procurement_Department />} />
-      <Route path="materials-management-blog" element={<Materials_Management_blog />} />
-      <Route path="misalignment-with-business" element={<Misalignment_with_business />} />
-      <Route path="local-content-development" element={<Local_content_development />} />
-      <Route path="strategic-sourcing" element={<Strategic_Sourcing />} />
-      <Route path="the-art-of-deal" element={<The_Art_of_Deal />} />
+      <Route path="blog-articles-business-cases/key-performance-indicators-kpi" element={<Conflict_or_Conflicting_KPI />} />
+      <Route path="blog-articles-business-cases/Solutions-to-influence-cost" element={<Hidden_in_plain_Sight />} />
+      <Route path="blog-articles-business-cases/Project-management-bottle-necks" element={<Deliver_as_Planned />} />
+      <Route path="blog-articles-business-cases/drilling-cost-transformationblog" element={<Drilling_Cost_Transformation_blog />} />
+      <Route path="blog-articles-business-cases/budget-constraints-delivery" element={<Deliver_Despite_Budget />} />
+      <Route path="blog-articles-business-cases/discount-price-reduction" element={<Focus_on_Rates />} />
+      <Route path="articles-business-cases/supply-Chain-Procurement-Management-System" element={<Supply_Chain_Management />} />
+      <Route path="blog-articles-business-cases/Unlocking-value-savings-bottom-line" element={<Unlocking_Value_bottom />} />
+      <Route path="blog-articles-business-cases/Performance-dna-procurement-supplychain-department" element={<Procurement_Department />} />
+      <Route path="blog-articles-business-cases/Materials-Management" element={<Materials_Management_blog />} />
+      <Route path="blog-articles-business-cases/businessplan" element={<Misalignment_with_business />} />
+      <Route path="blog-articles-business-cases/local-content-development" element={<Local_content_development />} />
+      <Route path="articles-business-cases/sourcing-strategy" element={<Strategic_Sourcing />} />
+      <Route path="blog-articles-business-cases/the-art-of-the-deal-outsourcing-supply-chain" element={<The_Art_of_Deal />} />
 
     </Route>
   )

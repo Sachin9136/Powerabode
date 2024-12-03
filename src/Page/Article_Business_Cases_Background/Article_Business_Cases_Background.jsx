@@ -52,8 +52,8 @@ const About_us = () => {
           description="Working as a team. That’s what we do. But how do we know we are all aligned? Conflicting KPI’s cause massive inefficiencies. Who needs enemies if you have friends?"
           articleText="Article"
           readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/conflict-or-conflicting-KPI")} // Navigate on click
+          
+          onReadClick={() => navigate("/blog-articles-business-cases/key-performance-indicators-kpi")} // Navigate on click
         />
 
         <Card
@@ -62,8 +62,8 @@ const About_us = () => {
           description="Crazy as it may sound; there’s always an elephant in the room.. Central in our way of work are the users of the contract, the ECMT. They are underestimated as a platform."
           articleText="Philosophy"
           readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/hidden-in-plain-sight")} // Navigate on click
+          
+          onReadClick={() => navigate("/blog-articles-business-cases/Solutions-to-influence-cost")} // Navigate on click
         />
 
         <Card
@@ -72,8 +72,8 @@ const About_us = () => {
           description="Sometimes ‘surprises’ are actually predictable. The top 5 of ‘predictable’ surprises"
           articleText="Article"
           readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/deliver-as-planned")} // Navigate on click
+          
+          onReadClick={() => navigate("/blog-articles-business-cases/Project-management-bottle-necks")} // Navigate on click
         />
       </div>
 
@@ -84,8 +84,8 @@ const About_us = () => {
           description="Strategy and sourcing define the outcome. We advice and built your delivery model, including the tendering model"
           articleText="Case Study"
           readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/drilling-cost-transformationblog")} // Navigate on click
+          
+          onReadClick={() => navigate("/blog-articles-business-cases/drilling-cost-transformationblog")} // Navigate on click
         />
 
         <Card
@@ -94,8 +94,8 @@ const About_us = () => {
           description="Every supply chain has waste, we fix it. Complex analyses using our CI Philosophy, double digit improvement to your budget and opex, value optimisation"
           articleText="Case Study"
           readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/deliver-despite-budget")} // Navigate on click
+          
+          onReadClick={() => navigate("/blog-articles-business-cases/budget-constraints-delivery")} // Navigate on click
         />
 
         <Card
@@ -104,8 +104,8 @@ const About_us = () => {
           description="Cost Leadership will remain one of top 3 focus areas of Energy Industry for next decade. We excel in this area"
           articleText="Thinking"
           readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/focus-on-rates")} // Navigate on click
+          
+          onReadClick={() => navigate("/blog-articles-business-cases/discount-price-reduction")} // Navigate on click
         />
       </div>
 
@@ -116,8 +116,8 @@ const About_us = () => {
           description="Off the shelf we developed a Codex system to support your delivery. Front line experts will adapt it for you, with a view"
           articleText="Case Study"
           readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/supply-chain-management")} // Navigate on click
+          
+          onReadClick={() => navigate("/articles-business-cases/supply-Chain-Procurement-Management-System")} // Navigate on click
         />
 
         <Card
@@ -126,8 +126,8 @@ const About_us = () => {
           description="Identifying a saving potential is a small step. The bigger thing is to bring it to your bottomline. We use the Integrated Supply Chain, the structure of our Cost Intelligence Philosophy and the people that use the contract to"
           articleText="Philosophy"
           readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/unlocking-value-bottom")} // Navigate on click
+          
+          onReadClick={() => navigate("/blog-articles-business-cases/Unlocking-value-savings-bottom-line")} // Navigate on click
         />
 
         <Card
@@ -136,8 +136,8 @@ const About_us = () => {
           description="Is your function led by operations? By finance? Projects? Legal? They bring their DNA. We transform it to one driven by commercial DNA, getting cost and value efficiency"
           articleText="Article"
           readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/procurement-department")} // Navigate on click
+          
+          onReadClick={() => navigate("/blog-articles-business-cases/Performance-dna-procurement-supplychain-department")} // Navigate on click
         />
       </div>
 
@@ -148,8 +148,8 @@ const About_us = () => {
           description="As an asset gets older, how to keep performing? Increased pressure on maintenance, legacy parts"
           articleText="Article"
           readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/materials-management-blog")} // Navigate on click
+          
+          onReadClick={() => navigate("/blog-articles-business-cases/Materials-Management")} // Navigate on click
         />
 
         <Card
@@ -158,8 +158,8 @@ const About_us = () => {
           description="Not everyone knows the businessplan. This information is confidential or under evaluation. But, in the operations latest information is key for opex and capex decisions. How to deal with misalignment?"
           articleText="Case Study"
           readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/misalignment-with-business")} // Navigate on click
+          
+          onReadClick={() => navigate("/blog-articles-business-cases/businessplan")} // Navigate on click
         />
 
         <Card
@@ -168,8 +168,8 @@ const About_us = () => {
           description="NOC’s have a close connect to the economic development of their country. Our services empower and progress the commercial control on Capex and Opex, but also weave in local content"
           articleText="Case Study"
           readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/local-content-development")} // Navigate on click
+          
+          onReadClick={() => navigate("/blog-articles-business-cases/local-content-development")} // Navigate on click
         />
       </div>
 
@@ -180,8 +180,8 @@ const About_us = () => {
           description="Digitisation is key, but good old human intelligence is still key in defining the strategy. Artificial Intelligence is quickly gaining pace, but"
           articleText="Case Study"
           readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/strategic-sourcing")} // Navigate on click
+          
+          onReadClick={() => navigate("/articles-business-cases/sourcing-strategy")} // Navigate on click
         />
 
         <Card
@@ -190,8 +190,8 @@ const About_us = () => {
           description="Tendering and outsourcing are where a big impact is created for future performance. Call it the art of the deal. One of our SLA service"
           articleText="Article"
           readText="Read"
-          onArticleClick={() => alert("Article button clicked!")}
-          onReadClick={() => navigate("/the-art-of-deal")} // Navigate on click
+          
+          onReadClick={() => navigate("/blog-articles-business-cases/the-art-of-the-deal-outsourcing-supply-chain")} // Navigate on click
         />
       </div>
 

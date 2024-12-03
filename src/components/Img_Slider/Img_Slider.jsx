@@ -107,7 +107,7 @@ const CustomSlider = () => {
       title: "Category Strategy & Contract Strategy",
       description:
         "Reducing cost is an art. Our Experts are not classic ‘consultants’. They had long careers in Category Management and Front-line Operations at various IOCs formulating many Category and Contracting strategies.",
-      link: "category-strategy-contract-strategy",
+      link: "category-strategy",
     },
     {
       image: Pins,

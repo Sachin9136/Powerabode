@@ -99,21 +99,21 @@ const About_us = () => {
       title: "The synergy of local content development",
       description:
         "NOC’s have a close connect to the economic development of their country. Our services empower and progress the commercial control on Capex and Opex, but also weave in local content. NOC’s are supported on their journey to become independent operators. We have strong...",
-      link: "local-content-development",
+      link: "blog-articles-business-cases/local-content-development",
     },
     {
       image: Mountains,
       title: "The art of the deal",
       description:
         "Tendering and outsourcing are where a big impact is created for future performance. Call it the art of the deal. One of our SLA service...",
-      link: "the-art-of-deal",
+      link: "blog-articles-business-cases/the-art-of-the-deal-outsourcing-supply-chain",
     },
     {
       image: Dna_img,
       title: "How the DNA of your procurement department sets its performance",
       description:
         "Is your function led by operations? By finance? Projects? Legal? They bring their DNA. We transform it to one driven by commercial DNA, getting cost and value efficiency...",
-      link: "procurement-department",
+      link: "blog-articles-business-cases/Performance-dna-procurement-supplychain-department",
     },
   ];
 

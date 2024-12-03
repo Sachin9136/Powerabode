@@ -83,19 +83,19 @@ const About_us = () => {
         image: Scm,
         title: "Getting the supply chain management and procurement system right",
         description: "Off the shelf we developed a Codex system to support your delivery. Front line experts will adapt it for you, with a view...",
-        link:"supply-chain-management",
+        link:"articles-business-cases/supply-Chain-Procurement-Management-System",
       },
       {
         image: Snow,
         title: "Deliver as Planned",
         description: "Sometimes ‘surprises’ are actually predictable. The top 5 of ‘predictable’ surprises...",
-        link: "deliver-as-planned",
+        link: "blog-articles-business-cases/Project-management-bottle-necks",
       },
       {
         image: Lion,
         title: "Hidden in Plain Sight",
         description: "Crazy as it may sound; there’s always an elephant in the room.. Central in our way of work are the users of the contract, the ECMT. They are underestimated as a platform. 9 Quote: Our Experts know your business...",
-        link: "hidden-in-plain-sight",
+        link: "blog-articles-business-cases/Solutions-to-influence-cost",
       }
     ];
 
