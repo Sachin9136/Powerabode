@@ -336,13 +336,14 @@ const footer = () => {
               </div>
               <div className="flex gap-5 ml-14">
                 <div className="bg-white p-2 rounded-full shadow-lg">
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/powerabode/" target="_blank">
                     <img src={Linked_in} alt="" width="25px" />
                   </a>
                 </div>
-                <div className="bg-white p-2 rounded-full shadow-lg">
-                  <a href="#" className="">
-                    <img src={Twitter} alt="" width="25px" />
+                <div className="bg-white p-3 rounded-full shadow-lg">
+                  <a href="https://x.com/i/flow/login?redirect_after_login=%2Fpowerabode_com" target="_blank" className="">
+                    {/* <img src={Twitter} alt="" width="25px" /> */}
+                    <FontAwesomeIcon icon={faXTwitter} />
                   </a>
                 </div>
               </div>

@@ -261,7 +261,7 @@ function Navbar() {
   return (
     <>
       <Row
-        className={`flex justify-around items-center py-8 shadow-sm transition-all duration-500 ${
+        className={`flex justify-around items-center py-5 shadow-sm transition-all duration-500 ${
           isSticky
             ? "fixed top-0 left-0 w-full bg-white z-50 shadow-lg"
             : "relative bg-transparent"
