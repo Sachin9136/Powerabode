@@ -91,7 +91,7 @@ const footer = () => {
 
   return (
     <Row>
-      <div className="fixed bottom-5 left-3">
+      {/* <div className="fixed bottom-5 left-3">
         <a
           href="https://wa.me/971551571994"
           target="_blank"
@@ -99,7 +99,7 @@ const footer = () => {
         >
           <img src={Whatsapp_icon} alt="WhatsApp Icon" width="70px" />
         </a>
-      </div>
+      </div> */}
       {/* <div className="fixed bottom-10 left-3"> */}
     {/* <Chatbot /> */}
       {/* </div> */}
