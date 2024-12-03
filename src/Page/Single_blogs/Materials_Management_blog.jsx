@@ -30,6 +30,8 @@ import {
   Codex,
 } from "../../components/Img/ImportedImage";
 import ImageSlider from "../../components/ImageSlider/ImageSlider";
+import Codexs from "../../components/Service/Codex";
+import MeterialMenagement from "../../components/Service/MeterialMenagement";
 
 const About_us = () => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -194,23 +196,8 @@ const About_us = () => {
           </h2>
         </div>
         <div className="block md:flex justify-center gap-5 mt-5">
-          <div>
-            <img
-              className="h-48 w-48 mx-auto border-[#4c78b5] border-[12px] p-2 rounded-full"
-              src={Codex}
-              alt=""
-            />
-          </div>
-          <div className="h-48 w-48 border-[#fea029] border-[12px] rounded-full">
-            <div className="flex justify-center">
-              <img className="w-28 mt-5 " src={Sla_tag} alt="" />
-            </div>
-            <div className="flex justify-center items-center mt-5">
-              <p className="text-lg text-center">
-                Material <br /> Management
-              </p>
-            </div>
-          </div>
+        <Codexs/>
+         <MeterialMenagement/>
         </div>
       </div>
 

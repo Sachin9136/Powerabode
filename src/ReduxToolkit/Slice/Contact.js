@@ -11,9 +11,9 @@ import { toast } from "react-toastify";
 // };
 export const createContact = createAsyncThunk(
   "createContact/Contact",
-  async (formData, { rejectWithValue }) => {
+  async (updatedFormData, { rejectWithValue }) => {
     try {
-      const response = await axios.post(createContactApi, formData);
+      const response = await axios.post(createContactApi, updatedFormData);
       return response.data;
     } catch (error) {
       return rejectWithValue(error.response.data.message);

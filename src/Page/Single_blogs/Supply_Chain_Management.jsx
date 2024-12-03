@@ -27,8 +27,14 @@ import {
   Why_powerabode_6,
   Why_powerabode_7,
   Why_powerabode_8,
+  Codex,
 } from "../../components/Img/ImportedImage";
 import ImageSlider from "../../components/ImageSlider/ImageSlider";
+import WhyPowerAbode from "../../components/WhyPowerAbode";
+import SupplyChain from "../../components/Service/SupplyChain";
+import Opex from "../../components/Service/Opex";
+import Cm from "../../components/Service/Cm";
+import Codexs from "../../components/Service/Codex";
 
 const About_us = () => {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -187,72 +193,23 @@ const About_us = () => {
               </h2>
             </div>
             <div className="block md:flex justify-center gap-5 mt-5">
-              <div>
-                <img
-                  className="h-48 w-48 mx-auto border-[#fea029] border-[12px] p-2 rounded-full"
-                  src={Supply_chain}
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  className="h-48 w-48 mx-auto border-[#01BCB1] border-[12px] p-2 rounded-full"
-                  src={Program_img}
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  className="h-48 w-48 mx-auto border-[#8F4A81] border-[12px] p-2 rounded-full"
-                  src={CM}
-                  alt=""
-                />
-              </div>
+              <SupplyChain />
+              <Codexs/>
+              <Cm />
             </div>
           </div>
         </div>
       </div>
 
-      <div>
-        <h2 className="text-center text-3xl font-bold text-[#29385E] my-10">
-          Why powerabode?
-        </h2>
+      <div className="px-4 md:px-20">
+        <div>
+          <h2 className="text-center text-3xl font-bold text-[#29385E] my-10">
+            Why powerabode?
+          </h2>
+        </div>
+
+        <WhyPowerAbode />
       </div>
-
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 my-20 px-4 md:px-20">
-        <div className="flex justify-center px-14 md:px-10 lg:px-5">
-          <img className="w-48" src={Why_powerabode_1} alt="" />
-        </div>
-
-        <div className="flex justify-center px-14 md:px-10 lg:px-5">
-          <img className="w-48" src={Why_powerabode_2} alt="" />
-        </div>
-
-        <div className="flex justify-center px-14 md:px-10 lg:px-5">
-          <img className="w-48" src={Why_powerabode_3} alt="" />
-        </div>
-
-        <div className="flex justify-center px-14 md:px-10 lg:px-5">
-          <img className="w-48" src={Why_powerabode_4} alt="" />
-        </div>
-
-        <div className="flex justify-center px-14 md:px-10 lg:px-5">
-          <img className="w-48" src={Why_powerabode_5} alt="" />
-        </div>
-
-        <div className="flex justify-center px-14 md:px-10 lg:px-5">
-          <img className="w-48" src={Why_powerabode_6} alt="" />
-        </div>
-
-        <div className="flex justify-center px-14 md:px-10 lg:px-5">
-          <img className="w-48" src={Why_powerabode_7} alt="" />
-        </div>
-
-        <div className="flex justify-center px-14 md:px-10 lg:px-5">
-          <img className="w-48" src={Why_powerabode_8} alt="" />
-        </div>
-      </div>
-
       <div className="px-4 md:px-20 mt-20">
         <h2 className="text-4xl font-medium text-[#29385E] font-Montserrat text-center">
           More Articles &{" "}

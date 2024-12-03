@@ -9,8 +9,8 @@ function Button({
 }) {
   return (
     <button
-      className={`${className} text-black font-bold py-3 px-6 rounded-md shadow-lg hover:shadow-xl transition-shadow duration-300`}
-      style={{ backgroundColor: "#FFED05" }} // Custom background color
+      className={`${className} text-white font-bold py-3 px-6 rounded-md shadow-lg hover:shadow-xl transition-shadow duration-300 `}
+      style={{ backgroundColor: "#29385E" }} 
       {...props}
     >
       <i className={`bi bi-${icon}`}></i> {children}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { Column, Row } from "../ComponentsIndex";
 import OffCanvas from "./Drawer";
 import { useNavigate } from "react-router-dom";
@@ -270,9 +270,9 @@ function Navbar() {
       >
         <Column className="flex items-center">
           <OffCanvas />
-          <a href="/">
+          <Link to="/">
             <img src={Logo} alt="Logo" width="200px" />
-          </a>
+          </Link>
         </Column>
 
         <Column className="lg:flex items-center space-x-4">
@@ -305,7 +305,7 @@ function Navbar() {
 
                 {/* Submenu */}
                 {item.submenu && isSubmenuOpen[item.id] && (
-                  <div className="fixed top-[60px] left-0 w-screen bg-white shadow-lg z-20 border-b-4 border-[#00abb8]">
+                  <div className="fixed top-[52px] left-0 w-screen bg-white shadow-lg z-20 border-b-4 border-[#00abb8]">
                     {/* Submenu Content */}
                     <div className="flex justify-center">
                       <div className="w-full max-w-screen-lg p-6 grid grid-cols-12 gap-5">

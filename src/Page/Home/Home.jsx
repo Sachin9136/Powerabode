@@ -20,12 +20,7 @@ import {
   Upstream_onshore,
   Water,
   Renewable,
-  Supply_Chain_Resilience,
-  Cost_Efficiency,
   Codex,
-  CM,
-  Program_img,
-  Energy_Transition,
   Sla_tag,
   OPEX,
   CVI_Logo,
@@ -43,6 +38,7 @@ import Footer from "../../components/footer/footer";
 
 import "./Home.css";
 import { Link } from "react-router-dom";
+import CostandValue from "../../components/Service/CostandValue";
 
 function Home() {
   return (
@@ -158,9 +154,17 @@ function Home() {
                 with these challenges. The solutions have been created to
                 support you on this journey.{" "}
               </p>
+              <div className="text-center">
+                <Link to="/ai-ecosystem">
+                  <Button
+                    children={"New AI Ecosystem"}
+                    className="bg-[29385E] mt-5"
+                  />
+                </Link>
+              </div>
             </div>
             {/* Image Section */}
-            <div>
+            <div className="text-center">
               <img
                 src={Cost_optimization}
                 alt="Cost Optimization"
@@ -257,7 +261,7 @@ function Home() {
                 implementation risk and focus on cost efficiency. Based on the
                 Cost Intelligence Philosophy.
               </p>
-              <div>
+              {/* <div>
                 <Link to="/cost-and-value-philosophy">
                   <img
                     src={CVI_Logo}
@@ -277,7 +281,8 @@ function Home() {
                     }}
                   />
                 </Link>
-              </div>
+              </div> */}
+              <CostandValue/>
             </details>
 
             <details class="group py-1">
@@ -790,8 +795,6 @@ function Home() {
                 it for you. Check out below links to learn more.
               </p>
               <div className="flex justify-center gap-5">
-                
-
                 <Link to="/cost-recovery">
                   <div
                     className={`h-[180px] w-[180px] mx-auto border-[#4c5194] border-[15px] p-1 rounded-full transition-all duration-700  hover:border-0`}
@@ -812,7 +815,7 @@ function Home() {
                       <img className="w-28 mt-5" src={Sla_tag} alt="" />
                     </div>
                     <div className="flex justify-center items-center mt-5">
-                    <p className="text-lg text-center">Cost Recovery</p>
+                      <p className="text-lg text-center">Cost Recovery</p>
                     </div>
                   </div>
                 </Link>
@@ -853,7 +856,7 @@ function Home() {
                 Check out below link to learn more.
               </p>
               <div className="flex justify-center gap-5">
-              <Link to="/cost-and-value-philosophy">
+                <Link to="/cost-and-value-philosophy">
                   <img
                     src={CVI_Logo}
                     alt={"title"}
@@ -907,7 +910,6 @@ function Home() {
                 potential saving. Check out below link to learn more.
               </p>
               <div className="flex justify-center gap-5">
-                
                 <Link to="/success-formula-disruptive-and-controlled">
                   <img
                     src={OPEX}
