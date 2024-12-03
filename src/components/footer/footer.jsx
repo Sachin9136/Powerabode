@@ -17,9 +17,7 @@ import {
 } from "../Img/ImportedImage";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons"; // Import the X (Twitter) and LinkedIn icons
-import {
-  Row,
-} from "../../components/ComponentsIndex";
+import { Row } from "../../components/ComponentsIndex";
 import { useDispatch, useSelector } from "react-redux";
 import {
   createContact,
@@ -66,28 +64,29 @@ const footer = () => {
     dispatch(createNewsletter(formData));
   };
 
-  // Reset form data when submission succeeds
   useEffect(() => {
     if (loadingStatus === "succeeded") {
       setFormData({ name: "", email: "", reason: "", message: "", number: "" });
+      // Redirect to the Calendly link
+      window.location.href = "https://calendly.com/powerabodedmcc";
+      closeModal();
     }
     if (loadingNewsletter === "succeeded") {
       setEmail("");
-      setIsModalOpen(false);
+      // Redirect to the Calendly link
+      window.location.href = "https://calendly.com/powerabodedmcc";
     }
   }, [loadingStatus, loadingNewsletter]);
 
-    // Function to open the modal
-    const openModal = () => {
-      setIsModalOpen(true);
-    };
-  
-    // Function to close the modal
-    const closeModal = () => {
-      setIsModalOpen(false);
-    };
+  // Function to open the modal
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
 
-    
+  // Function to close the modal
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
 
   return (
     <Row>
@@ -101,7 +100,7 @@ const footer = () => {
         </a>
       </div> */}
       {/* <div className="fixed bottom-10 left-3"> */}
-    {/* <Chatbot /> */}
+      {/* <Chatbot /> */}
       {/* </div> */}
 
       {/* <ImageSlider /> */}
@@ -239,7 +238,7 @@ const footer = () => {
             </li>
           </ul>
           <div className="flex justify-center">
-          <button
+            <button
               className="text-white bg-[#29385E] py-3 px-24 my-5 rounded-lg"
               onClick={openModal} // Open the modal on button click
             >
@@ -280,7 +279,9 @@ const footer = () => {
                   <img className="w-10" src={Subscribe} alt="" />
                 </div>
                 <div>
-                  <h3 className="text-3xl text-[#00abb8] font-normal">Subscribe</h3>
+                  <h3 className="text-3xl text-[#00abb8] font-normal">
+                    Subscribe
+                  </h3>
                   <p>To our Newsletter</p>
                 </div>
               </div>
@@ -327,7 +328,9 @@ const footer = () => {
                   <img className="w-16" src={Follow_us} alt="" />
                 </div>
                 <div>
-                  <h3 className="text-3xl text-[#00abb8] font-normal">Follow Us</h3>
+                  <h3 className="text-3xl text-[#00abb8] font-normal">
+                    Follow Us
+                  </h3>
                   <p>On Social Media</p>
                 </div>
               </div>
@@ -806,8 +809,8 @@ const footer = () => {
         </Row>
       </footer>
 
-       {/* Modal */}
-       {isModalOpen && (
+      {/* Modal */}
+      {isModalOpen && (
         <div className="fixed inset-0 bg-gray-500 bg-opacity-75 flex items-center justify-center z-50">
           <div className="bg-white p-8 rounded-lg w-full md:w-1/2">
             <button
