@@ -34,7 +34,7 @@ const About_us = () => {
       <div className="px-4 md:px-20 my-10">
         <div>
           <h4 className="text-2xl font-medium mb-3 text-[#29385E] ">
-            Ai Ecosystem: Turtle is your new Ai Assistent for cost efficiency!
+            Ai Ecosystem: Turtle is your new Ai Assistant for cost efficiency!
           </h4>
           <p className="text-md font-medium mb-3 text-[#29385E]">
             Every job position will get its own Ai. Not today, but soon. We’re
