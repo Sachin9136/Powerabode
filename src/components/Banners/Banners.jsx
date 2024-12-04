@@ -118,12 +118,12 @@ const CustomBanner = () => {
               <div
                 className={`w-full lg:w-[600px] text-white ml-0 md:ml-20 px-12 py-20 md:px-16 md:py-24 lg:px-14 lg:py-28 wave-container ${banner.gradient}`}
               >
-                <h2 className="mb-2 banner-title">{banner.title}</h2>
-                <h4 className="text-2xl lg:text-2xl mb-2">{banner.subtitle}</h4>
-                <p className="text-xl lg:text-xl font-medium text-white">
+                <h2 className="mb-2 text-4xl text-balance lg:text-6xl">{banner.title}</h2>
+                <h4 className="text-xl lg:text-2xl mb-2">{banner.subtitle}</h4>
+                <p className="text-lg lg:text-xl font-medium text-white">
                   {banner.description}
                 </p>
-                <p className="text-xl lg:text-xl font-medium text-white">
+                <p className="text-;g lg:text-xl font-medium text-white">
                   {banner.description2}
                 </p>
               </div>

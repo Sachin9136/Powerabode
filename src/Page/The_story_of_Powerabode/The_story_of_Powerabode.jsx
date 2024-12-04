@@ -60,7 +60,7 @@ const The_story_of_Powerabode = () => {
           <p className="my-2">
             {" "}
             <span className="customeFont font-bold text-[#29385E]">
-              powerabode
+              powerabode{" "}
             </span>
              is the platform for a large part of the energy industry to get to
             cost efficient delivery. The integrated supply chain sits at the
