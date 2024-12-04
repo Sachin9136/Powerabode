@@ -156,16 +156,16 @@ const footer = () => {
                 className="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
                 required
               /> */}
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center space-x-1">
                 {/* Country Code Dropdown */}
                 <select
                   name="countryCode"
                   value={formData.countryCode}
                   onChange={handleChange}
-                  className="block border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
+                  className="mt-1 text-sm block border border-black shadow-sm py-[10px] px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
                 >
                   <option value="+1">+1 (USA/Canada)</option>
-                  <option value="+7">+7 (Russia/Kazakhstan)</option>
+                  <option value="+7">+7 (Russia)</option>
                   <option value="+20">+20 (Egypt)</option>
                   <option value="+27">+27 (South Africa)</option>
                   <option value="+30">+30 (Greece)</option>
@@ -230,16 +230,16 @@ const footer = () => {
                   <option value="+233">+233 (Ghana)</option>
                   <option value="+234">+234 (Nigeria)</option>
                   <option value="+235">+235 (Chad)</option>
-                  <option value="+236">+236 (Central African Republic)</option>
+                  {/* <option value="+236">+236 (Central African Republic)</option> */}
                   <option value="+237">+237 (Cameroon)</option>
                   <option value="+238">+238 (Cape Verde)</option>
-                  <option value="+239">+239 (São Tomé and Príncipe)</option>
-                  <option value="+240">+240 (Equatorial Guinea)</option>
+                  {/* <option value="+239">+239 (São Tomé and Príncipe)</option> */}
+                  {/* <option value="+240">+240 (Equatorial Guinea)</option> */}
                   <option value="+241">+241 (Gabon)</option>
-                  <option value="+242">+242 (Congo - Brazzaville)</option>
-                  <option value="+243">+243 (Congo - Kinshasa)</option>
+                  {/* <option value="+242">+242 (Congo - Brazzaville)</option> */}
+                  {/* <option value="+243">+243 (Congo - Kinshasa)</option> */}
                   <option value="+244">+244 (Angola)</option>
-                  <option value="+245">+245 (Guinea-Bissau)</option>
+                  {/* <option value="+245">+245 (Guinea-Bissau)</option> */}
                   <option value="+248">+248 (Seychelles)</option>
                   <option value="+249">+249 (Sudan)</option>
                   <option value="+250">+250 (Rwanda)</option>
@@ -275,7 +275,7 @@ const footer = () => {
                   name="number"
                   value={formData.number}
                   onChange={handleChange}
-                  className="mt-1 block w-full border border-black shadow-sm py-2 px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
+                  className="mt-1 block w-full border py-3 text-sm border-black shadow-sm px-3 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 placeholder-black"
                   required
                 />
               </div>
@@ -525,408 +525,230 @@ const footer = () => {
         <Row className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4 md:px-10">
           {/* Logo and Copyright */}
           <div className="col-span-1 py-4 md:py-5 lg:py-10">
-            <h4 className="text-black font-bold text-3xl mb-4">Industries</h4>
+            <h4 className="text-[#29385E] font-bold text-2xl mb-4">
+              Industries
+            </h4>
             <ul>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Gas
-                </a>
+                <p className="text-[#747474] text-md font-medium">Gas</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Oil
-                </a>
+                <p className="text-[#747474] text-md font-medium">Oil</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Desalination
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Renewables
-                </a>
+                <p className="text-[#747474] text-md font-medium">Renewables</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Solar
-                </a>
+                <p className="text-[#747474] text-md font-medium">Solar</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Wind
-                </a>
+                <p className="text-[#747474] text-md font-medium">Wind</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Hydrogen
-                </a>
+                <p className="text-[#747474] text-md font-medium">Hydrogen</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  LNG
-                </a>
+                <p className="text-[#747474] text-md font-medium">LNG</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Refineries
-                </a>
+                <p className="text-[#747474] text-md font-medium">Refineries</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Processing
-                </a>
+                <p className="text-[#747474] text-md font-medium">Processing</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Upstream
-                </a>
+                <p className="text-[#747474] text-md font-medium">Upstream</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Downstream
-                </a>
+                <p className="text-[#747474] text-md font-medium">Downstream</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Offshore
-                </a>
+                <p className="text-[#747474] text-md font-medium">Offshore</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Onshore
-                </a>
+                <p className="text-[#747474] text-md font-medium">Onshore</p>
               </li>
             </ul>
           </div>
           {/* Quick Links */}
           <div className="col-span-1 py-4 md:py-5 lg:py-10">
-            <h4 className="text-black font-bold text-3xl mb-4">Departments</h4>
+            <h4 className="text-[#29385E] font-bold text-2xl mb-4">
+              Departments
+            </h4>
             <ul>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Finance
-                </a>
+                <p className="text-[#747474] text-md font-medium">Finance</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  C&P
-                </a>
+                <p className="text-[#747474] text-md font-medium">C&P</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Procurement
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Operations
-                </a>
+                <p className="text-[#747474] text-md font-medium">Operations</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Maintenance
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Production
-                </a>
+                <p className="text-[#747474] text-md font-medium">Production</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md font-medium"
-                >
-                  Strategy
-                </a>
+                <p className="text-[#747474] text-md font-medium">Strategy</p>
               </li>
             </ul>
           </div>
           {/* Our Works */}
           <div className="col-span-1 py-4 md:py-5 lg:py-10">
-            <h4 className="text-black font-bold text-3xl mb-4">Stakeholders</h4>
+            <h4 className="text-[#29385E] font-bold text-2xl mb-4">
+              Stakeholders
+            </h4>
             <ul>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
-                  CEO
-                </a>
+                <p className="text-[#747474] text-md font-medium">CEO</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
-                  CFO
-                </a>
+                <p className="text-[#747474] text-md font-medium">CFO</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
-                  COO
-                </a>
+                <p className="text-[#747474] text-md font-medium">COO</p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Asset manager
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Project manager
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Project director
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Finance director
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Functional lead
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Operations director
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Maintenance manager
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Production manager
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Procurement manager
-                </a>
+                </p>
               </li>
             </ul>
           </div>
           <div className="col-span-1 py-4 md:py-5 lg:py-10">
-            <h4 className="text-black font-bold text-3xl mb-4">Stakeholders</h4>
+            <h4 className="text-[#29385E] font-bold text-2xl mb-4">
+              Stakeholders
+            </h4>
             <ul>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Kazakhstan
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Netherlands
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   United Kingdom
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Norway
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Angola
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Ghana
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Nigeria
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   United Arab Emirates
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Qatar
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Bahrain
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Brunei
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Malaysia
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Indonesia
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Vietnam
-                </a>
+                </p>
               </li>
               <li className="py-1">
-                <a
-                  href="#"
-                  className="text-[#747474] hover:underline text-md my-20 font-medium"
-                >
+                <p className="text-[#747474] text-md font-medium">
                   Saudi Arabia
-                </a>
+                </p>
               </li>
             </ul>
           </div>

@@ -239,7 +239,7 @@ function Navbar() {
       id: 5,
       name: "Systems & Delivery",
       link: "#",
-      title: "Codex & Delivery",
+      title: "Codex",
       pra1: "Codex is a contracting procurement & supply chain management system and services that transforms 3 rdparty goods and services into finished product in commercially competitive controlled and compliant manner.​",
       pra2: "cm+ is Contract + Context And focused on the users of the contract. Enabling them to execute the contract as it was intended.",
       pra3: (
@@ -305,7 +305,7 @@ function Navbar() {
 
                 {/* Submenu */}
                 {item.submenu && isSubmenuOpen[item.id] && (
-                  <div className="fixed top-[52px] left-0 w-screen bg-white shadow-lg z-20 border-b-4 border-[#00abb8]">
+                  <div className="fixed lg:top-[58px] xl:top-[53px]  left-0 w-screen bg-white shadow-lg z-20 border-b-4 border-[#00abb8]">
                     {/* Submenu Content */}
                     <div className="flex justify-center">
                       <div className="w-full max-w-screen-lg p-6 grid grid-cols-12 gap-5">

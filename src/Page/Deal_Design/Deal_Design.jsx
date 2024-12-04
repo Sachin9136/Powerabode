@@ -28,7 +28,7 @@ const About_us = () => {
         children={serturle}
         className="w-full h-[600px] object-contain"
         heading="Meet Turtle,"
-        subheading={"your new Ai Assistent!"}
+        subheading={"your new AI Assistant!"}
       />
 
       <div className="px-4 md:px-20 my-10">
