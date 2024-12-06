@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Icon from "../Button/Icon";
 import { Column, Heading, Sidebar } from "../ComponentsIndex";
+import { Link } from "react-router-dom";
 
 function OffCanvas() {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,12 +26,12 @@ function OffCanvas() {
         }`}
       >
         <Column className="flex justify-between mx-3 mt-5 mb-3">
-          <a href="/">
+          <Link to="/">
             <Heading
               children={"Powerabode"}
               className={"text-xl font-bold tracking-widest text-white customeFont"}
             />
-          </a>
+          </Link>
           <i
             className="bi bi-x-lg text-xl text-white"
             onClick={() => setIsOpen(false)}
