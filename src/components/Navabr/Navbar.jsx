@@ -262,7 +262,7 @@ function Navbar() {
   return (
     <>
       <Row
-        className={`flex justify-around items-center py-5 shadow-sm transition-all duration-500 ${
+        className={`flex justify-around items-center py-5 shadow-sm transition-all duration-500 px-5 ${
           isSticky
             ? "fixed top-0 left-0 w-full bg-white z-50 shadow-lg"
             : "relative bg-transparent"
@@ -305,7 +305,7 @@ function Navbar() {
 
                 {/* Submenu */}
                 {item.submenu && isSubmenuOpen[item.id] && (
-                  <div className="fixed lg:top-[58px] xl:top-[53px]  left-0 w-screen bg-white shadow-lg z-20 border-b-4 border-[#00abb8]">
+                  <div className="fixed lg:top-[60px] xl:top-[53px]  left-0 w-screen bg-white shadow-lg z-20 border-b-4 border-[#00abb8]">
                     {/* Submenu Content */}
                     <div className="flex justify-center">
                       <div className="w-full max-w-screen-lg p-6 grid grid-cols-12 gap-5">
