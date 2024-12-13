@@ -166,6 +166,9 @@ const footer = () => {
                 >
                   <option value="+1">+1 (USA/Canada)</option>
                   <option value="+7">+7 (Russia)</option>
+                  <option value="+971">+971 (UAE)</option>
+                  <option value="+966">+966 (Saudi Arabia)</option>
+                  <option value="+966">+973 (Bahrain)</option>
                   <option value="+20">+20 (Egypt)</option>
                   <option value="+27">+27 (South Africa)</option>
                   <option value="+30">+30 (Greece)</option>
@@ -230,16 +233,13 @@ const footer = () => {
                   <option value="+233">+233 (Ghana)</option>
                   <option value="+234">+234 (Nigeria)</option>
                   <option value="+235">+235 (Chad)</option>
-                  {/* <option value="+236">+236 (Central African Republic)</option> */}
+                  <option value="+236">+236 (Central African Republic)</option>
                   <option value="+237">+237 (Cameroon)</option>
                   <option value="+238">+238 (Cape Verde)</option>
-                  {/* <option value="+239">+239 (São Tomé and Príncipe)</option> */}
-                  {/* <option value="+240">+240 (Equatorial Guinea)</option> */}
                   <option value="+241">+241 (Gabon)</option>
-                  {/* <option value="+242">+242 (Congo - Brazzaville)</option> */}
-                  {/* <option value="+243">+243 (Congo - Kinshasa)</option> */}
+                  <option value="+242">+242 (Brazzaville)</option>
+                  <option value="+243">+243 (Kinshasa)</option>
                   <option value="+244">+244 (Angola)</option>
-                  {/* <option value="+245">+245 (Guinea-Bissau)</option> */}
                   <option value="+248">+248 (Seychelles)</option>
                   <option value="+249">+249 (Sudan)</option>
                   <option value="+250">+250 (Rwanda)</option>
